@@ -1,0 +1,3 @@
+allomasgrf
+==========
+állomás akar lenni 
