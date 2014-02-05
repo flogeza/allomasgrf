@@ -4,20 +4,27 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 0F 00 00 00
+    0 * 4	 0D 00 00 00
     1 * 39	 14 "CINFOTURL_" 7F "http:valami.hu/megvalami" 00 00 00
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00
     4 * 16	 14 "CINFOBPALS" 01 00 44 00 00
     5 * 44	 08 07 "FK" 00 00 "Ez a grf neve" 00 "Ez egy kis rovid leiras" 00
-    6 * 4	 01 04 01 04
-    7 sprites/blocks.pcx 8bpp 8 7 64 122 -32 -91 normal chunked
-    8 sprites/blocks.pcx 8bpp 88 7 64 122 -32 -91 normal chunked
-    9 sprites/blocks.pcx 8bpp 168 7 64 122 -32 -91 normal chunked
-   10 sprites/blocks.pcx 8bpp 248 7 64 122 -32 -91 normal chunked
-   11 * 62	 00 04 02 01 00 08 "TUT0" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 7A 2E 84 00 00 80 F3 03 00 00 00 00 00
- 05 10 03 2F 84 00 00 00 00 00 10 10 7A 30 84 00 00 80
-   12 * 7	 02 04 01 00 01 00 00
-   13 * 9	 03 04 01 00 00 01 00 00 00
-   14 * 25	 04 04 FF 01 00 00 "Basic station tile" 00
-   15 * 21	 04 04 FF 02 00 00 00 01 "Feca Allomas" 00
+    6 * 4	 01 04 01 02
+    7 sprites/blocks.pcx 8bpp 3 143 75 84 -37 -50 normal chunked
+    8 sprites/blocks.pcx 8bpp 3 143 75 84 -37 -50 normal chunked
+
+// action0, feature 4, azaz allomas
+// hany darab propertit irunk felul es ebben a reszben hany allomast irunk felul, utolso szam a az elso statin ID
+// 08 a station class azonositoja, a "TUT0" pedig a sajat definialt ID
+// 09 a sprite betoltese, 02 hany darab nezetet definialunk vagy ilyesmi
+// F4 03 also ground tile
+// F3 03 szinten also ground tile
+
+    9 * 48	 00 04 05 01 00 08 "TUT0" 09 02 F4 03 00 00 00 00 00 10 10 7A 2E 84 00 00 80 F3 03 00 00 00 00 00 10 10 7A 30 84 00 00 80 11 01 14 01 15 01
+   10 * 7	 02 04 01 00 01 00 00
+   11 * 9	 03 04 01 00 00 01 00 00 00
+//!!Error (79): Expected 1 more string(s) for this action 4.
+   12 * 25	 04 04 FF 02 01 00 "Basic station tile" 00
+//!!Error (79): Expected 1 more string(s) for this action 4.
+   13 * 19	 04 04 FF 02 01 01 "Feca Allomas" 00
