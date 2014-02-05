@@ -4,15 +4,17 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 0D 00 00 00
+    0 * 4	 0F 00 00 00
     1 * 39	 14 "CINFOTURL_" 7F "http:valami.hu/megvalami" 00 00 00
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00
     4 * 16	 14 "CINFOBPALS" 01 00 57 00 00
     5 * 44	 08 07 "FK" 00 00 "Ez a grf neve" 00 "Ez egy kis rovid leiras" 00
-    6 * 4	 01 04 01 02
-    7 sprites/blocks.pcx 8bpp 3 143 75 84 -37 -50 normal chunked
-    8 sprites/blocks.pcx 8bpp 3 143 75 84 -37 -50 normal chunked
+    6 * 4	 01 04 01 04
+    7 sprites/blocks.pcx 8bpp 85 145 68 79 -31 -45 normal chunked
+    8 sprites/blocks.pcx 8bpp 85 145 68 1 -31 -1 normal chunked
+    9 sprites/blocks.pcx 8bpp 3 143 75 84 -37 -50 normal chunked
+   10 sprites/blocks.pcx 8bpp 3 143 75 1 -37 -1 normal chunked
 
 // action0, feature 4, azaz allomas
 // hany darab propertit irunk felul es ebben a reszben hany allomast irunk felul, utolso szam a az elso statin ID
@@ -25,19 +27,18 @@
 // 14 01 // ez a felso vezetek lerakasat irja at
 // 15 01 // pedig hogy bemehet-e vonat vagy sem
 
-    9 * 62	 00 04 02 01 00 08 "TUT0" 09 02
-    		F4 03
-    		00 00 00 00 00 10 10 7A 2E 84
-    		00 00 00 00 00 10 10 7A 2E 84
-//    		00 00 00 00 00 00 00 00 04 30
+   11 * 62	 00 04 02 01 00 08 "TUT0" 09 02
+    		00 01
+//    		00 00 00 00 00 10 10 7A 2E 84
+    		00 00 00 00 00 05 10 03 2D 84
+    		00 00 00 00 00 05 10 03 2E 84
     		00 00 80
-			F3 03
-			00 00 00 00 00 10 10 7A 2E 84
-			00 00 00 00 00 10 10 7A 2E 84
-//			00 00 00 00 00 00 10 7A 2E 84
+			00 01
+			00 00 00 00 00 05 10 03 2F 84
+			00 00 00 00 00 05 10 03 30 84
 			00 00 80
 //			11 04 14 04 15 04
-   10 * 7	 02 04 01 00 01 00 00
-   11 * 9	 03 04 01 00 00 01 00 00 00
-   12 * 26	 04 04 FF 02 01 00 00 "Basic station tile" 00
-   13 * 20	 04 04 FF 02 01 01 00 "Feca Allomas" 00
+   12 * 7	 02 04 01 00 01 00 00
+   13 * 9	 03 04 01 00 00 01 00 00 00
+   14 * 26	 04 04 FF 02 01 00 00 "Basic station tile" 00
+   15 * 20	 04 04 FF 02 01 01 00 "Feca Allomas" 00
