@@ -11,10 +11,10 @@
     4 * 16	 14 "CINFOBPALS" 01 00 57 00 00
     5 * 44	 08 07 "FK" 00 00 "Ez a grf neve" 00 "Ez egy kis rovid leiras" 00
     6 * 4	 01 04 01 04
-    7 sprites/blocks.pcx 8bpp 85 145 68 79 -31 -45 normal chunked
-    8 sprites/blocks.pcx 8bpp 85 145 68 1 -31 -1 normal chunked
-    9 sprites/blocks.pcx 8bpp 3 143 75 84 -37 -50 normal chunked
-   10 sprites/blocks.pcx 8bpp 3 143 75 1 -37 -1 normal chunked
+    7 sprites/blocks.pcx 8bpp 242 226 68 35 -32 -1 normal chunked
+    8 sprites/blocks.pcx 8bpp 85 145 68 79 -31 -45 normal chunked
+    9 sprites/blocks.pcx 8bpp 242 226 68 35 -33 -2 normal chunked
+   10 sprites/blocks.pcx 8bpp 3 143 75 84 -37 -50 normal chunked
 
 // action0, feature 4, azaz allomas
 // hany darab propertit irunk felul es ebben a reszben hany allomast irunk felul, utolso szam a az elso statin ID
@@ -28,12 +28,12 @@
 // 15 01 // pedig hogy bemehet-e vonat vagy sem
 
    11 * 62	 00 04 02 01 00 08 "TUT0" 09 02
-    		00 01
+    		EC 03
 //    		00 00 00 00 00 10 10 7A 2E 84
     		00 00 00 00 00 05 10 03 2D 84
     		00 00 00 00 00 05 10 03 2E 84
     		00 00 80
-			00 01
+			EC 03
 			00 00 00 00 00 05 10 03 2F 84
 			00 00 00 00 00 05 10 03 30 84
 			00 00 80
