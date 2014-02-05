@@ -8,7 +8,7 @@
     1 * 39	 14 "CINFOTURL_" 7F "http:valami.hu/megvalami" 00 00 00
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00
-    4 * 16	 14 "CINFOBPALS" 01 00 44 00 00
+    4 * 16	 14 "CINFOBPALS" 01 00 57 00 00
     5 * 44	 08 07 "FK" 00 00 "Ez a grf neve" 00 "Ez egy kis rovid leiras" 00
     6 * 4	 01 04 01 02
     7 sprites/blocks.pcx 8bpp 3 143 75 84 -37 -50 normal chunked
