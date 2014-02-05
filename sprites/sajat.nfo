@@ -20,11 +20,24 @@
 // 09 a sprite betoltese, 02 hany darab nezetet definialunk vagy ilyesmi
 // F4 03 also ground tile
 // F3 03 szinten also ground tile
+// 00 00 08 mindig a lezaro resz, elotte a 10 bajtnyi adata van a spritenak
+// 11 01 // ez atirja a villanypozna lerakasat
+// 14 01 // ez a felso vezetek lerakasat irja at
+// 15 01 // pedig hogy bemehet-e vonat vagy sem
 
-    9 * 48	 00 04 05 01 00 08 "TUT0" 09 02 F4 03 00 00 00 00 00 10 10 7A 2E 84 00 00 80 F3 03 00 00 00 00 00 10 10 7A 30 84 00 00 80 11 01 14 01 15 01
+    9 * 68	 00 04 05 01 00 08 "TUT0" 09 02
+    		F4 03
+    		00 00 00 00 00 10 10 7A 2E 84
+    		00 00 00 00 00 10 10 7A 2E 84
+//    		00 00 00 00 00 00 00 00 04 30
+    		00 00 80
+			F3 03
+			00 00 00 00 00 10 10 7A 2E 84
+			00 00 00 00 00 10 10 7A 2E 84
+//			00 00 00 00 00 00 10 7A 2E 84
+			00 00 80
+			11 04 14 04 15 04
    10 * 7	 02 04 01 00 01 00 00
    11 * 9	 03 04 01 00 00 01 00 00 00
-//!!Error (79): Expected 1 more string(s) for this action 4.
-   12 * 25	 04 04 FF 02 01 00 "Basic station tile" 00
-//!!Error (79): Expected 1 more string(s) for this action 4.
-   13 * 19	 04 04 FF 02 01 01 "Feca Allomas" 00
+   12 * 26	 04 04 FF 02 01 00 00 "Basic station tile" 00
+   13 * 20	 04 04 FF 02 01 01 00 "Feca Allomas" 00
