@@ -54,7 +54,7 @@
 // 01, hany darab kulon grf-re akarjuk megcsinalni,
 // kovetkezok pedig a grf-ekre lebontva, itt most csak egy van
 // FF - osszes GRF-et akarjuk (talan FE??),
-// 00 - tehat a 00-as sorszamu 2-es Action fusson le
+// 01 00 - tehat a 01-as sorszamu 2-es Action fusson le
 // 00 00 default action azonositoja (gondolom forditott byte sorrendben, tehat a 01 00 lesz az 1-es azonositoju 2-es action)
 
 
@@ -78,8 +78,8 @@
    20 sprites/blocks.pcx 8bpp 78 232 67 78 -33 -45 normal chunked
 
    21 * 9	 02 04 02 01 01 00 00 00 00
-//   22 * 9	 02 04 03 01 01 00 00 00 00
-   23 * 10	 03 04 01 01 01 FF 02 00 00 00
+   22 * 9	 02 04 03 01 01 00 00 00 00
+   23 * 10	 03 04 01 01 01 FF 02 00 03 00
 
 
 // stringek
