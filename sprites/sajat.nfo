@@ -48,7 +48,7 @@
    14 sprites/blocks.pcx 8bpp 167 142 68 35 -32 -1 normal chunked
    15 sprites/blocks.pcx 8bpp 5 232 66 90 -33 -59 normal chunked
    16 sprites/blocks.pcx 8bpp 167 142 68 35 -33 -2 normal chunked
-   17 sprites/blocks.pcx 8bpp 152 232 66 65 -33 -32 normal chunked
+   17 sprites/blocks.pcx 8bpp 78 232 67 78 -33 -45 normal chunked
 
    18 * 62	 00 04 02 01 01 08 "TUT0"
 //			11 04 14 04 15 04
