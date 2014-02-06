@@ -4,17 +4,12 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 16 00 00 00
+    0 * 4	 1A 00 00 00
     1 * 39	 14 "CINFOTURL_" 7F "http:valami.hu/megvalami" 00 00 00
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00
     4 * 16	 14 "CINFOBPALS" 01 00 57 00 00
     5 * 44	 08 07 "FK" 00 00 "Ez a grf neve" 00 "Ez egy kis rovid leiras" 00
-    6 * 4	 01 04 01 04
-    7 sprites/blocks.pcx 8bpp 167 142 68 35 -32 -1 normal chunked
-    8 sprites/blocks.pcx 8bpp 85 145 68 79 -31 -45 normal chunked
-    9 sprites/blocks.pcx 8bpp 167 142 68 35 -33 -2 normal chunked
-   10 sprites/blocks.pcx 8bpp 3 143 75 84 -37 -50 normal chunked
 
 // action0, feature 4, azaz allomas
 // hany darab propertit irunk felul es ebben a reszben hany allomast irunk felul, utolso szam a az elso statin ID
@@ -29,7 +24,9 @@
 
 // 1420-as sorszamu alap sprite a beton sprite
 
-   11 * 62	 00 04 02 01 00 08 "TUT0" 
+
+
+    6 * 62	 00 04 02 01 00 08 "TUT0" 
 //			11 04 14 04 15 04
    			09 02
     		EC 03
@@ -41,30 +38,52 @@
 			00 00 00 00 00 05 10 03 30 84
 			00 00 80
 
-   12 * 7	 02 04 00 00 01 00 00
+    7 * 4	 01 04 01 04
+    8 sprites/blocks.pcx 8bpp 167 142 68 35 -32 -1 normal chunked
+    9 sprites/blocks.pcx 8bpp 85 145 68 79 -31 -45 normal chunked
+   10 sprites/blocks.pcx 8bpp 167 142 68 35 -33 -2 normal chunked
+   11 sprites/blocks.pcx 8bpp 3 143 75 84 -37 -50 normal chunked
 
-// kovetkezo allomas resz definialasa
-   13 * 4	 01 04 01 04
-   14 sprites/blocks.pcx 8bpp 167 142 68 35 -32 -1 normal chunked
-   15 sprites/blocks.pcx 8bpp 5 232 66 90 -33 -59 normal chunked
-   16 sprites/blocks.pcx 8bpp 167 142 68 35 -33 -2 normal chunked
-   17 sprites/blocks.pcx 8bpp 78 232 67 78 -33 -45 normal chunked
+   12 * 9	 02 04 00 01 01 00 00 00 00
+   13 * 9	 02 04 01 01 01 00 00 00 00
+   14 * 10	 03 04 01 00 01 FF 01 00 00 00
 
-   18 * 62	 00 04 02 01 01 08 "TUT0"
-//			11 04 14 04 15 04
+// valami olyasmi van itt a 3-as actionben, hogy ha ures vagy tele van az allomas, akkor melyik 2-es acriont toltse be.
+// 03 - action, 04 - feature,
+// 01 hany darab 3-as action azonositot akarunk, 00 - (n) itt az azonositok jonnek felsorolva, annyi, amennyit elotte megadtunk
+// 01, hany darab kulon grf-re akarjuk megcsinalni,
+// kovetkezok pedig a grf-ekre lebontva, itt most csak egy van
+// FF - osszes GRF-et akarjuk (talan FE??),
+// 00 - tehat a 00-as sorszamu 2-es Action fusson le
+// 00 00 default action azonositoja (gondolom forditott byte sorrendben, tehat a 01 00 lesz az 1-es azonositoju 2-es action)
+
+
+   15 * 62	 00 04 02 01 01 08 "TUT0"
+//	11 04 14 04 15 04
    			09 02
     		EC 03
-    		00 00 00 00 00 05 10 03 31 84
-    		00 00 00 00 00 05 10 03 32 84
+    		00 00 00 00 00 05 10 03 2D 84
+    		00 00 00 00 00 05 10 03 2E 84
     		00 00 80
 			EC 03
-			00 00 00 00 00 05 10 03 33 84
-			00 00 00 00 00 05 10 03 34 84
+			00 00 00 00 00 05 10 03 2F 84
+			00 00 00 00 00 05 10 03 30 84
 			00 00 80
 
-   19 * 7	 02 04 01 00 01 00 00
-//   20 * 10	 03 04 01 00 01 FE 01 00 00 00
-   20 * 11	 03 04 02 00 01 01 FF 01 00 00 00
-   21 * 26	 04 04 FF 02 01 00 00 "Basic station tile" 00
-   22 * 20	 04 04 FF 02 01 01 00 "Feca Allomas" 00
-//   23 * 20	 04 04 FF 02 01 02 00 "Feca Allomas" 00
+// kovetkezo allomas resz definialasa
+   16 * 4	 01 04 01 04
+   17 sprites/blocks.pcx 8bpp 167 142 68 35 -32 -1 normal chunked
+   18 sprites/blocks.pcx 8bpp 5 232 66 90 -33 -59 normal chunked
+   19 sprites/blocks.pcx 8bpp 167 142 68 35 -33 -2 normal chunked
+   20 sprites/blocks.pcx 8bpp 78 232 67 78 -33 -45 normal chunked
+
+   21 * 9	 02 04 02 01 01 00 00 00 00
+//   22 * 9	 02 04 03 01 01 00 00 00 00
+   23 * 10	 03 04 01 01 01 FF 02 00 00 00
+
+
+// stringek
+//   24 * 25	 04 04 FF 01 C4 00 "Basic station tile" 00
+   24 * 16	 04 04 FF 01 00 00 "Allomasok" 00
+   25 * 13	 04 04 FF 01 00 00 "Epulet" 00
+   26 * 13	 04 04 FF 01 02 00 "Torony" 00
