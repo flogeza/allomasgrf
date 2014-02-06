@@ -58,6 +58,7 @@
 // 00 00 default action azonositoja (gondolom forditott byte sorrendben, tehat a 01 00 lesz az 1-es azonositoju 2-es action)
 
 
+// kovetkezo allomas resz definialasa
    15 * 62	 00 04 02 01 01 08 "TUT0"
 //	11 04 14 04 15 04
    			09 02
@@ -70,7 +71,6 @@
 			00 00 00 00 00 05 10 03 30 84
 			00 00 80
 
-// kovetkezo allomas resz definialasa
    16 * 4	 01 04 01 04
    17 sprites/blocks.pcx 8bpp 167 142 68 35 -32 -1 normal chunked
    18 sprites/blocks.pcx 8bpp 5 232 66 90 -33 -59 normal chunked
@@ -81,6 +81,30 @@
    22 * 9	 02 04 03 01 01 00 00 00 00
    23 * 10	 03 04 01 01 01 FF 02 00 03 00
 
+
+
+// kovetkezo allomas resz definialasa
+   15 * 62	 00 04 02 01 02 08 "TUT0"
+//	11 04 14 04 15 04
+			09 02
+			EC 03
+			00 00 00 00 00 05 10 03 2D 84
+			00 00 00 00 00 05 10 03 2E 84
+			00 00 80
+			EC 03
+			00 00 00 00 00 05 10 03 2F 84
+			00 00 00 00 00 05 10 03 30 84
+			00 00 80
+
+   16 * 4	 01 04 01 04
+   17 sprites/blocks.pcx 8bpp 167 142 68 35 -32 -1 normal chunked
+   18 sprites/blocks.pcx 8bpp 151 232 67 78 -33 -45 normal chunked
+   19 sprites/blocks.pcx 8bpp 167 142 68 35 -33 -2 normal chunked
+   20 sprites/blocks.pcx 8bpp 225 235 66 65 -33 -32 normal chunked
+
+   21 * 9	 02 04 04 01 01 00 00 00 00
+   22 * 9	 02 04 05 01 01 00 00 00 00
+   23 * 10	 03 04 01 02 01 FF 04 00 05 00
 
 // stringek
 //   24 * 25	 04 04 FF 01 C4 00 "Basic station tile" 00
