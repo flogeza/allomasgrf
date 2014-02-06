@@ -3,3 +3,5 @@ create.command
 *.bak
 allomasgrf/*
 allomasgrf.xcodeproj
+
+build.sh
