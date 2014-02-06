@@ -4,21 +4,17 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 14 00 00 00
+    0 * 4	 16 00 00 00
     1 * 39	 14 "CINFOTURL_" 7F "http:valami.hu/megvalami" 00 00 00
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00
     4 * 16	 14 "CINFOBPALS" 01 00 57 00 00
     5 * 44	 08 07 "FK" 00 00 "Ez a grf neve" 00 "Ez egy kis rovid leiras" 00
-    6 * 4	 01 04 02 04
+    6 * 4	 01 04 01 04
     7 sprites/blocks.pcx 8bpp 167 142 68 35 -32 -1 normal chunked
     8 sprites/blocks.pcx 8bpp 85 145 68 79 -31 -45 normal chunked
     9 sprites/blocks.pcx 8bpp 167 142 68 35 -33 -2 normal chunked
    10 sprites/blocks.pcx 8bpp 3 143 75 84 -37 -50 normal chunked
-   11 sprites/blocks.pcx 8bpp 167 142 68 35 -32 -1 normal chunked
-   12 sprites/blocks.pcx 8bpp 5 232 66 90 -33 -59 normal chunked
-   13 sprites/blocks.pcx 8bpp 167 142 68 35 -33 -2 normal chunked
-   14 sprites/blocks.pcx 8bpp 152 232 66 65 -33 -32 normal chunked
 
 // action0, feature 4, azaz allomas
 // hany darab propertit irunk felul es ebben a reszben hany allomast irunk felul, utolso szam a az elso statin ID
@@ -33,7 +29,7 @@
 
 // 1420-as sorszamu alap sprite a beton sprite
 
-   15 * 62	 00 04 02 01 00 08 "TUT0" 
+   11 * 62	 00 04 02 01 00 08 "TUT0" 
 //			11 04 14 04 15 04
    			09 02
     		EC 03
@@ -44,7 +40,17 @@
 			00 00 00 00 00 05 10 03 2F 84
 			00 00 00 00 00 05 10 03 30 84
 			00 00 80
-   16 * 62	 00 04 02 01 02 08 "TUT1" 
+
+   12 * 7	 02 04 00 00 01 00 00
+
+// kovetkezo allomas resz definialasa
+   13 * 4	 01 04 01 04
+   14 sprites/blocks.pcx 8bpp 167 142 68 35 -32 -1 normal chunked
+   15 sprites/blocks.pcx 8bpp 5 232 66 90 -33 -59 normal chunked
+   16 sprites/blocks.pcx 8bpp 167 142 68 35 -33 -2 normal chunked
+   17 sprites/blocks.pcx 8bpp 152 232 66 65 -33 -32 normal chunked
+
+   18 * 62	 00 04 02 01 01 08 "TUT0"
 //			11 04 14 04 15 04
    			09 02
     		EC 03
@@ -55,8 +61,10 @@
 			00 00 00 00 00 05 10 03 33 84
 			00 00 00 00 00 05 10 03 34 84
 			00 00 80
-   17 * 7	 02 04 01 00 01 00 00
-   18 * 9	 03 04 01 00 00 01 00 00 00
-   19 * 26	 04 04 FF 02 01 00 00 "Basic station tile" 00
-   20 * 20	 04 04 FF 02 01 01 00 "Feca Allomas" 00
-//!!Warning (97): Set 01 defined by the previous Action 1 (sprite 6) has not been used.
+
+   19 * 7	 02 04 01 00 01 00 00
+//   20 * 10	 03 04 01 00 01 FE 01 00 00 00
+   20 * 11	 03 04 02 00 01 01 FF 01 00 00 00
+   21 * 26	 04 04 FF 02 01 00 00 "Basic station tile" 00
+   22 * 20	 04 04 FF 02 01 01 00 "Feca Allomas" 00
+//   23 * 20	 04 04 FF 02 01 02 00 "Feca Allomas" 00
