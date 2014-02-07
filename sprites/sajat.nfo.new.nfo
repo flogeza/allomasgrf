@@ -4,12 +4,12 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 1A 00 00 00
+    0 * 4	 36 00 00 00
     1 * 39	 14 "CINFOTURL_" 7F "http:valami.hu/megvalami" 00 00 00				# url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							# versio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							# minimum kompatibilis verzio szama
     4 * 16	 14 "CINFOBPALS" 01 00 57 00 00									# milyen szin palettat hasznaltunk
-    5 * 44	 08 07 "FK" 00 00												# grf ID
+    5 * 45	 08 07 "FK" 00 00												# grf ID
 				"Ez a grf neve" 00												# grf neve
 				"Ez egy kis" 0D 98 "rovid leiras" 00								# grf leirasa, a leirasban ha minden igaz hasznalhato a 0D mint sortores, a 98 talan behuzas
 
@@ -35,7 +35,7 @@
 			00 00 80
 
     7 * 4	 01 04 01 04													# 01 action, 04 allomas feature, 01 hany station ID-t hatarozunk meg, 04 ID-nkent hany darab sprite van
-	8 sprites/blocks.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
+    8 sprites/blocks.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
     9 sprites/blocks.pcx 8bpp 85 5 68 79 -31 -45 normal chunked
    10 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
    11 sprites/blocks.pcx 8bpp 3 3 75 84 -37 -50 normal chunked
@@ -86,7 +86,7 @@
 //**************************************//
 // Kistorony 2						//
 //*************************************//
-   15 * 62	 00 04 02 01 02 08 "TUT0"
+   24 * 62	 00 04 02 01 02 08 "TUT0"
 //	11 04 14 04 15 04
 			09 02
 			EC 03
@@ -98,22 +98,22 @@
 			00 00 00 00 00 05 10 03 30 84
 			00 00 80
 
-   16 * 4	 01 04 01 04
-   17 sprites/blocks.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
-   18 sprites/blocks.pcx 8bpp 151 92 67 78 -33 -45 normal chunked
-   19 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
-   20 sprites/blocks.pcx 8bpp 225 95 66 65 -33 -32 normal chunked
+   25 * 4	 01 04 01 04
+   26 sprites/blocks.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
+   27 sprites/blocks.pcx 8bpp 151 92 67 78 -33 -45 normal chunked
+   28 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
+   29 sprites/blocks.pcx 8bpp 225 95 66 65 -33 -32 normal chunked
 
-   21 * 9	 02 04 00 01 01 00 00 00 00
-   22 * 9	 02 04 01 01 01 00 00 00 00
-   23 * 10	 03 04 01 02 01 FF 01 00 00 00
+   30 * 9	 02 04 00 01 01 00 00 00 00
+   31 * 9	 02 04 01 01 01 00 00 00 00
+   32 * 10	 03 04 01 02 01 FF 01 00 00 00
 
 
 
 //**************************************//
 // Oldalso epulet						//
 //*************************************//
-   15 * 62	 00 04 03 01 03 08 "TUT0"
+   33 * 164	 00 04 03 01 03 08 "TUT0"
 //	11 04 14 04 15 04
 			0D FE
 			09 06
@@ -142,23 +142,23 @@
 			00 00 00 00 00 05 10 03 36 84
 			00 00 80
 
-   16 * 4	 01 04 03 04
+   34 * 4	 01 04 03 04
 
-   19 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
-   20 sprites/blocks.pcx 8bpp 251 198 58 64 -24 -35 normal chunked
-   19 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
-   20 sprites/blocks.pcx 8bpp 205 198 40 53 -17 -20 normal chunked
+   35 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
+   36 sprites/blocks.pcx 8bpp 251 198 58 64 -24 -35 normal chunked
+   37 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
+   38 sprites/blocks.pcx 8bpp 205 198 40 53 -17 -20 normal chunked
 
-   17 sprites/blocks.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
-   18 sprites/blocks.pcx 8bpp 9 199 58 64 -24 -35 normal chunked
-   19 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
-   20 sprites/blocks.pcx 8bpp 118 199 38 64 -28 -37 normal chunked
+   39 sprites/blocks.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
+   40 sprites/blocks.pcx 8bpp 9 199 58 64 -24 -35 normal chunked
+   41 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
+   42 sprites/blocks.pcx 8bpp 118 199 38 64 -28 -37 normal chunked
 
 
-   19 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
-   20 sprites/blocks.pcx 8bpp 73 199 40 53 -17 -20 normal chunked
-   17 sprites/blocks.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
-   18 sprites/blocks.pcx 8bpp 162 198 38 64 -5 -31 normal chunked
+   43 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
+   44 sprites/blocks.pcx 8bpp 73 199 40 53 -17 -20 normal chunked
+   45 sprites/blocks.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
+   46 sprites/blocks.pcx 8bpp 162 198 38 64 -5 -31 normal chunked
 
 // ezzel a sorral valasztunk ki veletlenszeruen egy Action 2-t,
 // hatulrol az 5. hogy hany kozul es utana kettessevel forditott byte sorrendben a lehetseges valtozatok
@@ -166,15 +166,15 @@
 // 2772 * 9	 02 04 01 01 01 02 00 03 00
 // 2773 * 11	 02 04 02 80 00 10 02 00 00 01 00
 
-   21 * 9	 02 04 00 01 01 01 00 00 00
-   22 * 9	 02 04 01 01 01 02 00 00 00
+   47 * 9	 02 04 00 01 01 01 00 00 00
+   48 * 9	 02 04 01 01 01 02 00 00 00
 //   22 * 9	 02 04 01 81 1A 20 00 00 00
-   23 * 10	 03 04 01 03 01 FF 01 00 00 00
+   49 * 10	 03 04 01 03 01 FF 01 00 00 00
 
 // stringek
 //   24 * 25	 04 04 FF 01 C4 00 "Basic station tile" 00
-   24 * 16	 04 04 FF 01 02 C4 "Allomasok" 00
-   25 * 13	 04 04 FF 01 00 C5 "Epulet" 00
-   26 * 13	 04 04 FF 01 01 C5 "Torony1" 00
-   25 * 13	 04 04 FF 01 02 C5 "Torony2" 00
-   26 * 13	 04 04 FF 01 03 C5 "Oldalso" 00
+   50 * 16	 04 04 FF 01 02 C4 "Allomasok" 00
+   51 * 13	 04 04 FF 01 00 C5 "Epulet" 00
+   52 * 14	 04 04 FF 01 01 C5 "Torony1" 00
+   53 * 14	 04 04 FF 01 02 C5 "Torony2" 00
+   54 * 14	 04 04 FF 01 03 C5 "Oldalso" 00
