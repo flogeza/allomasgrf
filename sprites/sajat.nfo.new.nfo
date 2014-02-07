@@ -19,10 +19,10 @@
 // Elulso epulet						//
 //*************************************//
 
-    6 * 62	 00 04															# action0, feature 4, azaz allomas
-			02 01 00														# 02, azaz hany darab propertit irunk felul es ebben a reszben hany allomast irunk felul, utolso szam a az elso station ID
+    6 * 68	 00 04															# action0, feature 4, azaz allomas
+			05 01 00														# 02, azaz hany darab propertit irunk felul es ebben a reszben hany allomast irunk felul, utolso szam a az elso station ID
 			08 "TUT0"															# 08 a station class azonositoja, a "TUT0" pedig a sajat definialt station csoport ID-ja
-//			11 04 14 04 15 04													# 11 villanyoszlop, 14 felso vezetek, es a 15, hogy bejohet-e a vonat... elvileg
+			11 00 14 FF 15 FF													# 11 villanyoszlop, 14 felso vezetek, es a 15, hogy bejohet-e a vonat... elvileg
 //			0C FE es 0D FE													# 0C es 0D ezek az allomas lehetseges kiterjedese valami bitmask formaban. egyi egyik forgatas, masik masik forgatas
    			09 02															# a sprite layoutok informacioi, 02 hany darab nezetet definialunk
     		EC 03															# EC 03 a fekete teglalap kodja, de F4 03 fuves sines egyenes, F3 03 szinten fuves sines egyenes, csak masik forgatasban
@@ -60,7 +60,7 @@
 // Kistorony 1						//
 //*************************************//
    15 * 62	 00 04 02 01 01 08 "TUT0"
-//	11 04 14 04 15 04
+//			11 00 14 FF 15 FF
    			09 02
     		EC 03
     		00 00 00 00 00 05 10 03 2D 84
@@ -87,7 +87,7 @@
 // Kistorony 2						//
 //*************************************//
    24 * 62	 00 04 02 01 02 08 "TUT0"
-//	11 04 14 04 15 04
+//			11 00 14 FF 15 FF
 			09 02
 			EC 03
 			00 00 00 00 00 05 10 03 2D 84
@@ -114,7 +114,7 @@
 // Oldalso epulet						//
 //*************************************//
    33 * 164	 00 04 03 01 03 08 "TUT0"
-//	11 04 14 04 15 04
+//			11 00 14 FF 15 FF
 			0D FE
 			09 06
 			EC 03
@@ -147,7 +147,7 @@
    35 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
    36 sprites/blocks.pcx 8bpp 251 198 58 64 -24 -35 normal chunked
    37 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
-   38 sprites/blocks.pcx 8bpp 205 198 40 53 -17 -20 normal chunked
+   38 sprites/blocks.pcx 8bpp 204 198 41 53 -18 -20 normal chunked
 
    39 sprites/blocks.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
    40 sprites/blocks.pcx 8bpp 9 199 58 64 -24 -35 normal chunked
@@ -156,7 +156,7 @@
 
 
    43 sprites/blocks.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
-   44 sprites/blocks.pcx 8bpp 73 199 40 53 -17 -20 normal chunked
+   44 sprites/blocks.pcx 8bpp 73 199 41 53 -17 -20 normal chunked
    45 sprites/blocks.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
    46 sprites/blocks.pcx 8bpp 162 198 38 64 -5 -31 normal chunked
 
