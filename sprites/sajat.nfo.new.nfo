@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 36 00 00 00
+    0 * 4	 38 00 00 00
     1 * 39	 14 "CINFOTURL_" 7F "http:valami.hu/megvalami" 00 00 00				# url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							# versio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							# minimum kompatibilis verzio szama
@@ -166,15 +166,33 @@
 // 2772 * 9	 02 04 01 01 01 02 00 03 00
 // 2773 * 11	 02 04 02 80 00 10 02 00 00 01 00
 
-   47 * 9	 02 04 00 01 01 01 00 00 00
-   48 * 9	 02 04 01 01 01 02 00 00 00
-//   22 * 9	 02 04 01 81 1A 20 00 00 00
-   49 * 10	 03 04 01 03 01 FF 01 00 00 00
+   47 * 9	 02 04 00 01 01 00 00 00 00
+   48 * 9	 02 04 01 01 01 01 00 01 00
+   49 * 9	 02 04 02 01 01 02 00 02 00
+   50 * 22	 02 04 01 81 45 00 03 03 01 00 01 01 02 00 02 02 01 00 00 00 00 00
+//   22 * 9	 02 04 03
+//			89							# get double word
+//			49							# elvileg ez a relative tile lekerdezes
+//			00 FF FF 00 00				# ha jol ertem maszkoljuk, hogy csak az also (lower) ket bajt maradjon
+//			03							# harom resze van az allomasnak
+// switch between callback and graphics branches
+
+//  223 * 17   02 04
+//			04							# SetID
+//			85							# get word
+//			0C							# check if callback
+//			00
+//			FF FF
+//			01							# one range
+//			03 00	14 00	14 00		# Set to use during callback 14
+//			00 00						# else graphics Set
+
+   51 * 10	 03 04 01 03 01 FF 01 00 00 00
 
 // stringek
 //   24 * 25	 04 04 FF 01 C4 00 "Basic station tile" 00
-   50 * 16	 04 04 FF 01 02 C4 "Allomasok" 00
-   51 * 13	 04 04 FF 01 00 C5 "Epulet" 00
-   52 * 14	 04 04 FF 01 01 C5 "Torony1" 00
-   53 * 14	 04 04 FF 01 02 C5 "Torony2" 00
-   54 * 14	 04 04 FF 01 03 C5 "Oldalso" 00
+   52 * 16	 04 04 FF 01 02 C4 "Allomasok" 00
+   53 * 13	 04 04 FF 01 00 C5 "Epulet" 00
+   54 * 14	 04 04 FF 01 01 C5 "Torony1" 00
+   55 * 14	 04 04 FF 01 02 C5 "Torony2" 00
+   56 * 14	 04 04 FF 01 03 C5 "Oldalso" 00
