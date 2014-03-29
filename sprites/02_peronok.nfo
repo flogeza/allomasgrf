@@ -20,26 +20,38 @@
 
 			09 06	// ez mar a konkret tile-okat jelenti
 
+
+		// 00
+			// 1a hatulja (eszakrol)
 			F4 03 00 00
 			00 00 00	05 10 03	2D 84 17 03
 			80
 
+			// 1b hatulja
 			F3 03 00 00
 			00 00 00	05 10 03	2E 84 17 03
 			80
 
+
+		// 01
+			// 1a kozepe
 			F4 03 00 00
 			00 00 00	05 10 03	2F 84 17 03
 			80
 
+			// 1b kozepe
 			F3 03 00 00
 			00 00 00	05 10 03	30 84 17 03
 			80
 
+
+		// 02
+			// 1a eleje
 			F4 03 00 00
 			00 00 00	05 10 03	31 84 17 03
 			80
 
+			// 1b eleje
 			F3 03 00 00
 			00 00 00	05 10 03	32 84 17 03
 			80
@@ -47,14 +59,14 @@
 
    75 * 4	 01 04 03 02
 
-   76 sprites/peronok.pcx 8bpp 4 3 44 24 -29 -4 normal chunked			// 1 hatulja (eszakrol)
-   77 sprites/peronok.pcx 8bpp 4 31 44 24 -12 -4 normal chunked			// 2 hatulja
+   76 sprites/peronok.pcx 8bpp 4 3 44 24 -29 -4 normal chunked			// 1a hatulja (eszakrol)
+   77 sprites/peronok.pcx 8bpp 4 31 44 24 -12 -4 normal chunked			// 1b hatulja
 
-   78 sprites/peronok.pcx 8bpp 51 3 44 24 -31 -4 normal chunked			// 1 kozepso
-   79 sprites/peronok.pcx 8bpp 51 31 44 24 -12 -4 normal chunked		// 2 kozepso
+   78 sprites/peronok.pcx 8bpp 51 3 44 24 -31 -4 normal chunked			// 1a kozepso
+   79 sprites/peronok.pcx 8bpp 51 31 44 24 -12 -4 normal chunked		// 1b kozepso
 
-   80 sprites/peronok.pcx 8bpp 98 3 44 24 -35 -1 normal chunked			// 1 eleje
-   81 sprites/peronok.pcx 8bpp 98 31 44 24 -8 -1 normal chunked			// 2 eleje
+   80 sprites/peronok.pcx 8bpp 98 3 44 24 -35 -1 normal chunked			// 1a eleje
+   81 sprites/peronok.pcx 8bpp 98 31 44 24 -8 -1 normal chunked			// 1b eleje
 
 
    82 * 7	 02 04 00 00 01 00 00
