@@ -17,7 +17,7 @@
 			08 "PKS0"														// 08 a station class azonositoja, a "PKS0" pedig a sajat definialt station csoport ID-ja
 			11 00 14 FF 15 FF												// 11 villanyoszlop, 14 felso vezetek, es a 15, hogy bejohet-e a vonat... elvileg
 //			0C FE es 0D FE													// 0C es 0D ezek az allomas lehetseges kiterjedese valami bitmask formaban. egyik egyik forgatas, masik masik forgatas
-   			09 02
+   			09 02	// ez mar a konkret tile-okat jelenti
 																			// a sprite layoutok informacioi, 02 hany darab nezetet definialunk
     		0C E3 00 00														// EC 03 00 00 a fekete teglalap kodja, de F4 03 fuves sines egyenes, F3 03 szinten fuves sines egyenes, csak masik forgatasban
     		00 00 00	10 10 46	2D 84 00 00								// utolso negy a sprite szama, elotte levo harom a bounding box merete, ami majdnem a sprite merete, x,y,z; ha 322-t adunk meg az utolso ket helyen (22 03), akkor atlatszo, glass lesz
@@ -229,7 +229,7 @@
 
    42 * 222	 00 04 07 01 04 08 "PKS0"
 			11 00 14 FF 15 FF
-			0D FE
+			0D FE									// TODO: ezt lehet at kellene irni 0C FE-re, mert most forditva jelennek meg az epuletek
 			09 08
 
 			0C E3 00 00
@@ -339,7 +339,7 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			11 00						// else graphics Set
 
-   67 * 7	 03 04 01 04 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 05 action2-re
+   67 * 7	 03 04 01 04 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //**************************************//
