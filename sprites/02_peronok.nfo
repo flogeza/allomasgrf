@@ -1,0 +1,123 @@
+
+
+
+//******************************************************************************************************************************************************//
+//																																						//
+//																	PERONOK																				//
+//																																						//
+//******************************************************************************************************************************************************//
+
+
+//**************************************//
+//					Peron 1				//
+//**************************************//
+
+
+   74 * 106	 00 04 04 01 05 08 "PKS1"
+//			11 00 14 FF 15 FF
+			0D FE
+			09 06
+
+			0C E3 00 00
+//			00 00 00	05 10 03	2D 84 00 00
+//			00 00 00	05 10 03	2E 84 00 00
+			00 00 00	05 10 03	2D 84 17 03
+			80
+
+			0C E3 00 00
+//			00 00 00	05 10 03	2F 84 00 00
+//			00 00 00	05 10 03	30 84 00 00
+			00 00 00	05 10 03	2E 84 17 03
+			80
+
+			0C E3 00 00
+//			00 00 00	05 10 03	31 84 00 00
+//			00 00 00	05 10 03	32 84 00 00
+			00 00 00	05 10 03	2F 84 17 03
+			80
+
+			0C E3 00 00
+//			00 00 00	05 10 03	33 84 00 00
+//			00 00 00	05 10 03	34 84 00 00
+			00 00 00	05 10 03	30 84 17 03
+			80
+
+			0C E3 00 00
+//			00 00 00	05 10 03	35 84 00 00
+//			00 00 00	05 10 03	36 84 00 00
+			00 00 00	05 10 03	31 84 17 03
+			80
+
+			0C E3 00 00
+//			00 00 00	05 10 03	37 84 00 00
+//			00 00 00	05 10 03	38 84 00 00
+			00 00 00	05 10 03	32 84 17 03
+			80
+
+			0B 02	# custom sprite layout
+
+
+   75 * 4	 01 04 03 02
+
+   76 sprites/peronok.pcx 8bpp 4 3 44 24 -22 -11 normal chunked			// 1 eleje
+   77 sprites/peronok.pcx 8bpp 4 31 44 24 -22 -11 normal chunked		// 2 eleje
+
+   78 sprites/peronok.pcx 8bpp 51 3 44 24 -22 -11 normal chunked		// 1 kozepso
+   79 sprites/peronok.pcx 8bpp 51 31 44 24 -22 -11 normal chunked		// 2 kozepso
+
+   80 sprites/peronok.pcx 8bpp 98 2 44 24 -22 -11 normal chunked		// 1 hatulja
+   81 sprites/peronok.pcx 8bpp 98 31 44 24 -22 -11 normal chunked		// 2 hatulja
+
+
+   82 * 7	 02 04 00 00 01 00 00
+   83 * 7	 02 04 01 00 01 01 00
+   84 * 7	 02 04 02 00 01 02 00
+
+// ezzel a sorral valasztunk ki veletlenszeruen egy Action 2-t,
+// hatulrol az 5. hogy hany kozul es utana kettessevel forditott byte sorrendben a lehetseges valtozatok
+// 2771 * 9	 02 04 00 01 01 00 00 01 00
+// 2772 * 9	 02 04 01 01 01 02 00 03 00
+// 2773 * 11	 02 04 02 80 00 10 02 00 00 01 00
+
+
+   85 * 14	 02 04 10
+			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
+			F0							// maszkolas, ha F, akkor az erdekel minket
+			01							// hany darab variacio van
+//			02 00 02 02					// 02 00 action2-re ugorjon, ha 02 es 02 range kozott van
+//			01 00 01 01					// 01 00 action2-re ugorjon, ha 01 es 01 range kozott van
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
+
+   86 * 14	 02 04 11
+			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			08							// shift eltolas
+			0F							// maszkolas
+			01							// hany darab variacio van
+			02 00 00 00					// 02 00 actione-re ugorjon, ha 00 min es 00 max range kozott van
+			10 00						// ha nincs egyezes, akkor ide ugorjon
+
+   87 * 17	 02 04 12
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+//			02 80 13 00 13 00
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			11 00						// else graphics Set
+
+   88 * 7	 03 04 01 03 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 05 action2-re
+
+
+
+//**************************************//
+//				Stringek				//
+//**************************************//
+
+
+   89 * 21	 04 04 FF 01 02 C4 "Magyar peronok" 00
+   90 * 14	 04 04 FF 01 05 C5 "Peron 1" 00
