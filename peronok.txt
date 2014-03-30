@@ -1,8 +1,250 @@
-22-11-23
-34-77-49
-45-78-311
-56-612-513
-916-814-915
-h19-018-,21
-,22-017-h23
+a beton virágládák mennek a szürke-fekete peronra, a láda mondjuk 6bol kettőnél random ...
+a fa virágláda megy az újra, a láda mondjuk 6bol kettőnél random ...
+oszlop mindkettőhöz
+a pad csak a sz-f-hez
+a kuka is mindkettő, minden 3. kockánál
+a kijelző csak az újra,
+	ha 1 vágány akkor csak egy oldalas,
+	ha kettő akkor középre és mondjuk
+	ha min 4 kocka hosszu a peron
+	és mindig ugy hogy ha 4a2.on hosszu a peron akkor még egy ha 4a3.on akkor még egy
 
+
+*****************************************************************************************************************************
+
+
+I1:		lampa
+I2/I3:	piros fa pad
+K3:		szemetes
+V4,v8:	fa viraglada
+v7:		beton viraglada
+E,E1:	kijelzo
+
+
+*****************************************************************************************************************************
+
+
+Beton:
+	22-11-23		viraglada: V7, I1, I2, I3, K3
+	34-77-49		viraglada: V7, I1, I2, I3, K3
+	45-78-311		viraglada: V7, I1, I2, I3, K3
+	56-612-513		viraglada: V7, I1, I2, I3, K3
+Kavics:
+	916-814-915		max ket peron, nincs kiegeszito
+Terko:
+	h19-018-,21		viraglada: V4, I1, K3, E, E1
+	,22-017-h23		viraglada: V4, I1, K3, E, E1
+
+
+*****************************************************************************************************************************
+
+
+Kiegeszitok variacioi:
+Beton:
+	- Minden harmadik:
+		* I1				Esely: 00 - 05, azaz 6
+		* I1, V4			Esely: 06 - 07, azaz 2
+		* I1, I2/I3			Esely: 08 - 09, azaz 2
+		* I1, K3			Esely: 0A - 0B, azaz 2
+		* I1, I2/I3, V4		Esely: 0C - 0C, azaz 1
+		* I1, I2/I3, K3		Esely: 0D - 0D, azaz 1
+		* I1, V4, K3		Esely: 0E - 0E, azaz 1
+	- Egyebkent:
+		* nincs semmi		Esely: 00 - 05, azaz 6
+		* I2/I3				Esely: 06 - 07, azaz 2
+		* K3				Esely: 08 - 09, azaz 2
+		* V4				Esely: 0A - 0B, azaz 2
+		* I2/I3, I2/I3		Esely: 0C - 0C, azaz 1
+		* I2/I3, V4			Esely: 0D - 0D, azaz 1
+		* I2/I3, K3			Esely: 0E - 0E, azaz 1
+		* V4, K3			Esely: 0F - 0F, azaz 1
+
+
+
+
+
+// copy paste....
+
+
+		// 00
+			// 1a hatulja (eszakrol)
+			F4 03 00 00
+			00 00 80	00 00 00	2D 04 00 00
+			00 00 00	00 00 00	2E 04 00 00
+			80
+
+			// 1b hatulja
+			F3 03 00 00
+			00 00 80	00 00 00	2F 04 00 00
+			00 00 00	00 00 00	30 04 00 00
+			80
+
+
+		// 01
+			// 1a kozepe
+			F4 03 00 00
+			00 00 80	00 00 00	31 04 00 00
+			00 00 00	00 00 00	32 04 00 00
+			80
+
+			// 1b kozepe
+			F3 03 00 00
+			00 00 80	00 00 00	33 04 00 00
+			00 00 00	00 00 00	34 04 00 00
+			80
+
+
+		// 02
+			// 1a eleje
+			F4 03 00 00
+			00 00 80	00 00 00	35 04 00 00
+			00 00 00	00 00 00	36 04 00 00
+			80
+
+			// 1b eleje
+			F3 03 00 00
+			00 00 80	00 00 00	37 04 00 00
+			00 00 00	00 00 00	38 04 00 00
+			80
+
+
+		// 03
+			// 1a kozepe
+			F4 03 00 00
+			00 00 80	00 00 00	39 04 00 00 // kozepe
+			00 00 00	00 00 00	3A 04 00 00 // lampa
+			80
+
+			// 1b kozepe
+			F3 03 00 00
+			00 00 80	00 00 00	3B 04 00 00 // kozepe
+			00 00 00	00 00 00	3C 04 00 00 // lampa
+			80
+	
+			
+					
+							
+									
+											
+													
+															
+																	
+
+			
+		// 00
+			// 1a hatulja (eszakrol)
+			F4 03 00 00
+			00 00 00	00 00 00	2D 04 00 00
+			80
+
+			// 1b hatulja
+			F3 03 00 00
+			00 00 00	00 00 00	2E 04 00 00
+			80
+
+
+		// 01
+			// 1a kozepe
+			F4 03 00 00
+			00 00 00	00 00 00	2F 04 00 00
+			80
+
+			// 1b kozepe
+			F3 03 00 00
+			00 00 00	00 00 00	30 04 00 00
+			80
+
+
+		// 02
+			// 1a eleje
+			F4 03 00 00
+			00 00 00	00 00 00	31 04 00 00
+			80
+
+			// 1b eleje
+			F3 03 00 00
+			00 00 00	00 00 00	32 04 00 00
+			80
+
+
+		// 03
+			// 1a kozepe
+			F4 03 00 00
+			00 00 80	00 00 00	33 04 00 00 // kozepe
+			00 00 00	00 00 00	34 04 00 00 // lampa
+			80
+
+			// 1b kozepe
+			F3 03 00 00
+			00 00 80	00 00 00	35 04 00 00 // kozepe
+			00 00 00	00 00 00	36 04 00 00 // lampa
+			80
+
+
+
+
+
+
+
+		// 00
+			// 1a hatulja (eszakrol)
+			F4 03 00 00
+			00 00 80	00 00 00	20 00 00 C0
+			00 00 80	00 00 00	21 00 00 C0
+			00 00 00	01 10 04	00 00 00 80
+			80
+
+			// 1b hatulja
+			F3 03 00 00
+			00 00 80	00 00 00	22 00 00 C0
+			00 00 80	00 00 00	23 00 00 C0
+			00 00 00	01 10 04	02 00 00 80
+			80
+
+
+		// 01
+			// 1a kozepe
+			F4 03 00 00
+			00 00 80	00 00 00	20 00 00 C0
+			00 00 80	00 00 00	21 00 00 C0
+			00 00 00	01 10 04	00 00 00 80
+			80
+
+			// 1b kozepe
+			F3 03 00 00
+			00 00 80	00 00 00	22 00 00 C0
+			00 00 80	00 00 00	23 00 00 C0
+			00 00 00	01 10 04	03 00 00 80
+			80
+
+
+		// 02
+			// 1a eleje
+			F4 03 00 00
+			00 00 80	00 00 00	20 00 00 C0
+			00 00 80	00 00 00	21 00 00 C0
+			00 00 00	01 10 04	04 00 00 80
+			80
+
+			// 1b eleje
+			F3 03 00 00
+			00 00 80	00 00 00	22 00 00 C0
+			00 00 80	00 00 00	23 00 00 C0
+			00 00 00	01 10 04	05 00 00 80
+			80
+
+
+		// 03
+			// 1a kozepe
+			F4 03 00 00
+			00 00 80	00 00 00	20 00 00 C0 // kozepe
+			00 00 80	00 00 00	21 00 00 C0 // lampa
+			00 00 00	01 10 04	06 00 00 80
+			80
+
+			// 1b kozepe
+			F3 03 00 00
+			00 00 80	00 00 00	22 00 00 C0 // kozepe
+			00 00 80	00 00 00	23 00 00 C0 // lampa
+			00 00 00	01 10 04	07 00 00 80
+			80
