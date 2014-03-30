@@ -484,9 +484,9 @@
 //   00 * 00	01 04 01 FF 04 00
    // kiegeszitos kozepek
    92 sprites/peronok.pcx 8bpp 51 3 44 24 -31 -4 normal chunked			// 1a kozepso
-   93 sprites/peronok.pcx 8bpp 145 3 44 49 -33 -28 normal chunked		// lampaval
+   93 sprites/peronok.pcx 8bpp 192 3 44 49 -33 -28 normal chunked		// lampaval
    94 sprites/peronok.pcx 8bpp 51 31 44 24 -12 -4 normal chunked		// 1b kozepso
-   95 sprites/peronok.pcx 8bpp 192 3 44 49 -12 -28 normal chunked		// lampaval
+   95 sprites/peronok.pcx 8bpp 145 3 44 49 -12 -28 normal chunked		// lampaval
 
    96 * 7	 02 04 03 00 01 00 00
 //   00 * 00	02 04 04 00 01 00 00
