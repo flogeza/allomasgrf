@@ -16,8 +16,8 @@ a kijelző csak az újra,
 I1:		lampa
 I2/I3:	piros fa pad
 K3:		szemetes
-V4,v8:	fa viraglada
-v7:		beton viraglada
+V4,V8:	fa viraglada
+V7:		beton viraglada
 E,E1:	kijelzo
 
 
@@ -43,21 +43,21 @@ Kiegeszitok variacioi:
 Beton:
 	- Minden harmadik:
 		* I1				Esely: 00 - 05, azaz 6
-		* I1, V4			Esely: 06 - 07, azaz 2
+		* I1, V7			Esely: 06 - 07, azaz 2
 		* I1, I2/I3			Esely: 08 - 09, azaz 2
 		* I1, K3			Esely: 0A - 0B, azaz 2
-		* I1, I2/I3, V4		Esely: 0C - 0C, azaz 1
+		* I1, I2/I3, V7		Esely: 0C - 0C, azaz 1
 		* I1, I2/I3, K3		Esely: 0D - 0D, azaz 1
-		* I1, V4, K3		Esely: 0E - 0E, azaz 1
+		* I1, V7, K3		Esely: 0E - 0E, azaz 1
 	- Egyebkent:
 		* nincs semmi		Esely: 00 - 05, azaz 6
 		* I2/I3				Esely: 06 - 07, azaz 2
 		* K3				Esely: 08 - 09, azaz 2
-		* V4				Esely: 0A - 0B, azaz 2
+		* V7				Esely: 0A - 0B, azaz 2
 		* I2/I3, I2/I3		Esely: 0C - 0C, azaz 1
-		* I2/I3, V4			Esely: 0D - 0D, azaz 1
+		* I2/I3, V7			Esely: 0D - 0D, azaz 1
 		* I2/I3, K3			Esely: 0E - 0E, azaz 1
-		* V4, K3			Esely: 0F - 0F, azaz 1
+		* V7, K3			Esely: 0F - 0F, azaz 1
 
 
 
