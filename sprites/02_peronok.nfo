@@ -109,19 +109,23 @@
 
    00 * 00	01 04 08 02
 
-   00 sprites/peronok.pcx 8bpp 1 1 44 24 -29 -4 normal chunked			// 1a hatulja (eszakrol)
-   00 sprites/peronok.pcx 8bpp 1 39 44 24 -12 -4 normal chunked			// 1b hatulja
+   // alap ures kepek
+	// eszakrol az erlso (hatulja)
+   00 sprites/peronok.pcx 8bpp 1 1 44 24 -29 -4 normal chunked			// -9 7
+   00 sprites/peronok.pcx 8bpp 1 39 44 24 -12 -4 normal chunked			// -32 6
 
-   00 sprites/peronok.pcx 8bpp 46 1 44 24 -31 -4 normal chunked			// 1a kozepso
-   00 sprites/peronok.pcx 8bpp 46 39 44 24 -12 -4 normal chunked		// 1b kozepso
+	// ures kozepso
+   00 sprites/peronok.pcx 8bpp 46 1 44 24 -31 -4 normal chunked			// -11 7
+   00 sprites/peronok.pcx 8bpp 46 39 44 24 -12 -4 normal chunked		// -32 6
 
-   00 sprites/peronok.pcx 8bpp 91 1 44 24 -35 -1 normal chunked			// 1a eleje
-   00 sprites/peronok.pcx 8bpp 91 39 44 24 -8 -1 normal chunked			// 1b eleje
+	// eleje (delro)
+   00 sprites/peronok.pcx 8bpp 91 1 44 24 -35 -1 normal chunked			// -15 10
+   00 sprites/peronok.pcx 8bpp 91 39 44 24 -8 -1 normal chunked			// -28 9
    
    // lampas kozepso spiretok
 	// viragladas
-   00 sprites/peronok.pcx 8bpp 181 1 44 37 -31 -17 normal chunked
-   00 sprites/peronok.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
+   00 sprites/peronok.pcx 8bpp 181 1 44 37 -31 -17 normal chunked		// -11 6
+   00 sprites/peronok.pcx 8bpp 181 39 44 37 -12 -17 normal chunked		// -32 -7, a tobbi ugyanez...
 	// kukas
    00 sprites/peronok.pcx 8bpp 271 1 44 37 -31 -17 normal chunked
    00 sprites/peronok.pcx 8bpp 271 39 44 37 -12 -17 normal chunked
@@ -136,6 +140,7 @@
 	// pados viragladas
    00 sprites/peronok.pcx 8bpp 136 1 44 37 -31 -17 normal chunked
    00 sprites/peronok.pcx 8bpp 136 39 44 37 -12 -17 normal chunked
+   
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
