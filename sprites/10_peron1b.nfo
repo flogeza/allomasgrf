@@ -13,34 +13,67 @@
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
 
-			09 10	// ez mar a konkret tile-okat jelenti, hogy hany darab van belole
+				09 14	// ez mar a konkret tile-okat jelenti, hogy hany darab van belole
 
 
 		// 00
-			// 1a hatulja (eszakrol)
+			// a hatulja, kopott 1 (eszakrol)
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
 
-			// 1b hatulja
+			// b hatulja
 			F3 03 00 00
 			00 00 00	00 00 00	2E 04 00 00
 			80
-
-
+			
 		// 01
-			// 1a kozepe
+			// a hatulja, kopott 2 (eszakrol)
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
 
-			// 1b kozepe
+			// b hatulja
 			F3 03 00 00
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
 
 		// 02
+			// a nem kopott kozepe
+			F4 03 00 00
+			00 00 00	00 00 00	2D 04 00 00
+			80
+
+			// b sima kozepe
+			F3 03 00 00
+			00 00 00	00 00 00	2E 04 00 00
+			80
+			
+		// 03
+			// a kopott kozepe
+			F4 03 00 00
+			00 00 00	00 00 00	2D 04 00 00
+			80
+
+			// b sima kozepe
+			F3 03 00 00
+			00 00 00	00 00 00	2E 04 00 00
+			80
+
+
+		// 04
+			// a eleje
+			F4 03 00 00
+			00 00 00	00 00 00	2D 04 00 00
+			80
+
+			// b eleje
+			F3 03 00 00
+			00 00 00	00 00 00	2E 04 00 00
+			80
+
+		// 05
 			// 1a eleje
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
@@ -52,8 +85,8 @@
 			80
 
 
-		// lampas kozepso elemek
-		// 03, viragladas
+		// kozepso elemek
+		// 06, lampas, viragladas
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -62,7 +95,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 04, kukas
+		// 07, lampas, kukas
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -71,7 +104,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 05, pados
+		// 08, pados, viragladas
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -80,18 +113,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 06, pados kukas
-			F4 03 00 00
-			00 00 00	00 00 00	2D 04 00 00
-			80
-
-			F3 03 00 00
-			00 00 00	00 00 00	2E 04 00 00
-			80
-
-
-		// sima kozepso elemek
-		// 07, viragladas
+		// 09, lampas, pados
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -101,50 +123,61 @@
 			80
 
 
-   00 * 00	01 04 08 02
+   00 * 00	01 04 0A 02
 
-   00 sprites/peron1.pcx 8bpp 1 1 44 24 -9 7 normal chunked				// 1a hatulja (eszakrol)
-   00 sprites/peron1.pcx 8bpp 1 39 44 24 -32 6 normal chunked			// 1b hatulja
+	// kopott 1
+   00 sprites/peron1.pcx 8bpp 91 1 44 37 -17 -2 normal chunked
+   00 sprites/peron1.pcx 8bpp 91 39 44 37 -26 -2 normal chunked
+	// kopott 2
+   00 sprites/peron1.pcx 8bpp 136 1 44 37 -17 -2 normal chunked
+   00 sprites/peron1.pcx 8bpp 136 39 44 37 -26 -2 normal chunked
 
-   00 sprites/peron1.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
-   00 sprites/peron1.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
+	// ures kozepso
+	// nem kopott
+   00 sprites/peron1.pcx 8bpp 181 1 44 37 -13 -5 normal chunked
+   00 sprites/peron1.pcx 8bpp 181 39 44 37 -30 -5 normal chunked
+	// kopott
+   00 sprites/peron1b.pcx 8bpp 91 1 44 37 -13 -5 normal chunked
+   00 sprites/peron1b.pcx 8bpp 91 39 44 37 -30 -5 normal chunked
 
-   00 sprites/peron1.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
-   00 sprites/peron1.pcx 8bpp 91 39 44 24 -28 9 normal chunked			// 1b eleje
+	// eleje (delro)
+	// kopott 1
+   00 sprites/peron1.pcx 8bpp 1 1 44 37 -11 -5 normal chunked
+   00 sprites/peron1.pcx 8bpp 1 39 44 37 -30 -5 normal chunked
+	// kopott 2
+   00 sprites/peron1.pcx 8bpp 46 1 44 37 -11 -5 normal chunked
+   00 sprites/peron1.pcx 8bpp 46 39 44 37 -30 -5 normal chunked
    
-   // lampas kozepso spiretok
-	// viragladas
-   00 sprites/peron1.pcx 8bpp 181 1 44 37 -11 -6 normal chunked
-   00 sprites/peron1.pcx 8bpp 181 39 44 37 -32 -7 normal chunked
-	// kukas
-   00 sprites/peron1.pcx 8bpp 271 1 44 37 -11 -6 normal chunked
-   00 sprites/peron1.pcx 8bpp 271 39 44 37 -32 -7 normal chunked
-	// pados
-   00 sprites/peron1.pcx 8bpp 316 1 44 37 -11 -6 normal chunked
-   00 sprites/peron1.pcx 8bpp 316 39 44 37 -32 -7 normal chunked
-	// pados kukas
-   00 sprites/peron1.pcx 8bpp 361 1 44 37 -11 -6 normal chunked
-   00 sprites/peron1.pcx 8bpp 361 39 44 37 -32 -7 normal chunked
-   
-   // sima kozepso spritok
-	// pados viragladas
-   00 sprites/peron1.pcx 8bpp 136 1 44 37 -11 -6 normal chunked
-   00 sprites/peron1.pcx 8bpp 136 39 44 37 -32 -7 normal chunked
+   // kozepso kozos spiretok
+	// lampas, viragladas
+   00 sprites/peron1.pcx 8bpp 1 77 44 37 -13 -5 normal chunked
+   00 sprites/peron1.pcx 8bpp 1 115 44 37 -30 -5 normal chunked
+	// lampas, kukas
+   00 sprites/peron1.pcx 8bpp 46 77 44 37 -13 -5 normal chunked
+   00 sprites/peron1.pcx 8bpp 46 115 44 37 -30 -5 normal chunked
+
+   // kozepso sajat spiretok
+	// pados, viragladas
+   00 sprites/peron1b.pcx 8bpp 1 1 44 37 -13 -5 normal chunked
+   00 sprites/peron1b.pcx 8bpp 1 39 44 37 -30 -5 normal chunked
+	// lampas, pados
+   00 sprites/peron1b.pcx 8bpp 46 1 44 37 -13 -5 normal chunked
+   00 sprites/peron1b.pcx 8bpp 46 39 44 37 -30 -5 normal chunked
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
-   00 * 00	02 04 00 00 01 00 00	// hatulja
-   00 * 00	02 04 01 00 01 01 00	// sima kozepe
-   00 * 00	02 04 02 00 01 02 00	// eleje
+   00 * 00	02 04 00 00 01 00 00	// kopott hatulja 1
+   00 * 00	02 04 01 00 01 01 00	// kopott hatulja 2
+   00 * 00	02 04 02 00 01 02 00	// nem kopott kozepe
+   00 * 00	02 04 03 00 01 03 00	// kopott kozepe
+   00 * 00	02 04 04 00 01 04 00	// kopott eleje 1
+   00 * 00	02 04 05 00 01 05 00	// kopott eleje 2
    
-   // lampas kozepek
-   00 * 00	02 04 03 00 01 03 00
-   00 * 00	02 04 04 00 01 04 00
-   00 * 00	02 04 05 00 01 05 00
-   00 * 00	02 04 06 00 01 06 00
-
-   // sima kozepek
-   00 * 00	02 04 07 00 01 07 00
+   // objektumos kozepek
+   00 * 00	02 04 06 00 01 06 00	// lampas, viragladas
+   00 * 00	02 04 07 00 01 07 00	// lampas, kukas
+   00 * 00	02 04 08 00 01 08 00	// pados, viragladas
+   00 * 00	02 04 09 00 01 09 00	// lampas, pados
 
 
 
@@ -165,28 +198,48 @@
 //	\wx80
 
 
+// eszaki vegenek randomizacioja
+   00 * 00	02 04 91
+			80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			00 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			01 00						// ezzel a modszerrel 1:1 eselye, hogy melyik lesz....
+			
+// deli vegenek randomizacioja
+   00 * 00	02 04 92
+			80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			04 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			05 00						// ezzel a modszerrel 1:1 eselye, hogy melyik lesz....
 
 // kozepso lekerdezesek.....
 // minden harmadik mezore legyen igaz az eszaki vegetol szamitva, ez annak a feltetele, hogy harmadik-e...
 	// sima randomizaciok
    00 * 00	02 04 B2
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
-			10							// szerintem ez kotelezoen ennyi
-			04							// hany darab random lehetosegunk van
-			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			01 00						// ezzel a modszerrel 3:1 eselye, hogy sima kozepso lesz....
-			01 00
-			07 00
+			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
+			08							// hany darab random lehetosegunk van
+			02 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			02 00			// 5 a nem kopott, ures
+			02 00
+			02 00
+			02 00
+			03 00			// 1 a kopott
+			08 00			// ketszer van a pados, viragladas
+			08 00
 
+// TODO: FIGYELEM: Ezt ha paratlanra allitom, akkor hibat dob, tehat van valami koze ahhoz, hogy mindig parosaval tolti be, vagy ilyesmi
 	// lampas randomizaciok
    00 * 00	02 04 B1
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			04							// hany darab random lehetosegunk van
-			03 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			04 00
-			05 00
-			06 00
+			06 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			09 00			// a pados itt direkt van ketszer
+			07 00
+			09 00
 
 	// negyedik lekerdezes, ami mar nem a szelso elemeket randomizalja
 	// itt konkretan szetvalasztom, hogy minden harmadik lampas elem, a tobbi meg nem :D
@@ -208,16 +261,16 @@
 			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			92 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
 			B0 00						// ha nincs egyezes, akkor ide ugorjon
 
-// ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebken a harmadik lekerdezesre (10) ugrik
+// ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebkent a harmadik lekerdezesre ugrik
    00 * 00  02 04 A1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
 			01							// hany darab variacio van
-			02 00 00 00					// 02 00 actione-re ugorjon, ha 00 min es 00 max range kozott van
+			91 00 00 00					// 91 00 actione-re ugorjon, ha 00 min es 00 max range kozott van
 			A2 00						// ha nincs egyezes, akkor ide ugorjon
 
 // callback handler for normal graphics (non-build menu)
@@ -229,7 +282,7 @@
 			FF FF
 			01							// hany range
 			00							// ennyi legyen, ha 14-es callback van
-			80							// elvalaszto
+			00							// elvalaszto, vagyis nem is, vagy nem tudom, 80 volt itt elotte, de igy most majdnem jo...
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A1 00						// else graphics Set
 
@@ -257,4 +310,3 @@
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
    A0 00								// ha nem menu, akkor A0 action2-re
-   

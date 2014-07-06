@@ -25,58 +25,58 @@
 
 
 		// 00
-			// 1a hatulja, kopott 1 (eszakrol)
+			// a hatulja, kopott 1 (eszakrol)
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
 
-			// 1b hatulja
+			// b hatulja
 			F3 03 00 00
 			00 00 00	00 00 00	2E 04 00 00
 			80
 			
 		// 01
-			// 1a hatulja, kopott 2 (eszakrol)
+			// a hatulja, kopott 2 (eszakrol)
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
 
-			// 1b hatulja
+			// b hatulja
 			F3 03 00 00
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
 
 		// 02
-			// 1a nem kopott kozepe
+			// a nem kopott kozepe
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
 
-			// 1b sima kozepe
+			// b sima kozepe
 			F3 03 00 00
 			00 00 00	00 00 00	2E 04 00 00
 			80
 			
 		// 03
-			// 1a kopott kozepe
+			// a kopott kozepe
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
 
-			// 1b sima kozepe
+			// b sima kozepe
 			F3 03 00 00
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
 
 		// 04
-			// 1a eleje
+			// a eleje
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
 
-			// 1b eleje
+			// b eleje
 			F3 03 00 00
 			00 00 00	00 00 00	2E 04 00 00
 			80
@@ -112,7 +112,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 08, pados, viragladas
+		// 08, lampas, pados
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -121,7 +121,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 09, lampas, pados
+		// 09, lampas, kukas, pados
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -135,32 +135,32 @@
    // alap ures kepek
 	// eszakrol az elso (hatulja)
 	// kopott 1
-   00 sprites/peron1.pcx 8bpp 91 1 44 37 -35 -14 normal chunked				// -9 7
-   00 sprites/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked				// -32 6
+   00 sprites/peron1.pcx 8bpp 91 1 44 37 -35 -14 normal chunked
+   00 sprites/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
 	// kopott 2
-   00 sprites/peron1.pcx 8bpp 136 1 44 37 -35 -14 normal chunked			// -9 7
-   00 sprites/peron1.pcx 8bpp 136 39 44 37 -8 -14 normal chunked			// -32 6
+   00 sprites/peron1.pcx 8bpp 136 1 44 37 -35 -14 normal chunked
+   00 sprites/peron1.pcx 8bpp 136 39 44 37 -8 -14 normal chunked
 
 	// ures kozepso
 	// nem kopott
-   00 sprites/peron1.pcx 8bpp 181 1 44 37 -31 -17 normal chunked			// -11 7
-   00 sprites/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked			// -32 6
+   00 sprites/peron1.pcx 8bpp 181 1 44 37 -31 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
 	// kopott
-   00 sprites/peron1a.pcx 8bpp 91 1 44 37 -31 -17 normal chunked			// -11 7
-   00 sprites/peron1a.pcx 8bpp 91 39 44 37 -12 -17 normal chunked			// -32 6
+   00 sprites/peron1a.pcx 8bpp 91 1 44 37 -31 -17 normal chunked
+   00 sprites/peron1a.pcx 8bpp 91 39 44 37 -12 -17 normal chunked
 
 	// eleje (delro)
 	// kopott 1
-   00 sprites/peron1.pcx 8bpp 1 1 44 37 -29 -17 normal chunked				// -15 10
-   00 sprites/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked				// -28 9
+   00 sprites/peron1.pcx 8bpp 1 1 44 37 -29 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
 	// kopott 2
-   00 sprites/peron1.pcx 8bpp 46 1 44 37 -29 -17 normal chunked				// -15 10
-   00 sprites/peron1.pcx 8bpp 46 39 44 37 -12 -17 normal chunked			// -28 9
+   00 sprites/peron1.pcx 8bpp 46 1 44 37 -29 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 46 39 44 37 -12 -17 normal chunked
    
    // kozepso kozos spiretok
 	// lampas, viragladas
-   00 sprites/peron1.pcx 8bpp 1 77 44 37 -31 -17 normal chunked				// -11 6
-   00 sprites/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked			// -32 -7, a tobbi ugyanez...
+   00 sprites/peron1.pcx 8bpp 1 77 44 37 -31 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
 	// lampas, kukas
    00 sprites/peron1.pcx 8bpp 46 77 44 37 -31 -17 normal chunked
    00 sprites/peron1.pcx 8bpp 46 115 44 37 -12 -17 normal chunked
@@ -233,7 +233,7 @@
 			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
 			04							// hany darab random lehetosegunk van
 			02 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			02 00			// 5 a nem kopott, ures
+			02 00			// 3 a nem kopott, ures
 			02 00
 			03 00			// 1 a kopott
 
