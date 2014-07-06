@@ -52,7 +52,7 @@
 			01 00															// 01 hany darab 3-as action azonositot akarunk, 00 - (n) itt az azonositok jonnek felsorolva, annyi, amennyit elotte megadtunk, ez utobbi allomast ID-t jelent
 //																			// minden egyes uj 00 action utan ujrakezdodik ay allomas es a sprite azonositoja
 			01																// 01 hany kulon cargo fajtat akarunk meghatarozni, hogy milyen allomas reszt toltson be
-			FF 01 00														// annyiszor ez a sor, ahanyat megadtunk elozoleg, FF cargo azonositoja, talan az FF az osszes cargot jelenti..., 01 00 pedig a forditott bytesorrendu action2 azonositot jelent
+			FF 01 00														// annyiszor ez a sor, ahanyat megadtunk elozoleg, FF cargo azonositoja, talan az FF az osszes cargot jelenti (vagyis az FF talan a menut jelenti)..., 01 00 pedig a forditott bytesorrendu action2 azonositot jelent
 			00 00															// utolso ket 00 00 ha nincs talalat a megadott cargokra, akkor ezt az azonositoju action2-t fogja betolteni, ez is forditott bytesorrendu
 
 

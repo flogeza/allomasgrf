@@ -528,7 +528,7 @@
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
    A0 00								// ha nem menu, akkor A0 action2-re
 
-   
+
 
 //**************************************//
 //				Stringek				//

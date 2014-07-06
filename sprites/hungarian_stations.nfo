@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 90 00 00 00
+    0 * 4	 A9 00 00 00
     1 * 39	 14 "CINFOTURL_" 7F "http:valami.hu/megvalami" 00 00 00				// url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// versio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
@@ -68,7 +68,7 @@
 			01 00															// 01 hany darab 3-as action azonositot akarunk, 00 - (n) itt az azonositok jonnek felsorolva, annyi, amennyit elotte megadtunk, ez utobbi allomast ID-t jelent
 //																			// minden egyes uj 00 action utan ujrakezdodik ay allomas es a sprite azonositoja
 			01																// 01 hany kulon cargo fajtat akarunk meghatarozni, hogy milyen allomas reszt toltson be
-			FF 01 00														// annyiszor ez a sor, ahanyat megadtunk elozoleg, FF cargo azonositoja, talan az FF az osszes cargot jelenti..., 01 00 pedig a forditott bytesorrendu action2 azonositot jelent
+			FF 01 00														// annyiszor ez a sor, ahanyat megadtunk elozoleg, FF cargo azonositoja, talan az FF az osszes cargot jelenti (vagyis az FF talan a menut jelenti)..., 01 00 pedig a forditott bytesorrendu action2 azonositot jelent
 			00 00															// utolso ket 00 00 ha nincs talalat a megadott cargokra, akkor ezt az azonositoju action2-t fogja betolteni, ez is forditott bytesorrendu
 
 
@@ -484,19 +484,23 @@
 
    75 * 4	 01 04 08 02
 
-   76 sprites/peronok.pcx 8bpp 1 1 44 24 -29 -4 normal chunked			// 1a hatulja (eszakrol)
-   77 sprites/peronok.pcx 8bpp 1 39 44 24 -12 -4 normal chunked			// 1b hatulja
+   // alap ures kepek
+	// eszakrol az erlso (hatulja)
+   76 sprites/peronok.pcx 8bpp 1 1 44 24 -29 -4 normal chunked			// -9 7
+   77 sprites/peronok.pcx 8bpp 1 39 44 24 -12 -4 normal chunked			// -32 6
 
-   78 sprites/peronok.pcx 8bpp 46 1 44 24 -31 -4 normal chunked			// 1a kozepso
-   79 sprites/peronok.pcx 8bpp 46 39 44 24 -12 -4 normal chunked		// 1b kozepso
+	// ures kozepso
+   78 sprites/peronok.pcx 8bpp 46 1 44 24 -31 -4 normal chunked			// -11 7
+   79 sprites/peronok.pcx 8bpp 46 39 44 24 -12 -4 normal chunked		// -32 6
 
-   80 sprites/peronok.pcx 8bpp 91 1 44 24 -35 -1 normal chunked			// 1a eleje
-   81 sprites/peronok.pcx 8bpp 91 39 44 24 -8 -1 normal chunked			// 1b eleje
+	// eleje (delro)
+   80 sprites/peronok.pcx 8bpp 91 1 44 24 -35 -1 normal chunked			// -15 10
+   81 sprites/peronok.pcx 8bpp 91 39 44 24 -8 -1 normal chunked			// -28 9
 
    // lampas kozepso spiretok
 	// viragladas
-   82 sprites/peronok.pcx 8bpp 181 1 44 37 -31 -17 normal chunked
-   83 sprites/peronok.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
+   82 sprites/peronok.pcx 8bpp 181 1 44 37 -31 -17 normal chunked		// -11 6
+   83 sprites/peronok.pcx 8bpp 181 39 44 37 -12 -17 normal chunked		// -32 -7, a tobbi ugyanez...
 	// kukas
    84 sprites/peronok.pcx 8bpp 271 1 44 37 -31 -17 normal chunked
    85 sprites/peronok.pcx 8bpp 271 39 44 37 -12 -17 normal chunked
@@ -511,6 +515,7 @@
 	// pados viragladas
    90 sprites/peronok.pcx 8bpp 136 1 44 37 -31 -17 normal chunked
    91 sprites/peronok.pcx 8bpp 136 39 44 37 -12 -17 normal chunked
+
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
@@ -908,3 +913,221 @@
   142 * 21	 04 04 FF 01 05 C4 "Magyar peronok" 00
   143 * 14	 04 04 FF 01 05 C5 "Peron 1" 00
   144 * 14	 04 04 FF 01 06 C5 "Peron 2" 00
+
+
+
+//******************************************************************************************************************************************************//
+//																																						//
+//																	TESZT																				//
+//																																						//
+//******************************************************************************************************************************************************//
+
+
+  145 * 11	 02 04 40				// Procedure to compute the slope-dependent spriteoffset
+            80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			00 00
+
+  146 * 11	 02 04 41				// Procedure to compute the climate-dependent spriteoffset
+            80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			00 00
+
+  147 * 11	 02 04 42				// Procedure to compute the height offset in the middle of the tile
+            80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			00 00
+
+
+
+
+  148 * 160	 00 04 04 01 FE 08 "PKS1"
+//			11 00 14 FF 15 FF
+			0C FE
+			0B 03	// custom sprite layout
+//			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
+
+			1A 06
+
+		// 00 eleje
+			41				// +1 tile van a groundon kivul
+			F4 03 00 00		// ground sprite
+			02 00			// flags
+			10				// register value
+			2D 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+			41				// +1 tile van a groundon kivul
+			F3 03 00 00		// ground sprite
+			02 00			// flags
+			10				// register value
+			2E 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+		// 01 kozepe
+			41				// +1 tile van a groundon kivul
+			F4 03 00 00		// ground sprite
+			02 00			// flags
+			11				// register value
+			2D 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+			41				// +1 tile van a groundon kivul
+			F3 03 00 00		// ground sprite
+			02 00			// flags
+			11				// register value
+			2E 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+		// 02 kozepe objektummal
+			42				// +1 tile van a groundon kivul
+			F4 03 00 00		// ground sprite
+			02 00			// flags
+			12				// register value
+
+			2D 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+			2E 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+			42				// +1 tile van a groundon kivul
+			F3 03 00 00		// ground sprite
+			02 00			// flags
+			12				// register value
+
+			2F 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+			30 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+
+  149 * 4	 01 04 01 02
+  150 sprites/peronok.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
+//   00 sprites/peronok.pcx 8bpp 91 39 44 24 -28 9 normal chunked			// 1b eleje
+  151 sprites/peronok.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
+//   00 sprites/peronok.pcx 8bpp 91 39 44 24 -28 9 normal chunked			// 1b eleje
+
+  152 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
+
+
+
+  153 * 4	 01 04 01 02
+  154 sprites/peronok.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
+//   00 sprites/peronok.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
+  155 sprites/peronok.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
+//   00 sprites/peronok.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
+
+  156 * 7	 02 04 01 00 01 00 00	// hatulja
+
+
+
+  157 * 4	 01 04 01 04
+  158 sprites/peronok.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
+//   00 sprites/peronok.pcx 8bpp 1 64 22 24 -9 7 normal chunked			// valami
+  159 sprites/peronok.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
+//   00 sprites/peronok.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
+  160 sprites/peronok.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
+//   00 sprites/peronok.pcx 8bpp 1 64 22 24 -9 7 normal chunked			// valami
+  161 sprites/peronok.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
+//   00 sprites/peronok.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
+
+  162 * 7	 02 04 02 00 01 00 00	// objektumok
+
+
+//   00 * 00	02 04 01 00 01 01 00	// hatulja
+//   00 * 00	02 04 01 00 01 00 00	// hatulja
+
+	// lampas randomizaciok
+  163 * 11	 02 04 B0
+			80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			02 00
+
+
+// ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebken a harmadik lekerdezesre (10) ugrik
+  164 * 14	 02 04 A1
+			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			00							// shift eltolas
+			0F							// maszkolas
+			01							// hany darab variacio van
+			00 00 00 00					// 02 00 actione-re ugorjon, ha 00 min es 00 max range kozott van
+			B0 00						// ha nincs egyezes, akkor ide ugorjon
+
+// callback handler for normal graphics (non-build menu)
+// ez az elso lekerdezes, ezzel kerdezem kezdem el a betoltendo  lekerdezeseket
+  165 * 17	 02 04 A0
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			A1 00						// else graphics Set
+
+// callback handler for build menu
+// switch between callback and graphics branches
+  166 * 17	 02 04 C0					// Set-ID C0
+			85 0C 00 FF FF				// get word, check if callback
+			01							// one range
+			00 80 14 00 14 00			// use layouts 06/07 during callback 14
+			02 00						// menu grafika....
+
+//-1 * -1    02 0F 00 42
+//           \dx 0        \wx02                    10       // Draw groundsprite from register 0x10.
+//           \dx 80000000 \wx20  00 00 00 10 10 30 11       // Draw building sprite at z-postion from register 0x11.
+//           \dx 80000001 \wx01  00 00 80          12       // Draw snow-overlay relative to building sprite, but only if register 0x12 is zero.
+
+  167 * 37	 02 04 D0 81
+					7E 40 20 FF                           // Get slope offset from procedure 40
+             \2sto  1A    20 10                           // Store in register 0x10
+             \2rst  7E 41 20 0F                           // Add climate offset from procedure 41
+             \2sto  1A    20 11                           // Store in register 0x10
+             \2rst  7E 42 20 0F                           // Get height offset in the middle of the tile
+             \2sto  1A    20 12                           // Store in register 0x11
+
+//             \2rst  62 00 2C 01                           // Test snow bit, 1 if snowy, 0 if not
+//             \2sto  1A    00 12                           // Store in register 0x12
+
+            00
+                00 00	  B0 00                           // always procede at 00
+                A0 00
+
+
+//-1 * -1    03 0F 01 ?? \b 0 00                            // always procede at 00
+
+  168 * 10	 03 04 01 FE
+   01									// hany darab kulonbozo cargo
+   FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
+   D0 00								// ha nem menu, akkor A0 action2-re
+
+
+
+  169 * 12	 04 04 FF 01 FE C5 "TESZT" 00
