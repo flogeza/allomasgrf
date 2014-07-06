@@ -3,7 +3,7 @@
 
 
 //**************************************//
-//					Peron 2				//
+//					Peron 1b			//
 //**************************************//
 
 
@@ -103,33 +103,33 @@
 
    00 * 00	01 04 08 02
 
-   00 sprites/peronok.pcx 8bpp 1 1 44 24 -9 7 normal chunked			// 1a hatulja (eszakrol)
-   00 sprites/peronok.pcx 8bpp 1 39 44 24 -32 6 normal chunked			// 1b hatulja
+   00 sprites/peron1.pcx 8bpp 1 1 44 24 -9 7 normal chunked				// 1a hatulja (eszakrol)
+   00 sprites/peron1.pcx 8bpp 1 39 44 24 -32 6 normal chunked			// 1b hatulja
 
-   00 sprites/peronok.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
-   00 sprites/peronok.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
+   00 sprites/peron1.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
+   00 sprites/peron1.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
 
-   00 sprites/peronok.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
-   00 sprites/peronok.pcx 8bpp 91 39 44 24 -28 9 normal chunked			// 1b eleje
+   00 sprites/peron1.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
+   00 sprites/peron1.pcx 8bpp 91 39 44 24 -28 9 normal chunked			// 1b eleje
    
    // lampas kozepso spiretok
 	// viragladas
-   00 sprites/peronok.pcx 8bpp 181 1 44 37 -11 -6 normal chunked
-   00 sprites/peronok.pcx 8bpp 181 39 44 37 -32 -7 normal chunked
+   00 sprites/peron1.pcx 8bpp 181 1 44 37 -11 -6 normal chunked
+   00 sprites/peron1.pcx 8bpp 181 39 44 37 -32 -7 normal chunked
 	// kukas
-   00 sprites/peronok.pcx 8bpp 271 1 44 37 -11 -6 normal chunked
-   00 sprites/peronok.pcx 8bpp 271 39 44 37 -32 -7 normal chunked
+   00 sprites/peron1.pcx 8bpp 271 1 44 37 -11 -6 normal chunked
+   00 sprites/peron1.pcx 8bpp 271 39 44 37 -32 -7 normal chunked
 	// pados
-   00 sprites/peronok.pcx 8bpp 316 1 44 37 -11 -6 normal chunked
-   00 sprites/peronok.pcx 8bpp 316 39 44 37 -32 -7 normal chunked
+   00 sprites/peron1.pcx 8bpp 316 1 44 37 -11 -6 normal chunked
+   00 sprites/peron1.pcx 8bpp 316 39 44 37 -32 -7 normal chunked
 	// pados kukas
-   00 sprites/peronok.pcx 8bpp 361 1 44 37 -11 -6 normal chunked
-   00 sprites/peronok.pcx 8bpp 361 39 44 37 -32 -7 normal chunked
+   00 sprites/peron1.pcx 8bpp 361 1 44 37 -11 -6 normal chunked
+   00 sprites/peron1.pcx 8bpp 361 39 44 37 -32 -7 normal chunked
    
    // sima kozepso spritok
 	// pados viragladas
-   00 sprites/peronok.pcx 8bpp 136 1 44 37 -11 -6 normal chunked
-   00 sprites/peronok.pcx 8bpp 136 39 44 37 -32 -7 normal chunked
+   00 sprites/peron1.pcx 8bpp 136 1 44 37 -11 -6 normal chunked
+   00 sprites/peron1.pcx 8bpp 136 39 44 37 -32 -7 normal chunked
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
