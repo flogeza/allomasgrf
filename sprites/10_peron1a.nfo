@@ -21,7 +21,7 @@
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
 
-			09 14	// ez mar a konkret tile-okat jelenti, hogy hany darab van belole
+			09 16	// ez mar a konkret tile-okat jelenti, hogy hany darab van belole
 
 
 		// 00
@@ -59,7 +59,18 @@
 			80
 			
 		// 03
-			// a kopott kozepe
+			// a kopott kozepe 1
+			F4 03 00 00
+			00 00 00	00 00 00	2D 04 00 00
+			80
+
+			// b sima kozepe
+			F3 03 00 00
+			00 00 00	00 00 00	2E 04 00 00
+			80
+			
+		// 04
+			// a kopott kozepe 2
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -69,8 +80,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-
-		// 04
+		// 05
 			// a eleje
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
@@ -81,7 +91,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 05
+		// 06
 			// 1a eleje
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
@@ -94,7 +104,7 @@
 
 
 		// kozepso elemek
-		// 06, lampas, viragladas
+		// 07, lampas, viragladas
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -103,7 +113,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 07, lampas, kukas
+		// 08, lampas, kukas
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -112,7 +122,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 08, lampas, pados
+		// 09, lampas, pados
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -121,7 +131,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 09, lampas, kukas, pados
+		// 0A, lampas, kukas, pados
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -130,47 +140,50 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-   00 * 00	01 04 0A 02
+   00 * 00	01 04 0B 02
 
    // alap ures kepek
 	// eszakrol az elso (hatulja)
 	// kopott 1
-   00 sprites/peron1.pcx 8bpp 91 1 44 37 -35 -14 normal chunked
+   00 sprites/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
    00 sprites/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
 	// kopott 2
-   00 sprites/peron1.pcx 8bpp 136 1 44 37 -35 -14 normal chunked
+   00 sprites/peron1.pcx 8bpp 136 1 44 37 -34 -14 normal chunked
    00 sprites/peron1.pcx 8bpp 136 39 44 37 -8 -14 normal chunked
 
 	// ures kozepso
 	// nem kopott
-   00 sprites/peron1.pcx 8bpp 181 1 44 37 -31 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
    00 sprites/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
-	// kopott
-   00 sprites/peron1a.pcx 8bpp 91 1 44 37 -31 -17 normal chunked
-   00 sprites/peron1a.pcx 8bpp 91 39 44 37 -12 -17 normal chunked
+	// kopott 1
+   00 sprites/peron1.pcx 8bpp 91 77 44 37 -30 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 91 115 44 37 -12 -17 normal chunked
+	// kopott 2
+   00 sprites/peron1.pcx 8bpp 136 77 44 37 -30 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 136 115 44 37 -12 -17 normal chunked
 
 	// eleje (delro)
 	// kopott 1
-   00 sprites/peron1.pcx 8bpp 1 1 44 37 -29 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
    00 sprites/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
 	// kopott 2
-   00 sprites/peron1.pcx 8bpp 46 1 44 37 -29 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 46 1 44 37 -28 -17 normal chunked
    00 sprites/peron1.pcx 8bpp 46 39 44 37 -12 -17 normal chunked
    
    // kozepso kozos spiretok
 	// lampas, viragladas
-   00 sprites/peron1.pcx 8bpp 1 77 44 37 -31 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
    00 sprites/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
 	// lampas, kukas
-   00 sprites/peron1.pcx 8bpp 46 77 44 37 -31 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 46 77 44 37 -30 -17 normal chunked
    00 sprites/peron1.pcx 8bpp 46 115 44 37 -12 -17 normal chunked
 
    // kozepso sajat spiretok
 	// lampas, pados
-   00 sprites/peron1a.pcx 8bpp 1 1 44 37 -31 -17 normal chunked
+   00 sprites/peron1a.pcx 8bpp 1 1 44 37 -30 -17 normal chunked
    00 sprites/peron1a.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
 	// lampas, kukas, pados
-   00 sprites/peron1a.pcx 8bpp 46 1 44 37 -31 -17 normal chunked
+   00 sprites/peron1a.pcx 8bpp 46 1 44 37 -30 -17 normal chunked
    00 sprites/peron1a.pcx 8bpp 46 39 44 37 -12 -17 normal chunked
 
    
@@ -180,15 +193,16 @@
    00 * 00	02 04 00 00 01 00 00	// kopott hatulja 1
    00 * 00	02 04 01 00 01 01 00	// kopott hatulja 2
    00 * 00	02 04 02 00 01 02 00	// nem kopott kozepe
-   00 * 00	02 04 03 00 01 03 00	// kopott kozepe
-   00 * 00	02 04 04 00 01 04 00	// kopott eleje 1
-   00 * 00	02 04 05 00 01 05 00	// kopott eleje 2
+   00 * 00	02 04 03 00 01 03 00	// kopott kozepe 1
+   00 * 00	02 04 04 00 01 04 00	// kopott kozepe 2
+   00 * 00	02 04 05 00 01 05 00	// kopott eleje 1
+   00 * 00	02 04 06 00 01 06 00	// kopott eleje 2
    
    // objektumos kozepek
-   00 * 00	02 04 06 00 01 06 00	// lampas, viragladas
-   00 * 00	02 04 07 00 01 07 00	// lampas, kukas
-   00 * 00	02 04 08 00 01 08 00	// lampas, pados
-   00 * 00	02 04 09 00 01 09 00	// lampas, kukas, pados
+   00 * 00	02 04 07 00 01 07 00	// lampas, viragladas
+   00 * 00	02 04 08 00 01 08 00	// lampas, kukas
+   00 * 00	02 04 09 00 01 09 00	// lampas, pados
+   00 * 00	02 04 0A 00 01 0A 00	// lampas, kukas, pados
 
 
 
@@ -222,8 +236,8 @@
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
-			04 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			05 00						// ezzel a modszerrel 1:1 eselye, hogy melyik lesz....
+			05 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			06 00						// ezzel a modszerrel 1:1 eselye, hogy melyik lesz....
 
 // kozepso lekerdezesek.....
 // minden harmadik mezore legyen igaz az eszaki vegetol szamitva, ez annak a feltetele, hogy harmadik-e...
@@ -231,11 +245,15 @@
    00 * 00	02 04 B2
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
-			04							// hany darab random lehetosegunk van
+			08							// hany darab random lehetosegunk van
 			02 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			02 00			// 3 a nem kopott, ures
+			02 00			// 6 a nem kopott, ures
 			02 00
-			03 00			// 1 a kopott
+			02 00
+			02 00
+			02 00
+			03 00			// 1 a kopott 1
+			04 00			// 1 a kopott 2
 
 // TODO: FIGYELEM: Ezt ha paratlanra allitom, akkor hibat dob, tehat van valami koze ahhoz, hogy mindig parosaval tolti be, vagy ilyesmi
 	// lampas randomizaciok
@@ -243,10 +261,10 @@
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			04							// hany darab random lehetosegunk van
-			06 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			07 00
+			07 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			08 00
 			09 00
+			0A 00
 
 	// negyedik lekerdezes, ami mar nem a szelso elemeket randomizalja
 	// itt konkretan szetvalasztom, hogy minden harmadik lampas elem, a tobbi meg nem :D
