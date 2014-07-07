@@ -21,7 +21,7 @@
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
 
-			09 18	// ez mar a konkret tile-okat jelenti, hogy hany darab van belole
+			09 1A	// ez mar a konkret tile-okat jelenti, hogy hany darab van belole
 
 
 		// 00
@@ -133,7 +133,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 0A, lampas, pados
+		// 0A, pados, viragladas
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -142,7 +142,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 0B, lampas, kukas, pados
+		// 0B, lampas, pados
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -151,7 +151,16 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-   00 * 00	01 04 0C 02
+		// 0C, lampas, kukas, pados
+			F4 03 00 00
+			00 00 00	00 00 00	2D 04 00 00
+			80
+
+			F3 03 00 00
+			00 00 00	00 00 00	2E 04 00 00
+			80
+
+   00 * 00	01 04 0D 02
 
 	// menu grafika
    00 sprites/peron1a.pcx 8bpp 46 1 44 37 -31 -15 normal chunked
@@ -193,6 +202,9 @@
    00 sprites/peron1.pcx 8bpp 46 115 44 37 -12 -17 normal chunked
 
    // kozepso sajat spiretok
+	// pados, viragladas
+   00 sprites/peron1a.pcx 8bpp 91 1 44 37 -30 -17 normal chunked
+   00 sprites/peron1a.pcx 8bpp 91 39 44 37 -12 -17 normal chunked
 	// lampas, pados
    00 sprites/peron1a.pcx 8bpp 1 1 44 37 -30 -17 normal chunked
    00 sprites/peron1a.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
@@ -216,8 +228,9 @@
    // objektumos kozepek
    00 * 00	02 04 08 00 01 08 00	// lampas, viragladas
    00 * 00	02 04 09 00 01 09 00	// lampas, kukas
-   00 * 00	02 04 0A 00 01 0A 00	// lampas, pados
-   00 * 00	02 04 0B 00 01 0B 00	// lampas, kukas, pados
+   00 * 00	02 04 0A 00 01 0A 00	// pados, viragladas
+   00 * 00	02 04 0B 00 01 0B 00	// lampas, pados
+   00 * 00	02 04 0C 00 01 0C 00	// lampas, kukas, pados
 
 
 
@@ -262,13 +275,13 @@
 			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
 			08							// hany darab random lehetosegunk van
 			03 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			03 00			// 6 a nem kopott, ures
-			03 00
-			03 00
+			03 00			// 4 a nem kopott, ures
 			03 00
 			03 00
 			04 00			// 1 a kopott 1
 			05 00			// 1 a kopott 2
+			0A 00			// ketszer van a pados, viragladas
+			0A 00
 
 // TODO: FIGYELEM: Ezt ha paratlanra allitom, akkor hibat dob, tehat van valami koze ahhoz, hogy mindig parosaval tolti be, vagy ilyesmi
 	// lampas randomizaciok
@@ -278,8 +291,8 @@
 			04							// hany darab random lehetosegunk van
 			08 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			09 00
-			0A 00
 			0B 00
+			0C 00
 
 	// negyedik lekerdezes, ami mar nem a szelso elemeket randomizalja
 	// itt konkretan szetvalasztom, hogy minden harmadik lampas elem, a tobbi meg nem :D
