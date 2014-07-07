@@ -21,10 +21,21 @@
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
 
-			09 16	// ez mar a konkret tile-okat jelenti, hogy hany darab van belole
+			09 18	// ez mar a konkret tile-okat jelenti, hogy hany darab van belole
 
 
 		// 00
+			// menu grafika
+			F4 03 00 00
+			00 00 00	00 00 00	2D 04 00 00
+			80
+
+			// b hatulja
+			F3 03 00 00
+			00 00 00	00 00 00	2E 04 00 00
+			80
+
+		// 01
 			// a hatulja, kopott 1 (eszakrol)
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
@@ -35,7 +46,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 			
-		// 01
+		// 02
 			// a hatulja, kopott 2 (eszakrol)
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
@@ -47,7 +58,7 @@
 			80
 
 
-		// 02
+		// 03
 			// a nem kopott kozepe
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
@@ -58,7 +69,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 			
-		// 03
+		// 04
 			// a kopott kozepe 1
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
@@ -69,7 +80,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 			
-		// 04
+		// 05
 			// a kopott kozepe 2
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
@@ -80,7 +91,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 05
+		// 06
 			// a eleje
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
@@ -91,7 +102,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 06
+		// 07
 			// 1a eleje
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
@@ -104,7 +115,7 @@
 
 
 		// kozepso elemek
-		// 07, lampas, viragladas
+		// 08, lampas, viragladas
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -113,7 +124,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 08, lampas, kukas
+		// 09, lampas, kukas
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -122,7 +133,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 09, lampas, pados
+		// 0A, lampas, pados
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -131,7 +142,7 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-		// 0A, lampas, kukas, pados
+		// 0B, lampas, kukas, pados
 			F4 03 00 00
 			00 00 00	00 00 00	2D 04 00 00
 			80
@@ -140,9 +151,12 @@
 			00 00 00	00 00 00	2E 04 00 00
 			80
 
-   00 * 00	01 04 0B 02
+   00 * 00	01 04 0C 02
 
-   // alap ures kepek
+	// menu grafika
+   00 sprites/peron1a.pcx 8bpp 46 1 44 37 -31 -15 normal chunked
+   00 sprites/peron1a.pcx 8bpp 46 39 44 37 -11 -15 normal chunked
+
 	// eszakrol az elso (hatulja)
 	// kopott 1
    00 sprites/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
@@ -190,19 +204,20 @@
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
-   00 * 00	02 04 00 00 01 00 00	// kopott hatulja 1
-   00 * 00	02 04 01 00 01 01 00	// kopott hatulja 2
-   00 * 00	02 04 02 00 01 02 00	// nem kopott kozepe
-   00 * 00	02 04 03 00 01 03 00	// kopott kozepe 1
-   00 * 00	02 04 04 00 01 04 00	// kopott kozepe 2
-   00 * 00	02 04 05 00 01 05 00	// kopott eleje 1
-   00 * 00	02 04 06 00 01 06 00	// kopott eleje 2
+   00 * 00	02 04 00 00 01 00 00	// menu grafika
+   00 * 00	02 04 01 00 01 01 00	// kopott hatulja 1
+   00 * 00	02 04 02 00 01 02 00	// kopott hatulja 2
+   00 * 00	02 04 03 00 01 03 00	// nem kopott kozepe
+   00 * 00	02 04 04 00 01 04 00	// kopott kozepe 1
+   00 * 00	02 04 05 00 01 05 00	// kopott kozepe 2
+   00 * 00	02 04 06 00 01 06 00	// kopott eleje 1
+   00 * 00	02 04 07 00 01 07 00	// kopott eleje 2
    
    // objektumos kozepek
-   00 * 00	02 04 07 00 01 07 00	// lampas, viragladas
-   00 * 00	02 04 08 00 01 08 00	// lampas, kukas
-   00 * 00	02 04 09 00 01 09 00	// lampas, pados
-   00 * 00	02 04 0A 00 01 0A 00	// lampas, kukas, pados
+   00 * 00	02 04 08 00 01 08 00	// lampas, viragladas
+   00 * 00	02 04 09 00 01 09 00	// lampas, kukas
+   00 * 00	02 04 0A 00 01 0A 00	// lampas, pados
+   00 * 00	02 04 0B 00 01 0B 00	// lampas, kukas, pados
 
 
 
@@ -228,16 +243,16 @@
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
-			00 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			01 00						// ezzel a modszerrel 1:1 eselye, hogy melyik lesz....
+			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			02 00						// ezzel a modszerrel 1:1 eselye, hogy melyik lesz....
 			
 // deli vegenek randomizacioja
    00 * 00	02 04 92
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
-			05 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			06 00						// ezzel a modszerrel 1:1 eselye, hogy melyik lesz....
+			06 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			07 00						// ezzel a modszerrel 1:1 eselye, hogy melyik lesz....
 
 // kozepso lekerdezesek.....
 // minden harmadik mezore legyen igaz az eszaki vegetol szamitva, ez annak a feltetele, hogy harmadik-e...
@@ -246,14 +261,14 @@
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
 			08							// hany darab random lehetosegunk van
-			02 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			02 00			// 6 a nem kopott, ures
-			02 00
-			02 00
-			02 00
-			02 00
-			03 00			// 1 a kopott 1
-			04 00			// 1 a kopott 2
+			03 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			03 00			// 6 a nem kopott, ures
+			03 00
+			03 00
+			03 00
+			03 00
+			04 00			// 1 a kopott 1
+			05 00			// 1 a kopott 2
 
 // TODO: FIGYELEM: Ezt ha paratlanra allitom, akkor hibat dob, tehat van valami koze ahhoz, hogy mindig parosaval tolti be, vagy ilyesmi
 	// lampas randomizaciok
@@ -261,10 +276,10 @@
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			04							// hany darab random lehetosegunk van
-			07 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			08 00
+			08 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			09 00
 			0A 00
+			0B 00
 
 	// negyedik lekerdezes, ami mar nem a szelso elemeket randomizalja
 	// itt konkretan szetvalasztom, hogy minden harmadik lampas elem, a tobbi meg nem :D
@@ -327,7 +342,7 @@
 			01							// one range
 //			FA 00 13 00 13 00			// lekerdezzuk, hogy elerheto-e, tehat a 13 callback az elerhetoseg???
 			00 80 14 00 14 00			// use layouts 06/07 during callback 14
-			02 00						// menu grafika....
+			00 00						// menu grafika....
 
 //   00 * 00	03 04 01 05 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
    00 * 00	03 04 01 05
