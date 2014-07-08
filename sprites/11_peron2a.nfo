@@ -121,8 +121,8 @@
    00 * 00	01 04 0A 02
 
 	// menu grafika
-   00 sprites/peron2a.pcx 8bpp 45 0 44 39 -32 -19 normal chunked
-   00 sprites/peron2a.pcx 8bpp 45 40 44 39 -10 -19 normal chunked
+   00 sprites/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
+   00 sprites/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
 
 	// egyeduli peron
    00 sprites/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked

@@ -539,8 +539,8 @@
    69 * 4	 01 04 0E 02
 
 	// menu grafika
-   70 sprites/peron1a.pcx 8bpp 45 0 44 37 -31 -15 normal chunked
-   71 sprites/peron1a.pcx 8bpp 45 38 44 37 -11 -15 normal chunked
+   70 sprites/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+   71 sprites/peron1a.pcx 8bpp 45 38 44 37 -11 -16 normal chunked
 
 	// egyeduli peron
    72 sprites/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
@@ -1245,8 +1245,8 @@
   176 * 4	 01 04 0A 02
 
 	// menu grafika
-  177 sprites/peron2a.pcx 8bpp 45 0 44 39 -32 -19 normal chunked
-  178 sprites/peron2a.pcx 8bpp 45 40 44 39 -10 -19 normal chunked
+  177 sprites/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
+  178 sprites/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
 
 	// egyeduli peron
   179 sprites/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
@@ -1536,8 +1536,8 @@
   217 * 4	 01 04 09 02
 
 	// menu grafika
-  218 sprites/peron2b.pcx 8bpp 0 0 44 39 -10 -5 normal chunked
-  219 sprites/peron2b.pcx 8bpp 0 40 44 39 -32 -5 normal chunked
+  218 sprites/peron2b.pcx 8bpp 0 0 44 39 -10 -7 normal chunked
+  219 sprites/peron2b.pcx 8bpp 0 40 44 39 -32 -7 normal chunked
 
 	// egyeduli peron
   220 sprites/peron2.pcx 8bpp 91 77 44 39 -10 -7 normal chunked
