@@ -528,8 +528,8 @@
    69 * 4	 01 04 0D 02
 
 	// menu grafika
-   70 sprites/peron1a.pcx 8bpp 46 1 44 37 -31 -15 normal chunked
-   71 sprites/peron1a.pcx 8bpp 46 39 44 37 -11 -15 normal chunked
+   70 sprites/peron1a.pcx 8bpp 45 0 44 37 -31 -15 normal chunked
+   71 sprites/peron1a.pcx 8bpp 45 38 44 37 -11 -15 normal chunked
 
 	// eszakrol az elso (hatulja)
 	// kopott 1
@@ -568,14 +568,14 @@
 
    // kozepso sajat spiretok
 	// pados, viragladas
-   90 sprites/peron1a.pcx 8bpp 91 1 44 37 -30 -17 normal chunked
-   91 sprites/peron1a.pcx 8bpp 91 39 44 37 -12 -17 normal chunked
+   90 sprites/peron1a.pcx 8bpp 90 0 44 37 -30 -17 normal chunked
+   91 sprites/peron1a.pcx 8bpp 90 38 44 37 -12 -17 normal chunked
 	// lampas, pados
-   92 sprites/peron1a.pcx 8bpp 1 1 44 37 -30 -17 normal chunked
-   93 sprites/peron1a.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
+   92 sprites/peron1a.pcx 8bpp 0 0 44 37 -30 -17 normal chunked
+   93 sprites/peron1a.pcx 8bpp 0 38 44 37 -12 -17 normal chunked
 	// lampas, kukas, pados
-   94 sprites/peron1a.pcx 8bpp 46 1 44 37 -30 -17 normal chunked
-   95 sprites/peron1a.pcx 8bpp 46 39 44 37 -12 -17 normal chunked
+   94 sprites/peron1a.pcx 8bpp 45 0 44 37 -30 -17 normal chunked
+   95 sprites/peron1a.pcx 8bpp 45 38 44 37 -12 -17 normal chunked
 
 
 
@@ -877,8 +877,8 @@
   120 * 4	 01 04 0C 02
 
 	// menu grafika
-  121 sprites/peron1b.pcx 8bpp 1 1 44 37 -10 -5 normal chunked
-  122 sprites/peron1b.pcx 8bpp 1 39 44 37 -32 -5 normal chunked
+  121 sprites/peron1b.pcx 8bpp 0 0 44 37 -10 -5 normal chunked
+  122 sprites/peron1b.pcx 8bpp 0 38 44 37 -32 -5 normal chunked
 
 	// eszakrol az elso (hatulja)
 	// kopott 1
@@ -917,11 +917,11 @@
 
    // kozepso sajat spiretok
 	// pados, viragladas
-  141 sprites/peron1b.pcx 8bpp 1 1 44 37 -8 -6 normal chunked
-  142 sprites/peron1b.pcx 8bpp 1 39 44 37 -34 -6 normal chunked
+  141 sprites/peron1b.pcx 8bpp 0 0 44 37 -8 -6 normal chunked
+  142 sprites/peron1b.pcx 8bpp 0 38 44 37 -34 -6 normal chunked
 	// lampas, pados
-  143 sprites/peron1b.pcx 8bpp 46 1 44 37 -8 -6 normal chunked
-  144 sprites/peron1b.pcx 8bpp 46 39 44 37 -34 -6 normal chunked
+  143 sprites/peron1b.pcx 8bpp 45 0 44 37 -8 -6 normal chunked
+  144 sprites/peron1b.pcx 8bpp 45 38 44 37 -34 -6 normal chunked
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
@@ -1227,9 +1227,11 @@
 
 
   180 * 4	 01 04 01 02
-  181 sprites/peron1.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
+  181 sprites/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
+  182 sprites/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
+//   00 sprites/peron1.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
 //   00 sprites/peron1.pcx 8bpp 91 39 44 24 -28 9 normal chunked		// 1b eleje
-  182 sprites/peron1.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
+//   00 sprites/peron1.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
 //   00 sprites/peron1.pcx 8bpp 91 39 44 24 -28 9 normal chunked		// 1b eleje
 
   183 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
@@ -1237,9 +1239,11 @@
 
 
   184 * 4	 01 04 01 02
-  185 sprites/peron1.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
+  185 sprites/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
+  186 sprites/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
 //   00 sprites/peron1.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
-  186 sprites/peron1.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
+//   00 sprites/peron1.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
+//   00 sprites/peron1.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
 //   00 sprites/peron1.pcx 8bpp 46 39 44 24 -32 6 normal chunked		// 1b kozepso
 
   187 * 7	 02 04 01 00 01 00 00	// hatulja
@@ -1247,13 +1251,17 @@
 
 
   188 * 4	 01 04 01 04
-  189 sprites/peron1.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
+  189 sprites/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
+  190 sprites/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
+  191 sprites/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
+  192 sprites/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+//   00 sprites/peron1.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
 //   00 sprites/peron1.pcx 8bpp 1 64 22 24 -9 7 normal chunked			// valami
-  190 sprites/peron1.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
 //   00 sprites/peron1.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
-  191 sprites/peron1.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
+//   00 sprites/peron1.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
+//   00 sprites/peron1.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
 //   00 sprites/peron1.pcx 8bpp 1 64 22 24 -9 7 normal chunked			// valami
-  192 sprites/peron1.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
+//   00 sprites/peron1.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
 //   00 sprites/peron1.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
 
   193 * 7	 02 04 02 00 01 00 00	// objektumok

@@ -147,8 +147,8 @@
    00 * 00	01 04 0C 02
 
 	// menu grafika
-   00 sprites/peron1b.pcx 8bpp 1 1 44 37 -10 -5 normal chunked
-   00 sprites/peron1b.pcx 8bpp 1 39 44 37 -32 -5 normal chunked
+   00 sprites/peron1b.pcx 8bpp 0 0 44 37 -10 -5 normal chunked
+   00 sprites/peron1b.pcx 8bpp 0 38 44 37 -32 -5 normal chunked
 
 	// eszakrol az elso (hatulja)
 	// kopott 1
@@ -187,11 +187,11 @@
 
    // kozepso sajat spiretok
 	// pados, viragladas
-   00 sprites/peron1b.pcx 8bpp 1 1 44 37 -8 -6 normal chunked
-   00 sprites/peron1b.pcx 8bpp 1 39 44 37 -34 -6 normal chunked
+   00 sprites/peron1b.pcx 8bpp 0 0 44 37 -8 -6 normal chunked
+   00 sprites/peron1b.pcx 8bpp 0 38 44 37 -34 -6 normal chunked
 	// lampas, pados
-   00 sprites/peron1b.pcx 8bpp 46 1 44 37 -8 -6 normal chunked
-   00 sprites/peron1b.pcx 8bpp 46 39 44 37 -34 -6 normal chunked
+   00 sprites/peron1b.pcx 8bpp 45 0 44 37 -8 -6 normal chunked
+   00 sprites/peron1b.pcx 8bpp 45 38 44 37 -34 -6 normal chunked
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...

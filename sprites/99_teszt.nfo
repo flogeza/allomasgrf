@@ -111,9 +111,11 @@
 
 
    00 * 00	01 04 01 02
-   00 sprites/peron1.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
+   00 sprites/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
+   00 sprites/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
+//   00 sprites/peron1.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
 //   00 sprites/peron1.pcx 8bpp 91 39 44 24 -28 9 normal chunked		// 1b eleje
-   00 sprites/peron1.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
+//   00 sprites/peron1.pcx 8bpp 91 1 44 24 -15 10 normal chunked			// 1a eleje
 //   00 sprites/peron1.pcx 8bpp 91 39 44 24 -28 9 normal chunked		// 1b eleje
 
    00 * 00	02 04 00 00 01 00 00	// (eleje) hatulja
@@ -121,9 +123,11 @@
 
 
    00 * 00	01 04 01 02
-   00 sprites/peron1.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
+   00 sprites/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
 //   00 sprites/peron1.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
-   00 sprites/peron1.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
+//   00 sprites/peron1.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
+//   00 sprites/peron1.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
 //   00 sprites/peron1.pcx 8bpp 46 39 44 24 -32 6 normal chunked		// 1b kozepso
 
    00 * 00	02 04 01 00 01 00 00	// hatulja
@@ -131,13 +135,17 @@
 
 
    00 * 00	01 04 01 04
-   00 sprites/peron1.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
+   00 sprites/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
+   00 sprites/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+//   00 sprites/peron1.pcx 8bpp 46 1 44 24 -11 7 normal chunked			// 1a kozepso
 //   00 sprites/peron1.pcx 8bpp 1 64 22 24 -9 7 normal chunked			// valami
-   00 sprites/peron1.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
 //   00 sprites/peron1.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
-   00 sprites/peron1.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
+//   00 sprites/peron1.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
+//   00 sprites/peron1.pcx 8bpp 46 39 44 24 -32 6 normal chunked			// 1b kozepso
 //   00 sprites/peron1.pcx 8bpp 1 64 22 24 -9 7 normal chunked			// valami
-   00 sprites/peron1.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
+//   00 sprites/peron1.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
 //   00 sprites/peron1.pcx 8bpp 46 64 13 24 -9 7 normal chunked			// oszlop
 
    00 * 00	02 04 02 00 01 00 00	// objektumok
