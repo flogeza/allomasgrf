@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 CA 00 00 00
+    0 * 4	 C4 00 00 00
     1 * 39	 14 "CINFOTURL_" 7F "http:valami.hu/megvalami" 00 00 00				// url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// versio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
@@ -1358,32 +1358,12 @@
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
    AA 00								// ha nem menu, akkor AA action2-re
 
-//******************************************************************************************************************************************************//
-//																																						//
-//																	Strings																				//
-//																																						//
-//******************************************************************************************************************************************************//
-
-
 //**************************************//
-//				Nyugati pu.				//
+//				Strings					//
 //**************************************//
 
-  192 * 28	 04 04 FF 01 00 C4 "ÞNyugati pályaudvar" 00
-  193 * 25	 04 04 FF 01 00 C5 "ÞFőépületrész" 00
-  194 * 15	 04 04 FF 01 01 C5 "Torony 1" 00
-  195 * 15	 04 04 FF 01 02 C5 "Torony 2" 00
-  196 * 25	 04 04 FF 01 03 C5 "ÞOMelléképület" 00
-  197 * 14	 04 04 FF 01 04 C5 "Csarnok" 00
-
-
-
-//**************************************//
-//				Peronok					//
-//**************************************//
-
-  198 * 21	 04 04 FF 01 05 C4 "Magyar peronok" 00
-  199 * 15	 04 04 FF 01 05 C5 "Peron 1a" 00
-  200 * 15	 04 04 FF 01 06 C5 "Peron 1b" 00
-  201 * 15	 04 04 FF 01 07 C5 "Peron 2a" 00
-  202 * 15	 04 04 FF 01 08 C5 "Peron 2b" 00
+  192 * 21	 04 04 FF 01 05 C4 "Magyar peronok" 00
+  193 * 15	 04 04 FF 01 05 C5 "Peron 1a" 00
+  194 * 15	 04 04 FF 01 06 C5 "Peron 1b" 00
+  195 * 15	 04 04 FF 01 07 C5 "Peron 2a" 00
+  196 * 15	 04 04 FF 01 08 C5 "Peron 2b" 00
