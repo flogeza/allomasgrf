@@ -43,205 +43,205 @@
 		// 00
 			// menu grafika
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			// menu grafika
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 01
 			// egyeduli peron
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			// egyeduli peron
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 02
 			// a hatulja, kopott 1 (eszakrol)
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			// b hatulja
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 03
 			// a hatulja, kopott 2 (eszakrol)
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			// b hatulja
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 
 		// 04
 			// a nem kopott kozepe
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			// b sima kozepe
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 05
 			// a kopott kozepe 1
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			// b sima kozepe
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 06
 			// a kopott kozepe 2
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			// b sima kozepe
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 07
 			// a eleje
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			// b eleje
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 08
 			// 1a eleje
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			// 1b eleje
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 
 		// kozepso elemek
 		// 09, lampas, viragladas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 0A, lampas, kukas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 0B, pados, viragladas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 0C, lampas, pados
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 0D, lampas, kukas, pados
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 01	10 05 1F	2D 04 00 00
 			80
 
 			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
+			00 00 01	05 10 1F	2E 04 00 00
 			80
 
     7 * 4	 01 04 0E 02
 
 	// menu grafika
-    8 sprites/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
-    9 sprites/peron1a.pcx 8bpp 45 38 44 37 -11 -16 normal chunked
+    8 sprites/peron1a.pcx 8bpp 45 0 44 37 -32 -15 normal chunked
+    9 sprites/peron1a.pcx 8bpp 45 38 44 37 -10 -15 normal chunked
 
 	// egyeduli peron
-   10 sprites/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
-   11 sprites/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
+   10 sprites/peron1.pcx 8bpp 181 77 44 37 -33 -14 normal chunked
+   11 sprites/peron1.pcx 8bpp 181 115 44 37 -9 -14 normal chunked
 
 	// eszakrol az elso (hatulja)
 	// kopott 1
-   12 sprites/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
-   13 sprites/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
+   12 sprites/peron1.pcx 8bpp 91 1 44 37 -37 -12 normal chunked
+   13 sprites/peron1.pcx 8bpp 91 39 44 37 -5 -12 normal chunked
 	// kopott 2
-   14 sprites/peron1.pcx 8bpp 136 1 44 37 -34 -14 normal chunked
-   15 sprites/peron1.pcx 8bpp 136 39 44 37 -8 -14 normal chunked
+   14 sprites/peron1.pcx 8bpp 136 1 44 37 -37 -12 normal chunked
+   15 sprites/peron1.pcx 8bpp 136 39 44 37 -5 -12 normal chunked
 
 	// ures kozepso
 	// nem kopott
-   16 sprites/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
-   17 sprites/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
+   16 sprites/peron1.pcx 8bpp 181 1 44 37 -33 -15 normal chunked
+   17 sprites/peron1.pcx 8bpp 181 39 44 37 -9 -15 normal chunked
 	// kopott 1
-   18 sprites/peron1.pcx 8bpp 91 77 44 37 -30 -17 normal chunked
-   19 sprites/peron1.pcx 8bpp 91 115 44 37 -12 -17 normal chunked
+   18 sprites/peron1.pcx 8bpp 91 77 44 37 -33 -15 normal chunked
+   19 sprites/peron1.pcx 8bpp 91 115 44 37 -9 -15 normal chunked
 	// kopott 2
-   20 sprites/peron1.pcx 8bpp 136 77 44 37 -30 -17 normal chunked
-   21 sprites/peron1.pcx 8bpp 136 115 44 37 -12 -17 normal chunked
+   20 sprites/peron1.pcx 8bpp 136 77 44 37 -33 -15 normal chunked
+   21 sprites/peron1.pcx 8bpp 136 115 44 37 -9 -15 normal chunked
 
 	// eleje (delro)
 	// kopott 1
-   22 sprites/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
-   23 sprites/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
+   22 sprites/peron1.pcx 8bpp 1 1 44 37 -31 -15 normal chunked
+   23 sprites/peron1.pcx 8bpp 1 39 44 37 -9 -15 normal chunked
 	// kopott 2
-   24 sprites/peron1.pcx 8bpp 46 1 44 37 -28 -17 normal chunked
-   25 sprites/peron1.pcx 8bpp 46 39 44 37 -12 -17 normal chunked
+   24 sprites/peron1.pcx 8bpp 46 1 44 37 -31 -15 normal chunked
+   25 sprites/peron1.pcx 8bpp 46 39 44 37 -9 -15 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
-   26 sprites/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
-   27 sprites/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+   26 sprites/peron1.pcx 8bpp 1 77 44 37 -33 -15 normal chunked
+   27 sprites/peron1.pcx 8bpp 1 115 44 37 -9 -15 normal chunked
 	// lampas, kukas
-   28 sprites/peron1.pcx 8bpp 46 77 44 37 -30 -17 normal chunked
-   29 sprites/peron1.pcx 8bpp 46 115 44 37 -12 -17 normal chunked
+   28 sprites/peron1.pcx 8bpp 46 77 44 37 -33 -15 normal chunked
+   29 sprites/peron1.pcx 8bpp 46 115 44 37 -9 -15 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
-   30 sprites/peron1a.pcx 8bpp 90 0 44 37 -30 -17 normal chunked
-   31 sprites/peron1a.pcx 8bpp 90 38 44 37 -12 -17 normal chunked
+   30 sprites/peron1a.pcx 8bpp 90 0 44 37 -33 -15 normal chunked
+   31 sprites/peron1a.pcx 8bpp 90 38 44 37 -9 -15 normal chunked
 	// lampas, pados
-   32 sprites/peron1a.pcx 8bpp 0 0 44 37 -30 -17 normal chunked
-   33 sprites/peron1a.pcx 8bpp 0 38 44 37 -12 -17 normal chunked
+   32 sprites/peron1a.pcx 8bpp 0 0 44 37 -33 -15 normal chunked
+   33 sprites/peron1a.pcx 8bpp 0 38 44 37 -9 -15 normal chunked
 	// lampas, kukas, pados
-   34 sprites/peron1a.pcx 8bpp 45 0 44 37 -30 -17 normal chunked
-   35 sprites/peron1a.pcx 8bpp 45 38 44 37 -12 -17 normal chunked
+   34 sprites/peron1a.pcx 8bpp 45 0 44 37 -33 -15 normal chunked
+   35 sprites/peron1a.pcx 8bpp 45 38 44 37 -9 -15 normal chunked
 
 
 
@@ -425,139 +425,139 @@
 		// 00
 			// menu grafika
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			// menu grafika
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 01
 			// egyeduli peron
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			// egyeduli peron
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 02
 			// a hatulja, kopott 1 (eszakrol)
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			// b hatulja
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 03
 			// a hatulja, kopott 2 (eszakrol)
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			// b hatulja
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 
 		// 04
 			// a nem kopott kozepe
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			// b sima kozepe
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 05
 			// a kopott kozepe 1
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			// b sima kozepe
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 06
 			// a kopott kozepe 2
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			// b sima kozepe
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 07
 			// a eleje
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			// b eleje
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 08
 			// 1a eleje
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			// 1b eleje
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 
 		// kozepso elemek
 		// 09, lampas, viragladas
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 0A, lampas, kukas
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 0B, pados, viragladas
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 		// 0C, lampas, pados
 			F4 03 00 00
-			00 0A 00	10 05 1F	2D 04 00 00
+			00 0B 01	10 05 1F	2D 04 00 00
 			80
 
 			F3 03 00 00
-			0A 00 00	05 10 1F	2E 04 00 00
+			0B 00 01	05 10 1F	2E 04 00 00
 			80
 
 
@@ -565,54 +565,54 @@
 
 	// menu grafika
    63 sprites/peron1b.pcx 8bpp 0 0 44 37 -30 -15 normal chunked // -10, -5
-   64 sprites/peron1b.pcx 8bpp 0 38 44 37 -12 -15 normal chunked
+   64 sprites/peron1b.pcx 8bpp 0 38 44 37 -10 -15 normal chunked
 
 	// egyeduli peron
-   65 sprites/peron1.pcx 8bpp 181 77 44 37 -31 -15 normal chunked
-   66 sprites/peron1.pcx 8bpp 181 115 44 37 -11 -14 normal chunked
+   65 sprites/peron1.pcx 8bpp 181 77 44 37 -33 -14 normal chunked
+   66 sprites/peron1.pcx 8bpp 181 115 44 37 -10 -14 normal chunked
 
 	// eszakrol az elso (hatulja)
 	// kopott 1
    67 sprites/peron1.pcx 8bpp 91 1 44 37 -37 -12 normal chunked
-   68 sprites/peron1.pcx 8bpp 91 39 44 37 -7 -12 normal chunked
+   68 sprites/peron1.pcx 8bpp 91 39 44 37 -6 -12 normal chunked
 	// kopott 2
    69 sprites/peron1.pcx 8bpp 136 1 44 37 -37 -12 normal chunked
-   70 sprites/peron1.pcx 8bpp 136 39 44 37 -7 -12 normal chunked
+   70 sprites/peron1.pcx 8bpp 136 39 44 37 -6 -12 normal chunked
 
 	// ures kozepso
 	// nem kopott
    71 sprites/peron1.pcx 8bpp 181 1 44 37 -33 -15 normal chunked
-   72 sprites/peron1.pcx 8bpp 181 39 44 37 -11 -15 normal chunked
+   72 sprites/peron1.pcx 8bpp 181 39 44 37 -10 -15 normal chunked
 	// kopott 1
    73 sprites/peron1.pcx 8bpp 91 77 44 37 -33 -15 normal chunked
-   74 sprites/peron1.pcx 8bpp 91 115 44 37 -11 -15 normal chunked
+   74 sprites/peron1.pcx 8bpp 91 115 44 37 -10 -15 normal chunked
 	// kopott 2
    75 sprites/peron1.pcx 8bpp 136 77 44 37 -33 -15 normal chunked
-   76 sprites/peron1.pcx 8bpp 136 115 44 37 -11 -15 normal chunked
+   76 sprites/peron1.pcx 8bpp 136 115 44 37 -10 -15 normal chunked
 
 	// eleje (delro)
 	// kopott 1
    77 sprites/peron1.pcx 8bpp 1 1 44 37 -31 -15 normal chunked
-   78 sprites/peron1.pcx 8bpp 1 39 44 37 -11 -15 normal chunked
+   78 sprites/peron1.pcx 8bpp 1 39 44 37 -10 -15 normal chunked
 	// kopott 2
    79 sprites/peron1.pcx 8bpp 46 1 44 37 -31 -15 normal chunked
-   80 sprites/peron1.pcx 8bpp 46 39 44 37 -11 -15 normal chunked
+   80 sprites/peron1.pcx 8bpp 46 39 44 37 -10 -15 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
    81 sprites/peron1.pcx 8bpp 1 77 44 37 -33 -15 normal chunked
-   82 sprites/peron1.pcx 8bpp 1 115 44 37 -11 -15 normal chunked
+   82 sprites/peron1.pcx 8bpp 1 115 44 37 -10 -15 normal chunked
 	// lampas, kukas
    83 sprites/peron1.pcx 8bpp 46 77 44 37 -33 -15 normal chunked
-   84 sprites/peron1.pcx 8bpp 46 115 44 37 -11 -15 normal chunked
+   84 sprites/peron1.pcx 8bpp 46 115 44 37 -10 -15 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
    85 sprites/peron1b.pcx 8bpp 0 0 44 37 -33 -15 normal chunked
-   86 sprites/peron1b.pcx 8bpp 0 38 44 37 -11 -15 normal chunked
+   86 sprites/peron1b.pcx 8bpp 0 38 44 37 -10 -15 normal chunked
 	// lampas, pados
    87 sprites/peron1b.pcx 8bpp 45 0 44 37 -33 -15 normal chunked
-   88 sprites/peron1b.pcx 8bpp 45 38 44 37 -11 -15 normal chunked
+   88 sprites/peron1b.pcx 8bpp 45 38 44 37 -10 -15 normal chunked
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
