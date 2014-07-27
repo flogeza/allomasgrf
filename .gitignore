@@ -8,3 +8,5 @@ allomasgrf.xcodeproj
 build.sh
 create.sh
 reloadOTTD.scpt
+
+sprites/teszt.pcx
