@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 3E 01 00 00
+    0 * 4	 43 01 00 00
     1 * 39	 14 "CINFOTURL_" 7F "http:valami.hu/megvalami" 00 00 00				// url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// versio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
@@ -2006,13 +2006,25 @@
 //				Strings					//
 //**************************************//
 
-//!!Warning (144): Offset 17: Control character 88 should not be used in this string.
-//!!Warning (144): Offset 30: Control character 89 should not be used in this string.
-  288 * 42	 04 04 FF 01 05 C4 "ÞOPeronok \88automatikus \89egyoldalú" 00
-  289 * 34	 04 04 FF 01 05 C5 "ÞORégi alacsony hátulsó" 00
-  290 * 33	 04 04 FF 01 06 C5 "ÞORégi alacsony elülső"  00
-  291 * 31	 04 04 FF 01 07 C5 "ÞORégi magas hátulsó" 00
-  292 * 30	 04 04 FF 01 08 C5 "ÞORégi magas elülső" 00
+// menu
+  288 * 42	 04 04 FF 01 05 C4 "Platforms (automatic)(single sided)" 00
+  289 * 42	 04 04 A4 01 05 C4 "ÞPeronok (automatikus)(egyoldalú)" 00
+
+// Peron1a
+  290 * 22	 04 04 FF 01 05 C5 "Old (low)(back)" 00
+  291 * 36	 04 04 A4 01 05 C5 "ÞRégi (alacsony)(hátulsó)" 00
+
+// Peron1b
+  292 * 24	 04 04 FF 01 06 C5 "Old (low)(front) "  00
+  293 * 35	 04 04 A4 01 06 C5 "ÞRégi (alacsony)(elülső)"  00
+
+// Peron2a
+  294 * 23	 04 04 FF 01 07 C5 "Old (high)(back)" 00
+  295 * 33	 04 04 A4 01 07 C5 "ÞRégi (magas)(hátulsó)" 00
+
+// Peron2b
+  296 * 24	 04 04 FF 01 08 C5 "Old (high)(front)" 00
+  297 * 32	 04 04 A4 01 08 C5 "ÞRégi (magas)(elülső)" 00
 
 
 
@@ -2023,21 +2035,21 @@
 //******************************************************************************************************************************************************//
 
 
-  293 * 11	 02 04 40				// Procedure to compute the slope-dependent spriteoffset
+  298 * 11	 02 04 40				// Procedure to compute the slope-dependent spriteoffset
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
 			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			00 00
 
-  294 * 11	 02 04 41				// Procedure to compute the climate-dependent spriteoffset
+  299 * 11	 02 04 41				// Procedure to compute the climate-dependent spriteoffset
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
 			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			00 00
 
-  295 * 11	 02 04 42				// Procedure to compute the height offset in the middle of the tile
+  300 * 11	 02 04 42				// Procedure to compute the height offset in the middle of the tile
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -2047,7 +2059,7 @@
 
 
 
-  296 * 160	 00 04 04 01 FE 08 "PKST"
+  301 * 160	 00 04 04 01 FE 08 "PKST"
 //			11 00 14 FF 15 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -2125,36 +2137,36 @@
 			00 00 00		// extend
 
 
-  297 * 4	 01 04 01 02
-  298 sprites/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
-  299 sprites/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
+  302 * 4	 01 04 01 02
+  303 sprites/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
+  304 sprites/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
 
-  300 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
-
-
-
-  301 * 4	 01 04 01 02
-  302 sprites/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
-  303 sprites/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
-
-  304 * 7	 02 04 01 00 01 00 00	// hatulja
+  305 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
 
 
 
-  305 * 4	 01 04 01 04
-  306 sprites/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
-  307 sprites/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
-  308 sprites/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
-  309 sprites/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+  306 * 4	 01 04 01 02
+  307 sprites/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
+  308 sprites/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
 
-  310 * 7	 02 04 02 00 01 00 00	// objektumok
+  309 * 7	 02 04 01 00 01 00 00	// hatulja
+
+
+
+  310 * 4	 01 04 01 04
+  311 sprites/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
+  312 sprites/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
+  313 sprites/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
+  314 sprites/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+
+  315 * 7	 02 04 02 00 01 00 00	// objektumok
 
 
 //   00 * 00	02 04 01 00 01 01 00	// hatulja
 //   00 * 00	02 04 01 00 01 00 00	// hatulja
 
 	// lampas randomizaciok
-  311 * 11	 02 04 B0
+  316 * 11	 02 04 B0
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -2163,7 +2175,7 @@
 
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebken a harmadik lekerdezesre (10) ugrik
-  312 * 14	 02 04 A1
+  317 * 14	 02 04 A1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -2173,7 +2185,7 @@
 
 // callback handler for normal graphics (non-build menu)
 // ez az elso lekerdezes, ezzel kerdezem kezdem el a betoltendo  lekerdezeseket
-  313 * 17	 02 04 A0
+  318 * 17	 02 04 A0
 			85							// get word
 			0C							// check if callback
 			00
@@ -2186,7 +2198,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
-  314 * 17	 02 04 C0					// Set-ID C0
+  319 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 			00 80 14 00 14 00			// use layouts 06/07 during callback 14
@@ -2197,7 +2209,7 @@
 //           \dx 80000000 \wx20  00 00 00 10 10 30 11       // Draw building sprite at z-postion from register 0x11.
 //           \dx 80000001 \wx01  00 00 80          12       // Draw snow-overlay relative to building sprite, but only if register 0x12 is zero.
 
-  315 * 37	 02 04 D0 81
+  320 * 37	 02 04 D0 81
 					7E 40 20 FF                           // Get slope offset from procedure 40
              \2sto  1A    20 10                           // Store in register 0x10
              \2rst  7E 41 20 0F                           // Add climate offset from procedure 41
@@ -2215,7 +2227,7 @@
 
 //-1 * -1    03 0F 01 ?? \b 0 00                            // always procede at 00
 
-  316 * 10	 03 04 01 FE
+  321 * 10	 03 04 01 FE
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
    D0 00								// ha nem menu, akkor A0 action2-re
@@ -2227,5 +2239,5 @@
 //				Strings					//
 //**************************************//
 
-  317 * 22	 04 04 FF 01 FE C4 "HUNGARIAN TESZT" 00
-  318 * 12	 04 04 FF 01 FE C5 "TESZT" 00
+  322 * 22	 04 04 FF 01 FE C4 "HUNGARIAN TESZT" 00
+  323 * 12	 04 04 FF 01 FE C5 "TESZT" 00
