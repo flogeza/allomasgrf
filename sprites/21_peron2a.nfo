@@ -13,7 +13,7 @@
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
 
-			09 14	// ez mar a konkret tile-okat jelenti, hogy hany darab van belole
+			09 16	// ez mar a konkret tile-okat jelenti, hogy hany darab van belole
 
 
 		// 00
@@ -118,7 +118,16 @@
 			00 00 00	05 10 1F	2E 04 00 00
 			80
 
-   00 * 00	01 04 0A 02
+		// 0A, allomas tablas
+			F4 03 00 00
+			00 00 00	10 05 1F	2D 04 00 00
+			80
+
+			F3 03 00 00
+			00 00 00	05 10 1F	2E 04 00 00
+			80
+
+   00 * 00	01 04 0B 02
 
 	// menu grafika
    00 sprites/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
@@ -159,6 +168,10 @@
 	// lampas, kukas, pados
    00 sprites/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
    00 sprites/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
+   
+   // allomas tablas
+   00 sprites/peron2a.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
+   00 sprites/peron2a.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
 
    
 
@@ -176,6 +189,7 @@
    00 * 00	02 04 07 00 01 07 00	// pados, viragladas
    00 * 00	02 04 08 00 01 08 00	// lampas, pados
    00 * 00	02 04 09 00 01 09 00	// lampas, kukas, pados
+   00 * 00	02 04 0A 00 01 0A 00	// allomas tablas
 
 
 
@@ -232,7 +246,7 @@
 
 
 // ez a harmadik lekerdezes, ha a deli vege van, akkor betolti azt, egyebkent a kozepso lekerdezesekre ugrik...
-   00 * 00  02 04 A2
+   00 * 00  02 04 A3
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
@@ -241,12 +255,69 @@
 			B0 00						// ha nincs egyezes, akkor ide ugorjon
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebkent a harmadik lekerdezesre ugrik
-   00 * 00  02 04 A1
+   00 * 00  02 04 A2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
 			01							// hany darab variacio van
-			02 00 00 00					// 91 00 actione-re ugorjon, ha 00 min es 00 max range kozott van
+			02 00 00 00					// 02 00 actione-re ugorjon, ha 00 min es 00 max range kozott van
+			A3 00						// ha nincs egyezes, akkor ide ugorjon
+			
+			
+//
+// nagyobb vagy pont 8 hosszusagu
+//
+
+   00 * 00	02 04 E1
+			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			04							// shift eltolas
+			0F							// maszkolas
+			03							// hany darab variacio van
+			04 00 00 00					// deli vege
+			0A 00 01 01					// 0A 00 action a tablasok
+			B1 00 02 02					// B1 00 a lampas randomizaciok
+			A2 00						// ha nincs egyezes, akkor ide ugorjon
+
+   00 * 00	02 04 E0
+			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			00							// shift eltolas
+			0F							// maszkolas
+			02							// hany darab variacio van
+			02 00 00 00					// eszaki vege
+			0A 00 01 01					// 0A 00 action a tablasok
+//			B1 00 02 02					// B1 00 a lampas randomizaciok, direkt nincs ez bekapcsolva, mert igy nem jo
+			E1 00						// ha nincs egyezes, akkor ide ugorjon
+
+//
+// het hosszusag eseten
+//
+
+   00 * 00  02 04 D0
+			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			00							// shift eltolas
+			0F							// maszkolas
+			07							// hany darab variacio van
+			02 00 00 00					// eszaki vege
+			0A 00 01 01					// 0A 00 action a tablasok
+			B1 00 02 02					// B1 00 a lampas randomizaciok
+			B2 00 03 03					// B2 00 a sima kozepso randomizaciok
+			B1 00 04 04					// B1 00 a lampas randomizaciok
+			0A 00 05 05					// 0A 00 action a tablasok
+			04 00 06 06					// deli vege
+			A2 00						// ha nincs egyezes, akkor ide ugorjon
+
+//
+// elso lekerdezesek
+//
+
+// ez a masodik lekerdezes, ha kereken 7 hosszusagu
+   00 * 00  02 04 A1
+			81 49						// 81 lower byte, 40 type, Platform info and relative position
+			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
+			0F							// maszkolas
+			02							// hany darab variacio van
+			D0 00 07 07					// D0 00 action-re ugorjon, ha 07 min es 07 max range kozott van
+			E0 00 08 FF					// E0 00 action-re ugorjon, ha legalabb 8 hosszusagu
 			A2 00						// ha nincs egyezes, akkor ide ugorjon
 
 // ez az elso lekerdezes, ezzel kerdezem le

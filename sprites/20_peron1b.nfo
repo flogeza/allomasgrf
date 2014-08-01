@@ -332,6 +332,31 @@
 			01							// hany darab variacio van
 			91 00 00 00					// 91 00 actione-re ugorjon, ha 00 min es 00 max range kozott van
 			A3 00						// ha nincs egyezes, akkor ide ugorjon
+			
+			
+//
+// nagyobb vagy pont 8 hosszusagu
+//
+
+   00 * 00	02 04 E1
+			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			04							// shift eltolas
+			0F							// maszkolas
+			03							// hany darab variacio van
+			92 00 00 00					// deli vege
+			0D 00 01 01					// 0E 00 action a tablasok
+			B1 00 02 02					// B1 00 a lampas randomizaciok
+			A2 00						// ha nincs egyezes, akkor ide ugorjon
+
+   00 * 00	02 04 E0
+			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			00							// shift eltolas
+			0F							// maszkolas
+			02							// hany darab variacio van
+			91 00 00 00					// eszaki vege
+			0D 00 01 01					// 0E 00 action a tablasok
+//			B1 00 02 02					// B1 00 a lampas randomizaciok, direkt nincs ez bekapcsolva, mert igy nem jo
+			E1 00						// ha nincs egyezes, akkor ide ugorjon
 
 
 //
@@ -350,7 +375,7 @@
 			B1 00 04 04					// B1 00 a lampas randomizaciok
 			0D 00 05 05					// 0D 00 action a tablasok
 			92 00 06 06					// deli vege
-			B0 00						// ha nincs egyezes, akkor ide ugorjon
+			E0 00						// ha nincs egyezes, akkor ide ugorjon
 
 //
 // elso lekerdezesek
@@ -361,9 +386,9 @@
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
-			01							// hany darab variacio van
+			02							// hany darab variacio van
 			D0 00 07 07					// D0 00 action-re ugorjon, ha 07 min es 07 max range kozott van
-//			E0 00 08 FF					// E0 00 action-re ugorjon, ha legalabb 8 hosszusagu
+			E0 00 08 FF					// E0 00 action-re ugorjon, ha legalabb 8 hosszusagu
 			A2 00						// ha nincs egyezes, akkor ide ugorjon
 
 // ez az elso lekerdezes, ezzel kerdezem le
