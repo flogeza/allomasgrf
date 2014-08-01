@@ -5,13 +5,13 @@
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
     0 * 4	 F1 00 00 00
-    1 * 39	 14 "CINFOTURL_" 7F "http:valami.hu/megvalami" 00 00 00				// url cim
-    2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// versio szama
+    1 * 66	 14 "CINFOTURL_" 7F "http://www.tt-forums.net/viewtopic.php?f=67&t=70997" 00 00 00				// url cim
+    2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// verzio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
     4 * 16	 14 "CINFOBPALS" 01 00 57 00 00										// milyen szin palettat hasznaltunk
-    5 * 50	 08 07 "FK" 00 00													// grf ID
+    5 * 127	 08 07 "FK" 00 00													// grf ID
 				"Hungarian stations" 00											// grf neve
-				"Ez egy kis" 0D 98 "rovid leiras" 00							// grf leirasa, a leirasban ha minden igaz hasznalhato a 0D mint sortores, a 98 talan behuzas
+				 "Þ\88Magyar állomások szett/Hungarians stations set.\0D\94Készítette/Created by: \8DFlogeza \94and \91idioty." 00 // grf leirasa, a leirasban ha minden igaz hasznalhato a 0D mint sortores, a 98 talan behuzas
 
 // 1420-as sorszamu alap sprite a beton sprite
 
