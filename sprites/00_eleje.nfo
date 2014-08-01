@@ -11,6 +11,6 @@
     4 * 16	 14 "CINFOBPALS" 01 00 57 00 00										// milyen szin palettat hasznaltunk
     5 * 45	 08 07 "FK" 00 00													// grf ID
 				"Hungarian stations" 00											// grf neve
-				 "Þ\88Magyar állomások szett/Hungarians stations set.\0D\94Készítette/Created by: \8DFlogeza \94and \91idioty." 00 // grf leirasa, a leirasban ha minden igaz hasznalhato a 0D mint sortores, a 98 talan behuzas
+				 "Þ\88Magyar állomások szett/Hungarian stations set.\0D\94Készítette/Created by: \8DFlogeza \94and \91idioty." 00 // grf leirasa, a leirasban ha minden igaz hasznalhato a 0D mint sortores, a 98 talan behuzas
 
 // 1420-as sorszamu alap sprite a beton sprite
