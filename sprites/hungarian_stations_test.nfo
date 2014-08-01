@@ -2006,11 +2006,13 @@
 //				Strings					//
 //**************************************//
 
-  288 * 21	 04 04 FF 01 05 C4 "Magyar peronok" 00
-  289 * 15	 04 04 FF 01 05 C5 "Peron 1a" 00
-  290 * 15	 04 04 FF 01 06 C5 "Peron 1b" 00
-  291 * 15	 04 04 FF 01 07 C5 "Peron 2a" 00
-  292 * 15	 04 04 FF 01 08 C5 "Peron 2b" 00
+//!!Warning (144): Offset 17: Control character 88 should not be used in this string.
+//!!Warning (144): Offset 30: Control character 89 should not be used in this string.
+  288 * 42	 04 04 FF 01 05 C4 "ÞOPeronok \88automatikus \89egyoldalú" 00
+  289 * 34	 04 04 FF 01 05 C5 "ÞORégi alacsony hátulsó" 00
+  290 * 33	 04 04 FF 01 06 C5 "ÞORégi alacsony elülső"  00
+  291 * 31	 04 04 FF 01 07 C5 "ÞORégi magas hátulsó" 00
+  292 * 30	 04 04 FF 01 08 C5 "ÞORégi magas elülső" 00
 
 
 
