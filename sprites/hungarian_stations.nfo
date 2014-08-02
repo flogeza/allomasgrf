@@ -31,8 +31,8 @@
 //**************************************//
 
 
-    6 * 496	 00 04 04 01 05 08 "PKS1"
-//			11 00 14 FF 15 FF
+    6 * 498	 00 04 05 01 05 08 "PKS1"
+			11 FF
 			0C FE
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
@@ -43,7 +43,7 @@
 		// 00
 			// menu grafika
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			// menu grafika
@@ -54,7 +54,7 @@
 		// 01
 			// egyeduli peron
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			// egyeduli peron
@@ -65,7 +65,7 @@
 		// 02
 			// a hatulja, kopott 1 (eszakrol)
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			// b hatulja
@@ -76,7 +76,7 @@
 		// 03
 			// a hatulja, kopott 2 (eszakrol)
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			// b hatulja
@@ -88,7 +88,7 @@
 		// 04
 			// a nem kopott kozepe
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			// b sima kozepe
@@ -99,7 +99,7 @@
 		// 05
 			// a kopott kozepe 1
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			// b sima kozepe
@@ -110,7 +110,7 @@
 		// 06
 			// a kopott kozepe 2
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			// b sima kozepe
@@ -121,7 +121,7 @@
 		// 07
 			// a eleje
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			// b eleje
@@ -132,7 +132,7 @@
 		// 08
 			// 1a eleje
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			// 1b eleje
@@ -144,7 +144,7 @@
 		// kozepso elemek
 		// 09, lampas, viragladas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -153,7 +153,7 @@
 
 		// 0A, lampas, kukas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -162,7 +162,7 @@
 
 		// 0B, pados, viragladas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -171,7 +171,7 @@
 
 		// 0C, lampas, pados
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -180,7 +180,7 @@
 
 		// 0D, lampas, kukas, pados
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -189,7 +189,7 @@
 
 		// 0E, allomas tablas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -198,7 +198,7 @@
 
 		// 0F, allomas tablas, lampas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -392,7 +392,7 @@
 //
 
    63 * 16	 02 04 D2
-			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			81 49						// 81 lower byte type, 49 variable: azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
 			01							// hozzaadas, azert adok hozza 1-et, mert 00 a kezdo sorszam, es ugy 3. helyett 4.re adja...
@@ -489,8 +489,8 @@
 //**************************************//
 
 
-   71 * 466	 00 04 04 01 06 08 "PKS1"
-//			11 00 14 FF 15 FF
+   71 * 468	 00 04 05 01 06 08 "PKS1"
+			11 FF
 			0C FE
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
@@ -931,8 +931,8 @@
 //**************************************//
 
 
-  133 * 376	 00 04 04 01 07 08 "PKS1"
-//			11 00 14 FF 15 FF
+  133 * 378	 00 04 05 01 07 08 "PKS1"
+			11 FF
 			0C FE
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
@@ -943,7 +943,7 @@
 		// 00
 			// menu grafika
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 04	2D 04 00 00
 			80
 
 			// menu grafika
@@ -954,7 +954,7 @@
 		// 01
 			// egyeduli peron
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 04	2D 04 00 00
 			80
 
 			// egyeduli peron
@@ -965,7 +965,7 @@
 		// 02
 			// a hatulja (eszakrol)
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 04	2D 04 00 00
 			80
 
 			// b hatulja
@@ -977,7 +977,7 @@
 		// 03
 			// a nem kopott kozepe
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 04	2D 04 00 00
 			80
 
 			// b sima kozepe
@@ -988,7 +988,7 @@
 		// 04
 			// a eleje
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 04	2D 04 00 00
 			80
 
 			// b eleje
@@ -999,7 +999,7 @@
 		// kozepso elemek
 		// 05, lampas, viragladas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 04	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -1008,7 +1008,7 @@
 
 		// 06, lampas, kukas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 04	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -1017,7 +1017,7 @@
 
 		// 07, pados, viragladas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 04	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -1026,7 +1026,7 @@
 
 		// 08, lampas, pados
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 04	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -1035,7 +1035,7 @@
 
 		// 09, lampas, kukas, pados
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 04	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -1044,7 +1044,7 @@
 
 		// 0A, allomas tablas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 04	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -1053,7 +1053,7 @@
 
 		// 0B, allomas tablas
 			F4 03 00 00
-			00 00 00	10 05 1F	2D 04 00 00
+			00 00 00	10 05 04	2D 04 00 00
 			80
 
 			F3 03 00 00
@@ -1302,8 +1302,8 @@
 //**************************************//
 
 
-  184 * 346	 00 04 04 01 08 08 "PKS1"
-//			11 00 14 FF 15 FF
+  184 * 348	 00 04 05 01 08 08 "PKS1"
+			11 FF
 			0C FE
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
