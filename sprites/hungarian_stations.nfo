@@ -31,8 +31,8 @@
 //**************************************//
 
 
-    6 * 498	 00 04 05 01 05 08 "PKS1"
-			11 FF
+    6 * 496	 00 04 04 01 05 08 "PKS1"
+//			11 FF
 			0C FE
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
@@ -489,8 +489,8 @@
 //**************************************//
 
 
-   71 * 468	 00 04 05 01 06 08 "PKS1"
-			11 FF
+   71 * 466	 00 04 04 01 06 08 "PKS1"
+//			11 FF
 			0C FE
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
@@ -931,8 +931,8 @@
 //**************************************//
 
 
-  133 * 378	 00 04 05 01 07 08 "PKS1"
-			11 FF
+  133 * 376	 00 04 04 01 07 08 "PKS1"
+//			11 FF
 			0C FE
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
@@ -1302,8 +1302,8 @@
 //**************************************//
 
 
-  184 * 348	 00 04 05 01 08 08 "PKS1"
-			11 FF
+  184 * 346	 00 04 04 01 08 08 "PKS1"
+//			11 FF
 			0C FE
 			0B 03	// custom sprite layout
 //			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
