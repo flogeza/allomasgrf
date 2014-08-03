@@ -1,0 +1,166 @@
+
+
+
+//******************************************************************************************************************************************************//
+//																																						//
+//																	TESZT2																				//
+//																																						//
+//******************************************************************************************************************************************************//
+
+
+   
+
+   00 * 00  00 04 04 01 F1 08 "PKST"
+//			11 00 14 FF 15 FF
+			0C FE
+			0B 03	// custom sprite layout
+//			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
+
+			09 04
+
+		// 00
+			// egyeduli peron
+			F4 03 00 00
+			00 00 00	10 05 03	2D 04 00 00
+			80
+
+			F3 03 00 00
+			00 00 00	05 10 1F	2E 04 00 00
+			80
+
+		// 01
+			// allomas tablas
+			F4 03 00 00
+			00 00 00	10 05 03	2D 04 00 00
+			80
+
+			F3 03 00 00
+			00 00 00	05 10 1F	2E 04 00 00
+			80
+
+
+   00 * 00	01 04 02 02
+	// egyeduli peron
+//   00 sprites/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
+//   00 sprites/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
+	// lampas, kukas, pados
+   00 sprites/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+   00 sprites/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+	// allomas tablas
+   00 sprites/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
+   00 sprites/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
+
+   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 01 00 01 01 00
+   
+	// egyes randomizaciok
+   00 * 00	02 04 AA
+			80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			00 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			01 00
+
+// callback handler for build menu
+// switch between callback and graphics branches
+   00 * 00	02 04 C0					// Set-ID C0
+			85 0C 00 FF FF				// get word, check if callback
+			01							// one range
+			00 80 14 00 14 00			// use layouts 06/07 during callback 14
+			00 00						// menu grafika....
+
+
+   00 * 00	03 04 01 F1
+   01									// hany darab kulonbozo cargo
+   FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
+   AA 00								// ha nem menu, akkor A0 action2-re
+
+
+   00 * 00  00 04 05 01 F2 08 "PKST"
+//			11 00 14 FF 15 FF
+			0C FE
+			0B 03	// custom sprite layout
+//			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
+			0A AA
+
+			09 02
+			
+		// 00
+			// menu grafika
+			F4 03 00 00
+			00 0B 00	10 05 1F	2D 04 00 00
+//			00 00 00	10 05 03	2D 04 00 00
+			80
+
+			// menu grafika
+			F3 03 00 00
+			0B 00 00	05 10 1F	2E 04 00 00
+//			00 00 00	05 10 1F	2E 04 00 00
+			80
+
+		// 01
+			// egyeduli peron
+//			F4 03 00 00
+//			00 0B 00	10 05 1F	2D 04 00 00
+//			00 00 00	10 05 03	2D 04 00 00
+//			80
+
+			// egyeduli peron
+//			F3 03 00 00
+//			0B 00 00	05 10 1F	2E 04 00 00
+//			00 00 00	05 10 1F	2E 04 00 00
+//			80
+
+
+//   00 * 00	01 04 02 04
+	// kopott 1, lampas
+//   00 sprites/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
+//   00 sprites/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
+//   00 sprites/teszt.pcx 8bpp 0 78 11 31 -6 -29 normal chunked
+//   00 sprites/teszt.pcx 8bpp 0 110 11 31 -5 -29 normal chunked
+	// kopott 2, kijelzos
+//   00 sprites/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
+//   00 sprites/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
+//   00 sprites/teszt.pcx 8bpp 12 78 12 19 -8 -18 normal chunked
+//   00 sprites/teszt.pcx 8bpp 12 98 12 19 -9 -18 normal chunked
+
+//   00 * 00	02 04 01 00 01 00 00
+//   00 * 00	02 04 03 00 01 01 00
+//   00 * 00	02 04 02 00 01 01 00
+   
+   
+
+
+	// egyes randomizaciok
+   00 * 00	02 04 BB
+			80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			00 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			01 00
+//			02 00
+//			03 00
+
+// callback handler for build menu
+// switch between callback and graphics branches
+   00 * 00	02 04 C0					// Set-ID C0
+			85 0C 00 FF FF				// get word, check if callback
+			01							// one range
+			00 80 14 00 14 00			// use layouts 06/07 during callback 14
+			00 00						// menu grafika....
+
+
+   00 * 00	03 04 01 F2
+   01									// hany darab kulonbozo cargo
+   FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
+   BB 00								// ha nem menu, akkor A0 action2-re
+
+
+
+
+//**************************************//
+//				Strings					//
+//**************************************//
+
+   00 * 00	04 04 FF 01 F1 C5 "TESZT2" 00
+   00 * 00	04 04 FF 01 F2 C5 "TESZT3" 00

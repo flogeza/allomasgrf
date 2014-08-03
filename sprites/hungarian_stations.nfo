@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 F1 00 00 00
+    0 * 4	 1C 01 00 00
     1 * 66	 14 "CINFOTURL_" 7F "http://www.tt-forums.net/viewtopic.php?f=67&t=70997" 00 00 00				// url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// verzio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
@@ -1677,3 +1677,384 @@
 // Peron2b
   240 * 24	 04 04 FF 01 08 C5 "Old (high)(front)" 00
   241 * 32	 04 04 A4 01 08 C5 "ÞRégi (magas)(elülső)" 00
+
+
+
+//******************************************************************************************************************************************************//
+//																																						//
+//																	TESZT1																				//
+//																																						//
+//******************************************************************************************************************************************************//
+
+
+  242 * 11	 02 04 40				// Procedure to compute the slope-dependent spriteoffset
+            80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			00 00
+
+  243 * 11	 02 04 41				// Procedure to compute the climate-dependent spriteoffset
+            80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			00 00
+
+  244 * 11	 02 04 42				// Procedure to compute the height offset in the middle of the tile
+            80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			00 00
+
+
+
+
+  245 * 160	 00 04 04 01 F0 08 "PKST"
+//			11 00 14 FF 15 FF
+			0C FE
+			0B 03	// custom sprite layout
+//			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
+
+			1A 06
+
+		// 00 eleje
+			41				// +1 tile van a groundon kivul
+			F4 03 00 00		// ground sprite
+			02 00			// flags
+			10				// register value
+			2D 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+			41				// +1 tile van a groundon kivul
+			F3 03 00 00		// ground sprite
+			02 00			// flags
+			10				// register value
+			2E 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+		// 01 kozepe
+			41				// +1 tile van a groundon kivul
+			F4 03 00 00		// ground sprite
+			02 00			// flags
+			11				// register value
+			2D 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+			41				// +1 tile van a groundon kivul
+			F3 03 00 00		// ground sprite
+			02 00			// flags
+			11				// register value
+			2E 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+		// 02 kozepe objektummal
+			42				// +1 tile van a groundon kivul
+			F4 03 00 00		// ground sprite
+			02 00			// flags
+			12				// register value
+
+			2D 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+			2E 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+			42				// +1 tile van a groundon kivul
+			F3 03 00 00		// ground sprite
+			02 00			// flags
+			12				// register value
+
+			2F 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+			30 04 00 80		// sprite azonosito
+			00 00			// flags
+			00 00 00		// offset
+			00 00 00		// extend
+
+
+  246 * 4	 01 04 01 02
+  247 sprites/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
+  248 sprites/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
+
+  249 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
+
+
+
+  250 * 4	 01 04 01 02
+  251 sprites/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
+  252 sprites/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
+
+  253 * 7	 02 04 01 00 01 00 00	// hatulja
+
+
+
+  254 * 4	 01 04 01 04
+  255 sprites/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
+  256 sprites/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
+  257 sprites/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
+  258 sprites/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+
+  259 * 7	 02 04 02 00 01 00 00	// objektumok
+
+
+//   00 * 00	02 04 01 00 01 01 00	// hatulja
+//   00 * 00	02 04 01 00 01 00 00	// hatulja
+
+	// lampas randomizaciok
+  260 * 11	 02 04 B0
+			80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			02 00
+
+
+// ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebken a harmadik lekerdezesre (10) ugrik
+  261 * 14	 02 04 A1
+			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			00							// shift eltolas
+			0F							// maszkolas
+			01							// hany darab variacio van
+			00 00 00 00					// 02 00 actione-re ugorjon, ha 00 min es 00 max range kozott van
+			B0 00						// ha nincs egyezes, akkor ide ugorjon
+
+// callback handler for normal graphics (non-build menu)
+// ez az elso lekerdezes, ezzel kerdezem kezdem el a betoltendo  lekerdezeseket
+  262 * 17	 02 04 A0
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			A1 00						// else graphics Set
+
+// callback handler for build menu
+// switch between callback and graphics branches
+  263 * 17	 02 04 C0					// Set-ID C0
+			85 0C 00 FF FF				// get word, check if callback
+			01							// one range
+			00 80 14 00 14 00			// use layouts 06/07 during callback 14
+			02 00						// menu grafika....
+
+//-1 * -1    02 0F 00 42
+//           \dx 0        \wx02                    10       // Draw groundsprite from register 0x10.
+//           \dx 80000000 \wx20  00 00 00 10 10 30 11       // Draw building sprite at z-postion from register 0x11.
+//           \dx 80000001 \wx01  00 00 80          12       // Draw snow-overlay relative to building sprite, but only if register 0x12 is zero.
+
+  264 * 37	 02 04 D0 81
+					7E 40 20 FF                           // Get slope offset from procedure 40
+             \2sto  1A    20 10                           // Store in register 0x10
+             \2rst  7E 41 20 0F                           // Add climate offset from procedure 41
+             \2sto  1A    20 11                           // Store in register 0x10
+             \2rst  7E 42 20 0F                           // Get height offset in the middle of the tile
+             \2sto  1A    20 12                           // Store in register 0x11
+
+//             \2rst  62 00 2C 01                           // Test snow bit, 1 if snowy, 0 if not
+//             \2sto  1A    00 12                           // Store in register 0x12
+
+            00
+                00 00	  B0 00                           // always procede at 00
+                A0 00
+
+
+//-1 * -1    03 0F 01 ?? \b 0 00                            // always procede at 00
+
+  265 * 10	 03 04 01 F0
+   01									// hany darab kulonbozo cargo
+   FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
+   D0 00								// ha nem menu, akkor A0 action2-re
+
+
+
+
+//**************************************//
+//				Strings					//
+//**************************************//
+
+  266 * 22	 04 04 FF 01 F0 C4 "HUNGARIAN TESZT" 00
+  267 * 13	 04 04 FF 01 F0 C5 "TESZT1" 00
+
+
+//******************************************************************************************************************************************************//
+//																																						//
+//																	TESZT2																				//
+//																																						//
+//******************************************************************************************************************************************************//
+
+
+
+
+  268 * 76	 00 04 04 01 F1 08 "PKST"
+//			11 00 14 FF 15 FF
+			0C FE
+			0B 03	// custom sprite layout
+//			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
+
+			09 04
+
+		// 00
+			// egyeduli peron
+			F4 03 00 00
+			00 00 00	10 05 03	2D 04 00 00
+			80
+
+			F3 03 00 00
+			00 00 00	05 10 1F	2E 04 00 00
+			80
+
+		// 01
+			// allomas tablas
+			F4 03 00 00
+			00 00 00	10 05 03	2D 04 00 00
+			80
+
+			F3 03 00 00
+			00 00 00	05 10 1F	2E 04 00 00
+			80
+
+
+  269 * 4	 01 04 02 02
+	// egyeduli peron
+//   00 sprites/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
+//   00 sprites/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
+	// lampas, kukas, pados
+  270 sprites/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+  271 sprites/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+	// allomas tablas
+  272 sprites/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
+  273 sprites/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
+
+  274 * 7	 02 04 00 00 01 00 00
+  275 * 7	 02 04 01 00 01 01 00
+
+	// egyes randomizaciok
+  276 * 11	 02 04 AA
+			80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			00 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			01 00
+
+// callback handler for build menu
+// switch between callback and graphics branches
+  277 * 17	 02 04 C0					// Set-ID C0
+			85 0C 00 FF FF				// get word, check if callback
+			01							// one range
+			00 80 14 00 14 00			// use layouts 06/07 during callback 14
+			00 00						// menu grafika....
+
+
+  278 * 10	 03 04 01 F1
+   01									// hany darab kulonbozo cargo
+   FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
+   AA 00								// ha nem menu, akkor A0 action2-re
+
+
+  279 * 48	 00 04 05 01 F2 08 "PKST"
+//			11 00 14 FF 15 FF
+			0C FE
+			0B 03	// custom sprite layout
+//			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
+			0A AA
+
+			09 02
+
+		// 00
+			// menu grafika
+			F4 03 00 00
+			00 0B 00	10 05 1F	2D 04 00 00
+//			00 00 00	10 05 03	2D 04 00 00
+			80
+
+			// menu grafika
+			F3 03 00 00
+			0B 00 00	05 10 1F	2E 04 00 00
+//			00 00 00	05 10 1F	2E 04 00 00
+			80
+
+		// 01
+			// egyeduli peron
+//			F4 03 00 00
+//			00 0B 00	10 05 1F	2D 04 00 00
+//			00 00 00	10 05 03	2D 04 00 00
+//			80
+
+			// egyeduli peron
+//			F3 03 00 00
+//			0B 00 00	05 10 1F	2E 04 00 00
+//			00 00 00	05 10 1F	2E 04 00 00
+//			80
+
+
+//   00 * 00	01 04 02 04
+	// kopott 1, lampas
+//   00 sprites/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
+//   00 sprites/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
+//   00 sprites/teszt.pcx 8bpp 0 78 11 31 -6 -29 normal chunked
+//   00 sprites/teszt.pcx 8bpp 0 110 11 31 -5 -29 normal chunked
+	// kopott 2, kijelzos
+//   00 sprites/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
+//   00 sprites/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
+//   00 sprites/teszt.pcx 8bpp 12 78 12 19 -8 -18 normal chunked
+//   00 sprites/teszt.pcx 8bpp 12 98 12 19 -9 -18 normal chunked
+
+//   00 * 00	02 04 01 00 01 00 00
+//   00 * 00	02 04 03 00 01 01 00
+//   00 * 00	02 04 02 00 01 01 00
+
+
+
+
+	// egyes randomizaciok
+  280 * 11	 02 04 BB
+			80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			00 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			01 00
+//			02 00
+//			03 00
+
+// callback handler for build menu
+// switch between callback and graphics branches
+  281 * 17	 02 04 C0					// Set-ID C0
+			85 0C 00 FF FF				// get word, check if callback
+			01							// one range
+			00 80 14 00 14 00			// use layouts 06/07 during callback 14
+			00 00						// menu grafika....
+
+
+  282 * 10	 03 04 01 F2
+   01									// hany darab kulonbozo cargo
+   FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
+   BB 00								// ha nem menu, akkor A0 action2-re
+
+
+
+
+//**************************************//
+//				Strings					//
+//**************************************//
+
+  283 * 13	 04 04 FF 01 F1 C5 "TESZT2" 00
+  284 * 13	 04 04 FF 01 F2 C5 "TESZT3" 00

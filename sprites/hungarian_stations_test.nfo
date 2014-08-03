@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 4F 01 00 00
+    0 * 4	 60 01 00 00
     1 * 66	 14 "CINFOTURL_" 7F "http://www.tt-forums.net/viewtopic.php?f=67&t=70997" 00 00 00				// url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// verzio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
@@ -2040,7 +2040,7 @@
 
 //******************************************************************************************************************************************************//
 //																																						//
-//																	TESZT																				//
+//																	TESZT1																				//
 //																																						//
 //******************************************************************************************************************************************************//
 
@@ -2069,7 +2069,7 @@
 
 
 
-  313 * 160	 00 04 04 01 FE 08 "PKST"
+  313 * 160	 00 04 04 01 F0 08 "PKST"
 //			11 00 14 FF 15 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -2237,7 +2237,7 @@
 
 //-1 * -1    03 0F 01 ?? \b 0 00                            // always procede at 00
 
-  333 * 10	 03 04 01 FE
+  333 * 10	 03 04 01 F0
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
    D0 00								// ha nem menu, akkor A0 action2-re
@@ -2249,5 +2249,170 @@
 //				Strings					//
 //**************************************//
 
-  334 * 22	 04 04 FF 01 FE C4 "HUNGARIAN TESZT" 00
-  335 * 12	 04 04 FF 01 FE C5 "TESZT" 00
+  334 * 22	 04 04 FF 01 F0 C4 "HUNGARIAN TESZT" 00
+  335 * 13	 04 04 FF 01 F0 C5 "TESZT1" 00
+
+
+//******************************************************************************************************************************************************//
+//																																						//
+//																	TESZT2																				//
+//																																						//
+//******************************************************************************************************************************************************//
+
+
+
+
+  336 * 76	 00 04 04 01 F1 08 "PKST"
+//			11 00 14 FF 15 FF
+			0C FE
+			0B 03	// custom sprite layout
+//			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
+
+			09 04
+
+		// 00
+			// egyeduli peron
+			F4 03 00 00
+			00 00 00	10 05 03	2D 04 00 00
+			80
+
+			F3 03 00 00
+			00 00 00	05 10 1F	2E 04 00 00
+			80
+
+		// 01
+			// allomas tablas
+			F4 03 00 00
+			00 00 00	10 05 03	2D 04 00 00
+			80
+
+			F3 03 00 00
+			00 00 00	05 10 1F	2E 04 00 00
+			80
+
+
+  337 * 4	 01 04 02 02
+	// egyeduli peron
+//   00 sprites/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
+//   00 sprites/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
+	// lampas, kukas, pados
+  338 sprites/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+  339 sprites/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+	// allomas tablas
+  340 sprites/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
+  341 sprites/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
+
+  342 * 7	 02 04 00 00 01 00 00
+  343 * 7	 02 04 01 00 01 01 00
+
+	// egyes randomizaciok
+  344 * 11	 02 04 AA
+			80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			00 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			01 00
+
+// callback handler for build menu
+// switch between callback and graphics branches
+  345 * 17	 02 04 C0					// Set-ID C0
+			85 0C 00 FF FF				// get word, check if callback
+			01							// one range
+			00 80 14 00 14 00			// use layouts 06/07 during callback 14
+			00 00						// menu grafika....
+
+
+  346 * 10	 03 04 01 F1
+   01									// hany darab kulonbozo cargo
+   FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
+   AA 00								// ha nem menu, akkor A0 action2-re
+
+
+  347 * 48	 00 04 05 01 F2 08 "PKST"
+//			11 00 14 FF 15 FF
+			0C FE
+			0B 03	// custom sprite layout
+//			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
+			0A AA
+
+			09 02
+
+		// 00
+			// menu grafika
+			F4 03 00 00
+			00 0B 00	10 05 1F	2D 04 00 00
+//			00 00 00	10 05 03	2D 04 00 00
+			80
+
+			// menu grafika
+			F3 03 00 00
+			0B 00 00	05 10 1F	2E 04 00 00
+//			00 00 00	05 10 1F	2E 04 00 00
+			80
+
+		// 01
+			// egyeduli peron
+//			F4 03 00 00
+//			00 0B 00	10 05 1F	2D 04 00 00
+//			00 00 00	10 05 03	2D 04 00 00
+//			80
+
+			// egyeduli peron
+//			F3 03 00 00
+//			0B 00 00	05 10 1F	2E 04 00 00
+//			00 00 00	05 10 1F	2E 04 00 00
+//			80
+
+
+//   00 * 00	01 04 02 04
+	// kopott 1, lampas
+//   00 sprites/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
+//   00 sprites/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
+//   00 sprites/teszt.pcx 8bpp 0 78 11 31 -6 -29 normal chunked
+//   00 sprites/teszt.pcx 8bpp 0 110 11 31 -5 -29 normal chunked
+	// kopott 2, kijelzos
+//   00 sprites/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
+//   00 sprites/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
+//   00 sprites/teszt.pcx 8bpp 12 78 12 19 -8 -18 normal chunked
+//   00 sprites/teszt.pcx 8bpp 12 98 12 19 -9 -18 normal chunked
+
+//   00 * 00	02 04 01 00 01 00 00
+//   00 * 00	02 04 03 00 01 01 00
+//   00 * 00	02 04 02 00 01 01 00
+
+
+
+
+	// egyes randomizaciok
+  348 * 11	 02 04 BB
+			80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			02							// hany darab random lehetosegunk van
+			00 00						// Action2 azonositoja minden egyes lehetosegnek kulon
+			01 00
+//			02 00
+//			03 00
+
+// callback handler for build menu
+// switch between callback and graphics branches
+  349 * 17	 02 04 C0					// Set-ID C0
+			85 0C 00 FF FF				// get word, check if callback
+			01							// one range
+			00 80 14 00 14 00			// use layouts 06/07 during callback 14
+			00 00						// menu grafika....
+
+
+  350 * 10	 03 04 01 F2
+   01									// hany darab kulonbozo cargo
+   FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
+   BB 00								// ha nem menu, akkor A0 action2-re
+
+
+
+
+//**************************************//
+//				Strings					//
+//**************************************//
+
+  351 * 13	 04 04 FF 01 F1 C5 "TESZT2" 00
+  352 * 13	 04 04 FF 01 F2 C5 "TESZT3" 00
