@@ -1,7 +1,12 @@
 (255,255,255) ; (0,0,255) = átlátszó ,
-az a nemtomilyen(majd megnézed a kódját) sárga a "lámpasablon" ,a piros pedig a peron fajták,a lila a bal nézet ,narancssárga a jobb , alulról kék 1x/2x/3x... ,sárga/piros 1x , és lila/narancs 1x
+az a nemtomilyen(majd megnézed a kódját) sárga a "lámpasablon" ,a piros pedig a peron fajták,a lila a bal nézet ,narancssárga a jobb , alulról kék  ,sárga/piros 1x , és lila/narancs 1x,majd megin sárga/piros 1x, majd jön a sötétebb barna/világosbarna/sárga/piros 
+-> itt a barna jelöli azt ha a peron egyoldalu és csak az egyik oldalán van csik,,,,
+-sötét ha a tuloldalán van,
+-világos ha felénk néz
+-piros/sárga ha középen van:D
+utána megint egy pixel sárga/piros ,majd jön a zöld árnyalat a nevek miatt :D
 mondjuk a sablonok leszenek egy sablonok.bmp-ben a peronok egy alapok.bmp-ben és amibe teszi az meg legyen ... nem tom majd kitalálod :D , szoval a csik alja jelzi hogy hol a peron/sablon alja :D 
-és ha van egy zöld pixel is a csikban akkor az azt jelzi hogy egy nézetnek két fajtája van , és ez a túloldali""(majd meglátod ha nem érted XD)
+
 -ha nem rövidebb akkor 0 pixeles(magas) peron, sablon nem csúszik
 -ha eggyel fentebb van akkor 1 pixel magas , sablon csúszik 1-et fel :D
 -ha 2vel , akkor 2 pixel magas, s. cs. 2-öt fel :D
