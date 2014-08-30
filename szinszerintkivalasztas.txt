@@ -1,5 +1,13 @@
 (255,255,255) ; (0,0,255) = átlátszó ,
-az a nemtomilyen(majd megnézed a kódját) sárga a "lámpasablon" ,a piros pedig a peron fajták,a lila a bal nézet ,narancssárga a jobb , alulról kék  ,sárga/piros 1x , és lila/narancs 1x,majd megin sárga/piros 1x, majd jön a sötétebb barna/világosbarna/sárga/piros 
+az a nemtomilyen(majd megnézed a kódját)
+ - átlátszó színek:					255,255,255 ; 0,255,255
+ sárga a "lámpasablon":				252,252,128					(vagy lehet, hogy 255,255,138???)
+ a piros pedig a peron fajták:		252,0,0						(vagy lehet, hogy 255,0,0???)
+ lila a bal:						160,136,252
+ narancssárga a jobb:				252,144,124
+ 
+ alulról kék, sárga/piros 1x , és lila/narancs 1x,majd megin sárga/piros 1x, majd jön a sötétebb barna/világosbarna/sárga/piros 
+ 
 -> itt a barna jelöli azt ha a peron egyoldalu és csak az egyik oldalán van csik,,,,
 -sötét ha a tuloldalán van,
 -világos ha felénk néz
@@ -15,3 +23,23 @@ mondjuk a sablonok leszenek egy sablonok.bmp-ben a peronok egy alapok.bmp-ben és
 
 
 -az hogy már végzett a nézetszínétõl kettõ pixellel fentebb kéne jelölni 1 fekete  pixellel (0,0,0) pl :D
+
+
+Szerk:
+
+Alulról a pixelek:
+ - 0:	kék, vagy fekete. Ha kék, akkor a programnak van vele dolga, ha kész a program, akkor feketévé teszi. Ha Géza dolgozik ez után vele, és kész van, akkor ismét kéknek kell lennie.
+ - 1:	sárga/piros. Sárga a kiegészítõ jelölése, piros a peron jelölése
+ - 2:	lila, akkor bal nézet, sárga, akkor jobb nézet
+ - 3:	szintén sárga/piros, mint az elsõ pixelnél.
+ - 4:	sötétbarna, ha túloldalt van, világos barna, ha felén néz, és eredeti (sárga vagy piros) színû, ha középen van a kiegészítõ, azaz bármelyikre lehet tenni.
+ - 5-:	szintén sárga/piros, mint az elsõ pixelnél.
+ 
+Magasság jelölés csak a peronoknál lesz. Ott kell majd az elsõ pixelt annyival fentebb tenni, ahány pixellel fentebb kell tenni a kiegészítõt.
+Ha nulla magas peron, akkor nincs elsõ (sárga/piros) sor, vagy ha 0 magas, akkor pont, hogy az elsõ (nem nulladik) pixeltõl kezdõdik a sárga?
+
+Tahát, ha 0 magas, akkor
+	A: kék vagy fekete, sárga/piros, lila/narancssárga ...
+	B: kék vagy fekete, lila/narancssárga ...
+	
+A vagy B???
