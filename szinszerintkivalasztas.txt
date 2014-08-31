@@ -35,11 +35,6 @@ Alulról a pixelek:
  - 4:	sötétbarna, ha túloldalt van, világos barna, ha felén néz, és eredeti (sárga vagy piros) színû, ha középen van a kiegészítõ, azaz bármelyikre lehet tenni.
  - 5-:	szintén sárga/piros, mint az elsõ pixelnél.
  
-Magasság jelölés csak a peronoknál lesz. Ott kell majd az elsõ pixelt annyival fentebb tenni, ahány pixellel fentebb kell tenni a kiegészítõt.
-Ha nulla magas peron, akkor nincs elsõ (sárga/piros) sor, vagy ha 0 magas, akkor pont, hogy az elsõ (nem nulladik) pixeltõl kezdõdik a sárga?
-
-Tahát, ha 0 magas, akkor
-	A: kék vagy fekete, sárga/piros, lila/narancssárga ...
-	B: kék vagy fekete, lila/narancssárga ...
-	
-A vagy B???
+Magasság jelölés csak a peronoknál lesz. Ott kell majd az elsõ pixelt annyival fentebb tenni, ahány pixellel fentebb kell tenni a kiegészítõt, pl:
+ - ha nulla magas peron, akkor az elsõ (nem nulladik) pixeltõl kezdõdik a sárga. Tehát nulladik pixel kék, elsõ pixel sárga...
+ - ha 1 magas, akkor nulladik pixel kék, elsõ pixel kék, második pixel sárga...
