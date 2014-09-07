@@ -44,8 +44,11 @@
 //   00 sprites/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
 //   00 sprites/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
 	// lampas, kukas, pados
-   00 sprites/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
-   00 sprites/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+//   00 sprites/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+//   00 sprites/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+	// sablonbol
+   00 sprites/sablonok.png 8bpp 1 1 46 39 -33 -17 normal chunked
+   00 sprites/sablonok.png 8bpp 48 1 46 39 -11 -17 normal chunked
 	// allomas tablas
    00 sprites/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
    00 sprites/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
