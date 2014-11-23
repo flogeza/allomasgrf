@@ -199,14 +199,16 @@
 		// 0F, allomas tablas, lampas
 			F4 03 00 00
 			00 00 00	10 05 03	2D 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			F3 03 00 00
 			00 00 00	05 10 1F	2E 04 00 00
+			00 00 00	10 05 03	2D 04 00 00
 			80
 
 
-    7 * 4	 01 04 10 02
+    7 * 4	 01 04 10 04
 
 	// menu grafika
     8 sprites/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
