@@ -31,7 +31,7 @@
 //**************************************//
 
 
-    6 * 496	 00 04 04 01 05 08 "PKS1"
+    6 * 496	 00 04 04 01 10 08 "PKS1"
 //			11 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -199,16 +199,14 @@
 		// 0F, allomas tablas, lampas
 			F4 03 00 00
 			00 00 00	10 05 03	2D 04 00 00
-			00 00 00	10 05 03	2D 04 00 00
 			80
 
 			F3 03 00 00
 			00 00 00	05 10 1F	2E 04 00 00
-			00 00 00	10 05 03	2D 04 00 00
 			80
 
 
-    7 * 4	 01 04 10 04
+    7 * 4	 01 04 10 02
 
 	// menu grafika
     8 sprites/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
@@ -476,11 +474,11 @@
 			00 80 14 00 14 00			// use layouts 06/07 during callback 14
 			00 00						// menu grafika....
 
-//   00 * 00	03 04 01 05 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
-   70 * 10	 03 04 01 05
+//   00 * 00	03 04 01 10 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
+   70 * 10	 03 04 01 10
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
-//   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
+//   FE 00 00							// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
    AA 00								// ha nem menu, akkor AA action2-re
 
 
@@ -491,7 +489,7 @@
 //**************************************//
 
 
-   71 * 466	 00 04 04 01 06 08 "PKS1"
+   71 * 466	 00 04 04 01 11 08 "PKS1"
 //			11 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -919,7 +917,7 @@
 			00 00						// menu grafika....
 
 //   00 * 00	03 04 01 05 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
-  132 * 10	 03 04 01 06
+  132 * 10	 03 04 01 11
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
@@ -933,7 +931,7 @@
 //**************************************//
 
 
-  133 * 376	 00 04 04 01 07 08 "PKS1"
+  133 * 376	 00 04 04 01 12 08 "PKS1"
 //			11 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -1290,7 +1288,7 @@
 			00 00						// menu grafika....
 
 //   00 * 00	03 04 01 05 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
-  183 * 10	 03 04 01 07
+  183 * 10	 03 04 01 12
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
@@ -1304,7 +1302,7 @@
 //**************************************//
 
 
-  184 * 346	 00 04 04 01 08 08 "PKS1"
+  184 * 346	 00 04 04 01 13 08 "PKS1"
 //			11 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -1650,7 +1648,7 @@
 			00 00						// menu grafika....
 
 //   00 * 00	03 04 01 05 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
-  231 * 10	 03 04 01 08
+  231 * 10	 03 04 01 13
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
@@ -1661,24 +1659,24 @@
 //**************************************//
 
 // menu
-  232 * 42	 04 04 FF 01 05 C4 "Platforms (automatic)(single sided)" 00
-  233 * 42	 04 04 A4 01 05 C4 "ÞPeronok (automatikus)(egyoldalú)" 00
+  232 * 42	 04 04 FF 01 10 C4 "Platforms (automatic)(single sided)" 00
+  233 * 42	 04 04 A4 01 10 C4 "ÞPeronok (automatikus)(egyoldalú)" 00
 
 // Peron1a
-  234 * 22	 04 04 FF 01 05 C5 "Old (low)(back)" 00
-  235 * 36	 04 04 A4 01 05 C5 "ÞRégi (alacsony)(hátulsó)" 00
+  234 * 22	 04 04 FF 01 10 C5 "Old (low)(back)" 00
+  235 * 36	 04 04 A4 01 10 C5 "ÞRégi (alacsony)(hátulsó)" 00
 
 // Peron1b
-  236 * 24	 04 04 FF 01 06 C5 "Old (low)(front) "  00
-  237 * 35	 04 04 A4 01 06 C5 "ÞRégi (alacsony)(elülső)"  00
+  236 * 24	 04 04 FF 01 11 C5 "Old (low)(front) "  00
+  237 * 35	 04 04 A4 01 11 C5 "ÞRégi (alacsony)(elülső)"  00
 
 // Peron2a
-  238 * 23	 04 04 FF 01 07 C5 "Old (high)(back)" 00
-  239 * 33	 04 04 A4 01 07 C5 "ÞRégi (magas)(hátulsó)" 00
+  238 * 23	 04 04 FF 01 12 C5 "Old (high)(back)" 00
+  239 * 33	 04 04 A4 01 12 C5 "ÞRégi (magas)(hátulsó)" 00
 
 // Peron2b
-  240 * 24	 04 04 FF 01 08 C5 "Old (high)(front)" 00
-  241 * 32	 04 04 A4 01 08 C5 "ÞRégi (magas)(elülső)" 00
+  240 * 24	 04 04 FF 01 13 C5 "Old (high)(front)" 00
+  241 * 32	 04 04 A4 01 13 C5 "ÞRégi (magas)(elülső)" 00
 
 
 
