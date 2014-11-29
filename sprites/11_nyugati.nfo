@@ -19,34 +19,33 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			08 01 00			// Properties, Stations, First Station ID
+			07 01 00			// Properties, Stations, First Station ID
 			08 "PSK0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
-			0B 03				// Callback Flags
 			0C FD				// Platforms
 			0D FE				// Length
 
 			09 04				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
+			8D 0F 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
 			00 00 00	10 10 34		2E 04 00 00
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
+			8D 0F 00 00			// Layout2 groundsprite
 			00 00 00	10 10 00		2F 04 00 00
 			00 00 00	10 06 10		30 04 00 00
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
+			8D 0F 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
 			00 00 00	10 10 34		2E 04 00 00
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
+			8D 0F 00 00			// Layout2 groundsprite
 			00 00 00	10 10 00		2F 04 00 00
 			00 00 00	10 06 10		30 04 00 00
 			80					// end layout1 sprite
@@ -101,40 +100,39 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			08 01 01			// Properties, Stations, First Station ID
+			07 01 01			// Properties, Stations, First Station ID
 			08 "PSK0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
-			0B 03				// Callback Flags
 			0C FD				// Platforms
 			0D FE				// Length
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	10 10 34		2E 84 00 00
-			00 00 00	10 10 34		2F 84 00 00
+			00 00 00	10 10 00		2D 04 00 00
+			00 00 00	10 10 34		2E 04 00 00
+			00 00 80	00 00 00		2F 04 00 00
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 06 00		30 84 00 00
-			00 00 00	10 10 34		30 84 00 00
+			00 00 00	10 10 34		30 04 00 00
 			00 00 00	10 10 34		31 84 00 00
+			00 00 80	00 00 00		32 44 22 03
 			80					// end layout1 sprite
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	10 10 34		2E 84 00 00
-			00 00 00	10 10 34		2F 84 00 00
+			00 00 00	10 10 00		2D 04 00 00
+			00 00 00	10 10 34		2E 04 00 00
+			00 00 80	00 00 00		2F 04 00 00
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		30 84 00 00
+			00 00 00	10 10 00		30 04 00 00
 			00 00 00	10 10 34		31 84 00 00
-			00 00 00	10 10 34		32 84 00 00
+			00 00 80	00 00 00		32 44 22 03
 			80					// end layout1 sprite
 
 
@@ -145,13 +143,13 @@
    00 spiretes_grafika/nyugati.pcx 8bpp 377 83 67 35 -33 -33 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 494 1 46 23 -11 6 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 310 1 66 81 -32 -49 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 494 25 64 51 -32 -49 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 494 25 64 51 1 21 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 445 1 48 62 -15 -31 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 377 1 67 64 -33 -32 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 559 1 32 39 -33 -32 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 559 1 32 39 33 18 normal chunked
 
    // Action2
    00 * 00	02 04 02 00 01 00 00
@@ -186,45 +184,60 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			04 01 02			// Properties, Stations, First Station ID
+			03 01 02			// Properties, Stations, First Station ID
 			08 "PSK0"			// Station Class
-			0B 03				// Callback Flags
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 10 34		2E 04 00 00
+			00 00 00	10 10 00		2E 04 00 00
+			00 00 00	10 10 34		2F 04 00 00
+			00 00 00	10 10 34		30 04 00 00
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		2F 04 00 00
-			00 00 00	10 10 34		30 04 00 00
+			00 00 00	10 10 00		31 04 00 00
+			00 00 00	10 10 00		32 04 00 00
+			00 00 00	10 10 34		33 04 00 00
+			00 00 80	00 00 00		34 44 22 03
 			80					// end layout1 sprite
 
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 10 34		2E 04 00 00
+			00 00 00	10 10 00		2E 04 00 00
+			00 00 00	10 10 34		2F 04 00 00
+			00 00 00	10 10 34		30 04 00 00
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		2F 04 00 00
-			00 00 00	10 10 34		30 04 00 00
+			00 00 00	10 10 34		31 04 00 00
+			00 00 00	10 10 34		32 04 00 00
+			00 00 80	00 00 00		33 44 22 03
+			00 00 80	00 00 00		34 44 22 03
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 04
+   00 * 00	01 04 02 08
+   00 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 310 83 66 82 -32 -50 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 494 83 62 56 1 2 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 445 83 44 51 -10 -30 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 377 83 67 35 -33 -33 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 494 140 37 16 6 2 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 445 166 32 23 32 3 normal chunked
 
    // Action2
    00 * 00	02 04 04 00 01 00 00
@@ -260,45 +273,52 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			04 01 03			// Properties, Stations, First Station ID
+			03 01 03			// Properties, Stations, First Station ID
 			08 "PSK0"			// Station Class
-			0B 03				// Callback Flags
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 10 34		2E 04 00 00
+			00 00 00	10 10 00		2E 04 00 00
+			00 00 00	10 10 34		2F 04 00 00
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		2F 04 00 00
-			00 00 00	10 10 34		30 04 00 00
+			00 00 00	10 10 00		30 04 00 00
+			00 00 00	10 10 34		31 04 00 00
+			00 00 80	00 00 00		32 44 22 03
 			80					// end layout1 sprite
 
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 10 34		2E 04 00 00
+			00 00 00	10 10 00		2E 04 00 00
+			00 00 00	10 10 34		2F 04 00 00
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		2F 04 00 00
 			00 00 00	10 10 34		30 04 00 00
+			00 00 00	10 10 34		31 04 00 00
+			00 00 80	00 00 00		32 44 22 03
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 04
+   00 * 00	01 04 02 06
+   00 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 310 166 66 81 -32 -49 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 445 166 32 23 1 35 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 445 83 44 51 -10 -30 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 377 166 67 34 -33 -32 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 445 166 32 23 32 3 normal chunked
 
    // Action2
    00 * 00	02 04 06 00 01 00 00
