@@ -30,36 +30,28 @@
 			09 04				// Sprite Layout
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 10 34		2E 04 00 00
+			00 00 00	10 10 34		2D 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		2F 04 00 00
-			00 00 00	10 06 10		30 04 00 00
+			00 00 00	10 06 10		2E 04 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 10 34		2E 04 00 00
+			00 00 00	10 10 34		2D 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		2F 04 00 00
-			00 00 00	10 06 10		30 04 00 00
+			00 00 00	10 06 10		2E 04 00 00
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 04
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 * 00	01 04 02 02
    00 spiretes_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 263 4 46 39 -31 -17 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 263 44 46 39 -31 -17 normal chunked
 
    // Action2
@@ -67,7 +59,7 @@
    00 * 00	02 04 01 00 01 01 00
 
    00 * 00	02 04 A0
-			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
@@ -130,7 +122,7 @@
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		30 04 00 00
+			00 00 00	05 10 20		30 04 00 00
 			00 00 00	10 10 34		31 84 00 00
 			00 00 80	00 00 00		32 44 22 03
 			80					// end layout1 sprite
@@ -156,7 +148,7 @@
    00 * 00	02 04 03 00 01 01 00
 
    00 * 00	02 04 A0
-			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
@@ -198,9 +190,9 @@
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	10 10 00		32 04 00 00
-			00 00 00	10 10 34		33 04 00 00
+			00 00 00	10 10 31		31 04 00 00
+			00 00 00	10 10 31		32 04 00 00
+			00 00 80	00 00 00		33 44 22 03
 			00 00 80	00 00 00		34 44 22 03
 			80					// end layout1 sprite
 
@@ -213,8 +205,8 @@
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 34		31 04 00 00
-			00 00 00	10 10 34		32 04 00 00
+			00 00 00	05 10 20		31 04 00 00
+			00 00 00	10 10 31		32 04 00 00
 			00 00 80	00 00 00		33 44 22 03
 			00 00 80	00 00 00		34 44 22 03
 			80					// end layout1 sprite
@@ -226,9 +218,9 @@
    00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 0 0 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 310 83 66 82 -32 -50 normal chunked
+   00 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 0 0 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 494 83 62 56 1 2 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
    00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
@@ -244,7 +236,7 @@
    00 * 00	02 04 05 00 01 01 00
 
    00 * 00	02 04 A0
-			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
@@ -287,7 +279,7 @@
 
 			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 00		30 04 00 00
-			00 00 00	10 10 34		31 04 00 00
+			00 00 00	10 10 31		31 04 00 00
 			00 00 80	00 00 00		32 44 22 03
 			80					// end layout1 sprite
 
@@ -299,8 +291,8 @@
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 34		30 04 00 00
-			00 00 00	10 10 34		31 04 00 00
+			00 00 00	05 10 20		30 04 00 00
+			00 00 00	10 10 31		31 04 00 00
 			00 00 80	00 00 00		32 44 22 03
 			80					// end layout1 sprite
 
@@ -325,7 +317,7 @@
    00 * 00	02 04 07 00 01 01 00
 
    00 * 00	02 04 A0
-			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van

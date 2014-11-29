@@ -26,24 +26,14 @@
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
-		// sima fu, sajat grafikabol betoltve
-		@AddLayout1: filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 168, posy: 44, sizex: 66, sizey: 34, relx: -33, rely: -1
-		@EndAddLayout1
 		// oszlopok
-		@AddLayout1: spritenumber: 1, filename: spiretes_grafika/nyugati.pcx
+		@AddLayout1: spritenumber: 0, filename: spiretes_grafika/nyugati.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
 			RealSprite: posx: 6, posy: 400, sizex: 66, sizey: 100, relx: -32, rely: -36
 		@EndAddLayout1
 
-		// sima fu, sajat grafikabol betoltve
-		@AddLayout2: spritenumber: 2, filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 168, posy: 44, sizex: 66, sizey: 34, relx: -33, rely: -1
-		@EndAddLayout2
 		// oszlopok
-		@AddLayout2: spritenumber: 3, filename: spiretes_grafika/nyugati.pcx
+		@AddLayout2: spritenumber: 1, filename: spiretes_grafika/nyugati.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 6, sizez: 16
 			RealSprite: posx: 263, posy: 4, sizex: 46, sizey: 39, relx: -31, rely: -17
 		@EndAddLayout2
@@ -51,24 +41,14 @@
 
 	// eszaki sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
-		// sima fu, sajat grafikabol betoltve
-		@AddLayout1: spritenumber: 0, filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 168, posy: 44, sizex: 66, sizey: 34, relx: -33, rely: -1
-		@EndAddLayout1
 		// oszlopok
-		@AddLayout1: spritenumber: 1, filename: spiretes_grafika/nyugati.pcx
+		@AddLayout1: spritenumber: 0, filename: spiretes_grafika/nyugati.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
 			RealSprite: posx: 6, posy: 400, sizex: 66, sizey: 100, relx: -32, rely: -36
 		@EndAddLayout1
 
-		// sima fu, sajat grafikabol betoltve
-		@AddLayout2: spritenumber: 2, filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 168, posy: 44, sizex: 66, sizey: 34, relx: -33, rely: -1
-		@EndAddLayout2
 		// oszlopok
-		@AddLayout2: spritenumber: 3, filename: spiretes_grafika/nyugati.pcx
+		@AddLayout2: spritenumber: 1, filename: spiretes_grafika/nyugati.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 6, sizez: 16
 			RealSprite: posx: 263, posy: 44, sizex: 46, sizey: 39, relx: -31, rely: -17
 		@EndAddLayout2
@@ -76,7 +56,7 @@
 @EndAddStation
 
    00 * 00	02 04 A0
-			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
@@ -169,7 +149,7 @@
 
 		// beton es hatfal
 		@AddLayout2: spritenumber: 3, filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 32
 			RealSprite: posx: 445, posy: 1, sizex: 48, sizey: 62, relx: -15, rely: -31
 		@EndAddLayout2
 		// uveg nelkuli bejarat
@@ -186,7 +166,7 @@
 @EndAddStation
 
    00 * 00	02 04 A0
-			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
@@ -240,18 +220,18 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 224, posy: 161, sizex: 68, sizey: 35, relx: -33, rely: -1
-		@EndAddLayout2
-		// fake teljesen ures sprite
-		@AddLayout2: spritenumber: 5, filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 224, posy: 161, sizex: 68, sizey: 35, relx: -33, rely: -1
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			RealSprite: posx: 224, posy: 161, sizex: 68, sizey: 35, relx: 0, rely: 0
 		@EndAddLayout2
 		// uveg nelkuli teto
-		@AddLayout2: spritenumber: 6, filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
+		@AddLayout2: spritenumber: 5, filename: spiretes_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
 			RealSprite: posx: 310, posy: 83, sizex: 66, sizey: 82, relx: -32, rely: -50
+		@EndAddLayout2
+		// fake teljesen ures sprite
+		@AddLayout2: spritenumber: 6, filename: spiretes_grafika/nyugati.pcx, transparent
+			Boundingbox: shared
+			RealSprite: posx: 224, posy: 161, sizex: 68, sizey: 35, relx: 0, rely: 0
 		@EndAddLayout2
 		// uveg
 		@AddLayout2: spritenumber: 7, filename: spiretes_grafika/nyugati.pcx, transparent
@@ -285,12 +265,12 @@
 
 		// beton es hatfal
 		@AddLayout2: spritenumber: 4, filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 32
 			RealSprite: posx: 445, posy: 83, sizex: 44, sizey: 51, relx: -10, rely: -30
 		@EndAddLayout2
 		// uveg nelkuli teto
 		@AddLayout2: spritenumber: 5, filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
 			RealSprite: posx: 377, posy: 83, sizex: 67, sizey: 35, relx: -33, rely: -33
 		@EndAddLayout2
 		// uveg felso
@@ -307,7 +287,7 @@
 @EndAddStation
 
    00 * 00	02 04 A0
-			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
@@ -362,7 +342,7 @@
 			RealSprite: posx: 224, posy: 161, sizex: 68, sizey: 35, relx: -33, rely: -1
 		@EndAddLayout2
 		@AddLayout2: spritenumber: 4, filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
 			RealSprite: posx: 310, posy: 166, sizex: 66, sizey: 81, relx: -32, rely: -49
 		@EndAddLayout2
 		// uveg
@@ -392,12 +372,12 @@
 
 		// beton es hatfal
 		@AddLayout2: spritenumber: 3, filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 32
 			RealSprite: posx: 445, posy: 83, sizex: 44, sizey: 51, relx: -10, rely: -30
 		@EndAddLayout2
 		// uveg nelkuli teto
 		@AddLayout2: spritenumber: 4, filename: spiretes_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
 			RealSprite: posx: 377, posy: 166, sizex: 67, sizey: 34, relx: -33, rely: -32
 		@EndAddLayout2
 		// uveg
@@ -409,7 +389,7 @@
 @EndAddStation
 
    00 * 00	02 04 A0
-			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
