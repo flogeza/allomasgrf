@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 69 01 00 00
+    0 * 4	 65 01 00 00
     1 * 66	 14 "CINFOTURL_" 7F "http://www.tt-forums.net/viewtopic.php?f=67&t=70997" 00 00 00				// url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// verzio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
@@ -66,9 +66,9 @@
    // Action1
     7 * 4	 01 04 02 02
     8 spiretes_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
-    9 spiretes_grafika/nyugati.pcx 8bpp 263 4 46 39 -31 -17 normal chunked
+    9 spiretes_grafika/nyugati.pcx 8bpp 263 4 46 39 -32 -17 normal chunked
    10 spiretes_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
-   11 spiretes_grafika/nyugati.pcx 8bpp 263 44 46 39 -31 -17 normal chunked
+   11 spiretes_grafika/nyugati.pcx 8bpp 263 44 46 39 -32 -17 normal chunked
 
    // Action2
    12 * 7	 02 04 00 00 01 00 00
@@ -155,7 +155,7 @@
    25 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
    26 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
    27 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   28 spiretes_grafika/nyugati.pcx 8bpp 445 1 48 62 -15 -31 normal chunked
+   28 spiretes_grafika/nyugati.pcx 8bpp 445 1 48 62 -14 -30 normal chunked
    29 spiretes_grafika/nyugati.pcx 8bpp 377 1 67 64 -33 -32 normal chunked
    30 spiretes_grafika/nyugati.pcx 8bpp 559 1 32 39 33 18 normal chunked
 
@@ -191,7 +191,7 @@
 
 
    // Action0
-   36 * 194	 00 04				// Action0, Feature4
+   36 * 154	 00 04				// Action0, Feature4
 			03 01 02			// Properties, Stations, First Station ID
 			08 "PSK0"			// Station Class
 			0C FD				// Platforms
@@ -199,59 +199,51 @@
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 10 00		2E 04 00 00
-			00 00 00	10 10 34		2F 04 00 00
-			00 00 00	10 10 34		30 04 00 00
+			00 00 00	10 10 31		2D 04 00 00
+			00 00 00	10 10 31		2E 04 00 00
+			00 00 00	10 10 31		2F 04 00 00
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 31		30 04 00 00
 			00 00 00	10 10 31		31 04 00 00
-			00 00 00	10 10 31		32 04 00 00
-			00 00 80	00 00 00		33 44 22 03
-			00 00 80	00 00 00		34 44 22 03
+			00 00 80	00 00 00		32 44 22 03
 			80					// end layout1 sprite
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 10 00		2E 04 00 00
-			00 00 00	10 10 34		2F 04 00 00
-			00 00 00	10 10 34		30 04 00 00
+			00 00 00	10 10 31		2D 04 00 00
+			00 00 00	10 10 31		2E 04 00 00
+			00 00 00	10 10 31		2F 04 00 00
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 20		31 04 00 00
-			00 00 00	10 10 31		32 04 00 00
-			00 00 80	00 00 00		33 44 22 03
-			00 00 80	00 00 00		34 44 22 03
+			00 00 00	05 10 20		30 04 00 00
+			00 00 00	10 10 31		31 04 00 00
+			00 00 80	00 00 00		32 44 22 03
 			80					// end layout1 sprite
 
 
    // Action1
-   37 * 4	 01 04 02 08
-   38 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
-   39 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   37 * 4	 01 04 02 06
+   38 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   39 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
    40 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   41 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   42 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 0 0 normal chunked
-   43 spiretes_grafika/nyugati.pcx 8bpp 310 83 66 82 -32 -50 normal chunked
-   44 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 0 0 normal chunked
-   45 spiretes_grafika/nyugati.pcx 8bpp 494 83 62 56 1 2 normal chunked
-   46 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
-   47 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   48 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   49 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   50 spiretes_grafika/nyugati.pcx 8bpp 445 83 44 51 -10 -30 normal chunked
-   51 spiretes_grafika/nyugati.pcx 8bpp 377 83 67 35 -33 -33 normal chunked
-   52 spiretes_grafika/nyugati.pcx 8bpp 494 140 37 16 6 2 normal chunked
-   53 spiretes_grafika/nyugati.pcx 8bpp 445 166 32 23 32 3 normal chunked
+   41 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 0 0 normal chunked
+   42 spiretes_grafika/nyugati.pcx 8bpp 310 83 66 82 -32 -50 normal chunked
+   43 spiretes_grafika/nyugati.pcx 8bpp 494 83 62 56 1 3 normal chunked
+   44 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   45 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   46 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   47 spiretes_grafika/nyugati.pcx 8bpp 445 83 44 51 -10 -30 normal chunked
+   48 spiretes_grafika/nyugati.pcx 8bpp 377 83 67 35 -33 -33 normal chunked
+   49 spiretes_grafika/nyugati.pcx 8bpp 377 119 58 25 6 2 normal chunked
 
    // Action2
-   54 * 7	 02 04 04 00 01 00 00
-   55 * 7	 02 04 05 00 01 01 00
+   50 * 7	 02 04 04 00 01 00 00
+   51 * 7	 02 04 05 00 01 01 00
 
-   56 * 14	 02 04 A0
+   52 * 14	 02 04 A0
 			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
@@ -259,7 +251,7 @@
 			04 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
 			05 00						// ha nincs egyezes, akkor ide ugorjon
 
-   57 * 17	 02 04 12
+   53 * 17	 02 04 12
 			85							// get word
 			0C							// check if callback
 			00
@@ -271,7 +263,7 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-   58 * 7	 03 04 01 02 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+   54 * 7	 03 04 01 02 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -280,7 +272,7 @@
 
 
    // Action0
-   59 * 154	 00 04				// Action0, Feature4
+   55 * 154	 00 04				// Action0, Feature4
 			03 01 03			// Properties, Stations, First Station ID
 			08 "PSK0"			// Station Class
 			0C FD				// Platforms
@@ -314,25 +306,25 @@
 
 
    // Action1
-   60 * 4	 01 04 02 06
-   61 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
-   62 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   63 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   64 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
-   65 spiretes_grafika/nyugati.pcx 8bpp 310 166 66 81 -32 -49 normal chunked
-   66 spiretes_grafika/nyugati.pcx 8bpp 445 166 32 23 1 35 normal chunked
-   67 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
-   68 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   69 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   70 spiretes_grafika/nyugati.pcx 8bpp 445 83 44 51 -10 -30 normal chunked
-   71 spiretes_grafika/nyugati.pcx 8bpp 377 166 67 34 -33 -32 normal chunked
-   72 spiretes_grafika/nyugati.pcx 8bpp 445 166 32 23 32 3 normal chunked
+   56 * 4	 01 04 02 06
+   57 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
+   58 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   59 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   60 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
+   61 spiretes_grafika/nyugati.pcx 8bpp 310 166 66 81 -32 -49 normal chunked
+   62 spiretes_grafika/nyugati.pcx 8bpp 445 166 32 23 1 35 normal chunked
+   63 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
+   64 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   65 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   66 spiretes_grafika/nyugati.pcx 8bpp 445 83 44 51 -10 -30 normal chunked
+   67 spiretes_grafika/nyugati.pcx 8bpp 377 166 67 34 -33 -32 normal chunked
+   68 spiretes_grafika/nyugati.pcx 8bpp 445 190 16 10 48 16 normal chunked
 
    // Action2
-   73 * 7	 02 04 06 00 01 00 00
-   74 * 7	 02 04 07 00 01 01 00
+   69 * 7	 02 04 06 00 01 00 00
+   70 * 7	 02 04 07 00 01 01 00
 
-   75 * 14	 02 04 A0
+   71 * 14	 02 04 A0
 			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
@@ -340,7 +332,7 @@
 			06 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
 			07 00						// ha nincs egyezes, akkor ide ugorjon
 
-   76 * 17	 02 04 12
+   72 * 17	 02 04 12
 			85							// get word
 			0C							// check if callback
 			00
@@ -352,17 +344,17 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-   77 * 7	 03 04 01 03 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+   73 * 7	 03 04 01 03 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 //**************************************//
 //				Strings					//
 //**************************************//
 
-   78 * 28	 04 04 FF 01 00 C4 "ÞNyugati pályaudvar" 00
-   79 * 27	 04 04 FF 01 00 C5 "ÞBejárat előtető" 00
-   80 * 25	 04 04 FF 01 01 C5 "ÞÜveges bejárat" 00
-   81 * 22	 04 04 FF 01 02 C5 "ÞÜveges tető" 00
-   82 * 30	 04 04 FF 01 03 C5 "ÞÜveg nélküli tető" 00
+   74 * 28	 04 04 FF 01 00 C4 "ÞNyugati pályaudvar" 00
+   75 * 27	 04 04 FF 01 00 C5 "ÞBejárat előtető" 00
+   76 * 25	 04 04 FF 01 01 C5 "ÞÜveges bejárat" 00
+   77 * 22	 04 04 FF 01 02 C5 "ÞÜveges tető" 00
+   78 * 30	 04 04 FF 01 03 C5 "ÞÜveg nélküli tető" 00
 //00 * 00	04 04 FF 01 00 C5 "ÞFőépületrész" 00
 //00 * 00	04 04 FF 01 01 C5 "Torony 1" 00
 //00 * 00	04 04 FF 01 02 C5 "Torony 2" 00
@@ -385,7 +377,7 @@
 //**************************************//
 
 
-   83 * 496	 00 04 04 01 10 08 "PKS1"
+   79 * 496	 00 04 04 01 10 08 "PKS1"
 //			11 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -560,91 +552,91 @@
 			80
 
 
-   84 * 4	 01 04 10 02
+   80 * 4	 01 04 10 02
 
 	// menu grafika
-   85 spiretes_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
-   86 spiretes_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+   81 spiretes_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+   82 spiretes_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
 
 	// egyeduli peron
-   87 spiretes_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
-   88 spiretes_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
+   83 spiretes_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
+   84 spiretes_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
 
 	// eszakrol az elso (hatulja)
 	// kopott 1
-   89 spiretes_grafika/peron1.pcx 8bpp 91 1 44 37 -36 -13 normal chunked
-   90 spiretes_grafika/peron1.pcx 8bpp 91 39 44 37 -6 -13 normal chunked
+   85 spiretes_grafika/peron1.pcx 8bpp 91 1 44 37 -36 -13 normal chunked
+   86 spiretes_grafika/peron1.pcx 8bpp 91 39 44 37 -6 -13 normal chunked
 	// kopott 2
-   91 spiretes_grafika/peron1.pcx 8bpp 136 1 44 37 -36 -13 normal chunked
-   92 spiretes_grafika/peron1.pcx 8bpp 136 39 44 37 -6 -13 normal chunked
+   87 spiretes_grafika/peron1.pcx 8bpp 136 1 44 37 -36 -13 normal chunked
+   88 spiretes_grafika/peron1.pcx 8bpp 136 39 44 37 -6 -13 normal chunked
 
 	// ures kozepso
 	// nem kopott
-   93 spiretes_grafika/peron1.pcx 8bpp 181 1 44 37 -32 -16 normal chunked
-   94 spiretes_grafika/peron1.pcx 8bpp 181 39 44 37 -10 -16 normal chunked
+   89 spiretes_grafika/peron1.pcx 8bpp 181 1 44 37 -32 -16 normal chunked
+   90 spiretes_grafika/peron1.pcx 8bpp 181 39 44 37 -10 -16 normal chunked
 	// kopott 1
-   95 spiretes_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
-   96 spiretes_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
+   91 spiretes_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
+   92 spiretes_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
 	// kopott 2
-   97 spiretes_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
-   98 spiretes_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
+   93 spiretes_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
+   94 spiretes_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
 
 	// eleje (delro)
 	// kopott 1
-   99 spiretes_grafika/peron1.pcx 8bpp 1 1 44 37 -30 -16 normal chunked
-  100 spiretes_grafika/peron1.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
+   95 spiretes_grafika/peron1.pcx 8bpp 1 1 44 37 -30 -16 normal chunked
+   96 spiretes_grafika/peron1.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
 	// kopott 2
-  101 spiretes_grafika/peron1.pcx 8bpp 46 1 44 37 -30 -16 normal chunked
-  102 spiretes_grafika/peron1.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
+   97 spiretes_grafika/peron1.pcx 8bpp 46 1 44 37 -30 -16 normal chunked
+   98 spiretes_grafika/peron1.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
-  103 spiretes_grafika/peron1.pcx 8bpp 1 77 44 37 -32 -16 normal chunked
-  104 spiretes_grafika/peron1.pcx 8bpp 1 115 44 37 -10 -16 normal chunked
+   99 spiretes_grafika/peron1.pcx 8bpp 1 77 44 37 -32 -16 normal chunked
+  100 spiretes_grafika/peron1.pcx 8bpp 1 115 44 37 -10 -16 normal chunked
 	// lampas, kukas
-  105 spiretes_grafika/peron1.pcx 8bpp 46 77 44 37 -32 -16 normal chunked
-  106 spiretes_grafika/peron1.pcx 8bpp 46 115 44 37 -10 -16 normal chunked
+  101 spiretes_grafika/peron1.pcx 8bpp 46 77 44 37 -32 -16 normal chunked
+  102 spiretes_grafika/peron1.pcx 8bpp 46 115 44 37 -10 -16 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
-  107 spiretes_grafika/peron1a.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
-  108 spiretes_grafika/peron1a.pcx 8bpp 90 38 44 37 -10 -16 normal chunked
+  103 spiretes_grafika/peron1a.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
+  104 spiretes_grafika/peron1a.pcx 8bpp 90 38 44 37 -10 -16 normal chunked
 	// lampas, pados
-  109 spiretes_grafika/peron1a.pcx 8bpp 0 0 44 37 -32 -16 normal chunked
-  110 spiretes_grafika/peron1a.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
+  105 spiretes_grafika/peron1a.pcx 8bpp 0 0 44 37 -32 -16 normal chunked
+  106 spiretes_grafika/peron1a.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
 	// lampas, kukas, pados
-  111 spiretes_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
-  112 spiretes_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+  107 spiretes_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+  108 spiretes_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
 
    // allomas tablas
-  113 spiretes_grafika/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
-  114 spiretes_grafika/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
+  109 spiretes_grafika/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
+  110 spiretes_grafika/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
    // allomas tablas, lampas
-  115 spiretes_grafika/peron1a.pcx 8bpp 180 0 44 37 -32 -16 normal chunked
-  116 spiretes_grafika/peron1a.pcx 8bpp 180 38 44 37 -10 -16 normal chunked
+  111 spiretes_grafika/peron1a.pcx 8bpp 180 0 44 37 -32 -16 normal chunked
+  112 spiretes_grafika/peron1a.pcx 8bpp 180 38 44 37 -10 -16 normal chunked
 
 
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
-  117 * 7	 02 04 00 00 01 00 00	// menu grafika
-  118 * 7	 02 04 01 00 01 01 00	// egyeduli peron
-  119 * 7	 02 04 02 00 01 02 00	// kopott hatulja 1
-  120 * 7	 02 04 03 00 01 03 00	// kopott hatulja 2
-  121 * 7	 02 04 04 00 01 04 00	// nem kopott kozepe
-  122 * 7	 02 04 05 00 01 05 00	// kopott kozepe 1
-  123 * 7	 02 04 06 00 01 06 00	// kopott kozepe 2
-  124 * 7	 02 04 07 00 01 07 00	// kopott eleje 1
-  125 * 7	 02 04 08 00 01 08 00	// kopott eleje 2
+  113 * 7	 02 04 00 00 01 00 00	// menu grafika
+  114 * 7	 02 04 01 00 01 01 00	// egyeduli peron
+  115 * 7	 02 04 02 00 01 02 00	// kopott hatulja 1
+  116 * 7	 02 04 03 00 01 03 00	// kopott hatulja 2
+  117 * 7	 02 04 04 00 01 04 00	// nem kopott kozepe
+  118 * 7	 02 04 05 00 01 05 00	// kopott kozepe 1
+  119 * 7	 02 04 06 00 01 06 00	// kopott kozepe 2
+  120 * 7	 02 04 07 00 01 07 00	// kopott eleje 1
+  121 * 7	 02 04 08 00 01 08 00	// kopott eleje 2
 
    // objektumos kozepek
-  126 * 7	 02 04 09 00 01 09 00	// lampas, viragladas
-  127 * 7	 02 04 0A 00 01 0A 00	// lampas, kukas
-  128 * 7	 02 04 0B 00 01 0B 00	// pados, viragladas
-  129 * 7	 02 04 0C 00 01 0C 00	// lampas, pados
-  130 * 7	 02 04 0D 00 01 0D 00	// lampas, kukas, pados
-  131 * 7	 02 04 0E 00 01 0E 00	// allomas tablas
-  132 * 7	 02 04 0F 00 01 0F 00	// allomas tablas, tablas
+  122 * 7	 02 04 09 00 01 09 00	// lampas, viragladas
+  123 * 7	 02 04 0A 00 01 0A 00	// lampas, kukas
+  124 * 7	 02 04 0B 00 01 0B 00	// pados, viragladas
+  125 * 7	 02 04 0C 00 01 0C 00	// lampas, pados
+  126 * 7	 02 04 0D 00 01 0D 00	// lampas, kukas, pados
+  127 * 7	 02 04 0E 00 01 0E 00	// allomas tablas
+  128 * 7	 02 04 0F 00 01 0F 00	// allomas tablas, tablas
 
 
 
@@ -666,7 +658,7 @@
 
 
 // eszaki vegenek randomizacioja
-  133 * 11	 02 04 91
+  129 * 11	 02 04 91
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -674,7 +666,7 @@
 			03 00						// ezzel a modszerrel 1:1 eselye, hogy melyik lesz....
 
 // deli vegenek randomizacioja
-  134 * 11	 02 04 92
+  130 * 11	 02 04 92
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -684,7 +676,7 @@
 // kozepso lekerdezesek.....
 // minden harmadik mezore legyen igaz az eszaki vegetol szamitva, ez annak a feltetele, hogy harmadik-e...
 	// sima randomizaciok
-  135 * 23	 02 04 B2
+  131 * 23	 02 04 B2
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
 			08							// hany darab random lehetosegunk van
@@ -698,7 +690,7 @@
 			0B 00
 
 	// lampas randomizaciok
-  136 * 15	 02 04 B1
+  132 * 15	 02 04 B1
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			04							// hany darab random lehetosegunk van
@@ -709,7 +701,7 @@
 
 	// negyedik lekerdezes, ami mar nem a szelso elemeket randomizalja
 	// itt konkretan szetvalasztom, hogy minden harmadik lampas elem, a tobbi meg nem :D
-  137 * 16	 02 04 B0
+  133 * 16	 02 04 B0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -722,7 +714,7 @@
 
 
 // ez a harmadik lekerdezes, ha a deli vege van, akkor betolti azt, egyebkent a kozepso lekerdezesekre ugrik...
-  138 * 14	 02 04 A3
+  134 * 14	 02 04 A3
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
@@ -731,7 +723,7 @@
 			B0 00						// ha nincs egyezes, akkor ide ugorjon
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebkent a harmadik lekerdezesre ugrik
-  139 * 14	 02 04 A2
+  135 * 14	 02 04 A2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -745,7 +737,7 @@
 // ha legalabb 7 hosszusagu
 //
 
-  140 * 16	 02 04 D2
+  136 * 16	 02 04 D2
 			81 49						// 81 lower byte type, 49 variable: azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -755,7 +747,7 @@
 			0F 00 00 00					// ha 0 az eredmeny, akkor lampas tablas
 			0E 00						// egyebkent sima tablas lesz
 
-  141 * 18	 02 04 D1
+  137 * 18	 02 04 D1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -764,7 +756,7 @@
 			D2 00 01 01					// D2-nel nezem meg, hogy lampas vagy sima tablas kell
 			A2 00						// ha nincs egyezes, akkor ide ugorjon
 
-  142 * 22	 02 04 D0
+  138 * 22	 02 04 D0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			04							// shift eltolas
 			0F							// maszkolas
@@ -774,7 +766,7 @@
 			B1 00 02 02					// B1 00 a lampas randomizaciok
 			D1 00						// ha nincs egyezes, akkor ide ugorjon
 
-  143 * 14	 02 04 A1
+  139 * 14	 02 04 A1
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -788,7 +780,7 @@
 //
 
 // ez az elso lekerdezes, ezzel kerdezem le
-  144 * 14	 02 04 A0
+  140 * 14	 02 04 A0
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -799,7 +791,7 @@
 
 
 // ez meg nem lekerdezes, hanem calback elvalaszto
-  145 * 17	 02 04 AA
+  141 * 17	 02 04 AA
 			85							// get word
 			0C							// check if callback
 			00
@@ -821,7 +813,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
-  146 * 17	 02 04 C0					// Set-ID C0
+  142 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 //			FA 00 13 00 13 00			// lekerdezzuk, hogy elerheto-e, tehat a 13 callback az elerhetoseg???
@@ -829,7 +821,7 @@
 			00 00						// menu grafika....
 
 //   00 * 00	03 04 01 10 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
-  147 * 10	 03 04 01 10
+  143 * 10	 03 04 01 10
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
 //   FE 00 00							// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
@@ -843,7 +835,7 @@
 //**************************************//
 
 
-  148 * 466	 00 04 04 01 11 08 "PKS1"
+  144 * 466	 00 04 04 01 11 08 "PKS1"
 //			11 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -1009,85 +1001,85 @@
 			80
 
 
-  149 * 4	 01 04 0F 02
+  145 * 4	 01 04 0F 02
 
 	// menu grafika
-  150 spiretes_grafika/peron1b.pcx 8bpp 0 0 44 37 -32 -16 normal chunked // -10, -5
-  151 spiretes_grafika/peron1b.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
+  146 spiretes_grafika/peron1b.pcx 8bpp 0 0 44 37 -32 -16 normal chunked // -10, -5
+  147 spiretes_grafika/peron1b.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
 
 	// egyeduli peron
-  152 spiretes_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
-  153 spiretes_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
+  148 spiretes_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
+  149 spiretes_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
 
 	// eszakrol az elso (hatulja)
 	// kopott 1
-  154 spiretes_grafika/peron1.pcx 8bpp 91 1 44 37 -36 -13 normal chunked
-  155 spiretes_grafika/peron1.pcx 8bpp 91 39 44 37 -6 -13 normal chunked
+  150 spiretes_grafika/peron1.pcx 8bpp 91 1 44 37 -36 -13 normal chunked
+  151 spiretes_grafika/peron1.pcx 8bpp 91 39 44 37 -6 -13 normal chunked
 	// kopott 2
-  156 spiretes_grafika/peron1.pcx 8bpp 136 1 44 37 -36 -13 normal chunked
-  157 spiretes_grafika/peron1.pcx 8bpp 136 39 44 37 -6 -13 normal chunked
+  152 spiretes_grafika/peron1.pcx 8bpp 136 1 44 37 -36 -13 normal chunked
+  153 spiretes_grafika/peron1.pcx 8bpp 136 39 44 37 -6 -13 normal chunked
 
 	// ures kozepso
 	// nem kopott
-  158 spiretes_grafika/peron1.pcx 8bpp 181 1 44 37 -32 -16 normal chunked
-  159 spiretes_grafika/peron1.pcx 8bpp 181 39 44 37 -10 -16 normal chunked
+  154 spiretes_grafika/peron1.pcx 8bpp 181 1 44 37 -32 -16 normal chunked
+  155 spiretes_grafika/peron1.pcx 8bpp 181 39 44 37 -10 -16 normal chunked
 	// kopott 1
-  160 spiretes_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
-  161 spiretes_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
+  156 spiretes_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
+  157 spiretes_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
 	// kopott 2
-  162 spiretes_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
-  163 spiretes_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
+  158 spiretes_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
+  159 spiretes_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
 
 	// eleje (delro)
 	// kopott 1
-  164 spiretes_grafika/peron1.pcx 8bpp 1 1 44 37 -30 -16 normal chunked
-  165 spiretes_grafika/peron1.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
+  160 spiretes_grafika/peron1.pcx 8bpp 1 1 44 37 -30 -16 normal chunked
+  161 spiretes_grafika/peron1.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
 	// kopott 2
-  166 spiretes_grafika/peron1.pcx 8bpp 46 1 44 37 -30 -16 normal chunked
-  167 spiretes_grafika/peron1.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
+  162 spiretes_grafika/peron1.pcx 8bpp 46 1 44 37 -30 -16 normal chunked
+  163 spiretes_grafika/peron1.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
-  168 spiretes_grafika/peron1.pcx 8bpp 1 77 44 37 -32 -16 normal chunked
-  169 spiretes_grafika/peron1.pcx 8bpp 1 115 44 37 -10 -16 normal chunked
+  164 spiretes_grafika/peron1.pcx 8bpp 1 77 44 37 -32 -16 normal chunked
+  165 spiretes_grafika/peron1.pcx 8bpp 1 115 44 37 -10 -16 normal chunked
 	// lampas, kukas
-  170 spiretes_grafika/peron1.pcx 8bpp 46 77 44 37 -32 -16 normal chunked
-  171 spiretes_grafika/peron1.pcx 8bpp 46 115 44 37 -10 -16 normal chunked
+  166 spiretes_grafika/peron1.pcx 8bpp 46 77 44 37 -32 -16 normal chunked
+  167 spiretes_grafika/peron1.pcx 8bpp 46 115 44 37 -10 -16 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
-  172 spiretes_grafika/peron1b.pcx 8bpp 0 0 44 37 -32 -16 normal chunked
-  173 spiretes_grafika/peron1b.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
+  168 spiretes_grafika/peron1b.pcx 8bpp 0 0 44 37 -32 -16 normal chunked
+  169 spiretes_grafika/peron1b.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
 	// lampas, pados
-  174 spiretes_grafika/peron1b.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
-  175 spiretes_grafika/peron1b.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+  170 spiretes_grafika/peron1b.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+  171 spiretes_grafika/peron1b.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
 
    // allomas tablas
-  176 spiretes_grafika/peron1b.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
-  177 spiretes_grafika/peron1b.pcx 8bpp 90 38 44 37 -10 -16 normal chunked
+  172 spiretes_grafika/peron1b.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
+  173 spiretes_grafika/peron1b.pcx 8bpp 90 38 44 37 -10 -16 normal chunked
    // allomas tablas, lampas
-  178 spiretes_grafika/peron1b.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
-  179 spiretes_grafika/peron1b.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
+  174 spiretes_grafika/peron1b.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
+  175 spiretes_grafika/peron1b.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
-  180 * 7	 02 04 00 00 01 00 00	// menu grafika
-  181 * 7	 02 04 01 00 01 01 00	// egyeduli peron
-  182 * 7	 02 04 02 00 01 02 00	// kopott hatulja 1
-  183 * 7	 02 04 03 00 01 03 00	// kopott hatulja 2
-  184 * 7	 02 04 04 00 01 04 00	// nem kopott kozepe
-  185 * 7	 02 04 05 00 01 05 00	// kopott kozepe 1
-  186 * 7	 02 04 06 00 01 06 00	// kopott kozepe 2
-  187 * 7	 02 04 07 00 01 07 00	// kopott eleje 1
-  188 * 7	 02 04 08 00 01 08 00	// kopott eleje 2
+  176 * 7	 02 04 00 00 01 00 00	// menu grafika
+  177 * 7	 02 04 01 00 01 01 00	// egyeduli peron
+  178 * 7	 02 04 02 00 01 02 00	// kopott hatulja 1
+  179 * 7	 02 04 03 00 01 03 00	// kopott hatulja 2
+  180 * 7	 02 04 04 00 01 04 00	// nem kopott kozepe
+  181 * 7	 02 04 05 00 01 05 00	// kopott kozepe 1
+  182 * 7	 02 04 06 00 01 06 00	// kopott kozepe 2
+  183 * 7	 02 04 07 00 01 07 00	// kopott eleje 1
+  184 * 7	 02 04 08 00 01 08 00	// kopott eleje 2
 
    // objektumos kozepek
-  189 * 7	 02 04 09 00 01 09 00	// lampas, viragladas
-  190 * 7	 02 04 0A 00 01 0A 00	// lampas, kukas
-  191 * 7	 02 04 0B 00 01 0B 00	// pados, viragladas
-  192 * 7	 02 04 0C 00 01 0C 00	// lampas, pados
-  193 * 7	 02 04 0D 00 01 0D 00	// allomas tablas
-  194 * 7	 02 04 0E 00 01 0E 00	// allomas tablas, lampas
+  185 * 7	 02 04 09 00 01 09 00	// lampas, viragladas
+  186 * 7	 02 04 0A 00 01 0A 00	// lampas, kukas
+  187 * 7	 02 04 0B 00 01 0B 00	// pados, viragladas
+  188 * 7	 02 04 0C 00 01 0C 00	// lampas, pados
+  189 * 7	 02 04 0D 00 01 0D 00	// allomas tablas
+  190 * 7	 02 04 0E 00 01 0E 00	// allomas tablas, lampas
 
 
 
@@ -1109,7 +1101,7 @@
 
 
 // eszaki vegenek randomizacioja
-  195 * 11	 02 04 91
+  191 * 11	 02 04 91
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -1117,7 +1109,7 @@
 			03 00						// ezzel a modszerrel 1:1 eselye, hogy melyik lesz....
 
 // deli vegenek randomizacioja
-  196 * 11	 02 04 92
+  192 * 11	 02 04 92
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -1127,7 +1119,7 @@
 // kozepso lekerdezesek.....
 // minden harmadik mezore legyen igaz az eszaki vegetol szamitva, ez annak a feltetele, hogy harmadik-e...
 	// sima randomizaciok
-  197 * 23	 02 04 B2
+  193 * 23	 02 04 B2
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
 			08							// hany darab random lehetosegunk van
@@ -1141,7 +1133,7 @@
 			0B 00
 
 	// lampas randomizaciok
-  198 * 15	 02 04 B1
+  194 * 15	 02 04 B1
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			04							// hany darab random lehetosegunk van
@@ -1152,7 +1144,7 @@
 
 	// negyedik lekerdezes, ami mar nem a szelso elemeket randomizalja
 	// itt konkretan szetvalasztom, hogy minden harmadik lampas elem, a tobbi meg nem :D
-  199 * 16	 02 04 B0
+  195 * 16	 02 04 B0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -1165,7 +1157,7 @@
 
 
 // ez a harmadik lekerdezes, ha a deli vege van, akkor betolti azt, egyebkent a kozepso lekerdezesekre ugrik...
-  200 * 14	 02 04 A3
+  196 * 14	 02 04 A3
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
@@ -1174,7 +1166,7 @@
 			B0 00						// ha nincs egyezes, akkor ide ugorjon
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebkent a harmadik lekerdezesre ugrik
-  201 * 14	 02 04 A2
+  197 * 14	 02 04 A2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -1187,7 +1179,7 @@
 // ha legalabb 7 hosszusagu
 //
 
-  202 * 16	 02 04 D2
+  198 * 16	 02 04 D2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -1197,7 +1189,7 @@
 			0E 00 00 00					// ha 0 az eredmeny, akkor lampas tablas
 			0D 00						// egyebkent sima tablas lesz
 
-  203 * 18	 02 04 D1
+  199 * 18	 02 04 D1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -1206,7 +1198,7 @@
 			D2 00 01 01					// D2-nel nezem meg, hogy lampas vagy sima tablas kell
 			A2 00						// ha nincs egyezes, akkor ide ugorjon
 
-  204 * 22	 02 04 D0
+  200 * 22	 02 04 D0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			04							// shift eltolas
 			0F							// maszkolas
@@ -1216,7 +1208,7 @@
 			B1 00 02 02					// B1 00 a lampas randomizaciok
 			D1 00						// ha nincs egyezes, akkor ide ugorjon
 
-  205 * 14	 02 04 A1
+  201 * 14	 02 04 A1
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -1230,7 +1222,7 @@
 //
 
 // ez az elso lekerdezes, ezzel kerdezem le
-  206 * 14	 02 04 A0
+  202 * 14	 02 04 A0
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10								// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -1241,7 +1233,7 @@
 
 
 // ez meg nem lekerdezes, hanem calback elvalaszto
-  207 * 17	 02 04 AA
+  203 * 17	 02 04 AA
 			85							// get word
 			0C							// check if callback
 			00
@@ -1263,7 +1255,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
-  208 * 17	 02 04 C0					// Set-ID C0
+  204 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 //			FA 00 13 00 13 00			// lekerdezzuk, hogy elerheto-e, tehat a 13 callback az elerhetoseg???
@@ -1271,7 +1263,7 @@
 			00 00						// menu grafika....
 
 //   00 * 00	03 04 01 05 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
-  209 * 10	 03 04 01 11
+  205 * 10	 03 04 01 11
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
@@ -1285,7 +1277,7 @@
 //**************************************//
 
 
-  210 * 376	 00 04 04 01 12 08 "PKS1"
+  206 * 376	 00 04 04 01 12 08 "PKS1"
 //			11 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -1414,73 +1406,73 @@
 			00 00 00	05 10 1F	2E 04 00 00
 			80
 
-  211 * 4	 01 04 0C 02
+  207 * 4	 01 04 0C 02
 
 	// menu grafika
-  212 spiretes_grafika/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
-  213 spiretes_grafika/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
+  208 spiretes_grafika/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
+  209 spiretes_grafika/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
 
 	// egyeduli peron
-  214 spiretes_grafika/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
-  215 spiretes_grafika/peron2.pcx 8bpp 91 117 44 39 -10 -18 normal chunked
+  210 spiretes_grafika/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
+  211 spiretes_grafika/peron2.pcx 8bpp 91 117 44 39 -10 -18 normal chunked
 
 	// eszakrol az elso (hatulja)
-  216 spiretes_grafika/peron2.pcx 8bpp 46 1 44 37 -32 -16 normal chunked
-  217 spiretes_grafika/peron2.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
+  212 spiretes_grafika/peron2.pcx 8bpp 46 1 44 37 -32 -16 normal chunked
+  213 spiretes_grafika/peron2.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
 
 	// ures kozepso
 	// nem kopott
-  218 spiretes_grafika/peron2.pcx 8bpp 91 1 44 37 -32 -16 normal chunked
-  219 spiretes_grafika/peron2.pcx 8bpp 91 39 44 37 -10 -16 normal chunked
+  214 spiretes_grafika/peron2.pcx 8bpp 91 1 44 37 -32 -16 normal chunked
+  215 spiretes_grafika/peron2.pcx 8bpp 91 39 44 37 -10 -16 normal chunked
 
 	// eleje (delro)
-  220 spiretes_grafika/peron2.pcx 8bpp 1 1 44 37 -32 -16 normal chunked
-  221 spiretes_grafika/peron2.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
+  216 spiretes_grafika/peron2.pcx 8bpp 1 1 44 37 -32 -16 normal chunked
+  217 spiretes_grafika/peron2.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
-  222 spiretes_grafika/peron2.pcx 8bpp 1 77 44 39 -32 -18 normal chunked
-  223 spiretes_grafika/peron2.pcx 8bpp 1 117 44 39 -10 -18 normal chunked
+  218 spiretes_grafika/peron2.pcx 8bpp 1 77 44 39 -32 -18 normal chunked
+  219 spiretes_grafika/peron2.pcx 8bpp 1 117 44 39 -10 -18 normal chunked
 	// lampas, kukas
-  224 spiretes_grafika/peron2.pcx 8bpp 46 77 44 39 -32 -18 normal chunked
-  225 spiretes_grafika/peron2.pcx 8bpp 46 117 44 39 -10 -18 normal chunked
+  220 spiretes_grafika/peron2.pcx 8bpp 46 77 44 39 -32 -18 normal chunked
+  221 spiretes_grafika/peron2.pcx 8bpp 46 117 44 39 -10 -18 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
-  226 spiretes_grafika/peron2a.pcx 8bpp 90 0 44 39 -32 -18 normal chunked
-  227 spiretes_grafika/peron2a.pcx 8bpp 90 40 44 39 -10 -18 normal chunked
+  222 spiretes_grafika/peron2a.pcx 8bpp 90 0 44 39 -32 -18 normal chunked
+  223 spiretes_grafika/peron2a.pcx 8bpp 90 40 44 39 -10 -18 normal chunked
 	// lampas, pados
-  228 spiretes_grafika/peron2a.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
-  229 spiretes_grafika/peron2a.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
+  224 spiretes_grafika/peron2a.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
+  225 spiretes_grafika/peron2a.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
 	// lampas, kukas, pados
-  230 spiretes_grafika/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
-  231 spiretes_grafika/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
+  226 spiretes_grafika/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
+  227 spiretes_grafika/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
 
    // allomas tablas
-  232 spiretes_grafika/peron2a.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
-  233 spiretes_grafika/peron2a.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
+  228 spiretes_grafika/peron2a.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
+  229 spiretes_grafika/peron2a.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
    // allomas tablas, lampas
-  234 spiretes_grafika/peron2a.pcx 8bpp 180 0 44 39 -32 -18 normal chunked
-  235 spiretes_grafika/peron2a.pcx 8bpp 180 40 44 39 -10 -18 normal chunked
+  230 spiretes_grafika/peron2a.pcx 8bpp 180 0 44 39 -32 -18 normal chunked
+  231 spiretes_grafika/peron2a.pcx 8bpp 180 40 44 39 -10 -18 normal chunked
 
 
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
-  236 * 7	 02 04 00 00 01 00 00	// menu grafika
-  237 * 7	 02 04 01 00 01 01 00	// egyeduli peron
-  238 * 7	 02 04 02 00 01 02 00	// hatulja
-  239 * 7	 02 04 03 00 01 03 00	// nem kopott kozepe
-  240 * 7	 02 04 04 00 01 04 00	// eleje
+  232 * 7	 02 04 00 00 01 00 00	// menu grafika
+  233 * 7	 02 04 01 00 01 01 00	// egyeduli peron
+  234 * 7	 02 04 02 00 01 02 00	// hatulja
+  235 * 7	 02 04 03 00 01 03 00	// nem kopott kozepe
+  236 * 7	 02 04 04 00 01 04 00	// eleje
 
    // objektumos kozepek
-  241 * 7	 02 04 05 00 01 05 00	// lampas, viragladas
-  242 * 7	 02 04 06 00 01 06 00	// lampas, kukas
-  243 * 7	 02 04 07 00 01 07 00	// pados, viragladas
-  244 * 7	 02 04 08 00 01 08 00	// lampas, pados
-  245 * 7	 02 04 09 00 01 09 00	// lampas, kukas, pados
-  246 * 7	 02 04 0A 00 01 0A 00	// allomas tablas
-  247 * 7	 02 04 0B 00 01 0B 00	// allomas tablas, lampas
+  237 * 7	 02 04 05 00 01 05 00	// lampas, viragladas
+  238 * 7	 02 04 06 00 01 06 00	// lampas, kukas
+  239 * 7	 02 04 07 00 01 07 00	// pados, viragladas
+  240 * 7	 02 04 08 00 01 08 00	// lampas, pados
+  241 * 7	 02 04 09 00 01 09 00	// lampas, kukas, pados
+  242 * 7	 02 04 0A 00 01 0A 00	// allomas tablas
+  243 * 7	 02 04 0B 00 01 0B 00	// allomas tablas, lampas
 
 
 
@@ -1503,7 +1495,7 @@
 // kozepso lekerdezesek.....
 // minden harmadik mezore legyen igaz az eszaki vegetol szamitva, ez annak a feltetele, hogy harmadik-e...
 	// sima randomizaciok
-  248 * 15	 02 04 B2
+  244 * 15	 02 04 B2
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
 			04							// hany darab random lehetosegunk van
@@ -1513,7 +1505,7 @@
 			07 00			// pados, viragladas
 
 	// lampas randomizaciok
-  249 * 15	 02 04 B1
+  245 * 15	 02 04 B1
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			04							// hany darab random lehetosegunk van
@@ -1524,7 +1516,7 @@
 
 	// negyedik lekerdezes, ami mar nem a szelso elemeket randomizalja
 	// itt konkretan szetvalasztom, hogy minden harmadik lampas elem, a tobbi meg nem :D
-  250 * 16	 02 04 B0
+  246 * 16	 02 04 B0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -1537,7 +1529,7 @@
 
 
 // ez a harmadik lekerdezes, ha a deli vege van, akkor betolti azt, egyebkent a kozepso lekerdezesekre ugrik...
-  251 * 14	 02 04 A3
+  247 * 14	 02 04 A3
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
@@ -1546,7 +1538,7 @@
 			B0 00						// ha nincs egyezes, akkor ide ugorjon
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebkent a harmadik lekerdezesre ugrik
-  252 * 14	 02 04 A2
+  248 * 14	 02 04 A2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -1559,7 +1551,7 @@
 // ha legalabb 7 hosszusagu
 //
 
-  253 * 16	 02 04 D2
+  249 * 16	 02 04 D2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -1569,7 +1561,7 @@
 			0B 00 00 00					// ha 0 az eredmeny, akkor lampas tablas
 			0A 00						// egyebkent sima tablas lesz
 
-  254 * 18	 02 04 D1
+  250 * 18	 02 04 D1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -1578,7 +1570,7 @@
 			D2 00 01 01					// D2-nel nezem meg, hogy lampas vagy sima tablas kell
 			A2 00						// ha nincs egyezes, akkor ide ugorjon
 
-  255 * 22	 02 04 D0
+  251 * 22	 02 04 D0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			04							// shift eltolas
 			0F							// maszkolas
@@ -1588,7 +1580,7 @@
 			B1 00 02 02					// B1 00 a lampas randomizaciok
 			D1 00						// ha nincs egyezes, akkor ide ugorjon
 
-  256 * 14	 02 04 A1
+  252 * 14	 02 04 A1
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -1601,7 +1593,7 @@
 //
 
 // ez az elso lekerdezes, ezzel kerdezem le
-  257 * 14	 02 04 A0
+  253 * 14	 02 04 A0
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -1612,7 +1604,7 @@
 
 
 // ez meg nem lekerdezes, hanem calback elvalaszto
-  258 * 17	 02 04 AA
+  254 * 17	 02 04 AA
 			85							// get word
 			0C							// check if callback
 			00
@@ -1634,7 +1626,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
-  259 * 17	 02 04 C0					// Set-ID C0
+  255 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 //			FA 00 13 00 13 00			// lekerdezzuk, hogy elerheto-e, tehat a 13 callback az elerhetoseg???
@@ -1642,7 +1634,7 @@
 			00 00						// menu grafika....
 
 //   00 * 00	03 04 01 05 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
-  260 * 10	 03 04 01 12
+  256 * 10	 03 04 01 12
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
@@ -1656,7 +1648,7 @@
 //**************************************//
 
 
-  261 * 346	 00 04 04 01 13 08 "PKS1"
+  257 * 346	 00 04 04 01 13 08 "PKS1"
 //			11 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -1778,67 +1770,67 @@
 			80
 
 
-  262 * 4	 01 04 0B 02
+  258 * 4	 01 04 0B 02
 
 	// menu grafika
-  263 spiretes_grafika/peron2b.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
-  264 spiretes_grafika/peron2b.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
+  259 spiretes_grafika/peron2b.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
+  260 spiretes_grafika/peron2b.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
 
 	// egyeduli peron
-  265 spiretes_grafika/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
-  266 spiretes_grafika/peron2.pcx 8bpp 91 117 44 39 -11 -18 normal chunked
+  261 spiretes_grafika/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
+  262 spiretes_grafika/peron2.pcx 8bpp 91 117 44 39 -11 -18 normal chunked
 
 	// eszakrol az elso (hatulja)
-  267 spiretes_grafika/peron2.pcx 8bpp 46 1 44 37 -32 -16 normal chunked
-  268 spiretes_grafika/peron2.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
+  263 spiretes_grafika/peron2.pcx 8bpp 46 1 44 37 -32 -16 normal chunked
+  264 spiretes_grafika/peron2.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
 
 	// ures kozepso
 	// nem kopott
-  269 spiretes_grafika/peron2.pcx 8bpp 91 1 44 37 -32 -16 normal chunked
-  270 spiretes_grafika/peron2.pcx 8bpp 91 39 44 37 -10 -16 normal chunked
+  265 spiretes_grafika/peron2.pcx 8bpp 91 1 44 37 -32 -16 normal chunked
+  266 spiretes_grafika/peron2.pcx 8bpp 91 39 44 37 -10 -16 normal chunked
 
 	// eleje (delro)
-  271 spiretes_grafika/peron2.pcx 8bpp 1 1 44 37 -32 -16 normal chunked
-  272 spiretes_grafika/peron2.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
+  267 spiretes_grafika/peron2.pcx 8bpp 1 1 44 37 -32 -16 normal chunked
+  268 spiretes_grafika/peron2.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
-  273 spiretes_grafika/peron2.pcx 8bpp 1 77 44 39 -32 -18 normal chunked
-  274 spiretes_grafika/peron2.pcx 8bpp 1 117 44 39 -10 -18 normal chunked
+  269 spiretes_grafika/peron2.pcx 8bpp 1 77 44 39 -32 -18 normal chunked
+  270 spiretes_grafika/peron2.pcx 8bpp 1 117 44 39 -10 -18 normal chunked
 	// lampas, kukas
-  275 spiretes_grafika/peron2.pcx 8bpp 46 77 44 39 -32 -18 normal chunked
-  276 spiretes_grafika/peron2.pcx 8bpp 46 117 44 39 -10 -18 normal chunked
+  271 spiretes_grafika/peron2.pcx 8bpp 46 77 44 39 -32 -18 normal chunked
+  272 spiretes_grafika/peron2.pcx 8bpp 46 117 44 39 -10 -18 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
-  277 spiretes_grafika/peron2b.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
-  278 spiretes_grafika/peron2b.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
+  273 spiretes_grafika/peron2b.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
+  274 spiretes_grafika/peron2b.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
 	// lampas, pados
-  279 spiretes_grafika/peron2b.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
-  280 spiretes_grafika/peron2b.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
+  275 spiretes_grafika/peron2b.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
+  276 spiretes_grafika/peron2b.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
 
    // allomas tablas
-  281 spiretes_grafika/peron2b.pcx 8bpp 90 0 44 39 -32 -18 normal chunked
-  282 spiretes_grafika/peron2b.pcx 8bpp 90 40 44 39 -10 -18 normal chunked
+  277 spiretes_grafika/peron2b.pcx 8bpp 90 0 44 39 -32 -18 normal chunked
+  278 spiretes_grafika/peron2b.pcx 8bpp 90 40 44 39 -10 -18 normal chunked
    // allomas tablas, lampas
-  283 spiretes_grafika/peron2b.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
-  284 spiretes_grafika/peron2b.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
+  279 spiretes_grafika/peron2b.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
+  280 spiretes_grafika/peron2b.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
-  285 * 7	 02 04 00 00 01 00 00	// menu grafika
-  286 * 7	 02 04 01 00 01 01 00	// egyeduli peron
-  287 * 7	 02 04 02 00 01 02 00	// hatulja
-  288 * 7	 02 04 03 00 01 03 00	// nem kopott kozepe
-  289 * 7	 02 04 04 00 01 04 00	// eleje
+  281 * 7	 02 04 00 00 01 00 00	// menu grafika
+  282 * 7	 02 04 01 00 01 01 00	// egyeduli peron
+  283 * 7	 02 04 02 00 01 02 00	// hatulja
+  284 * 7	 02 04 03 00 01 03 00	// nem kopott kozepe
+  285 * 7	 02 04 04 00 01 04 00	// eleje
 
    // objektumos kozepek
-  290 * 7	 02 04 05 00 01 05 00	// lampas, viragladas
-  291 * 7	 02 04 06 00 01 06 00	// lampas, kukas
-  292 * 7	 02 04 07 00 01 07 00	// pados, viragladas
-  293 * 7	 02 04 08 00 01 08 00	// lampas, pados
-  294 * 7	 02 04 09 00 01 09 00	// allomas tablas
-  295 * 7	 02 04 0A 00 01 0A 00	// allomas tablas, lampas
+  286 * 7	 02 04 05 00 01 05 00	// lampas, viragladas
+  287 * 7	 02 04 06 00 01 06 00	// lampas, kukas
+  288 * 7	 02 04 07 00 01 07 00	// pados, viragladas
+  289 * 7	 02 04 08 00 01 08 00	// lampas, pados
+  290 * 7	 02 04 09 00 01 09 00	// allomas tablas
+  291 * 7	 02 04 0A 00 01 0A 00	// allomas tablas, lampas
 
 
 
@@ -1861,7 +1853,7 @@
 // kozepso lekerdezesek.....
 // minden harmadik mezore legyen igaz az eszaki vegetol szamitva, ez annak a feltetele, hogy harmadik-e...
 	// sima randomizaciok
-  296 * 15	 02 04 B2
+  292 * 15	 02 04 B2
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
 			04							// hany darab random lehetosegunk van
@@ -1871,7 +1863,7 @@
 			07 00			// pados, viragladas
 
 	// lampas randomizaciok
-  297 * 15	 02 04 B1
+  293 * 15	 02 04 B1
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			04							// hany darab random lehetosegunk van
@@ -1882,7 +1874,7 @@
 
 	// negyedik lekerdezes, ami mar nem a szelso elemeket randomizalja
 	// itt konkretan szetvalasztom, hogy minden harmadik lampas elem, a tobbi meg nem :D
-  298 * 16	 02 04 B0
+  294 * 16	 02 04 B0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -1895,7 +1887,7 @@
 
 
 // ez a harmadik lekerdezes, ha a deli vege van, akkor betolti azt, egyebkent a kozepso lekerdezesekre ugrik...
-  299 * 14	 02 04 A3
+  295 * 14	 02 04 A3
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
@@ -1904,7 +1896,7 @@
 			B0 00						// ha nincs egyezes, akkor ide ugorjon
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebkent a harmadik lekerdezesre ugrik
-  300 * 14	 02 04 A2
+  296 * 14	 02 04 A2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -1917,7 +1909,7 @@
 // ha legalabb 7 hosszusagu
 //
 
-  301 * 16	 02 04 D2
+  297 * 16	 02 04 D2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -1928,7 +1920,7 @@
 			09 00						// egyebkent sima tablas lesz
 
 
-  302 * 18	 02 04 D1
+  298 * 18	 02 04 D1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -1937,7 +1929,7 @@
 			D2 00 01 01					// D2-nel nezem meg, hogy lampas vagy sima tablas kell
 			A2 00						// ha nincs egyezes, akkor ide ugorjon
 
-  303 * 22	 02 04 D0
+  299 * 22	 02 04 D0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			04							// shift eltolas
 			0F							// maszkolas
@@ -1947,7 +1939,7 @@
 			B1 00 02 02					// B1 00 a lampas randomizaciok
 			D1 00						// ha nincs egyezes, akkor ide ugorjon
 
-  304 * 14	 02 04 A1
+  300 * 14	 02 04 A1
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -1961,7 +1953,7 @@
 //
 
 // ez az elso lekerdezes, ezzel kerdezem le
-  305 * 14	 02 04 A0
+  301 * 14	 02 04 A0
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10								// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -1972,7 +1964,7 @@
 
 
 // ez meg nem lekerdezes, hanem calback elvalaszto
-  306 * 17	 02 04 AA
+  302 * 17	 02 04 AA
 			85							// get word
 			0C							// check if callback
 			00
@@ -1994,7 +1986,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
-  307 * 17	 02 04 C0					// Set-ID C0
+  303 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 //			FA 00 13 00 13 00			// lekerdezzuk, hogy elerheto-e, tehat a 13 callback az elerhetoseg???
@@ -2002,7 +1994,7 @@
 			00 00						// menu grafika....
 
 //   00 * 00	03 04 01 05 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
-  308 * 10	 03 04 01 13
+  304 * 10	 03 04 01 13
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
@@ -2013,24 +2005,24 @@
 //**************************************//
 
 // menu
-  309 * 42	 04 04 FF 01 10 C4 "Platforms (automatic)(single sided)" 00
-  310 * 42	 04 04 A4 01 10 C4 "ÞPeronok (automatikus)(egyoldalú)" 00
+  305 * 42	 04 04 FF 01 10 C4 "Platforms (automatic)(single sided)" 00
+  306 * 42	 04 04 A4 01 10 C4 "ÞPeronok (automatikus)(egyoldalú)" 00
 
 // Peron1a
-  311 * 22	 04 04 FF 01 10 C5 "Old (low)(back)" 00
-  312 * 36	 04 04 A4 01 10 C5 "ÞRégi (alacsony)(hátulsó)" 00
+  307 * 22	 04 04 FF 01 10 C5 "Old (low)(back)" 00
+  308 * 36	 04 04 A4 01 10 C5 "ÞRégi (alacsony)(hátulsó)" 00
 
 // Peron1b
-  313 * 24	 04 04 FF 01 11 C5 "Old (low)(front) "  00
-  314 * 35	 04 04 A4 01 11 C5 "ÞRégi (alacsony)(elülső)"  00
+  309 * 24	 04 04 FF 01 11 C5 "Old (low)(front) "  00
+  310 * 35	 04 04 A4 01 11 C5 "ÞRégi (alacsony)(elülső)"  00
 
 // Peron2a
-  315 * 23	 04 04 FF 01 12 C5 "Old (high)(back)" 00
-  316 * 33	 04 04 A4 01 12 C5 "ÞRégi (magas)(hátulsó)" 00
+  311 * 23	 04 04 FF 01 12 C5 "Old (high)(back)" 00
+  312 * 33	 04 04 A4 01 12 C5 "ÞRégi (magas)(hátulsó)" 00
 
 // Peron2b
-  317 * 24	 04 04 FF 01 13 C5 "Old (high)(front)" 00
-  318 * 32	 04 04 A4 01 13 C5 "ÞRégi (magas)(elülső)" 00
+  313 * 24	 04 04 FF 01 13 C5 "Old (high)(front)" 00
+  314 * 32	 04 04 A4 01 13 C5 "ÞRégi (magas)(elülső)" 00
 
 
 
@@ -2041,21 +2033,21 @@
 //******************************************************************************************************************************************************//
 
 
-  319 * 11	 02 04 40				// Procedure to compute the slope-dependent spriteoffset
+  315 * 11	 02 04 40				// Procedure to compute the slope-dependent spriteoffset
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
 			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			00 00
 
-  320 * 11	 02 04 41				// Procedure to compute the climate-dependent spriteoffset
+  316 * 11	 02 04 41				// Procedure to compute the climate-dependent spriteoffset
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
 			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			00 00
 
-  321 * 11	 02 04 42				// Procedure to compute the height offset in the middle of the tile
+  317 * 11	 02 04 42				// Procedure to compute the height offset in the middle of the tile
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -2065,7 +2057,7 @@
 
 
 
-  322 * 160	 00 04 04 01 F0 08 "PKST"
+  318 * 160	 00 04 04 01 F0 08 "PKST"
 //			11 00 14 FF 15 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -2143,36 +2135,36 @@
 			00 00 00		// extend
 
 
+  319 * 4	 01 04 01 02
+  320 spiretes_grafika/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
+  321 spiretes_grafika/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
+
+  322 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
+
+
+
   323 * 4	 01 04 01 02
-  324 spiretes_grafika/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
-  325 spiretes_grafika/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
+  324 spiretes_grafika/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
+  325 spiretes_grafika/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
 
-  326 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
-
-
-
-  327 * 4	 01 04 01 02
-  328 spiretes_grafika/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
-  329 spiretes_grafika/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
-
-  330 * 7	 02 04 01 00 01 00 00	// hatulja
+  326 * 7	 02 04 01 00 01 00 00	// hatulja
 
 
 
-  331 * 4	 01 04 01 04
-  332 spiretes_grafika/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
-  333 spiretes_grafika/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
-  334 spiretes_grafika/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
-  335 spiretes_grafika/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+  327 * 4	 01 04 01 04
+  328 spiretes_grafika/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
+  329 spiretes_grafika/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
+  330 spiretes_grafika/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
+  331 spiretes_grafika/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
 
-  336 * 7	 02 04 02 00 01 00 00	// objektumok
+  332 * 7	 02 04 02 00 01 00 00	// objektumok
 
 
 //   00 * 00	02 04 01 00 01 01 00	// hatulja
 //   00 * 00	02 04 01 00 01 00 00	// hatulja
 
 	// lampas randomizaciok
-  337 * 11	 02 04 B0
+  333 * 11	 02 04 B0
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -2181,7 +2173,7 @@
 
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebken a harmadik lekerdezesre (10) ugrik
-  338 * 14	 02 04 A1
+  334 * 14	 02 04 A1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -2191,7 +2183,7 @@
 
 // callback handler for normal graphics (non-build menu)
 // ez az elso lekerdezes, ezzel kerdezem kezdem el a betoltendo  lekerdezeseket
-  339 * 17	 02 04 A0
+  335 * 17	 02 04 A0
 			85							// get word
 			0C							// check if callback
 			00
@@ -2204,7 +2196,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
-  340 * 17	 02 04 C0					// Set-ID C0
+  336 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 			00 80 14 00 14 00			// use layouts 06/07 during callback 14
@@ -2215,7 +2207,7 @@
 //           \dx 80000000 \wx20  00 00 00 10 10 30 11       // Draw building sprite at z-postion from register 0x11.
 //           \dx 80000001 \wx01  00 00 80          12       // Draw snow-overlay relative to building sprite, but only if register 0x12 is zero.
 
-  341 * 37	 02 04 D0 81
+  337 * 37	 02 04 D0 81
 					7E 40 20 FF                           // Get slope offset from procedure 40
              \2sto  1A    20 10                           // Store in register 0x10
              \2rst  7E 41 20 0F                           // Add climate offset from procedure 41
@@ -2233,7 +2225,7 @@
 
 //-1 * -1    03 0F 01 ?? \b 0 00                            // always procede at 00
 
-  342 * 10	 03 04 01 F0
+  338 * 10	 03 04 01 F0
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
    D0 00								// ha nem menu, akkor A0 action2-re
@@ -2245,8 +2237,8 @@
 //				Strings					//
 //**************************************//
 
-  343 * 22	 04 04 FF 01 F0 C4 "HUNGARIAN TESZT" 00
-  344 * 13	 04 04 FF 01 F0 C5 "TESZT1" 00
+  339 * 22	 04 04 FF 01 F0 C4 "HUNGARIAN TESZT" 00
+  340 * 13	 04 04 FF 01 F0 C5 "TESZT1" 00
 
 
 //******************************************************************************************************************************************************//
@@ -2258,7 +2250,7 @@
 
 
 
-  345 * 76	 00 04 04 01 F1 08 "PKST"
+  341 * 76	 00 04 04 01 F1 08 "PKST"
 //			11 00 14 FF 15 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -2287,7 +2279,7 @@
 			80
 
 
-  346 * 4	 01 04 02 02
+  342 * 4	 01 04 02 02
 	// egyeduli peron
 //   00 spiretes_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
 //   00 spiretes_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
@@ -2295,17 +2287,17 @@
 //   00 spiretes_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
 //   00 spiretes_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
 	// sablonbol
-  347 spiretes_grafika/sablonok.png 8bpp 1 1 46 39 -33 -17 normal chunked
-  348 spiretes_grafika/sablonok.png 8bpp 48 1 46 39 -11 -17 normal chunked
+  343 spiretes_grafika/sablonok.png 8bpp 1 1 46 39 -33 -17 normal chunked
+  344 spiretes_grafika/sablonok.png 8bpp 48 1 46 39 -11 -17 normal chunked
 	// allomas tablas
-  349 spiretes_grafika/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
-  350 spiretes_grafika/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
+  345 spiretes_grafika/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
+  346 spiretes_grafika/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
 
-  351 * 7	 02 04 00 00 01 00 00
-  352 * 7	 02 04 01 00 01 01 00
+  347 * 7	 02 04 00 00 01 00 00
+  348 * 7	 02 04 01 00 01 01 00
 
 	// egyes randomizaciok
-  353 * 11	 02 04 AA
+  349 * 11	 02 04 AA
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -2314,20 +2306,20 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
-  354 * 17	 02 04 C0					// Set-ID C0
+  350 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 			00 80 14 00 14 00			// use layouts 06/07 during callback 14
 			00 00						// menu grafika....
 
 
-  355 * 10	 03 04 01 F1
+  351 * 10	 03 04 01 F1
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
    AA 00								// ha nem menu, akkor A0 action2-re
 
 
-  356 * 48	 00 04 05 01 F2 08 "PKST"
+  352 * 48	 00 04 05 01 F2 08 "PKST"
 //			11 00 14 FF 15 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -2383,7 +2375,7 @@
 
 
 	// egyes randomizaciok
-  357 * 11	 02 04 BB
+  353 * 11	 02 04 BB
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -2394,14 +2386,14 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
-  358 * 17	 02 04 C0					// Set-ID C0
+  354 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 			00 80 14 00 14 00			// use layouts 06/07 during callback 14
 			00 00						// menu grafika....
 
 
-  359 * 10	 03 04 01 F2
+  355 * 10	 03 04 01 F2
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
    BB 00								// ha nem menu, akkor A0 action2-re
@@ -2413,5 +2405,5 @@
 //				Strings					//
 //**************************************//
 
-  360 * 13	 04 04 FF 01 F1 C5 "TESZT2" 00
-  361 * 13	 04 04 FF 01 F2 C5 "TESZT3" 00
+  356 * 13	 04 04 FF 01 F1 C5 "TESZT2" 00
+  357 * 13	 04 04 FF 01 F2 C5 "TESZT3" 00
