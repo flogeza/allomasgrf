@@ -34,7 +34,7 @@
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 06 10		2E 04 00 00
+			00 00 00	10 10 10		2E 04 00 00
 			80					// end layout1 sprite
 
 
@@ -49,10 +49,10 @@
 
    // Action1
    00 * 00	01 04 02 02
+   00 sprites_grafika/nyugati.pcx 8bpp 0 0 66 100 -32 -36 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 0 0 66 49 -32 -17 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
-   00 sprites_grafika/nyugati.pcx 8bpp 263 4 46 39 -32 -17 normal chunked
-   00 sprites_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
-   00 sprites_grafika/nyugati.pcx 8bpp 263 44 46 39 -32 -17 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 67 0 66 49 -32 -17 normal chunked
 
    // Action2
    00 * 00	02 04 00 00 01 00 00

@@ -29,13 +29,13 @@
 		// oszlopok
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
-			RealSprite: posx: 6, posy: 400, sizex: 66, sizey: 100, relx: -32, rely: -36
+			RealSprite: posx: 0, posy: 0, sizex: 66, sizey: 100, relx: -32, rely: -36
 		@EndAddLayout1
 
 		// oszlopok
 		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 6, sizez: 16
-			RealSprite: posx: 263, posy: 4, sizex: 46, sizey: 39, relx: -32, rely: -17
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 0, posy: 0, sizex: 66, sizey: 49, relx: -32, rely: -17
 		@EndAddLayout2
 	@EndAddSprite
 
@@ -50,7 +50,7 @@
 		// oszlopok
 		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 6, sizez: 16
-			RealSprite: posx: 263, posy: 44, sizex: 46, sizey: 39, relx: -32, rely: -17
+			RealSprite: posx: 67, posy: 0, sizex: 66, sizey: 49, relx: -32, rely: -17
 		@EndAddLayout2
 	@EndAddSprite
 @EndAddStation
@@ -226,8 +226,7 @@
 		// uveg
 		@AddLayout2: spritenumber: 5, filename: sprites_grafika/nyugati.pcx, transparent
 			Boundingbox: shared
-			RealSprite: posx: anewgame
-aa, posy: 83, sizex: 62, sizey: 56, relx: 1, rely: 3
+			RealSprite: posx: 494, posy: 83, sizex: 62, sizey: 56, relx: 1, rely: 3
 		@EndAddLayout2
 	@EndAddSprite
 
