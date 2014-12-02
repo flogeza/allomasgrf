@@ -4,21 +4,21 @@
 //**************************************//
 
 // menu
-   00 * 00	04 04 FF 01 10 C4 "Platforms (automatic)(single sided)" 00
-   00 * 00	04 04 A4 01 10 C4 "ÞPeronok (automatikus)(egyoldalú)" 00
+   00 * 00	04 04 FF 01 30 C4 "HSS - Platforms (automatic)(single sided)" 00
+   00 * 00	04 04 A4 01 30 C4 "ÞHSS - Peronok (automatikus)(egyoldalú)" 00
 
 // Peron1a
-   00 * 00	04 04 FF 01 10 C5 "Old (low)(back)" 00
-   00 * 00	04 04 A4 01 10 C5 "ÞRégi (alacsony)(hátulsó)" 00
+   00 * 00	04 04 FF 01 30 C5 "Old (low)(back)" 00
+   00 * 00	04 04 A4 01 30 C5 "ÞRégi (alacsony)(hátulsó)" 00
 
 // Peron1b
-   00 * 00	04 04 FF 01 11 C5 "Old (low)(front) "  00
-   00 * 00	04 04 A4 01 11 C5 "ÞRégi (alacsony)(elülső)"  00
+   00 * 00	04 04 FF 01 31 C5 "Old (low)(front) "  00
+   00 * 00	04 04 A4 01 31 C5 "ÞRégi (alacsony)(elülső)"  00
 
 // Peron2a
-   00 * 00	04 04 FF 01 12 C5 "Old (high)(back)" 00
-   00 * 00	04 04 A4 01 12 C5 "ÞRégi (magas)(hátulsó)" 00
+   00 * 00	04 04 FF 01 32 C5 "Old (high)(back)" 00
+   00 * 00	04 04 A4 01 32 C5 "ÞRégi (magas)(hátulsó)" 00
 
 // Peron2b
-   00 * 00	04 04 FF 01 13 C5 "Old (high)(front)" 00
-   00 * 00	04 04 A4 01 13 C5 "ÞRégi (magas)(elülső)" 00
+   00 * 00	04 04 FF 01 33 C5 "Old (high)(front)" 00
+   00 * 00	04 04 A4 01 33 C5 "ÞRégi (magas)(elülső)" 00
