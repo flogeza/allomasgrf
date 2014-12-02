@@ -35,10 +35,10 @@
 			80
 
     00 * 00	 01 04 01 02													// 01 action, 04 allomas feature, 01 hany station ID-t hatarozunk meg, 04 ID-nkent hany darab sprite van
-//    00 spiretes_grafika/nyugati.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
-	00 spiretes_grafika/nyugati.pcx 8bpp 85 5 68 79 -34 -46 normal chunked
-//   00 spiretes_grafika/nyugati.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
-    00 spiretes_grafika/nyugati.pcx 8bpp 3 3 75 84 -37 -50 normal chunked
+//    00 sprites_grafika/nyugati.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
+	00 sprites_grafika/nyugati.pcx 8bpp 85 5 68 79 -34 -46 normal chunked
+//   00 sprites_grafika/nyugati.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
+    00 sprites_grafika/nyugati.pcx 8bpp 3 3 75 84 -37 -50 normal chunked
 
    00 * 00  02 04															// 02 action, 04 allomas feature
 			00 01															// 00 mi legyen az action ID-ja, 01 hany kulonbozo spriteot/cargot kezel vagy ha jol ertem akkor hany kulonbozo lekerdezest hajtson vegre es keressen ra talalatot
@@ -75,10 +75,10 @@
 			80
 
    00 * 00	 01 04 01 02
-//   00 spiretes_grafika/nyugati.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 5 92 66 90 -33 -59 normal chunked
-//   00 spiretes_grafika/nyugati.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 78 92 67 78 -33 -45 normal chunked
+//   00 sprites_grafika/nyugati.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 5 92 66 90 -33 -59 normal chunked
+//   00 sprites_grafika/nyugati.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 78 92 67 78 -33 -45 normal chunked
 
    00 * 00	02 04 00 01 01 00 00 00 00
    00 * 00	02 04 01 01 01 00 00 00 00
@@ -105,10 +105,10 @@
 			80
 
    00 * 00	01 04 01 02
-//   00 spiretes_grafika/nyugati.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 151 92 67 78 -33 -45 normal chunked
-//   00 spiretes_grafika/nyugati.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 225 95 66 65 -33 -32 normal chunked
+//   00 sprites_grafika/nyugati.pcx 8bpp 167 2 68 35 -32 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 151 92 67 78 -33 -45 normal chunked
+//   00 sprites_grafika/nyugati.pcx 8bpp 167 2 68 35 -33 -2 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 225 95 66 65 -33 -32 normal chunked
 
    00 * 00	02 04 00 01 01 00 00 00 00
    00 * 00	02 04 01 01 01 00 00 00 00
@@ -166,20 +166,20 @@
 
    00 * 00	01 04 03 02
 
-//   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 9 199 58 64 -24 -36 normal chunked		// 1 eleje
-//   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 251 198 58 64 -32 -36 normal chunked		// 2 eleje
+//   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 9 199 58 64 -24 -36 normal chunked		// 1 eleje
+//   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 251 198 58 64 -32 -36 normal chunked		// 2 eleje
 
-//   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 118 199 38 64 -28 -38 normal chunked		// 1 kozepso
-//   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 162 198 38 64 -8 -38 normal chunked		// 2 kozepso
+//   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 118 199 38 64 -28 -38 normal chunked		// 1 kozepso
+//   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 162 198 38 64 -8 -38 normal chunked		// 2 kozepso
 
-//   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 73 199 41 53 -35 -29 normal chunked		// 1 hatulja
-//   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 204 198 41 53 -4 -29 normal chunked		// 2 hatulja
+//   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 73 199 41 53 -35 -29 normal chunked		// 1 hatulja
+//   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 204 198 41 53 -4 -29 normal chunked		// 2 hatulja
 
 
    00 * 00	02 04 00 00 01 00 00
@@ -291,34 +291,34 @@
    00 * 00	01 04 04 04
 
 //	00		elso oszlopos elemek deli sarokhoz kozelebbi oldala
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
 
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 263 4  46 39 -31 -17 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 263 4  46 39 -31 -17 normal chunked
 
 //	01		elso oszlopos elemek eszaki sarokhoz kozelebbi oldala
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
 
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 263 44 46 39 -31 -17 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 263 44 46 39 -31 -17 normal chunked
 
 
 
 //	02		bejarati uveges ajtok deli sarokhoz kozelebbi oldala
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
 
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 310 1 66 81 -32 -49 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 310 1 66 81 -32 -49 normal chunked
 
 //	03		bejarati uveges ajtok eszaki sarokhoz kozelebbi oldala
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
 
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 377 1 67 64 -33 -32 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 377 1 67 64 -33 -32 normal chunked
 
 
 	00 * 00	02 04 00 00 01 00 00	// elso oszlopos elemek deli sarokhoz kozelebbi oldala
@@ -386,34 +386,34 @@
 
    00 * 00	01 04 04 04
 //	04		kozepso uveges teto deli sarokhoz kozelebbi oldala
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 -0 -35 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 219 265 66 100 -0 -35 normal chunked
 
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 310 83 66 82 -32 -50 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 310 83 66 82 -32 -50 normal chunked
 
 //	05		kozepso uveges teto eszaki sarokhoz kozelebbi oldala
-   64 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 -0 -35 normal chunked
+   64 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 219 265 66 100 -0 -35 normal chunked
 
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 377 83 67 35 -33 -33 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 377 83 67 35 -33 -33 normal chunked
 
 
 
 //	06		eszaki vege deli sarokhoz kozelebbi oldala
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 -0 -35 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 219 265 66 100 -0 -35 normal chunked
 
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 310 166 66 81 -32 -49 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 310 166 66 81 -32 -49 normal chunked
 
 //	07		eszaki vege eszaki sarokhoz kozelebbi oldala
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 -0 -35 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 219 265 66 100 -0 -35 normal chunked
 
-   00 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   00 spiretes_grafika/nyugati.pcx 8bpp 377 166 67 34 -33 -32 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 377 166 67 34 -33 -32 normal chunked
 
 
 

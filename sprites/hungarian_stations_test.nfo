@@ -65,10 +65,10 @@
 
    // Action1
     7 * 4	 01 04 02 02
-    8 spiretes_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
-    9 spiretes_grafika/nyugati.pcx 8bpp 263 4 46 39 -32 -17 normal chunked
-   10 spiretes_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
-   11 spiretes_grafika/nyugati.pcx 8bpp 263 44 46 39 -32 -17 normal chunked
+    8 sprites_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
+    9 sprites_grafika/nyugati.pcx 8bpp 263 4 46 39 -32 -17 normal chunked
+   10 sprites_grafika/nyugati.pcx 8bpp 6 400 66 100 -32 -36 normal chunked
+   11 sprites_grafika/nyugati.pcx 8bpp 263 44 46 39 -32 -17 normal chunked
 
    // Action2
    12 * 7	 02 04 00 00 01 00 00
@@ -146,18 +146,18 @@
 
    // Action1
    18 * 4	 01 04 02 06
-   19 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   20 spiretes_grafika/nyugati.pcx 8bpp 377 83 67 35 -33 -33 normal chunked
-   21 spiretes_grafika/nyugati.pcx 8bpp 377 83 67 35 -33 -33 normal chunked
-   22 spiretes_grafika/nyugati.pcx 8bpp 494 1 46 23 -11 6 normal chunked
-   23 spiretes_grafika/nyugati.pcx 8bpp 310 1 66 81 -32 -49 normal chunked
-   24 spiretes_grafika/nyugati.pcx 8bpp 494 25 64 51 1 21 normal chunked
-   25 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   26 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   27 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   28 spiretes_grafika/nyugati.pcx 8bpp 445 1 48 62 -14 -30 normal chunked
-   29 spiretes_grafika/nyugati.pcx 8bpp 377 1 67 64 -33 -32 normal chunked
-   30 spiretes_grafika/nyugati.pcx 8bpp 559 1 32 39 33 18 normal chunked
+   19 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   20 sprites_grafika/nyugati.pcx 8bpp 377 83 67 35 -33 -33 normal chunked
+   21 sprites_grafika/nyugati.pcx 8bpp 377 83 67 35 -33 -33 normal chunked
+   22 sprites_grafika/nyugati.pcx 8bpp 494 1 46 23 -11 6 normal chunked
+   23 sprites_grafika/nyugati.pcx 8bpp 310 1 66 81 -32 -49 normal chunked
+   24 sprites_grafika/nyugati.pcx 8bpp 494 25 64 51 1 21 normal chunked
+   25 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   26 sprites_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   27 sprites_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   28 sprites_grafika/nyugati.pcx 8bpp 445 1 48 62 -14 -30 normal chunked
+   29 sprites_grafika/nyugati.pcx 8bpp 377 1 67 64 -33 -32 normal chunked
+   30 sprites_grafika/nyugati.pcx 8bpp 559 1 32 39 33 18 normal chunked
 
    // Action2
    31 * 7	 02 04 02 00 01 00 00
@@ -226,18 +226,18 @@
 
    // Action1
    37 * 4	 01 04 02 06
-   38 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   39 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   40 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   41 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 0 0 normal chunked
-   42 spiretes_grafika/nyugati.pcx 8bpp 310 83 66 82 -32 -50 normal chunked
-   43 spiretes_grafika/nyugati.pcx 8bpp 494 83 62 56 1 3 normal chunked
-   44 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   45 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   46 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   47 spiretes_grafika/nyugati.pcx 8bpp 445 83 44 51 -10 -30 normal chunked
-   48 spiretes_grafika/nyugati.pcx 8bpp 377 83 67 35 -33 -33 normal chunked
-   49 spiretes_grafika/nyugati.pcx 8bpp 377 119 58 25 6 2 normal chunked
+   38 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   39 sprites_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   40 sprites_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   41 sprites_grafika/nyugati.pcx 8bpp 224 161 68 35 0 0 normal chunked
+   42 sprites_grafika/nyugati.pcx 8bpp 310 83 66 82 -32 -50 normal chunked
+   43 sprites_grafika/nyugati.pcx 8bpp 494 83 62 56 1 3 normal chunked
+   44 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   45 sprites_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   46 sprites_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   47 sprites_grafika/nyugati.pcx 8bpp 445 83 44 51 -10 -30 normal chunked
+   48 sprites_grafika/nyugati.pcx 8bpp 377 83 67 35 -33 -33 normal chunked
+   49 sprites_grafika/nyugati.pcx 8bpp 377 119 58 25 6 2 normal chunked
 
    // Action2
    50 * 7	 02 04 04 00 01 00 00
@@ -307,18 +307,18 @@
 
    // Action1
    56 * 4	 01 04 02 06
-   57 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
-   58 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   59 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   60 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
-   61 spiretes_grafika/nyugati.pcx 8bpp 310 166 66 81 -32 -49 normal chunked
-   62 spiretes_grafika/nyugati.pcx 8bpp 445 166 32 23 1 35 normal chunked
-   63 spiretes_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
-   64 spiretes_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
-   65 spiretes_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
-   66 spiretes_grafika/nyugati.pcx 8bpp 445 83 44 51 -10 -30 normal chunked
-   67 spiretes_grafika/nyugati.pcx 8bpp 377 166 67 34 -33 -32 normal chunked
-   68 spiretes_grafika/nyugati.pcx 8bpp 445 190 16 10 48 16 normal chunked
+   57 sprites_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
+   58 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   59 sprites_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   60 sprites_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
+   61 sprites_grafika/nyugati.pcx 8bpp 310 166 66 81 -32 -49 normal chunked
+   62 sprites_grafika/nyugati.pcx 8bpp 445 166 32 23 1 35 normal chunked
+   63 sprites_grafika/nyugati.pcx 8bpp 224 161 68 35 -33 -1 normal chunked
+   64 sprites_grafika/nyugati.pcx 8bpp 168 44 66 34 -33 -1 normal chunked
+   65 sprites_grafika/nyugati.pcx 8bpp 219 265 66 100 0 -35 normal chunked
+   66 sprites_grafika/nyugati.pcx 8bpp 445 83 44 51 -10 -30 normal chunked
+   67 sprites_grafika/nyugati.pcx 8bpp 377 166 67 34 -33 -32 normal chunked
+   68 sprites_grafika/nyugati.pcx 8bpp 445 190 16 10 48 16 normal chunked
 
    // Action2
    69 * 7	 02 04 06 00 01 00 00
@@ -555,65 +555,65 @@
    80 * 4	 01 04 10 02
 
 	// menu grafika
-   81 spiretes_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
-   82 spiretes_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+   81 sprites_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+   82 sprites_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
 
 	// egyeduli peron
-   83 spiretes_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
-   84 spiretes_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
+   83 sprites_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
+   84 sprites_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
 
 	// eszakrol az elso (hatulja)
 	// kopott 1
-   85 spiretes_grafika/peron1.pcx 8bpp 91 1 44 37 -36 -13 normal chunked
-   86 spiretes_grafika/peron1.pcx 8bpp 91 39 44 37 -6 -13 normal chunked
+   85 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -36 -13 normal chunked
+   86 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -6 -13 normal chunked
 	// kopott 2
-   87 spiretes_grafika/peron1.pcx 8bpp 136 1 44 37 -36 -13 normal chunked
-   88 spiretes_grafika/peron1.pcx 8bpp 136 39 44 37 -6 -13 normal chunked
+   87 sprites_grafika/peron1.pcx 8bpp 136 1 44 37 -36 -13 normal chunked
+   88 sprites_grafika/peron1.pcx 8bpp 136 39 44 37 -6 -13 normal chunked
 
 	// ures kozepso
 	// nem kopott
-   89 spiretes_grafika/peron1.pcx 8bpp 181 1 44 37 -32 -16 normal chunked
-   90 spiretes_grafika/peron1.pcx 8bpp 181 39 44 37 -10 -16 normal chunked
+   89 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -32 -16 normal chunked
+   90 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -10 -16 normal chunked
 	// kopott 1
-   91 spiretes_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
-   92 spiretes_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
+   91 sprites_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
+   92 sprites_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
 	// kopott 2
-   93 spiretes_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
-   94 spiretes_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
+   93 sprites_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
+   94 sprites_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
 
 	// eleje (delro)
 	// kopott 1
-   95 spiretes_grafika/peron1.pcx 8bpp 1 1 44 37 -30 -16 normal chunked
-   96 spiretes_grafika/peron1.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
+   95 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -30 -16 normal chunked
+   96 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
 	// kopott 2
-   97 spiretes_grafika/peron1.pcx 8bpp 46 1 44 37 -30 -16 normal chunked
-   98 spiretes_grafika/peron1.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
+   97 sprites_grafika/peron1.pcx 8bpp 46 1 44 37 -30 -16 normal chunked
+   98 sprites_grafika/peron1.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
-   99 spiretes_grafika/peron1.pcx 8bpp 1 77 44 37 -32 -16 normal chunked
-  100 spiretes_grafika/peron1.pcx 8bpp 1 115 44 37 -10 -16 normal chunked
+   99 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -32 -16 normal chunked
+  100 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -10 -16 normal chunked
 	// lampas, kukas
-  101 spiretes_grafika/peron1.pcx 8bpp 46 77 44 37 -32 -16 normal chunked
-  102 spiretes_grafika/peron1.pcx 8bpp 46 115 44 37 -10 -16 normal chunked
+  101 sprites_grafika/peron1.pcx 8bpp 46 77 44 37 -32 -16 normal chunked
+  102 sprites_grafika/peron1.pcx 8bpp 46 115 44 37 -10 -16 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
-  103 spiretes_grafika/peron1a.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
-  104 spiretes_grafika/peron1a.pcx 8bpp 90 38 44 37 -10 -16 normal chunked
+  103 sprites_grafika/peron1a.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
+  104 sprites_grafika/peron1a.pcx 8bpp 90 38 44 37 -10 -16 normal chunked
 	// lampas, pados
-  105 spiretes_grafika/peron1a.pcx 8bpp 0 0 44 37 -32 -16 normal chunked
-  106 spiretes_grafika/peron1a.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
+  105 sprites_grafika/peron1a.pcx 8bpp 0 0 44 37 -32 -16 normal chunked
+  106 sprites_grafika/peron1a.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
 	// lampas, kukas, pados
-  107 spiretes_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
-  108 spiretes_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+  107 sprites_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+  108 sprites_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
 
    // allomas tablas
-  109 spiretes_grafika/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
-  110 spiretes_grafika/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
+  109 sprites_grafika/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
+  110 sprites_grafika/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
    // allomas tablas, lampas
-  111 spiretes_grafika/peron1a.pcx 8bpp 180 0 44 37 -32 -16 normal chunked
-  112 spiretes_grafika/peron1a.pcx 8bpp 180 38 44 37 -10 -16 normal chunked
+  111 sprites_grafika/peron1a.pcx 8bpp 180 0 44 37 -32 -16 normal chunked
+  112 sprites_grafika/peron1a.pcx 8bpp 180 38 44 37 -10 -16 normal chunked
 
 
 
@@ -1004,62 +1004,62 @@
   145 * 4	 01 04 0F 02
 
 	// menu grafika
-  146 spiretes_grafika/peron1b.pcx 8bpp 0 0 44 37 -32 -16 normal chunked // -10, -5
-  147 spiretes_grafika/peron1b.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
+  146 sprites_grafika/peron1b.pcx 8bpp 0 0 44 37 -32 -16 normal chunked // -10, -5
+  147 sprites_grafika/peron1b.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
 
 	// egyeduli peron
-  148 spiretes_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
-  149 spiretes_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
+  148 sprites_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
+  149 sprites_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
 
 	// eszakrol az elso (hatulja)
 	// kopott 1
-  150 spiretes_grafika/peron1.pcx 8bpp 91 1 44 37 -36 -13 normal chunked
-  151 spiretes_grafika/peron1.pcx 8bpp 91 39 44 37 -6 -13 normal chunked
+  150 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -36 -13 normal chunked
+  151 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -6 -13 normal chunked
 	// kopott 2
-  152 spiretes_grafika/peron1.pcx 8bpp 136 1 44 37 -36 -13 normal chunked
-  153 spiretes_grafika/peron1.pcx 8bpp 136 39 44 37 -6 -13 normal chunked
+  152 sprites_grafika/peron1.pcx 8bpp 136 1 44 37 -36 -13 normal chunked
+  153 sprites_grafika/peron1.pcx 8bpp 136 39 44 37 -6 -13 normal chunked
 
 	// ures kozepso
 	// nem kopott
-  154 spiretes_grafika/peron1.pcx 8bpp 181 1 44 37 -32 -16 normal chunked
-  155 spiretes_grafika/peron1.pcx 8bpp 181 39 44 37 -10 -16 normal chunked
+  154 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -32 -16 normal chunked
+  155 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -10 -16 normal chunked
 	// kopott 1
-  156 spiretes_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
-  157 spiretes_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
+  156 sprites_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
+  157 sprites_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
 	// kopott 2
-  158 spiretes_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
-  159 spiretes_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
+  158 sprites_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
+  159 sprites_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
 
 	// eleje (delro)
 	// kopott 1
-  160 spiretes_grafika/peron1.pcx 8bpp 1 1 44 37 -30 -16 normal chunked
-  161 spiretes_grafika/peron1.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
+  160 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -30 -16 normal chunked
+  161 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
 	// kopott 2
-  162 spiretes_grafika/peron1.pcx 8bpp 46 1 44 37 -30 -16 normal chunked
-  163 spiretes_grafika/peron1.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
+  162 sprites_grafika/peron1.pcx 8bpp 46 1 44 37 -30 -16 normal chunked
+  163 sprites_grafika/peron1.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
-  164 spiretes_grafika/peron1.pcx 8bpp 1 77 44 37 -32 -16 normal chunked
-  165 spiretes_grafika/peron1.pcx 8bpp 1 115 44 37 -10 -16 normal chunked
+  164 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -32 -16 normal chunked
+  165 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -10 -16 normal chunked
 	// lampas, kukas
-  166 spiretes_grafika/peron1.pcx 8bpp 46 77 44 37 -32 -16 normal chunked
-  167 spiretes_grafika/peron1.pcx 8bpp 46 115 44 37 -10 -16 normal chunked
+  166 sprites_grafika/peron1.pcx 8bpp 46 77 44 37 -32 -16 normal chunked
+  167 sprites_grafika/peron1.pcx 8bpp 46 115 44 37 -10 -16 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
-  168 spiretes_grafika/peron1b.pcx 8bpp 0 0 44 37 -32 -16 normal chunked
-  169 spiretes_grafika/peron1b.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
+  168 sprites_grafika/peron1b.pcx 8bpp 0 0 44 37 -32 -16 normal chunked
+  169 sprites_grafika/peron1b.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
 	// lampas, pados
-  170 spiretes_grafika/peron1b.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
-  171 spiretes_grafika/peron1b.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+  170 sprites_grafika/peron1b.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+  171 sprites_grafika/peron1b.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
 
    // allomas tablas
-  172 spiretes_grafika/peron1b.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
-  173 spiretes_grafika/peron1b.pcx 8bpp 90 38 44 37 -10 -16 normal chunked
+  172 sprites_grafika/peron1b.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
+  173 sprites_grafika/peron1b.pcx 8bpp 90 38 44 37 -10 -16 normal chunked
    // allomas tablas, lampas
-  174 spiretes_grafika/peron1b.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
-  175 spiretes_grafika/peron1b.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
+  174 sprites_grafika/peron1b.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
+  175 sprites_grafika/peron1b.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
@@ -1409,51 +1409,51 @@
   207 * 4	 01 04 0C 02
 
 	// menu grafika
-  208 spiretes_grafika/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
-  209 spiretes_grafika/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
+  208 sprites_grafika/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
+  209 sprites_grafika/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
 
 	// egyeduli peron
-  210 spiretes_grafika/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
-  211 spiretes_grafika/peron2.pcx 8bpp 91 117 44 39 -10 -18 normal chunked
+  210 sprites_grafika/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
+  211 sprites_grafika/peron2.pcx 8bpp 91 117 44 39 -10 -18 normal chunked
 
 	// eszakrol az elso (hatulja)
-  212 spiretes_grafika/peron2.pcx 8bpp 46 1 44 37 -32 -16 normal chunked
-  213 spiretes_grafika/peron2.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
+  212 sprites_grafika/peron2.pcx 8bpp 46 1 44 37 -32 -16 normal chunked
+  213 sprites_grafika/peron2.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
 
 	// ures kozepso
 	// nem kopott
-  214 spiretes_grafika/peron2.pcx 8bpp 91 1 44 37 -32 -16 normal chunked
-  215 spiretes_grafika/peron2.pcx 8bpp 91 39 44 37 -10 -16 normal chunked
+  214 sprites_grafika/peron2.pcx 8bpp 91 1 44 37 -32 -16 normal chunked
+  215 sprites_grafika/peron2.pcx 8bpp 91 39 44 37 -10 -16 normal chunked
 
 	// eleje (delro)
-  216 spiretes_grafika/peron2.pcx 8bpp 1 1 44 37 -32 -16 normal chunked
-  217 spiretes_grafika/peron2.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
+  216 sprites_grafika/peron2.pcx 8bpp 1 1 44 37 -32 -16 normal chunked
+  217 sprites_grafika/peron2.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
-  218 spiretes_grafika/peron2.pcx 8bpp 1 77 44 39 -32 -18 normal chunked
-  219 spiretes_grafika/peron2.pcx 8bpp 1 117 44 39 -10 -18 normal chunked
+  218 sprites_grafika/peron2.pcx 8bpp 1 77 44 39 -32 -18 normal chunked
+  219 sprites_grafika/peron2.pcx 8bpp 1 117 44 39 -10 -18 normal chunked
 	// lampas, kukas
-  220 spiretes_grafika/peron2.pcx 8bpp 46 77 44 39 -32 -18 normal chunked
-  221 spiretes_grafika/peron2.pcx 8bpp 46 117 44 39 -10 -18 normal chunked
+  220 sprites_grafika/peron2.pcx 8bpp 46 77 44 39 -32 -18 normal chunked
+  221 sprites_grafika/peron2.pcx 8bpp 46 117 44 39 -10 -18 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
-  222 spiretes_grafika/peron2a.pcx 8bpp 90 0 44 39 -32 -18 normal chunked
-  223 spiretes_grafika/peron2a.pcx 8bpp 90 40 44 39 -10 -18 normal chunked
+  222 sprites_grafika/peron2a.pcx 8bpp 90 0 44 39 -32 -18 normal chunked
+  223 sprites_grafika/peron2a.pcx 8bpp 90 40 44 39 -10 -18 normal chunked
 	// lampas, pados
-  224 spiretes_grafika/peron2a.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
-  225 spiretes_grafika/peron2a.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
+  224 sprites_grafika/peron2a.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
+  225 sprites_grafika/peron2a.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
 	// lampas, kukas, pados
-  226 spiretes_grafika/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
-  227 spiretes_grafika/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
+  226 sprites_grafika/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
+  227 sprites_grafika/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
 
    // allomas tablas
-  228 spiretes_grafika/peron2a.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
-  229 spiretes_grafika/peron2a.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
+  228 sprites_grafika/peron2a.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
+  229 sprites_grafika/peron2a.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
    // allomas tablas, lampas
-  230 spiretes_grafika/peron2a.pcx 8bpp 180 0 44 39 -32 -18 normal chunked
-  231 spiretes_grafika/peron2a.pcx 8bpp 180 40 44 39 -10 -18 normal chunked
+  230 sprites_grafika/peron2a.pcx 8bpp 180 0 44 39 -32 -18 normal chunked
+  231 sprites_grafika/peron2a.pcx 8bpp 180 40 44 39 -10 -18 normal chunked
 
 
 
@@ -1773,48 +1773,48 @@
   258 * 4	 01 04 0B 02
 
 	// menu grafika
-  259 spiretes_grafika/peron2b.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
-  260 spiretes_grafika/peron2b.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
+  259 sprites_grafika/peron2b.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
+  260 sprites_grafika/peron2b.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
 
 	// egyeduli peron
-  261 spiretes_grafika/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
-  262 spiretes_grafika/peron2.pcx 8bpp 91 117 44 39 -11 -18 normal chunked
+  261 sprites_grafika/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
+  262 sprites_grafika/peron2.pcx 8bpp 91 117 44 39 -11 -18 normal chunked
 
 	// eszakrol az elso (hatulja)
-  263 spiretes_grafika/peron2.pcx 8bpp 46 1 44 37 -32 -16 normal chunked
-  264 spiretes_grafika/peron2.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
+  263 sprites_grafika/peron2.pcx 8bpp 46 1 44 37 -32 -16 normal chunked
+  264 sprites_grafika/peron2.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
 
 	// ures kozepso
 	// nem kopott
-  265 spiretes_grafika/peron2.pcx 8bpp 91 1 44 37 -32 -16 normal chunked
-  266 spiretes_grafika/peron2.pcx 8bpp 91 39 44 37 -10 -16 normal chunked
+  265 sprites_grafika/peron2.pcx 8bpp 91 1 44 37 -32 -16 normal chunked
+  266 sprites_grafika/peron2.pcx 8bpp 91 39 44 37 -10 -16 normal chunked
 
 	// eleje (delro)
-  267 spiretes_grafika/peron2.pcx 8bpp 1 1 44 37 -32 -16 normal chunked
-  268 spiretes_grafika/peron2.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
+  267 sprites_grafika/peron2.pcx 8bpp 1 1 44 37 -32 -16 normal chunked
+  268 sprites_grafika/peron2.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
-  269 spiretes_grafika/peron2.pcx 8bpp 1 77 44 39 -32 -18 normal chunked
-  270 spiretes_grafika/peron2.pcx 8bpp 1 117 44 39 -10 -18 normal chunked
+  269 sprites_grafika/peron2.pcx 8bpp 1 77 44 39 -32 -18 normal chunked
+  270 sprites_grafika/peron2.pcx 8bpp 1 117 44 39 -10 -18 normal chunked
 	// lampas, kukas
-  271 spiretes_grafika/peron2.pcx 8bpp 46 77 44 39 -32 -18 normal chunked
-  272 spiretes_grafika/peron2.pcx 8bpp 46 117 44 39 -10 -18 normal chunked
+  271 sprites_grafika/peron2.pcx 8bpp 46 77 44 39 -32 -18 normal chunked
+  272 sprites_grafika/peron2.pcx 8bpp 46 117 44 39 -10 -18 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
-  273 spiretes_grafika/peron2b.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
-  274 spiretes_grafika/peron2b.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
+  273 sprites_grafika/peron2b.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
+  274 sprites_grafika/peron2b.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
 	// lampas, pados
-  275 spiretes_grafika/peron2b.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
-  276 spiretes_grafika/peron2b.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
+  275 sprites_grafika/peron2b.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
+  276 sprites_grafika/peron2b.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
 
    // allomas tablas
-  277 spiretes_grafika/peron2b.pcx 8bpp 90 0 44 39 -32 -18 normal chunked
-  278 spiretes_grafika/peron2b.pcx 8bpp 90 40 44 39 -10 -18 normal chunked
+  277 sprites_grafika/peron2b.pcx 8bpp 90 0 44 39 -32 -18 normal chunked
+  278 sprites_grafika/peron2b.pcx 8bpp 90 40 44 39 -10 -18 normal chunked
    // allomas tablas, lampas
-  279 spiretes_grafika/peron2b.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
-  280 spiretes_grafika/peron2b.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
+  279 sprites_grafika/peron2b.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
+  280 sprites_grafika/peron2b.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
@@ -2136,26 +2136,26 @@
 
 
   319 * 4	 01 04 01 02
-  320 spiretes_grafika/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
-  321 spiretes_grafika/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
+  320 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
+  321 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
 
   322 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
 
 
 
   323 * 4	 01 04 01 02
-  324 spiretes_grafika/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
-  325 spiretes_grafika/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
+  324 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
+  325 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
 
   326 * 7	 02 04 01 00 01 00 00	// hatulja
 
 
 
   327 * 4	 01 04 01 04
-  328 spiretes_grafika/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
-  329 spiretes_grafika/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
-  330 spiretes_grafika/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
-  331 spiretes_grafika/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+  328 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
+  329 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
+  330 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
+  331 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
 
   332 * 7	 02 04 02 00 01 00 00	// objektumok
 
@@ -2280,18 +2280,25 @@
 
 
   342 * 4	 01 04 02 02
-	// egyeduli peron
-//   00 spiretes_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
-//   00 spiretes_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
-	// lampas, kukas, pados
-//   00 spiretes_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
-//   00 spiretes_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
 	// sablonbol
-  343 spiretes_grafika/sablonok.png 8bpp 1 1 46 39 -33 -17 normal chunked
-  344 spiretes_grafika/sablonok.png 8bpp 48 1 46 39 -11 -17 normal chunked
+//   00 sprites_grafika/metro1.png 8bpp 0 0 44 55 -33 -17 normal chunked
+//   00 sprites_grafika/metro1.png 8bpp 45 0 44 55 -11 -17 normal chunked
 	// allomas tablas
-  345 spiretes_grafika/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
-  346 spiretes_grafika/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
+//   00 sprites_grafika/metro1.png 8bpp 90 0 44 37 -32 -16 normal chunked
+//   00 sprites_grafika/metro1.png 8bpp 135 0 44 37 -10 -16 normal chunked
+
+	// sablonbol
+  343 sprites_grafika/metro.png 8bpp 0 0 44 55 -33 -17 normal chunked
+  344 sprites_grafika/metro.png 8bpp 45 0 44 55 -11 -17 normal chunked
+	// allomas tablas
+  345 sprites_grafika/metro.png 8bpp 90 0 44 37 -32 -16 normal chunked
+  346 sprites_grafika/metro.png 8bpp 135 0 44 37 -10 -16 normal chunked
+
+//   00 sprites_grafika/metro.pcx 8bpp 0 0 44 55 -33 -17 normal chunked
+//   00 sprites_grafika/metro.pcx 8bpp 45 0 44 55 -11 -17 normal chunked
+	// allomas tablas
+//   00 sprites_grafika/metro.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
+//   00 sprites_grafika/metro.pcx 8bpp 135 0 44 37 -10 -16 normal chunked
 
   347 * 7	 02 04 00 00 01 00 00
   348 * 7	 02 04 01 00 01 01 00
@@ -2357,15 +2364,15 @@
 
 //   00 * 00	01 04 02 04
 	// kopott 1, lampas
-//   00 spiretes_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
-//   00 spiretes_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
-//   00 spiretes_grafika/teszt.pcx 8bpp 0 78 11 31 -6 -29 normal chunked
-//   00 spiretes_grafika/teszt.pcx 8bpp 0 110 11 31 -5 -29 normal chunked
+//   00 sprites_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
+//   00 sprites_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
+//   00 sprites_grafika/teszt.pcx 8bpp 0 78 11 31 -6 -29 normal chunked
+//   00 sprites_grafika/teszt.pcx 8bpp 0 110 11 31 -5 -29 normal chunked
 	// kopott 2, kijelzos
-//   00 spiretes_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
-//   00 spiretes_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
-//   00 spiretes_grafika/teszt.pcx 8bpp 12 78 12 19 -8 -18 normal chunked
-//   00 spiretes_grafika/teszt.pcx 8bpp 12 98 12 19 -9 -18 normal chunked
+//   00 sprites_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
+//   00 sprites_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
+//   00 sprites_grafika/teszt.pcx 8bpp 12 78 12 19 -8 -18 normal chunked
+//   00 sprites_grafika/teszt.pcx 8bpp 12 98 12 19 -9 -18 normal chunked
 
 //   00 * 00	02 04 01 00 01 00 00
 //   00 * 00	02 04 03 00 01 01 00

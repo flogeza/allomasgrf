@@ -8,39 +8,39 @@
 
 // Peron1a
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
-		@AddLayout1: spritenumber: 0, filename: spiretes_grafika/peron2a.pcx
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/peron2a.pcx
 			Settings: type: 8bpp, zoomlevel: normal, flags: chunked
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 3
 			RealSprite: posx: 45, posy: 0, sizex: 44, sizey: 39, relx: -32, rely: -18
 		@EndAddLayout1
 //		@EndAddValami
 
-		@AddLayout1: spritenumber: 0, filename: spiretes_grafika/peron2a.pcx
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/peron2a.pcx
 //			Settings: type: 8bpp, zoomlevel: normal, flags: chunked
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 3
 //			RealSprite: posx: 45, posy: 0, sizex: 44, sizey: 39, relx: -32, rely: -18
 		@EndAddLayout1
 
-		@AddLayout1: spritenumber: 0, filename: spiretes_grafika/peron2a.pcx
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/peron2a.pcx
 //			Settings: type: 8bpp, zoomlevel: normal, flags: chunked
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 3
 //			RealSprite: posx: 45, posy: 0, sizex: 44, sizey: 39, relx: -32, rely: -18
 		@EndAddLayout1
 
 		// nincs definialva a spritenumber, kotelezo pedig, bar nem feltetlenul az, mert lehet 1, ha layout2 van...
-		@AddLayout2: spritenumber: 1, filename: spiretes_grafika/peron2a.pcx
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/peron2a.pcx
 			Settings: type: 8bpp, zoomlevel: normal, flags: chunked
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 31
 			RealSprite: posx: 45, posy: 40, sizex: 44, sizey: 30, relx: -10, rely: -18
 		@EndAddLayout2
 
-		@AddLayout2: spritenumber: 1, filename: spiretes_grafika/peron2a.pcx
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/peron2a.pcx
 //			Settings: type: 8bpp, zoomlevel: normal, flags: chunked
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 31
 //			RealSprite: posx: 45, posy: 40, sizex: 44, sizey: 30, relx: -10, rely: -18
 		@EndAddLayout2
 
-		@AddLayout2: spritenumber: 1, filename: spiretes_grafika/peron2a.pcx
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/peron2a.pcx
 //			Settings: type: 8bpp, zoomlevel: normal, flags: chunked
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 31
 //			RealSprite: posx: 45, posy: 40, sizex: 44, sizey: 30, relx: -10, rely: -18
@@ -48,39 +48,39 @@
 	@EndAddSprite
 	
 	@AddSprite: groundsprite1: 9, groundsprite2: 10, spriteid: auto
-		@AddLayout1: spritenumber: 0, filename: spiretes_grafika/peron2a.pcx
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/peron2a.pcx
 			Settings: type: 8bpp, zoomlevel: normal, flags: chunked
 			Boundingbox: offsetx: 1, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 3
 			RealSprite: posx: 45, posy: 0, sizex: 44, sizey: 39, relx: -32, rely: -18
 		@EndAddLayout1
 
-		@AddLayout1: spritenumber: 0, filename: spiretes_grafika/peron2a.pcx, transparent
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/peron2a.pcx, transparent
 			Settings: type: 8bpp, zoomlevel: normal, flags: chunked
 			Boundingbox: offsetx: 1, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 3
 			RealSprite: posx: 45, posy: 0, sizex: 44, sizey: 39, relx: -32, rely: -18
 		@EndAddLayout1
 
-		@AddLayout1: spritenumber: 0, filename: spiretes_grafika/peron2a.pcx, transparent
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/peron2a.pcx, transparent
 //			Settings: type: 8bpp, zoomlevel: normal, flags: chunked
 			Boundingbox: offsetx: 1, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 3
 //			RealSprite: posx: 45, posy: 0, sizex: 44, sizey: 39, relx: -32, rely: -18
 		@EndAddLayout1
 
 		// nincs definialva a spritenumber, kotelezo pedig, bar nem feltetlenul az, mert lehet 1, ha layout2 van...
-		@AddLayout2: spritenumber: 1, filename: spiretes_grafika/peron2a.pcx
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/peron2a.pcx
 			Settings: type: 8bpp, zoomlevel: normal, flags: chunked
 			Boundingbox: offsetx: 1, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 31
 			RealSprite: posx: 45, posy: 40, sizex: 44, sizey: 30, relx: -10, rely: -18
 		@EndAddLayout2
 
 		// nincs definialva a spritenumber, kotelezo pedig, bar nem feltetlenul az, mert lehet 1, ha layout2 van...
-		@AddLayout2: spritenumber: 1, filename: spiretes_grafika/peron2a.pcx
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/peron2a.pcx
 			Settings: type: 8bpp, zoomlevel: normal, flags: chunked
 			Boundingbox: offsetx: 1, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 31
 			RealSprite: posx: 45, posy: 40, sizex: 44, sizey: 30, relx: -10, rely: -18
 		@EndAddLayout2
 
-		@AddLayout2: spritenumber: 1, filename: spiretes_grafika/peron2a.pcx
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/peron2a.pcx
 //			Settings: type: 8bpp, zoomlevel: normal, flags: chunked
 			Boundingbox: offsetx: 1, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 31
 //			RealSprite: posx: 45, posy: 40, sizex: 44, sizey: 30, relx: -10, rely: -18
