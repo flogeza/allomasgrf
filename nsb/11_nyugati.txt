@@ -35,7 +35,7 @@
 		// oszlopok
 		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 0, posy: 0, sizex: 66, sizey: 49, relx: -32, rely: -17
+			RealSprite: posx: 7, posy: 5, sizex: 66, sizey: 49, relx: -32, rely: -17
 		@EndAddLayout2
 	@EndAddSprite
 
@@ -50,7 +50,7 @@
 		// oszlopok
 		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 6, sizez: 16
-			RealSprite: posx: 67, posy: 0, sizex: 66, sizey: 49, relx: -32, rely: -17
+			RealSprite: posx: 83, posy: 5, sizex: 66, sizey: 49, relx: -32, rely: -17
 		@EndAddLayout2
 	@EndAddSprite
 @EndAddStation
@@ -96,71 +96,71 @@
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
-		// sima fu, sajat grafikabol betoltve
+		// beton
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 168, posy: 44, sizex: 66, sizey: 34, relx: -33, rely: -1
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			RealSprite: posx: 237, posy: 131, sizex: 46, sizey: 23, relx: -11, rely: 6
 		@EndAddLayout1
 		// uveg nelkuli bejarat
-		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx, companycolor
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
-			RealSprite: posx: 377, posy: 83, sizex: 67, sizey: 35, relx: -33, rely: -33
+			RealSprite: posx: 158, posy: 5, sizex: 66, sizey: 81, relx: -32, rely: -49
 		@EndAddLayout1
 		// uveg
-		@AddLayout1: spritenumber: 2, filename: sprites_grafika/nyugati.pcx
+		@AddLayout1: spritenumber: 2, filename: sprites_grafika/nyugati.pcx, transparent
 			Boundingbox: shared
-			RealSprite: posx: 377, posy: 83, sizex: 67, sizey: 35, relx: -33, rely: -33
+			RealSprite: posx: 78, posy: 152, sizex: 64, sizey: 51, relx: 1, rely: 21
 		@EndAddLayout1
 
 		// beton
 		@AddLayout2: spritenumber: 3, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
-			RealSprite: posx: 494, posy: 1, sizex: 46, sizey: 23, relx: -11, rely: 6
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			RealSprite: posx: 237, posy: 131, sizex: 46, sizey: 23, relx: -11, rely: 6
 		@EndAddLayout2
 		// uveg nelkuli bejarat
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/nyugati.pcx, companycolor
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
-			RealSprite: posx: 310, posy: 1, sizex: 66, sizey: 81, relx: -32, rely: -49
+			RealSprite: posx: 158, posy: 5, sizex: 66, sizey: 81, relx: -32, rely: -49
 		@EndAddLayout2
 		// uveg
 		@AddLayout2: spritenumber: 5, filename: sprites_grafika/nyugati.pcx, transparent
 			Boundingbox: shared
-			RealSprite: posx: 494, posy: 25, sizex: 64, sizey: 51, relx: 1, rely: 21
+			RealSprite: posx: 78, posy: 152, sizex: 64, sizey: 51, relx: 1, rely: 21
 		@EndAddLayout2
 	@EndAddSprite
 
 	// eszaki sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
-		// hatter
+		// beton es hatfal
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 168, posy: 44, sizex: 66, sizey: 34, relx: -33, rely: -1
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			RealSprite: posx: 236, posy: 6, sizex: 48, sizey: 62, relx: -14, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli bejarat
-		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
-			RealSprite: posx: 219, posy: 265, sizex: 66, sizey: 100, relx: 0, rely: -35
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 30, sizex: 16, sizey: 16, sizez: 22
+			RealSprite: posx: 157, posy: 90, sizex: 67, sizey: 64, relx: -33, rely: -2
 		@EndAddLayout1
 		// uveg
-		@AddLayout1: spritenumber: 2, filename: sprites_grafika/nyugati.pcx
+		@AddLayout1: spritenumber: 2, filename: sprites_grafika/nyugati.pcx, transparent
 			Boundingbox: shared
-			RealSprite: posx: 219, posy: 265, sizex: 66, sizey: 100, relx: 0, rely: -35
+			RealSprite: posx: 146, posy: 163, sizex: 32, sizey: 39, relx: 33, rely: 18
 		@EndAddLayout1
 
 		// beton es hatfal
 		@AddLayout2: spritenumber: 3, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 32
-			RealSprite: posx: 445, posy: 1, sizex: 48, sizey: 62, relx: -14, rely: -30
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			RealSprite: posx: 236, posy: 6, sizex: 48, sizey: 62, relx: -14, rely: -30
 		@EndAddLayout2
 		// uveg nelkuli bejarat
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/nyugati.pcx, companycolor
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
-			RealSprite: posx: 377, posy: 1, sizex: 67, sizey: 64, relx: -33, rely: -32
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 30, sizex: 16, sizey: 16, sizez: 22
+			RealSprite: posx: 157, posy: 90, sizex: 67, sizey: 64, relx: -33, rely: -2
 		@EndAddLayout2
 		// uveg
 		@AddLayout2: spritenumber: 5, filename: sprites_grafika/nyugati.pcx, transparent
 			Boundingbox: shared
-			RealSprite: posx: 559, posy: 1, sizex: 32, sizey: 39, relx: 33, rely: 18
+			RealSprite: posx: 146, posy: 163, sizex: 32, sizey: 39, relx: 33, rely: 18
 		@EndAddLayout2
 	@EndAddSprite
 @EndAddStation
@@ -197,71 +197,71 @@
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
-		// sima fu, sajat grafikabol betoltve
-		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+		// fake teljesen ures sprite
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
-			RealSprite: posx: 168, posy: 44, sizex: 66, sizey: 34, relx: -33, rely: -1
+			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// uveg nelkuli teto
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
-			RealSprite: posx: 219, posy: 265, sizex: 66, sizey: 100, relx: 0, rely: -35
+			RealSprite: posx: 7, posy: 63, sizex: 66, sizey: 82, relx: -32, rely: -50
 		@EndAddLayout1
 		// uveg
-		@AddLayout1: spritenumber: 2, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
-			RealSprite: posx: 219, posy: 265, sizex: 66, sizey: 100, relx: 0, rely: -35
+		@AddLayout1: spritenumber: 2, filename: sprites_grafika/nyugati.pcx, transparent
+			Boundingbox: shared
+			RealSprite: posx: 7, posy: 152, sizex: 62, sizey: 56, relx: 1, rely: 3
 		@EndAddLayout1
 
 		// fake teljesen ures sprite
-		@AddLayout2: spritenumber: 3, filename: sprites_grafika/nyugati.pcx
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/altalanos.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
-			RealSprite: posx: 224, posy: 161, sizex: 68, sizey: 35, relx: 0, rely: 0
+			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// uveg nelkuli teto
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/nyugati.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
-			RealSprite: posx: 310, posy: 83, sizex: 66, sizey: 82, relx: -32, rely: -50
+			RealSprite: posx: 7, posy: 63, sizex: 66, sizey: 82, relx: -32, rely: -50
 		@EndAddLayout2
 		// uveg
 		@AddLayout2: spritenumber: 5, filename: sprites_grafika/nyugati.pcx, transparent
 			Boundingbox: shared
-			RealSprite: posx: 494, posy: 83, sizex: 62, sizey: 56, relx: 1, rely: 3
+			RealSprite: posx: 7, posy: 152, sizex: 62, sizey: 56, relx: 1, rely: 3
 		@EndAddLayout2
 	@EndAddSprite
 
 	// eszaki sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
-		// hatter
+		// beton es hatfal
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
-			RealSprite: posx: 168, posy: 44, sizex: 66, sizey: 34, relx: -33, rely: -1
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			RealSprite: posx: 238, posy: 73, sizex: 44, sizey: 51, relx: -10, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
-			RealSprite: posx: 219, posy: 265, sizex: 66, sizey: 100, relx: 0, rely: -35
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 30, sizex: 16, sizey: 16, sizez: 19
+			RealSprite: posx: 227, posy: 217, sizex: 67, sizey: 35, relx: -33, rely: -3
 		@EndAddLayout1
 		// uveg
-		@AddLayout1: spritenumber: 2, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
-			RealSprite: posx: 219, posy: 265, sizex: 66, sizey: 100, relx: 0, rely: -35
+		@AddLayout1: spritenumber: 2, filename: sprites_grafika/nyugati.pcx, transparent
+			Boundingbox: shared
+			RealSprite: posx: 181, posy: 162, sizex: 58, sizey: 25, relx: 6, rely: 2
 		@EndAddLayout1
 
 		// beton es hatfal
 		@AddLayout2: spritenumber: 3, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 32
-			RealSprite: posx: 445, posy: 83, sizex: 44, sizey: 51, relx: -10, rely: -30
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			RealSprite: posx: 238, posy: 73, sizex: 44, sizey: 51, relx: -10, rely: -30
 		@EndAddLayout2
 		// uveg nelkuli teto
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
-			RealSprite: posx: 377, posy: 83, sizex: 67, sizey: 35, relx: -33, rely: -33
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 30, sizex: 16, sizey: 16, sizez: 19
+			RealSprite: posx: 227, posy: 217, sizex: 67, sizey: 35, relx: -33, rely: -3
 		@EndAddLayout2
 		// uveg
 		@AddLayout2: spritenumber: 5, filename: sprites_grafika/nyugati.pcx, transparent
 			Boundingbox: shared
-			RealSprite: posx: 377, posy: 119, sizex: 58, sizey: 25, relx: 6, rely: 2
+			RealSprite: posx: 181, posy: 162, sizex: 58, sizey: 25, relx: 6, rely: 2
 		@EndAddLayout2
 	@EndAddSprite
 @EndAddStation
@@ -300,70 +300,70 @@
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
-		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 224, posy: 161, sizex: 68, sizey: 35, relx: -33, rely: -1
-		@EndAddLayout1
-		// sima fu, sajat grafikabol betoltve
-		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 168, posy: 44, sizex: 66, sizey: 34, relx: -33, rely: -1
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// uveg nelkuli teto
-		@AddLayout1: spritenumber: 2, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
-			RealSprite: posx: 219, posy: 265, sizex: 66, sizey: 100, relx: 0, rely: -35
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			RealSprite: posx: 83, posy: 63, sizex: 66, sizey: 81, relx: -32, rely: -49
+		@EndAddLayout1
+		// uveg
+		@AddLayout1: spritenumber: 2, filename: sprites_grafika/nyugati.pcx, transparent
+			Boundingbox: shared
+			RealSprite: posx: 227, posy: 191, sizex: 32, sizey: 23, relx: 1, rely: 35
 		@EndAddLayout1
 
-		// uveg nelkuli teto
 		// fake teljesen ures sprite
-		@AddLayout2: spritenumber: 3, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 224, posy: 161, sizex: 68, sizey: 35, relx: -33, rely: -1
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/altalanos.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
+		// uveg nelkuli teto
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/nyugati.pcx
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
-			RealSprite: posx: 310, posy: 166, sizex: 66, sizey: 81, relx: -32, rely: -49
+			RealSprite: posx: 83, posy: 63, sizex: 66, sizey: 81, relx: -32, rely: -49
 		@EndAddLayout2
 		// uveg
 		@AddLayout2: spritenumber: 5, filename: sprites_grafika/nyugati.pcx, transparent
 			Boundingbox: shared
-			RealSprite: posx: 445, posy: 166, sizex: 32, sizey: 23, relx: 1, rely: 35
+			RealSprite: posx: 227, posy: 191, sizex: 32, sizey: 23, relx: 1, rely: 35
 		@EndAddLayout2
 	@EndAddSprite
 
 	// eszaki sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
-		// fake teljesen ures sprite
+		// beton es hatfal
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 224, posy: 161, sizex: 68, sizey: 35, relx: -33, rely: -1
-		@EndAddLayout1
-		// sima fu, sajat grafikabol betoltve
-		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
-			RealSprite: posx: 168, posy: 44, sizex: 66, sizey: 34, relx: -33, rely: -1
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			RealSprite: posx: 238, posy: 73, sizex: 44, sizey: 51, relx: -10, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
-		@AddLayout1: spritenumber: 2, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 52
-			RealSprite: posx: 219, posy: 265, sizex: 66, sizey: 100, relx: 0, rely: -35
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 30, sizex: 16, sizey: 16, sizez: 19
+			RealSprite: posx: 227, posy: 257, sizex: 67, sizey: 34, relx: -33, rely: -2
+		@EndAddLayout1
+		// uveg
+		@AddLayout1: spritenumber: 2, filename: sprites_grafika/nyugati.pcx, transparent
+			Boundingbox: shared
+			RealSprite: posx: 242, posy: 177, sizex: 16, sizey: 10, relx: 48, rely: 16
 		@EndAddLayout1
 
 		// beton es hatfal
 		@AddLayout2: spritenumber: 3, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 32
-			RealSprite: posx: 445, posy: 83, sizex: 44, sizey: 51, relx: -10, rely: -30
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			RealSprite: posx: 238, posy: 73, sizex: 44, sizey: 51, relx: -10, rely: -30
 		@EndAddLayout2
 		// uveg nelkuli teto
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
-			RealSprite: posx: 377, posy: 166, sizex: 67, sizey: 34, relx: -33, rely: -32
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 30, sizex: 16, sizey: 16, sizez: 19
+			RealSprite: posx: 227, posy: 257, sizex: 67, sizey: 34, relx: -33, rely: -2
 		@EndAddLayout2
 		// uveg
 		@AddLayout2: spritenumber: 5, filename: sprites_grafika/nyugati.pcx, transparent
 			Boundingbox: shared
-			RealSprite: posx: 445, posy: 190, sizex: 16, sizey: 10, relx: 48, rely: 16
+			RealSprite: posx: 242, posy: 177, sizex: 16, sizey: 10, relx: 48, rely: 16
 		@EndAddLayout2
 	@EndAddSprite
 @EndAddStation
