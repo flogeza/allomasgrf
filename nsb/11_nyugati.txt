@@ -226,7 +226,8 @@
 		// uveg
 		@AddLayout2: spritenumber: 5, filename: sprites_grafika/nyugati.pcx, transparent
 			Boundingbox: shared
-			RealSprite: posx: 494, posy: 83, sizex: 62, sizey: 56, relx: 1, rely: 3
+			RealSprite: posx: anewgame
+aa, posy: 83, sizex: 62, sizey: 56, relx: 1, rely: 3
 		@EndAddLayout2
 	@EndAddSprite
 
