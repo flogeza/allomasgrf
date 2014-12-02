@@ -1,0 +1,92 @@
+
+//**************************************//
+//				TORONY					//
+//**************************************//
+
+//
+// bal oldali torony
+//
+
+@AddStation: id: 34, class: PSK0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+//	CallbackFlags: 3
+	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: FE			// Max 1 hosszu
+
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 79, posy: 318, sizex: 67, sizey: 78, relx: -33, rely: -46
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 7, posy: 318, sizex: 66, sizey: 91, relx: -32, rely: -59
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+   00 * 00	02 04 12
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+//			02 80 13 00 13 00
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			00 00						// else graphics Set
+
+	00 * 00	 03 04 01 22 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+
+//
+// jobb oldali torony
+//
+
+@AddStation: id: 35, class: PSK0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+//	CallbackFlags: 3
+	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: FE			// Max 1 hosszu
+
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 153, posy: 318, sizex: 67, sizey: 78, relx: -32, rely: -46
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 226, posy: 318, sizex: 66, sizey: 65, relx: -32, rely: -33
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+   00 * 00	02 04 12
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+//			02 80 13 00 13 00
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			00 00						// else graphics Set
+
+	00 * 00	 03 04 01 23 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+
+00 * 00	04 04 FF 01 22 C5 "Tower (left)" 00
+00 * 00	04 04 A4 01 22 C5 "Torony (bal)" 00
+00 * 00	04 04 82 01 22 C5 "Turm (links)" 00
+
+00 * 00	04 04 FF 01 23 C5 "Tower (right)" 00
+00 * 00	04 04 A4 01 23 C5 "Torony (jobb)" 00
+00 * 00	04 04 82 01 23 C5 "Turm (rechts)" 00

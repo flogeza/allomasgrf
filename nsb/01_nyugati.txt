@@ -170,8 +170,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			02 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			03 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -292,8 +292,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			04 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			05 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -413,8 +413,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			06 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			07 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -534,8 +534,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			08 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			09 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -655,8 +655,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			0A 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			0B 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -776,8 +776,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			0C 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			0D 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -897,8 +897,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			0E 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			0F 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -1018,8 +1018,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			10 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			11 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -1140,8 +1140,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			12 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			13 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -1262,8 +1262,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			14 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			15 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -1384,8 +1384,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			16 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			17 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -1506,8 +1506,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			18 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			19 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -1628,8 +1628,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			1A 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			1B 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -1750,8 +1750,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			1C 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			1D 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -1872,8 +1872,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			1E 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			1F 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -1995,8 +1995,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			20 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			21 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -2118,8 +2118,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			22 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			23 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -2240,8 +2240,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			24 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			25 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -2363,8 +2363,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			26 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			27 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -2486,8 +2486,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			28 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			29 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -2609,8 +2609,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			2A 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			2B 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -2732,8 +2732,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			2C 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			2D 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -2855,8 +2855,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			2E 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			2F 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -2977,8 +2977,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			30 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			31 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -3099,8 +3099,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			32 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			33 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -3221,8 +3221,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			34 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			35 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -3343,8 +3343,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			36 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			37 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -3465,8 +3465,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			38 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			39 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -3587,8 +3587,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			3A 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			3B 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -3604,6 +3604,337 @@
 
 	00 * 00	 03 04 01 1D 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
+
+
+
+
+//**************************************//
+//				FOEPULET				//
+//**************************************//
+
+//
+// bal oldali magyar zaszlos
+//
+
+@AddStation: id: 30, class: PSK0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+//	CallbackFlags: 3
+	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: FD			// Max 1 hosszu
+
+	// foepulet eleje
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 226, posy: 221, sizex: 66, sizey: 93, relx: -32, rely: -61
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 226, posy: 221, sizex: 66, sizey: 93, relx: -32, rely: -61
+		@EndAddLayout2
+	@EndAddSprite
+
+	// foepulet hatulja
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 7, posy: 149, sizex: 66, sizey: 64, relx: -32, rely: -32
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 6, sizez: 62
+			RealSprite: posx: 7, posy: 149, sizex: 66, sizey: 64, relx: -32, rely: -32
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+   00 * 00	02 04 A0
+			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
+			F0							// maszkolas, ha F, akkor az erdekel minket
+			01							// hany darab variacio van
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
+
+   00 * 00	02 04 12
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+//			02 80 13 00 13 00
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			A0 00						// else graphics Set
+
+	00 * 00	 03 04 01 1E 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+//
+// jobb oldali magyar zaszlos
+//
+
+@AddStation: id: 31, class: PSK0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+//	CallbackFlags: 3
+	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: FD			// Max 1 hosszu
+
+	// foepulet eleje
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 153, posy: 221, sizex: 66, sizey: 93, relx: -32, rely: -61
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 153, posy: 221, sizex: 66, sizey: 93, relx: -32, rely: -61
+		@EndAddLayout2
+	@EndAddSprite
+
+	// foepulet hatulja
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 7, posy: 149, sizex: 66, sizey: 64, relx: -32, rely: -32
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 6, sizez: 62
+			RealSprite: posx: 7, posy: 149, sizex: 66, sizey: 64, relx: -32, rely: -32
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+   00 * 00	02 04 A0
+			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
+			F0							// maszkolas, ha F, akkor az erdekel minket
+			01							// hany darab variacio van
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
+
+   00 * 00	02 04 12
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+//			02 80 13 00 13 00
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			A0 00						// else graphics Set
+
+	00 * 00	 03 04 01 1F 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+//
+// bal oldali cegszinu zaszlos
+//
+
+@AddStation: id: 32, class: PSK0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+//	CallbackFlags: 3
+	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: FD			// Max 1 hosszu
+
+	// foepulet eleje
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 80, posy: 221, sizex: 66, sizey: 93, relx: -32, rely: -61
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 80, posy: 221, sizex: 66, sizey: 93, relx: -32, rely: -61
+		@EndAddLayout2
+	@EndAddSprite
+
+	// foepulet hatulja
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 7, posy: 149, sizex: 66, sizey: 64, relx: -32, rely: -32
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 6, sizez: 62
+			RealSprite: posx: 7, posy: 149, sizex: 66, sizey: 64, relx: -32, rely: -32
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+   00 * 00	02 04 A0
+			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
+			F0							// maszkolas, ha F, akkor az erdekel minket
+			01							// hany darab variacio van
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
+
+   00 * 00	02 04 12
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+//			02 80 13 00 13 00
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			A0 00						// else graphics Set
+
+	00 * 00	 03 04 01 20 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+//
+// jobb oldali cegszinu zaszlos
+//
+
+@AddStation: id: 33, class: PSK0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+//	CallbackFlags: 3
+	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: FD			// Max 1 hosszu
+
+	// foepulet eleje
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 7, posy: 221, sizex: 66, sizey: 93, relx: -32, rely: -61
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 7, posy: 221, sizex: 66, sizey: 93, relx: -32, rely: -61
+		@EndAddLayout2
+	@EndAddSprite
+
+	// foepulet hatulja
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 7, posy: 149, sizex: 66, sizey: 64, relx: -32, rely: -32
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 6, sizez: 62
+			RealSprite: posx: 7, posy: 149, sizex: 66, sizey: 64, relx: -32, rely: -32
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+   00 * 00	02 04 A0
+			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
+			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
+			F0							// maszkolas, ha F, akkor az erdekel minket
+			01							// hany darab variacio van
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
+
+   00 * 00	02 04 12
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+//			02 80 13 00 13 00
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			A0 00						// else graphics Set
+
+	00 * 00	 03 04 01 21 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+
+
+//**************************************//
+//				TORONY					//
+//**************************************//
+
+//
+// bal oldali torony
+//
+
+@AddStation: id: 34, class: PSK0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+//	CallbackFlags: 3
+	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: FE			// Max 1 hosszu
+
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 79, posy: 318, sizex: 67, sizey: 78, relx: -33, rely: -46
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 7, posy: 318, sizex: 66, sizey: 91, relx: -32, rely: -59
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+   00 * 00	02 04 12
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+//			02 80 13 00 13 00
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			00 00						// else graphics Set
+
+	00 * 00	 03 04 01 22 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+
+//
+// jobb oldali torony
+//
+
+@AddStation: id: 35, class: PSK0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+//	CallbackFlags: 3
+	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: FE			// Max 1 hosszu
+
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 153, posy: 318, sizex: 67, sizey: 78, relx: -32, rely: -46
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 226, posy: 318, sizex: 66, sizey: 65, relx: -32, rely: -33
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+   00 * 00	02 04 12
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+//			02 80 13 00 13 00
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			00 00						// else graphics Set
+
+	00 * 00	 03 04 01 23 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -3735,8 +4066,26 @@
 00 * 00	04 04 A4 01 1D C5 "Csarnok" 00
 00 * 00	04 04 82 01 1D C5 "Passagierhalle" 00
 
-//00 * 00	04 04 FF 01 00 C5 "ÞFőépületrész" 00
-//00 * 00	04 04 FF 01 01 C5 "Torony 1" 00
-//00 * 00	04 04 FF 01 02 C5 "Torony 2" 00
-//00 * 00	04 04 FF 01 03 C5 "ÞOMelléképület" 00
-//00 * 00	04 04 FF 01 05 C5 "Csarnok" 00
+00 * 00	04 04 FF 01 1E C5 "Main building (left)" 00
+00 * 00	04 04 A4 01 1E C5 "ÞFőépület (bal)" 00
+00 * 00	04 04 82 01 1E C5 "ÞHauptgebäude (links)" 00
+
+00 * 00	04 04 FF 01 1F C5 "Main building (right)" 00
+00 * 00	04 04 A4 01 1F C5 "ÞFőépület (jobb)" 00
+00 * 00	04 04 82 01 1F C5 "ÞHauptgebäude (rechts)" 00
+
+00 * 00	04 04 FF 01 20 C5 "Main building (left)" 00
+00 * 00	04 04 A4 01 20 C5 "ÞFőépület (bal)" 00
+00 * 00	04 04 82 01 20 C5 "ÞHauptgebäude (links)" 00
+
+00 * 00	04 04 FF 01 21 C5 "Main building (right)" 00
+00 * 00	04 04 A4 01 21 C5 "ÞFőépület (jobb)" 00
+00 * 00	04 04 82 01 21 C5 "ÞHauptgebäude (rechts)" 00
+
+00 * 00	04 04 FF 01 22 C5 "Tower (left)" 00
+00 * 00	04 04 A4 01 22 C5 "Torony (bal)" 00
+00 * 00	04 04 82 01 22 C5 "Turm (links)" 00
+
+00 * 00	04 04 FF 01 23 C5 "Tower (right)" 00
+00 * 00	04 04 A4 01 23 C5 "Torony (jobb)" 00
+00 * 00	04 04 82 01 23 C5 "Turm (rechts)" 00

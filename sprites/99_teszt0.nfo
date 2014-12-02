@@ -1,0 +1,111 @@
+
+//**************************************//
+//				FOEPULET				//
+//**************************************//
+
+//
+// bal oldali torony
+//
+
+
+   // Action0
+   00 * 00	00 04				// Action0, Feature4
+			07 01 22			// Properties, Stations, First Station ID
+			08 "PSK0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+			0C FE				// Platforms
+			0D FE				// Length
+
+			09 02				// Sprite Layout
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+   00 * 00	01 04 01 02
+   00 sprites_grafika/nyugati.pcx 8bpp 79 318 67 78 -33 -46 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 7 318 66 91 -32 -59 normal chunked
+
+   // Action2
+   00 * 00	02 04 00 00 01 00 00
+
+   00 * 00	02 04 12
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+//			02 80 13 00 13 00
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			00 00						// else graphics Set
+
+	00 * 00	 03 04 01 22 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+
+//
+// jobb oldali torony
+//
+
+
+   // Action0
+   00 * 00	00 04				// Action0, Feature4
+			07 01 23			// Properties, Stations, First Station ID
+			08 "PSK0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+			0C FE				// Platforms
+			0D FE				// Length
+
+			09 02				// Sprite Layout
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+   00 * 00	01 04 01 02
+   00 sprites_grafika/nyugati.pcx 8bpp 153 318 67 78 -32 -46 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 226 318 66 65 -32 -33 normal chunked
+
+   // Action2
+   00 * 00	02 04 00 00 01 00 00
+
+   00 * 00	02 04 12
+			85							// get word
+			0C							// check if callback
+			00
+			FF FF
+			01							// hany range
+//			02 80 13 00 13 00
+			00							// ennyi legyen, ha 14-es callback van
+			80							// elvalaszto
+			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+			00 00						// else graphics Set
+
+	00 * 00	 03 04 01 23 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+
+00 * 00	04 04 FF 01 22 C5 "Tower (left)" 00
+00 * 00	04 04 A4 01 22 C5 "Torony (bal)" 00
+00 * 00	04 04 82 01 22 C5 "Turm (links)" 00
+
+00 * 00	04 04 FF 01 23 C5 "Tower (right)" 00
+00 * 00	04 04 A4 01 23 C5 "Torony (jobb)" 00

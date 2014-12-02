@@ -8,21 +8,21 @@
 //******************************************************************************************************************************************************//
 
 
--1 * -1    02 04 40				// Procedure to compute the slope-dependent spriteoffset
+-1 * -1    02 04 70				// Procedure to compute the slope-dependent spriteoffset
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
 			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			00 00
 
--1 * -1    02 04 41				// Procedure to compute the climate-dependent spriteoffset
+-1 * -1    02 04 71				// Procedure to compute the climate-dependent spriteoffset
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
 			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			00 00
 
--1 * -1    02 04 42				// Procedure to compute the height offset in the middle of the tile
+-1 * -1    02 04 72				// Procedure to compute the height offset in the middle of the tile
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -183,11 +183,11 @@
 //           \dx 80000001 \wx01  00 00 80          12       // Draw snow-overlay relative to building sprite, but only if register 0x12 is zero.
 
 -1 * -1    02 04 D0 81
-					7E 40 20 FF                           // Get slope offset from procedure 40
+					7E 70 20 FF                           // Get slope offset from procedure 40
              \2sto  1A    20 10                           // Store in register 0x10
-             \2rst  7E 41 20 0F                           // Add climate offset from procedure 41
+             \2rst  7E 71 20 0F                           // Add climate offset from procedure 41
              \2sto  1A    20 11                           // Store in register 0x10
-             \2rst  7E 42 20 0F                           // Get height offset in the middle of the tile
+             \2rst  7E 72 20 0F                           // Get height offset in the middle of the tile
              \2sto  1A    20 12                           // Store in register 0x11
 
 //             \2rst  62 00 2C 01                           // Test snow bit, 1 if snowy, 0 if not
