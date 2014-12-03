@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 79 04 00 00
+    0 * 4	 9F 04 00 00
     1 * 66	 14 "CINFOTURL_" 7F "http://www.tt-forums.net/viewtopic.php?f=67&t=70997" 00 00 00				// url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// verzio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
@@ -4888,26 +4888,62 @@
  1082 * 24	 04 04 FF 01 33 C5 "Old (high)(front)" 00
  1083 * 32	 04 04 A4 01 33 C5 "ÞRégi (magas)(elülső)" 00
 
-//**************************************//
-//				FOEPULET				//
-//**************************************//
-
 //
-// bal oldali torony
+// vasari megallo
 //
 
 
    // Action0
- 1084 * 52	 00 04				// Action0, Feature4
-			07 01 22			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
-			11 00				// Pylon disabled
-			14 FF				// Wire disabled
-			15 FF				// Train disabled
-			0C FE				// Platforms
-			0D FE				// Length
+ 1084 * 192	 00 04				// Action0, Feature4
+			02 01 24			// Properties, Stations, First Station ID
+			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 0C				// Sprite Layout
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 0A		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
 
 			8D 0F 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 04 00 00
@@ -4919,14 +4955,43 @@
 
 
    // Action1
- 1085 * 4	 01 04 01 02
- 1086 sprites_grafika/nyugati.pcx 8bpp 79 318 67 78 -33 -46 normal chunked
- 1087 sprites_grafika/nyugati.pcx 8bpp 7 318 66 91 -32 -59 normal chunked
+ 1085 * 4	 01 04 06 02
+ 1086 sprites_grafika/karacsonysprites.png 8bpp 4 5 54 32 -32 -5 normal chunked
+ 1087 sprites_grafika/karacsonysprites.png 8bpp 59 5 54 31 -11 -6 normal chunked
+ 1088 sprites_grafika/karacsonysprites.png 8bpp 4 38 54 33 -32 -5 normal chunked
+ 1089 sprites_grafika/karacsonysprites.png 8bpp 59 37 54 31 -11 -6 normal chunked
+ 1090 sprites_grafika/karacsonysprites.png 8bpp 4 72 54 32 -32 -5 normal chunked
+ 1091 sprites_grafika/karacsonysprites.png 8bpp 59 69 54 33 -11 -6 normal chunked
+ 1092 sprites_grafika/karacsonysprites.png 8bpp 160 5 45 26 -11 -6 normal chunked
+ 1093 sprites_grafika/karacsonysprites.png 8bpp 114 5 45 25 -11 -6 normal chunked
+ 1094 sprites_grafika/karacsonysprites.png 8bpp 160 32 45 29 -11 -5 normal chunked
+ 1095 sprites_grafika/karacsonysprites.png 8bpp 114 31 45 25 -11 -6 normal chunked
+ 1096 sprites_grafika/karacsonysprites.png 8bpp 160 62 45 23 -11 -5 normal chunked
+ 1097 sprites_grafika/karacsonysprites.png 8bpp 114 57 45 31 -11 -6 normal chunked
 
    // Action2
- 1088 * 7	 02 04 00 00 01 00 00
+ 1098 * 7	 02 04 00 00 01 00 00
+ 1099 * 7	 02 04 01 00 01 01 00
+ 1100 * 7	 02 04 02 00 01 02 00
+ 1101 * 7	 02 04 03 00 01 03 00
+ 1102 * 7	 02 04 04 00 01 04 00
+ 1103 * 7	 02 04 05 00 01 05 00
 
- 1089 * 17	 02 04 12
+
+ 1104 * 23	 02 04 A0
+			80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			08							// hany darab random lehetosegunk van
+			00 00
+			00 00
+			00 00
+			01 00
+			02 00
+			03 00
+			04 00
+			05 00
+
+ 1105 * 17	 02 04 12
 			85							// get word
 			0C							// check if callback
 			00
@@ -4936,28 +5001,80 @@
 			00							// ennyi legyen, ha 14-es callback van
 			80							// elvalaszto
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
-			00 00						// else graphics Set
+			A0 00						// else graphics Set
 
- 1090 * 7	 03 04 01 22 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+ 1106 * 7	 03 04 01 24 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
 //
-// jobb oldali torony
+// vasari terek
 //
 
 
    // Action0
- 1091 * 52	 00 04				// Action0, Feature4
-			07 01 23			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+ 1107 * 228	 00 04				// Action0, Feature4
+			05 01 25			// Properties, Stations, First Station ID
+			08 "PSK2"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
-			0C FE				// Platforms
-			0D FE				// Length
 
-			09 02				// Sprite Layout
+			09 0E				// Sprite Layout
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
 
 			8D 0F 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 04 00 00
@@ -4969,14 +5086,45 @@
 
 
    // Action1
- 1092 * 4	 01 04 01 02
- 1093 sprites_grafika/nyugati.pcx 8bpp 153 318 67 78 -32 -46 normal chunked
- 1094 sprites_grafika/nyugati.pcx 8bpp 226 318 66 65 -32 -33 normal chunked
+ 1108 * 4	 01 04 07 02
+ 1109 sprites_grafika/karacsonysprites.png 8bpp 206 5 66 37 -33 -46 normal chunked
+ 1110 sprites_grafika/karacsonysprites.png 8bpp 206 5 66 37 -33 -46 normal chunked
+ 1111 sprites_grafika/karacsonysprites.png 8bpp 206 43 66 37 -33 -46 normal chunked
+ 1112 sprites_grafika/karacsonysprites.png 8bpp 206 43 66 37 -33 -46 normal chunked
+ 1113 sprites_grafika/karacsonysprites.png 8bpp 206 81 66 33 -32 -59 normal chunked
+ 1114 sprites_grafika/karacsonysprites.png 8bpp 206 81 66 33 -32 -59 normal chunked
+ 1115 sprites_grafika/karacsonysprites.png 8bpp 273 5 66 46 -33 -46 normal chunked
+ 1116 sprites_grafika/karacsonysprites.png 8bpp 273 5 66 46 -33 -46 normal chunked
+ 1117 sprites_grafika/karacsonysprites.png 8bpp 273 52 66 42 -33 -46 normal chunked
+ 1118 sprites_grafika/karacsonysprites.png 8bpp 273 52 66 42 -33 -46 normal chunked
+ 1119 sprites_grafika/karacsonysprites.png 8bpp 340 5 66 46 -33 -46 normal chunked
+ 1120 sprites_grafika/karacsonysprites.png 8bpp 340 5 66 46 -33 -46 normal chunked
+ 1121 sprites_grafika/karacsonysprites.png 8bpp 340 52 66 37 -32 -59 normal chunked
+ 1122 sprites_grafika/karacsonysprites.png 8bpp 340 52 66 37 -32 -59 normal chunked
 
    // Action2
- 1095 * 7	 02 04 00 00 01 00 00
+ 1123 * 7	 02 04 00 00 01 00 00
+ 1124 * 7	 02 04 01 00 01 01 00
+ 1125 * 7	 02 04 02 00 01 02 00
+ 1126 * 7	 02 04 03 00 01 03 00
+ 1127 * 7	 02 04 04 00 01 04 00
+ 1128 * 7	 02 04 05 00 01 05 00
+ 1129 * 7	 02 04 06 00 01 06 00
 
- 1096 * 17	 02 04 12
+ 1130 * 23	 02 04 A0
+			80 00						// 80 azaz random object, 00, azaz nincs random trigger
+			10							// szerintem ez kotelezoen ennyi
+			08							// hany darab random lehetosegunk van
+			00 00
+			00 00
+			01 00
+			02 00
+			03 00
+			04 00
+			05 00
+			06 00
+
+ 1131 * 17	 02 04 12
 			85							// get word
 			0C							// check if callback
 			00
@@ -4986,18 +5134,22 @@
 			00							// ennyi legyen, ha 14-es callback van
 			80							// elvalaszto
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
-			00 00						// else graphics Set
+			A0 00						// else graphics Set
 
- 1097 * 7	 03 04 01 23 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+ 1132 * 7	 03 04 01 25 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
- 1098 * 19	 04 04 FF 01 22 C5 "Tower (left)" 00
- 1099 * 19	 04 04 A4 01 22 C5 "Torony (bal)" 00
- 1100 * 19	 04 04 82 01 22 C5 "Turm (links)" 00
+ 1133 * 41	 04 04 FF 01 24 C4 "HSS - Christmas Market (automatic)" 00
+ 1134 * 48	 04 04 A4 01 24 C4 "ÞHSS - Karácsonyi vásár (automatikus)" 00
+ 1135 * 45	 04 04 82 01 24 C4 "ÞHSS - Weihnachtsmarkt (automatische)" 00
 
- 1101 * 20	 04 04 FF 01 23 C5 "Tower (right)" 00
- 1102 * 20	 04 04 A4 01 23 C5 "Torony (jobb)" 00
+ 1136 * 16	 04 04 FF 01 24 C5 "With rail" 00
+ 1137 * 16	 04 04 A4 01 24 C5 "ÞSínnel" 00
+ 1138 * 20	 04 04 82 01 24 C5 "ÞMit Schiene" 00
+
+ 1139 * 18	 04 04 FF 01 25 C5 "Without rai" 00
+ 1140 * 23	 04 04 A4 01 25 C5 "ÞSín nélküli" 00
 
 
 
@@ -5008,21 +5160,21 @@
 //******************************************************************************************************************************************************//
 
 
- 1103 * 11	 02 04 70				// Procedure to compute the slope-dependent spriteoffset
+ 1141 * 11	 02 04 70				// Procedure to compute the slope-dependent spriteoffset
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
 			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			00 00
 
- 1104 * 11	 02 04 71				// Procedure to compute the climate-dependent spriteoffset
+ 1142 * 11	 02 04 71				// Procedure to compute the climate-dependent spriteoffset
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
 			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			00 00
 
- 1105 * 11	 02 04 72				// Procedure to compute the height offset in the middle of the tile
+ 1143 * 11	 02 04 72				// Procedure to compute the height offset in the middle of the tile
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -5032,7 +5184,7 @@
 
 
 
- 1106 * 160	 00 04 04 01 F0 08 "PKST"
+ 1144 * 160	 00 04 04 01 F0 08 "PKST"
 //			11 00 14 FF 15 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -5110,36 +5262,36 @@
 			00 00 00		// extend
 
 
- 1107 * 4	 01 04 01 02
- 1108 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
- 1109 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
+ 1145 * 4	 01 04 01 02
+ 1146 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
+ 1147 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
 
- 1110 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
-
-
-
- 1111 * 4	 01 04 01 02
- 1112 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
- 1113 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
-
- 1114 * 7	 02 04 01 00 01 00 00	// hatulja
+ 1148 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
 
 
 
- 1115 * 4	 01 04 01 04
- 1116 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
- 1117 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
- 1118 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
- 1119 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+ 1149 * 4	 01 04 01 02
+ 1150 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
+ 1151 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
 
- 1120 * 7	 02 04 02 00 01 00 00	// objektumok
+ 1152 * 7	 02 04 01 00 01 00 00	// hatulja
+
+
+
+ 1153 * 4	 01 04 01 04
+ 1154 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
+ 1155 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
+ 1156 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
+ 1157 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+
+ 1158 * 7	 02 04 02 00 01 00 00	// objektumok
 
 
 //   00 * 00	02 04 01 00 01 01 00	// hatulja
 //   00 * 00	02 04 01 00 01 00 00	// hatulja
 
 	// lampas randomizaciok
- 1121 * 11	 02 04 B0
+ 1159 * 11	 02 04 B0
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -5148,7 +5300,7 @@
 
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebken a harmadik lekerdezesre (10) ugrik
- 1122 * 14	 02 04 A1
+ 1160 * 14	 02 04 A1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -5158,7 +5310,7 @@
 
 // callback handler for normal graphics (non-build menu)
 // ez az elso lekerdezes, ezzel kerdezem kezdem el a betoltendo  lekerdezeseket
- 1123 * 17	 02 04 A0
+ 1161 * 17	 02 04 A0
 			85							// get word
 			0C							// check if callback
 			00
@@ -5171,7 +5323,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
- 1124 * 17	 02 04 C0					// Set-ID C0
+ 1162 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 			00 80 14 00 14 00			// use layouts 06/07 during callback 14
@@ -5182,7 +5334,7 @@
 //           \dx 80000000 \wx20  00 00 00 10 10 30 11       // Draw building sprite at z-postion from register 0x11.
 //           \dx 80000001 \wx01  00 00 80          12       // Draw snow-overlay relative to building sprite, but only if register 0x12 is zero.
 
- 1125 * 37	 02 04 D0 81
+ 1163 * 37	 02 04 D0 81
 					7E 70 20 FF                           // Get slope offset from procedure 40
              \2sto  1A    20 10                           // Store in register 0x10
              \2rst  7E 71 20 0F                           // Add climate offset from procedure 41
@@ -5200,7 +5352,7 @@
 
 //-1 * -1    03 0F 01 ?? \b 0 00                            // always procede at 00
 
- 1126 * 10	 03 04 01 F0
+ 1164 * 10	 03 04 01 F0
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
    D0 00								// ha nem menu, akkor A0 action2-re
@@ -5212,8 +5364,8 @@
 //				Strings					//
 //**************************************//
 
- 1127 * 22	 04 04 FF 01 F0 C4 "HUNGARIAN TESZT" 00
- 1128 * 13	 04 04 FF 01 F0 C5 "TESZT1" 00
+ 1165 * 22	 04 04 FF 01 F0 C4 "HUNGARIAN TESZT" 00
+ 1166 * 13	 04 04 FF 01 F0 C5 "TESZT1" 00
 
 
 //******************************************************************************************************************************************************//
@@ -5225,7 +5377,7 @@
 
 
 
- 1129 * 76	 00 04 04 01 F1 08 "PKST"
+ 1167 * 76	 00 04 04 01 F1 08 "PKST"
 //			11 00 14 FF 15 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -5254,7 +5406,7 @@
 			80
 
 
- 1130 * 4	 01 04 02 02
+ 1168 * 4	 01 04 02 02
 	// sablonbol
 //   00 sprites_grafika/metro1.png 8bpp 0 0 44 55 -33 -17 normal chunked
 //   00 sprites_grafika/metro1.png 8bpp 45 0 44 55 -11 -17 normal chunked
@@ -5263,11 +5415,11 @@
 //   00 sprites_grafika/metro1.png 8bpp 135 0 44 37 -10 -16 normal chunked
 
 	// sablonbol
- 1131 sprites_grafika/metro.png 8bpp 0 0 44 55 -33 -17 normal chunked
- 1132 sprites_grafika/metro.png 8bpp 45 0 44 55 -11 -17 normal chunked
+ 1169 sprites_grafika/metro.png 8bpp 0 0 44 55 -33 -17 normal chunked
+ 1170 sprites_grafika/metro.png 8bpp 45 0 44 55 -11 -17 normal chunked
 	// allomas tablas
- 1133 sprites_grafika/metro.png 8bpp 90 0 44 37 -32 -16 normal chunked
- 1134 sprites_grafika/metro.png 8bpp 135 0 44 37 -10 -16 normal chunked
+ 1171 sprites_grafika/metro.png 8bpp 90 0 44 37 -32 -16 normal chunked
+ 1172 sprites_grafika/metro.png 8bpp 135 0 44 37 -10 -16 normal chunked
 
 //   00 sprites_grafika/metro.pcx 8bpp 0 0 44 55 -33 -17 normal chunked
 //   00 sprites_grafika/metro.pcx 8bpp 45 0 44 55 -11 -17 normal chunked
@@ -5275,11 +5427,11 @@
 //   00 sprites_grafika/metro.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
 //   00 sprites_grafika/metro.pcx 8bpp 135 0 44 37 -10 -16 normal chunked
 
- 1135 * 7	 02 04 00 00 01 00 00
- 1136 * 7	 02 04 01 00 01 01 00
+ 1173 * 7	 02 04 00 00 01 00 00
+ 1174 * 7	 02 04 01 00 01 01 00
 
 	// egyes randomizaciok
- 1137 * 11	 02 04 AA
+ 1175 * 11	 02 04 AA
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -5288,20 +5440,20 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
- 1138 * 17	 02 04 C0					// Set-ID C0
+ 1176 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 			00 80 14 00 14 00			// use layouts 06/07 during callback 14
 			00 00						// menu grafika....
 
 
- 1139 * 10	 03 04 01 F1
+ 1177 * 10	 03 04 01 F1
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
    AA 00								// ha nem menu, akkor A0 action2-re
 
 
- 1140 * 48	 00 04 05 01 F2 08 "PKST"
+ 1178 * 48	 00 04 05 01 F2 08 "PKST"
 //			11 00 14 FF 15 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -5357,7 +5509,7 @@
 
 
 	// egyes randomizaciok
- 1141 * 11	 02 04 BB
+ 1179 * 11	 02 04 BB
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -5368,14 +5520,14 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
- 1142 * 17	 02 04 C0					// Set-ID C0
+ 1180 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 			00 80 14 00 14 00			// use layouts 06/07 during callback 14
 			00 00						// menu grafika....
 
 
- 1143 * 10	 03 04 01 F2
+ 1181 * 10	 03 04 01 F2
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
    BB 00								// ha nem menu, akkor A0 action2-re
@@ -5387,5 +5539,5 @@
 //				Strings					//
 //**************************************//
 
- 1144 * 13	 04 04 FF 01 F1 C5 "TESZT2" 00
- 1145 * 13	 04 04 FF 01 F2 C5 "TESZT3" 00
+ 1182 * 13	 04 04 FF 01 F1 C5 "TESZT2" 00
+ 1183 * 13	 04 04 FF 01 F2 C5 "TESZT3" 00
