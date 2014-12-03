@@ -6,79 +6,149 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			02 01 24			// Properties, Stations, First Station ID
+			03 01 24			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
+			16 00 01			// Animation Information
 
-			09 0C				// Sprite Layout
+			09 12				// Sprite Layout
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 0A		2D 04 00 00
+			00 00 00	10 05 06		2D 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
-			80					// end layout1 sprite
-
-
-			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
-			80					// end layout1 sprite
-
-			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			00 00 00	05 10 06		2F 04 00 00
+			00 00 00	05 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			00 00 00	10 05 06		2D 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			00 00 00	05 10 06		2F 04 00 00
+			00 00 00	05 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			00 00 00	10 05 06		2D 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			00 00 00	05 10 06		2F 04 00 00
+			00 00 00	05 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			00 00 00	10 05 06		2D 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			00 00 00	05 10 06		2F 04 00 00
+			00 00 00	05 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			00 00 00	10 05 06		2D 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			00 00 00	05 10 06		2F 04 00 00
+			00 00 00	05 10 06		30 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 05 06		2D 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	05 10 06		2F 04 00 00
+			00 00 00	05 10 06		30 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 05 06		2D 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	05 10 06		2F 04 00 00
+			00 00 00	05 10 06		30 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 05 06		2D 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	05 10 06		2F 04 00 00
+			00 00 00	05 10 06		30 04 00 00
+			80					// end layout1 sprite
+
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 05 06		2D 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	05 10 06		2F 04 00 00
+			00 00 00	05 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 06 02
+   00 * 00	01 04 09 04
    00 sprites_grafika/karacsonysprites.png 8bpp 4 5 54 32 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 59 5 54 31 -11 -6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 4 38 54 33 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 59 37 54 31 -11 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 160 5 45 26 -11 6 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 59 5 54 31 -20 -4 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 114 5 45 25 -32 7 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 4 5 54 32 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 160 32 45 29 -11 3 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 59 5 54 31 -20 -4 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 114 31 45 25 -32 7 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 4 5 54 32 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 160 62 45 23 -11 9 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 59 5 54 31 -20 -4 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 114 57 45 31 -32 1 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 4 38 54 33 -32 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 160 5 45 26 -11 6 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 59 37 54 31 -20 -4 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 114 5 45 25 -32 7 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 4 38 54 33 -32 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 160 32 45 29 -11 3 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 59 37 54 31 -20 -4 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 114 31 45 25 -32 7 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 4 38 54 33 -32 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 160 62 45 23 -11 9 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 59 37 54 31 -20 -4 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 114 57 45 31 -32 1 normal chunked
    00 sprites_grafika/karacsonysprites.png 8bpp 4 72 54 32 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 59 69 54 33 -11 -6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 160 5 45 26 -11 -6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 114 5 45 25 -11 -6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 160 32 45 29 -11 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 114 31 45 25 -11 -6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 160 62 45 23 -11 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 114 57 45 31 -11 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 160 5 45 26 -11 6 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 59 69 54 33 -20 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 114 5 45 25 -32 7 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 4 72 54 32 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 160 32 45 29 -11 3 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 59 69 54 33 -20 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 114 31 45 25 -32 7 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 4 72 54 32 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 160 62 45 23 -11 9 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 59 69 54 33 -20 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 114 57 45 31 -32 1 normal chunked
 
    // Action2
    00 * 00	02 04 00 00 01 00 00
@@ -87,20 +157,24 @@
    00 * 00	02 04 03 00 01 03 00
    00 * 00	02 04 04 00 01 04 00
    00 * 00	02 04 05 00 01 05 00
+   00 * 00	02 04 06 00 01 06 00
+   00 * 00	02 04 07 00 01 07 00
+   00 * 00	02 04 08 00 01 08 00
 
 
    00 * 00	02 04 A0
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
-			08							// hany darab random lehetosegunk van
-			00 00
-			00 00
-			00 00
+			10							// hany darab random lehetosegunk van
+			00 00 00 00 00 00
 			01 00
 			02 00
-			03 00
-			04 00
+			03 00 03 00 03 00
+			04 00 04 00
 			05 00
+			06 00 06 00 06 00
+			07 00
+			08 00
 
    00 * 00	02 04 12
 			85							// get word
@@ -134,84 +208,84 @@
 			09 0E				// Sprite Layout
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
    // Action1
    00 * 00	01 04 07 02
-   00 sprites_grafika/karacsonysprites.png 8bpp 206 5 66 37 -33 -46 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 206 5 66 37 -33 -46 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 206 43 66 37 -33 -46 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 206 43 66 37 -33 -46 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 206 81 66 33 -32 -59 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 206 81 66 33 -32 -59 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 273 5 66 46 -33 -46 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 273 5 66 46 -33 -46 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 273 52 66 42 -33 -46 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 273 52 66 42 -33 -46 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 340 5 66 46 -33 -46 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 340 5 66 46 -33 -46 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 340 52 66 37 -32 -59 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 340 52 66 37 -32 -59 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 206 5 66 37 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 206 5 66 37 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 206 43 66 37 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 206 43 66 37 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 206 81 66 33 -32 -1 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 206 81 66 33 -32 -1 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 273 5 66 46 -32 -14 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 273 5 66 46 -32 -14 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 273 52 66 42 -33 -10 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 273 52 66 42 -33 -10 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 340 5 66 46 -32 -14 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 340 5 66 46 -32 -14 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 340 52 66 37 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.png 8bpp 340 52 66 37 -32 -5 normal chunked
 
    // Action2
    00 * 00	02 04 00 00 01 00 00
@@ -225,15 +299,14 @@
    00 * 00	02 04 A0
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
-			08							// hany darab random lehetosegunk van
-			00 00
-			00 00
-			01 00
+			10							// hany darab random lehetosegunk van
+			00 00 00 00 00 00 00 00
+			01 00 01 00 01 00 01 00 01 00
 			02 00
 			03 00
-			04 00
+			04 00 04 00
 			05 00
-			06 00
+			06 00 06 00
 
    00 * 00	02 04 12
 			85							// get word
@@ -253,11 +326,11 @@
 
 00 * 00	04 04 FF 01 24 C4 "HSS - Christmas Market (automatic)" 00
 00 * 00	04 04 A4 01 24 C4 "ÞHSS - Karácsonyi vásár (automatikus)" 00
-00 * 00	04 04 82 01 24 C4 "ÞHSS - Weihnachtsmarkt (automatische)" 00
+00 * 00	04 04 82 01 24 C4 "ÞHSS - Weihnachtsmarkt (automatisch)" 00
 
 00 * 00	04 04 FF 01 24 C5 "With rail" 00
 00 * 00	04 04 A4 01 24 C5 "ÞSínnel" 00
 00 * 00	04 04 82 01 24 C5 "ÞMit Schiene" 00
 
-00 * 00	04 04 FF 01 25 C5 "Without rai" 00
+00 * 00	04 04 FF 01 25 C5 "Without rail" 00
 00 * 00	04 04 A4 01 25 C5 "ÞSín nélküli" 00
