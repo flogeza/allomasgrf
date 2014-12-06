@@ -568,7 +568,7 @@
 		@EndAddLayout1
 		// lampa paddal peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
 			RealSprite: posx: 180, posy: 112, sizex: 44, sizey: 55, relx: -10, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -584,12 +584,12 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 0
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// lampa paddal peron
 		@AddLayout2: spritenumber: 5, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
 			RealSprite: posx: 225, posy: 112, sizex: 44, sizey: 55, relx: -10, rely: -34
 		@EndAddLayout2
 		// uveg nelkuli teto
@@ -1048,7 +1048,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// beton koz
@@ -1069,7 +1069,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// beton koz
@@ -1170,7 +1170,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// kijelzos peron
@@ -1191,7 +1191,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// kijelzos peron
@@ -1292,7 +1292,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// lampas peron
@@ -1313,7 +1313,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// lampas peron
@@ -1403,7 +1403,7 @@
 
 
 //
-// uveges teto, normal, kijelzos, lampas paddal
+// uveges teto, normal, lampas paddal
 //
 
 @AddStation: id: 12, class: PSK0
@@ -1414,12 +1414,12 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// lampa paddal peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
 			RealSprite: posx: 180, posy: 112, sizex: 44, sizey: 55, relx: -10, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1435,12 +1435,12 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// lampa paddal peron
 		@AddLayout2: spritenumber: 5, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
 			RealSprite: posx: 225, posy: 112, sizex: 44, sizey: 55, relx: -10, rely: -34
 		@EndAddLayout2
 		// uveg nelkuli teto
@@ -1536,7 +1536,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// pad peron
@@ -1557,7 +1557,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// pad peron
@@ -1658,7 +1658,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// aluljaro1 peron
@@ -1679,7 +1679,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// aluljaro1 peron
@@ -1780,7 +1780,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// aluljaro2 peron
@@ -1801,7 +1801,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// aluljaro2 peron
@@ -1903,7 +1903,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// beton koz
@@ -1924,7 +1924,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// beton koz
@@ -2026,7 +2026,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// kijelzos peron
@@ -2047,7 +2047,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// kijelzos peron
@@ -2148,7 +2148,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// lampas peron
@@ -2169,7 +2169,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// lampas peron
@@ -2271,12 +2271,12 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// lampa paddal peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
 			RealSprite: posx: 180, posy: 112, sizex: 44, sizey: 55, relx: -10, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2292,12 +2292,12 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// lampa paddal peron
 		@AddLayout2: spritenumber: 5, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
 			RealSprite: posx: 225, posy: 112, sizex: 44, sizey: 55, relx: -10, rely: -34
 		@EndAddLayout2
 		// uveg nelkuli teto
@@ -2394,7 +2394,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// pad peron
@@ -2415,7 +2415,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// pad peron
@@ -2517,7 +2517,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// aluljaro1 peron
@@ -2538,7 +2538,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// aluljaro1 peron
@@ -2640,7 +2640,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// aluljaro2 peron
@@ -2661,7 +2661,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// aluljaro2 peron
@@ -2763,7 +2763,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// beton koz
@@ -2784,7 +2784,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// beton koz
@@ -2885,7 +2885,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// kijelzos peron
@@ -2906,7 +2906,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// kijelzos peron
@@ -3007,7 +3007,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// lampas peron
@@ -3028,7 +3028,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// lampas peron
@@ -3129,12 +3129,12 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// lampa paddal peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
 			RealSprite: posx: 180, posy: 112, sizex: 44, sizey: 55, relx: -10, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -3150,12 +3150,12 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// lampa paddal peron
 		@AddLayout2: spritenumber: 5, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
 			RealSprite: posx: 225, posy: 112, sizex: 44, sizey: 55, relx: -10, rely: -34
 		@EndAddLayout2
 		// uveg nelkuli teto
@@ -3251,7 +3251,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// pad peron
@@ -3272,7 +3272,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// pad peron
@@ -3373,7 +3373,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// aluljaro1 peron
@@ -3394,7 +3394,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// aluljaro1 peron
@@ -3495,7 +3495,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// fake teljesen ures sprite
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout1
 		// aluljaro2 peron
@@ -3516,7 +3516,7 @@
 
 		// fake teljesen ures sprite
 		@AddLayout2: spritenumber: 4, filename: sprites_grafika/altalanos.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 49
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 0
 			RealSprite: posx: 4, posy: 5, sizex: 66, sizey: 33, relx: 0, rely: 0
 		@EndAddLayout2
 		// aluljaro2 peron
