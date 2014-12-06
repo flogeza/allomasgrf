@@ -8,7 +8,7 @@
    00 * 00	00 04				// Action0, Feature4
 			03 01 24			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
-			16 00 01			// Animation Information
+			16 05 05			// Animation Information
 
 			09 12				// Sprite Layout
 
@@ -113,42 +113,42 @@
 
    // Action1
    00 * 00	01 04 09 04
-   00 sprites_grafika/karacsonysprites.png 8bpp 4 5 54 32 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 160 5 45 26 -11 6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 59 5 54 31 -20 -4 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 114 5 45 25 -32 7 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 4 5 54 32 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 160 32 45 29 -11 3 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 59 5 54 31 -20 -4 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 114 31 45 25 -32 7 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 4 5 54 32 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 160 62 45 23 -11 9 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 59 5 54 31 -20 -4 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 114 57 45 31 -32 1 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 4 38 54 33 -32 -6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 160 5 45 26 -11 6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 59 37 54 31 -20 -4 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 114 5 45 25 -32 7 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 4 38 54 33 -32 -6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 160 32 45 29 -11 3 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 59 37 54 31 -20 -4 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 114 31 45 25 -32 7 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 4 38 54 33 -32 -6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 160 62 45 23 -11 9 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 59 37 54 31 -20 -4 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 114 57 45 31 -32 1 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 4 72 54 32 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 160 5 45 26 -11 6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 59 69 54 33 -20 -6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 114 5 45 25 -32 7 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 4 72 54 32 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 160 32 45 29 -11 3 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 59 69 54 33 -20 -6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 114 31 45 25 -32 7 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 4 72 54 32 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 160 62 45 23 -11 9 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 59 69 54 33 -20 -6 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 114 57 45 31 -32 1 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 4 5 54 32 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 160 5 45 26 -11 6 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 59 5 54 31 -20 -4 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 114 5 45 25 -32 7 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 4 5 54 32 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 160 32 45 29 -11 3 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 59 5 54 31 -20 -4 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 114 31 45 25 -32 7 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 4 5 54 32 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 160 62 45 23 -11 9 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 59 5 54 31 -20 -4 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 114 57 45 31 -32 1 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 4 38 54 33 -32 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 160 5 45 26 -11 6 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 59 37 54 31 -20 -4 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 114 5 45 25 -32 7 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 4 38 54 33 -32 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 160 32 45 29 -11 3 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 59 37 54 31 -20 -4 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 114 31 45 25 -32 7 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 4 38 54 33 -32 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 160 62 45 23 -11 9 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 59 37 54 31 -20 -4 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 114 57 45 31 -32 1 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 4 72 54 32 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 160 5 45 26 -11 6 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 59 69 54 33 -20 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 114 5 45 25 -32 7 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 4 72 54 32 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 160 32 45 29 -11 3 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 59 69 54 33 -20 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 114 31 45 25 -32 7 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 4 72 54 32 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 160 62 45 23 -11 9 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 59 69 54 33 -20 -6 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 114 57 45 31 -32 1 normal chunked
 
    // Action2
    00 * 00	02 04 00 00 01 00 00
@@ -272,20 +272,20 @@
 
    // Action1
    00 * 00	01 04 07 02
-   00 sprites_grafika/karacsonysprites.png 8bpp 206 5 66 37 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 206 5 66 37 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 206 43 66 37 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 206 43 66 37 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 206 81 66 33 -32 -1 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 206 81 66 33 -32 -1 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 273 5 66 46 -32 -14 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 273 5 66 46 -32 -14 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 273 52 66 42 -33 -10 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 273 52 66 42 -33 -10 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 340 5 66 46 -32 -14 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 340 5 66 46 -32 -14 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 340 52 66 37 -32 -5 normal chunked
-   00 sprites_grafika/karacsonysprites.png 8bpp 340 52 66 37 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 206 5 66 37 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 206 5 66 37 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 206 43 66 37 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 206 43 66 37 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 206 81 66 33 -32 -1 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 206 81 66 33 -32 -1 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 273 5 66 46 -32 -14 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 273 5 66 46 -32 -14 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 273 52 66 42 -33 -10 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 273 52 66 42 -33 -10 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 340 5 66 46 -32 -14 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 340 5 66 46 -32 -14 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 340 52 66 37 -32 -5 normal chunked
+   00 sprites_grafika/karacsonysprites.pcx 8bpp 340 52 66 37 -32 -5 normal chunked
 
    // Action2
    00 * 00	02 04 00 00 01 00 00

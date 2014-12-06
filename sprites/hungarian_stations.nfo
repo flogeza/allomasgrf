@@ -24,9 +24,9 @@
 //******************************************************************************************************************************************************//
 
 
-//**************************************//
-//				Csarnok					//
-//**************************************//
+//*****************************************//
+//				Csarnok				//
+//*****************************************//
 
 //
 // bejarat
@@ -160,16 +160,16 @@
    30 sprites_grafika/nyugati.pcx 8bpp 120 174 32 39 33 18 normal chunked
 
    // Action2
-   31 * 7	 02 04 00 00 01 00 00
-   32 * 7	 02 04 01 00 01 01 00
+   31 * 7	 02 04 02 00 01 00 00
+   32 * 7	 02 04 03 00 01 01 00
 
    33 * 14	 02 04 A0
 			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			01 00						// ha nincs egyezes, akkor ide ugorjon
+			02 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			03 00						// ha nincs egyezes, akkor ide ugorjon
 
    34 * 17	 02 04 12
 			85							// get word
@@ -222,7 +222,7 @@
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 00		31 04 00 00
+			00 00 00	10 10 00		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -239,11 +239,11 @@
    43 sprites_grafika/nyugati.pcx 8bpp 108 116 44 22 -9 -1 normal chunked
    44 sprites_grafika/nyugati.pcx 8bpp 232 5 66 82 -32 -50 normal chunked
    45 sprites_grafika/nyugati.pcx 8bpp 232 129 62 56 1 3 normal chunked
-   46 sprites_grafika/nyugati.pcx 8bpp 108 116 44 22 0 0 normal chunked
+   46 sprites_grafika/nyugati.pcx 8bpp 108 116 44 22 -31 10 normal chunked
    47 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
    48 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
    49 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
-   50 sprites_grafika/nyugati.pcx 8bpp 108 116 44 22 -9 -1 normal chunked
+   50 sprites_grafika/nyugati.pcx 8bpp 108 116 44 22 -31 10 normal chunked
    51 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
    52 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
    53 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
@@ -304,14 +304,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 10		2D 04 00 00
+			00 00 00	10 10 10		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 10		31 04 00 00
+			00 00 00	10 10 10		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -328,26 +328,26 @@
    66 sprites_grafika/regi_peronok.png 8bpp 225 0 44 55 -10 -34 normal chunked
    67 sprites_grafika/nyugati.pcx 8bpp 232 5 66 82 -32 -50 normal chunked
    68 sprites_grafika/nyugati.pcx 8bpp 232 129 62 56 1 3 normal chunked
-   69 sprites_grafika/regi_peronok.png 8bpp 270 0 44 55 -10 -34 normal chunked
+   69 sprites_grafika/regi_peronok.png 8bpp 270 0 44 55 -32 -23 normal chunked
    70 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
    71 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
    72 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
-   73 sprites_grafika/regi_peronok.png 8bpp 315 0 44 55 -10 -34 normal chunked
+   73 sprites_grafika/regi_peronok.png 8bpp 315 0 44 55 -32 -23 normal chunked
    74 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
    75 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
    76 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
 
    // Action2
-   77 * 7	 02 04 00 00 01 00 00
-   78 * 7	 02 04 01 00 01 01 00
+   77 * 7	 02 04 06 00 01 00 00
+   78 * 7	 02 04 07 00 01 01 00
 
    79 * 14	 02 04 A0
 			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			01 00						// ha nincs egyezes, akkor ide ugorjon
+			06 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			07 00						// ha nincs egyezes, akkor ide ugorjon
 
    80 * 17	 02 04 12
 			85							// get word
@@ -393,14 +393,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 18		2D 04 00 00
+			00 00 00	10 10 18		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 18		31 04 00 00
+			00 00 00	10 10 18		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -417,11 +417,11 @@
    89 sprites_grafika/regi_peronok.png 8bpp 225 56 44 55 -10 -34 normal chunked
    90 sprites_grafika/nyugati.pcx 8bpp 232 5 66 82 -32 -50 normal chunked
    91 sprites_grafika/nyugati.pcx 8bpp 232 129 62 56 1 3 normal chunked
-   92 sprites_grafika/regi_peronok.png 8bpp 270 56 44 55 -10 -34 normal chunked
+   92 sprites_grafika/regi_peronok.png 8bpp 270 56 44 55 -32 -23 normal chunked
    93 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
    94 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
    95 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
-   96 sprites_grafika/regi_peronok.png 8bpp 315 56 44 55 -10 -34 normal chunked
+   96 sprites_grafika/regi_peronok.png 8bpp 315 56 44 55 -32 -23 normal chunked
    97 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
    98 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
    99 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
@@ -482,14 +482,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 18		2D 04 00 00
+			00 00 00	10 10 18		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 18		31 04 00 00
+			00 00 00	10 10 18		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -506,11 +506,11 @@
   112 sprites_grafika/regi_peronok.png 8bpp 225 112 44 55 -10 -34 normal chunked
   113 sprites_grafika/nyugati.pcx 8bpp 232 5 66 82 -32 -50 normal chunked
   114 sprites_grafika/nyugati.pcx 8bpp 232 129 62 56 1 3 normal chunked
-  115 sprites_grafika/regi_peronok.png 8bpp 270 112 44 55 -10 -34 normal chunked
+  115 sprites_grafika/regi_peronok.png 8bpp 270 112 44 55 -32 -23 normal chunked
   116 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   117 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
   118 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
-  119 sprites_grafika/regi_peronok.png 8bpp 315 112 44 55 -10 -34 normal chunked
+  119 sprites_grafika/regi_peronok.png 8bpp 315 112 44 55 -32 -23 normal chunked
   120 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   121 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
   122 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
@@ -571,14 +571,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 06		2D 04 00 00
+			00 00 00	10 10 06		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	04 10 06		31 04 00 00
+			00 00 00	10 10 06		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -595,11 +595,11 @@
   135 sprites_grafika/regi_peronok.png 8bpp 225 168 44 55 -10 -34 normal chunked
   136 sprites_grafika/nyugati.pcx 8bpp 232 5 66 82 -32 -50 normal chunked
   137 sprites_grafika/nyugati.pcx 8bpp 232 129 62 56 1 3 normal chunked
-  138 sprites_grafika/regi_peronok.png 8bpp 270 168 44 55 -10 -34 normal chunked
+  138 sprites_grafika/regi_peronok.png 8bpp 270 168 44 55 -32 -23 normal chunked
   139 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   140 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
   141 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
-  142 sprites_grafika/regi_peronok.png 8bpp 315 168 44 55 -10 -34 normal chunked
+  142 sprites_grafika/regi_peronok.png 8bpp 315 168 44 55 -32 -23 normal chunked
   143 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   144 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
   145 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
@@ -660,14 +660,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 06		2D 84 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 06		31 84 00 00
+			00 00 00	10 10 06		31 84 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -684,11 +684,11 @@
   158 sprites_grafika/nyugati.pcx 8bpp 564 5 44 22 -10 -1 normal chunked
   159 sprites_grafika/nyugati.pcx 8bpp 232 5 66 82 -32 -50 normal chunked
   160 sprites_grafika/nyugati.pcx 8bpp 232 129 62 56 1 3 normal chunked
-  161 sprites_grafika/nyugati.pcx 8bpp 517 51 44 22 -10 -1 normal chunked
+  161 sprites_grafika/nyugati.pcx 8bpp 517 51 44 22 -32 10 normal chunked
   162 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   163 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
   164 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
-  165 sprites_grafika/nyugati.pcx 8bpp 564 51 44 22 -10 -1 normal chunked
+  165 sprites_grafika/nyugati.pcx 8bpp 564 51 44 22 -32 10 normal chunked
   166 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   167 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
   168 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
@@ -749,14 +749,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 06		2D 84 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 06		31 84 00 00
+			00 00 00	10 10 06		31 84 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -773,11 +773,11 @@
   181 sprites_grafika/nyugati.pcx 8bpp 564 28 44 22 -10 -1 normal chunked
   182 sprites_grafika/nyugati.pcx 8bpp 232 5 66 82 -32 -50 normal chunked
   183 sprites_grafika/nyugati.pcx 8bpp 232 129 62 56 1 3 normal chunked
-  184 sprites_grafika/nyugati.pcx 8bpp 517 74 44 22 -10 -1 normal chunked
+  184 sprites_grafika/nyugati.pcx 8bpp 517 74 44 22 -32 10 normal chunked
   185 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   186 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
   187 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
-  188 sprites_grafika/nyugati.pcx 8bpp 564 74 44 22 -10 -1 normal chunked
+  188 sprites_grafika/nyugati.pcx 8bpp 564 74 44 22 -32 10 normal chunked
   189 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   190 sprites_grafika/nyugati.pcx 8bpp 232 90 67 35 -33 -33 normal chunked
   191 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
@@ -838,14 +838,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 00		2D 04 00 00
+			0A 00 00	10 10 00		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 00		31 04 00 00
+			00 00 00	10 10 00		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -866,7 +866,7 @@
   208 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   209 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   210 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
-  211 sprites_grafika/nyugati.pcx 8bpp 108 116 44 22 -9 -1 normal chunked
+  211 sprites_grafika/nyugati.pcx 8bpp 108 116 44 22 -31 10 normal chunked
   212 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   213 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   214 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
@@ -927,14 +927,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 10		2D 04 00 00
+			00 00 00	10 10 10		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 10		31 04 00 00
+			00 00 00	10 10 10		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -951,11 +951,11 @@
   227 sprites_grafika/regi_peronok.png 8bpp 225 0 44 55 -10 -34 normal chunked
   228 sprites_grafika/nyugati.pcx 8bpp 303 5 66 82 -32 -50 normal chunked
   229 sprites_grafika/nyugati.pcx 8bpp 303 129 62 56 1 3 normal chunked
-  230 sprites_grafika/regi_peronok.png 8bpp 270 0 44 55 -10 -34 normal chunked
+  230 sprites_grafika/regi_peronok.png 8bpp 270 0 44 55 -32 -23 normal chunked
   231 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   232 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   233 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
-  234 sprites_grafika/regi_peronok.png 8bpp 315 0 44 55 -10 -34 normal chunked
+  234 sprites_grafika/regi_peronok.png 8bpp 315 0 44 55 -32 -23 normal chunked
   235 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   236 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   237 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
@@ -1016,14 +1016,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 18		2D 04 00 00
+			00 00 00	10 10 18		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 18		31 04 00 00
+			00 00 00	10 10 18		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -1040,11 +1040,11 @@
   250 sprites_grafika/regi_peronok.png 8bpp 225 56 44 55 -10 -34 normal chunked
   251 sprites_grafika/nyugati.pcx 8bpp 303 5 66 82 -32 -50 normal chunked
   252 sprites_grafika/nyugati.pcx 8bpp 303 129 62 56 1 3 normal chunked
-  253 sprites_grafika/regi_peronok.png 8bpp 270 56 44 55 -10 -34 normal chunked
+  253 sprites_grafika/regi_peronok.png 8bpp 270 56 44 55 -32 -23 normal chunked
   254 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   255 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   256 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
-  257 sprites_grafika/regi_peronok.png 8bpp 315 56 44 55 -10 -34 normal chunked
+  257 sprites_grafika/regi_peronok.png 8bpp 315 56 44 55 -32 -23 normal chunked
   258 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   259 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   260 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
@@ -1105,14 +1105,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 18		2D 04 00 00
+			00 00 00	10 10 18		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 18		31 04 00 00
+			00 00 00	10 10 18		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -1129,11 +1129,11 @@
   273 sprites_grafika/regi_peronok.png 8bpp 225 112 44 55 -10 -34 normal chunked
   274 sprites_grafika/nyugati.pcx 8bpp 303 5 66 82 -32 -50 normal chunked
   275 sprites_grafika/nyugati.pcx 8bpp 303 129 62 56 1 3 normal chunked
-  276 sprites_grafika/regi_peronok.png 8bpp 270 112 44 55 -10 -34 normal chunked
+  276 sprites_grafika/regi_peronok.png 8bpp 270 112 44 55 -32 -23 normal chunked
   277 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   278 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   279 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
-  280 sprites_grafika/regi_peronok.png 8bpp 315 112 44 55 -10 -34 normal chunked
+  280 sprites_grafika/regi_peronok.png 8bpp 315 112 44 55 -32 -23 normal chunked
   281 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   282 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   283 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
@@ -1194,14 +1194,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 06		2D 04 00 00
+			00 00 00	10 10 06		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 06		31 04 00 00
+			00 00 00	10 10 06		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -1218,11 +1218,11 @@
   296 sprites_grafika/regi_peronok.png 8bpp 225 168 44 55 -10 -34 normal chunked
   297 sprites_grafika/nyugati.pcx 8bpp 303 5 66 82 -32 -50 normal chunked
   298 sprites_grafika/nyugati.pcx 8bpp 303 129 62 56 1 3 normal chunked
-  299 sprites_grafika/regi_peronok.png 8bpp 270 168 44 55 -10 -34 normal chunked
+  299 sprites_grafika/regi_peronok.png 8bpp 270 168 44 55 -32 -23 normal chunked
   300 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   301 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   302 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
-  303 sprites_grafika/regi_peronok.png 8bpp 315 168 44 55 -10 -34 normal chunked
+  303 sprites_grafika/regi_peronok.png 8bpp 315 168 44 55 -32 -23 normal chunked
   304 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   305 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   306 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
@@ -1283,14 +1283,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 06		2D 84 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 06		31 84 00 00
+			00 00 00	10 10 06		31 84 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -1307,11 +1307,11 @@
   319 sprites_grafika/nyugati.pcx 8bpp 564 5 44 22 -10 -1 normal chunked
   320 sprites_grafika/nyugati.pcx 8bpp 303 5 66 82 -32 -50 normal chunked
   321 sprites_grafika/nyugati.pcx 8bpp 303 129 62 56 1 3 normal chunked
-  322 sprites_grafika/nyugati.pcx 8bpp 517 51 44 22 -10 -1 normal chunked
+  322 sprites_grafika/nyugati.pcx 8bpp 517 51 44 22 -32 10 normal chunked
   323 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   324 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   325 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
-  326 sprites_grafika/nyugati.pcx 8bpp 564 51 44 22 -10 -1 normal chunked
+  326 sprites_grafika/nyugati.pcx 8bpp 564 51 44 22 -32 10 normal chunked
   327 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   328 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   329 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
@@ -1372,14 +1372,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 06		2D 84 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 06		31 84 00 00
+			00 00 00	10 10 06		31 84 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -1396,11 +1396,11 @@
   342 sprites_grafika/nyugati.pcx 8bpp 564 28 44 22 -10 -1 normal chunked
   343 sprites_grafika/nyugati.pcx 8bpp 303 5 66 82 -32 -50 normal chunked
   344 sprites_grafika/nyugati.pcx 8bpp 303 129 62 56 1 3 normal chunked
-  345 sprites_grafika/nyugati.pcx 8bpp 517 74 44 22 -10 -1 normal chunked
+  345 sprites_grafika/nyugati.pcx 8bpp 517 74 44 22 -32 10 normal chunked
   346 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   347 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   348 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
-  349 sprites_grafika/nyugati.pcx 8bpp 564 74 44 22 -10 -1 normal chunked
+  349 sprites_grafika/nyugati.pcx 8bpp 564 74 44 22 -32 10 normal chunked
   350 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   351 sprites_grafika/nyugati.pcx 8bpp 303 90 67 35 -33 -33 normal chunked
   352 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
@@ -1462,14 +1462,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 00		2D 04 00 00
+			00 00 00	10 10 00		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 00		31 04 00 00
+			00 00 00	10 10 00		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -1490,7 +1490,7 @@
   369 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   370 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   371 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
-  372 sprites_grafika/nyugati.pcx 8bpp 108 116 44 22 -9 -1 normal chunked
+  372 sprites_grafika/nyugati.pcx 8bpp 108 116 44 22 -31 10 normal chunked
   373 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   374 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   375 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
@@ -1552,14 +1552,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 10		2D 04 00 00
+			00 00 00	10 10 06		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 10		31 04 00 00
+			00 00 00	10 10 06		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -1576,11 +1576,11 @@
   388 sprites_grafika/regi_peronok.png 8bpp 225 0 44 55 -10 -34 normal chunked
   389 sprites_grafika/nyugati.pcx 8bpp 375 5 66 82 -32 -50 normal chunked
   390 sprites_grafika/nyugati.pcx 8bpp 375 129 62 56 1 3 normal chunked
-  391 sprites_grafika/regi_peronok.png 8bpp 270 0 44 55 -10 -34 normal chunked
+  391 sprites_grafika/regi_peronok.png 8bpp 270 0 44 55 -32 -23 normal chunked
   392 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   393 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   394 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
-  395 sprites_grafika/regi_peronok.png 8bpp 315 0 44 55 -10 -34 normal chunked
+  395 sprites_grafika/regi_peronok.png 8bpp 315 0 44 55 -32 -23 normal chunked
   396 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   397 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   398 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
@@ -1641,14 +1641,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 18		2D 04 00 00
+			00 00 00	10 10 18		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 18		31 04 00 00
+			00 00 00	10 10 18		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -1665,11 +1665,11 @@
   411 sprites_grafika/regi_peronok.png 8bpp 225 56 44 55 -10 -34 normal chunked
   412 sprites_grafika/nyugati.pcx 8bpp 375 5 66 82 -32 -50 normal chunked
   413 sprites_grafika/nyugati.pcx 8bpp 375 129 62 56 1 3 normal chunked
-  414 sprites_grafika/regi_peronok.png 8bpp 270 56 44 55 -10 -34 normal chunked
+  414 sprites_grafika/regi_peronok.png 8bpp 270 56 44 55 -32 -23 normal chunked
   415 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   416 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   417 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
-  418 sprites_grafika/regi_peronok.png 8bpp 315 56 44 55 -10 -34 normal chunked
+  418 sprites_grafika/regi_peronok.png 8bpp 315 56 44 55 -32 -23 normal chunked
   419 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   420 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   421 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
@@ -1731,14 +1731,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 18		2D 04 00 00
+			00 00 00	10 10 18		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 18		31 04 00 00
+			00 00 00	10 10 18		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -1755,11 +1755,11 @@
   434 sprites_grafika/regi_peronok.png 8bpp 225 112 44 55 -10 -34 normal chunked
   435 sprites_grafika/nyugati.pcx 8bpp 375 5 66 82 -32 -50 normal chunked
   436 sprites_grafika/nyugati.pcx 8bpp 375 129 62 56 1 3 normal chunked
-  437 sprites_grafika/regi_peronok.png 8bpp 270 112 44 55 -10 -34 normal chunked
+  437 sprites_grafika/regi_peronok.png 8bpp 270 112 44 55 -32 -23 normal chunked
   438 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   439 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   440 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
-  441 sprites_grafika/regi_peronok.png 8bpp 315 112 44 55 -10 -34 normal chunked
+  441 sprites_grafika/regi_peronok.png 8bpp 315 112 44 55 -32 -23 normal chunked
   442 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   443 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   444 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
@@ -1821,14 +1821,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 06		2D 04 00 00
+			00 00 00	10 10 06		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 06		31 04 00 00
+			00 00 00	10 10 06		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -1845,11 +1845,11 @@
   457 sprites_grafika/regi_peronok.png 8bpp 225 168 44 55 -10 -34 normal chunked
   458 sprites_grafika/nyugati.pcx 8bpp 375 5 66 82 -32 -50 normal chunked
   459 sprites_grafika/nyugati.pcx 8bpp 375 129 62 56 1 3 normal chunked
-  460 sprites_grafika/regi_peronok.png 8bpp 270 168 44 55 -10 -34 normal chunked
+  460 sprites_grafika/regi_peronok.png 8bpp 270 168 44 55 -32 -23 normal chunked
   461 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   462 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   463 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
-  464 sprites_grafika/regi_peronok.png 8bpp 315 168 44 55 -10 -34 normal chunked
+  464 sprites_grafika/regi_peronok.png 8bpp 315 168 44 55 -32 -23 normal chunked
   465 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   466 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   467 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
@@ -1911,14 +1911,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 06		2D 84 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 06		31 84 00 00
+			00 00 00	10 10 06		31 84 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -1935,11 +1935,11 @@
   480 sprites_grafika/nyugati.pcx 8bpp 564 5 44 22 -10 -1 normal chunked
   481 sprites_grafika/nyugati.pcx 8bpp 375 5 66 82 -32 -50 normal chunked
   482 sprites_grafika/nyugati.pcx 8bpp 375 129 62 56 1 3 normal chunked
-  483 sprites_grafika/nyugati.pcx 8bpp 517 51 44 22 -10 -1 normal chunked
+  483 sprites_grafika/nyugati.pcx 8bpp 517 51 44 22 -32 10 normal chunked
   484 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   485 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   486 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
-  487 sprites_grafika/nyugati.pcx 8bpp 564 51 44 22 -10 -1 normal chunked
+  487 sprites_grafika/nyugati.pcx 8bpp 564 51 44 22 -32 10 normal chunked
   488 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   489 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   490 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
@@ -1987,7 +1987,7 @@
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 31		2D 04 00 00
-			00 00 00	05 10 06		2E 84 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -2001,14 +2001,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 06		2D 84 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 06		31 84 00 00
+			00 00 00	10 10 06		31 84 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -2018,18 +2018,18 @@
    // Action1
   497 * 4	 01 04 02 08
   498 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
-  499 sprites_grafika/nyugati.pcx 8bpp 517 28 44 22 -10 -1 normal chunked
+  499 sprites_grafika/nyugati.pcx 8bpp 517 28 44 22 -32 10 normal chunked
   500 sprites_grafika/nyugati.pcx 8bpp 375 5 66 82 -32 -50 normal chunked
   501 sprites_grafika/nyugati.pcx 8bpp 375 129 62 56 1 3 normal chunked
   502 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
   503 sprites_grafika/nyugati.pcx 8bpp 564 28 44 22 -10 -1 normal chunked
   504 sprites_grafika/nyugati.pcx 8bpp 375 5 66 82 -32 -50 normal chunked
   505 sprites_grafika/nyugati.pcx 8bpp 375 129 62 56 1 3 normal chunked
-  506 sprites_grafika/nyugati.pcx 8bpp 517 74 44 22 -10 -1 normal chunked
+  506 sprites_grafika/nyugati.pcx 8bpp 517 74 44 22 -32 10 normal chunked
   507 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   508 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   509 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
-  510 sprites_grafika/nyugati.pcx 8bpp 564 74 44 22 -10 -1 normal chunked
+  510 sprites_grafika/nyugati.pcx 8bpp 564 74 44 22 -32 10 normal chunked
   511 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   512 sprites_grafika/nyugati.pcx 8bpp 375 90 67 35 -33 -33 normal chunked
   513 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
@@ -2091,14 +2091,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 00		2D 04 00 00
+			00 00 00	10 10 00		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 00		31 04 00 00
+			00 00 00	10 10 00		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -2119,7 +2119,7 @@
   530 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   531 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   532 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
-  533 sprites_grafika/nyugati.pcx 8bpp 108 116 44 22 -9 -1 normal chunked
+  533 sprites_grafika/nyugati.pcx 8bpp 108 116 44 22 -31 10 normal chunked
   534 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   535 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   536 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
@@ -2180,14 +2180,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 10		2D 04 00 00
+			00 00 00	10 10 10		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 10		31 04 00 00
+			00 00 00	10 10 10		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -2204,11 +2204,11 @@
   549 sprites_grafika/regi_peronok.png 8bpp 225 0 44 55 -10 -34 normal chunked
   550 sprites_grafika/nyugati.pcx 8bpp 446 5 66 81 -32 -49 normal chunked
   551 sprites_grafika/nyugati.pcx 8bpp 446 129 32 23 1 35 normal chunked
-  552 sprites_grafika/regi_peronok.png 8bpp 270 0 44 55 -10 -34 normal chunked
+  552 sprites_grafika/regi_peronok.png 8bpp 270 0 44 55 -32 -23 normal chunked
   553 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   554 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   555 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
-  556 sprites_grafika/regi_peronok.png 8bpp 315 0 44 55 -10 -34 normal chunked
+  556 sprites_grafika/regi_peronok.png 8bpp 315 0 44 55 -32 -23 normal chunked
   557 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   558 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   559 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
@@ -2269,14 +2269,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 18		2D 04 00 00
+			00 00 00	10 10 18		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 18		31 04 00 00
+			00 00 00	10 10 18		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -2293,11 +2293,11 @@
   572 sprites_grafika/regi_peronok.png 8bpp 225 56 44 55 -10 -34 normal chunked
   573 sprites_grafika/nyugati.pcx 8bpp 446 5 66 81 -32 -49 normal chunked
   574 sprites_grafika/nyugati.pcx 8bpp 446 129 32 23 1 35 normal chunked
-  575 sprites_grafika/regi_peronok.png 8bpp 270 56 44 55 -10 -34 normal chunked
+  575 sprites_grafika/regi_peronok.png 8bpp 270 56 44 55 -32 -23 normal chunked
   576 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   577 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   578 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
-  579 sprites_grafika/regi_peronok.png 8bpp 315 56 44 55 -10 -34 normal chunked
+  579 sprites_grafika/regi_peronok.png 8bpp 315 56 44 55 -32 -23 normal chunked
   580 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   581 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   582 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
@@ -2358,14 +2358,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 18		2D 04 00 00
+			00 00 00	10 10 18		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 18		31 04 00 00
+			00 00 00	10 10 18		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -2382,11 +2382,11 @@
   595 sprites_grafika/regi_peronok.png 8bpp 225 112 44 55 -10 -34 normal chunked
   596 sprites_grafika/nyugati.pcx 8bpp 446 5 66 81 -32 -49 normal chunked
   597 sprites_grafika/nyugati.pcx 8bpp 446 129 32 23 1 35 normal chunked
-  598 sprites_grafika/regi_peronok.png 8bpp 270 112 44 55 -10 -34 normal chunked
+  598 sprites_grafika/regi_peronok.png 8bpp 270 112 44 55 -32 -23 normal chunked
   599 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   600 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   601 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
-  602 sprites_grafika/regi_peronok.png 8bpp 315 112 44 55 -10 -34 normal chunked
+  602 sprites_grafika/regi_peronok.png 8bpp 315 112 44 55 -32 -23 normal chunked
   603 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   604 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   605 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
@@ -2447,14 +2447,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 06		2D 04 00 00
+			00 00 00	10 10 06		2D 04 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 06		31 04 00 00
+			00 00 00	10 10 06		31 04 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -2471,11 +2471,11 @@
   618 sprites_grafika/regi_peronok.png 8bpp 225 168 44 55 -10 -34 normal chunked
   619 sprites_grafika/nyugati.pcx 8bpp 446 5 66 81 -32 -49 normal chunked
   620 sprites_grafika/nyugati.pcx 8bpp 446 129 32 23 1 35 normal chunked
-  621 sprites_grafika/regi_peronok.png 8bpp 270 168 44 55 -10 -34 normal chunked
+  621 sprites_grafika/regi_peronok.png 8bpp 270 168 44 55 -32 -23 normal chunked
   622 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   623 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   624 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
-  625 sprites_grafika/regi_peronok.png 8bpp 315 168 44 55 -10 -34 normal chunked
+  625 sprites_grafika/regi_peronok.png 8bpp 315 168 44 55 -32 -23 normal chunked
   626 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   627 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   628 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
@@ -2536,14 +2536,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 06		2D 84 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 06		31 84 00 00
+			00 00 00	10 10 06		31 84 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -2560,11 +2560,11 @@
   641 sprites_grafika/nyugati.pcx 8bpp 564 5 44 22 -10 -1 normal chunked
   642 sprites_grafika/nyugati.pcx 8bpp 446 5 66 81 -32 -49 normal chunked
   643 sprites_grafika/nyugati.pcx 8bpp 446 129 32 23 1 35 normal chunked
-  644 sprites_grafika/nyugati.pcx 8bpp 517 51 44 22 -10 -1 normal chunked
+  644 sprites_grafika/nyugati.pcx 8bpp 517 51 44 22 -32 10 normal chunked
   645 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   646 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   647 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
-  648 sprites_grafika/nyugati.pcx 8bpp 564 51 44 22 -10 -1 normal chunked
+  648 sprites_grafika/nyugati.pcx 8bpp 564 51 44 22 -32 10 normal chunked
   649 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   650 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   651 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
@@ -2625,14 +2625,14 @@
 
 
 			F4 03 00 00			// Layout1 groundsprite
-			0B 00 00	05 10 06		2D 84 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			00 00 00	05 10 1C		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
 
 			F3 03 00 00			// Layout2 groundsprite
-			0B 00 00	05 10 06		31 84 00 00
+			00 00 00	10 10 06		31 84 00 00
 			00 00 00	05 10 1C		32 04 00 00
 			00 00 00	10 10 31		33 04 00 00
 			00 00 80	00 00 00		34 44 22 03
@@ -2649,11 +2649,11 @@
   664 sprites_grafika/nyugati.pcx 8bpp 564 28 44 22 -10 -1 normal chunked
   665 sprites_grafika/nyugati.pcx 8bpp 446 5 66 81 -32 -49 normal chunked
   666 sprites_grafika/nyugati.pcx 8bpp 446 129 32 23 1 35 normal chunked
-  667 sprites_grafika/nyugati.pcx 8bpp 517 74 44 22 -10 -1 normal chunked
+  667 sprites_grafika/nyugati.pcx 8bpp 517 74 44 22 -32 10 normal chunked
   668 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   669 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   670 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
-  671 sprites_grafika/nyugati.pcx 8bpp 564 74 44 22 -10 -1 normal chunked
+  671 sprites_grafika/nyugati.pcx 8bpp 564 74 44 22 -32 10 normal chunked
   672 sprites_grafika/nyugati.pcx 8bpp 60 59 44 51 -10 -30 normal chunked
   673 sprites_grafika/nyugati.pcx 8bpp 446 90 67 34 -33 -32 normal chunked
   674 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
@@ -4897,7 +4897,7 @@
  1084 * 465	 00 04				// Action0, Feature4
 			03 01 24			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
-			16 00 01			// Animation Information
+			16 05 05			// Animation Information
 
 			09 12				// Sprite Layout
 
@@ -5002,42 +5002,42 @@
 
    // Action1
  1085 * 4	 01 04 09 04
- 1086 sprites_grafika/karacsonysprites.png 8bpp 4 5 54 32 -32 -5 normal chunked
- 1087 sprites_grafika/karacsonysprites.png 8bpp 160 5 45 26 -11 6 normal chunked
- 1088 sprites_grafika/karacsonysprites.png 8bpp 59 5 54 31 -20 -4 normal chunked
- 1089 sprites_grafika/karacsonysprites.png 8bpp 114 5 45 25 -32 7 normal chunked
- 1090 sprites_grafika/karacsonysprites.png 8bpp 4 5 54 32 -32 -5 normal chunked
- 1091 sprites_grafika/karacsonysprites.png 8bpp 160 32 45 29 -11 3 normal chunked
- 1092 sprites_grafika/karacsonysprites.png 8bpp 59 5 54 31 -20 -4 normal chunked
- 1093 sprites_grafika/karacsonysprites.png 8bpp 114 31 45 25 -32 7 normal chunked
- 1094 sprites_grafika/karacsonysprites.png 8bpp 4 5 54 32 -32 -5 normal chunked
- 1095 sprites_grafika/karacsonysprites.png 8bpp 160 62 45 23 -11 9 normal chunked
- 1096 sprites_grafika/karacsonysprites.png 8bpp 59 5 54 31 -20 -4 normal chunked
- 1097 sprites_grafika/karacsonysprites.png 8bpp 114 57 45 31 -32 1 normal chunked
- 1098 sprites_grafika/karacsonysprites.png 8bpp 4 38 54 33 -32 -6 normal chunked
- 1099 sprites_grafika/karacsonysprites.png 8bpp 160 5 45 26 -11 6 normal chunked
- 1100 sprites_grafika/karacsonysprites.png 8bpp 59 37 54 31 -20 -4 normal chunked
- 1101 sprites_grafika/karacsonysprites.png 8bpp 114 5 45 25 -32 7 normal chunked
- 1102 sprites_grafika/karacsonysprites.png 8bpp 4 38 54 33 -32 -6 normal chunked
- 1103 sprites_grafika/karacsonysprites.png 8bpp 160 32 45 29 -11 3 normal chunked
- 1104 sprites_grafika/karacsonysprites.png 8bpp 59 37 54 31 -20 -4 normal chunked
- 1105 sprites_grafika/karacsonysprites.png 8bpp 114 31 45 25 -32 7 normal chunked
- 1106 sprites_grafika/karacsonysprites.png 8bpp 4 38 54 33 -32 -6 normal chunked
- 1107 sprites_grafika/karacsonysprites.png 8bpp 160 62 45 23 -11 9 normal chunked
- 1108 sprites_grafika/karacsonysprites.png 8bpp 59 37 54 31 -20 -4 normal chunked
- 1109 sprites_grafika/karacsonysprites.png 8bpp 114 57 45 31 -32 1 normal chunked
- 1110 sprites_grafika/karacsonysprites.png 8bpp 4 72 54 32 -32 -5 normal chunked
- 1111 sprites_grafika/karacsonysprites.png 8bpp 160 5 45 26 -11 6 normal chunked
- 1112 sprites_grafika/karacsonysprites.png 8bpp 59 69 54 33 -20 -6 normal chunked
- 1113 sprites_grafika/karacsonysprites.png 8bpp 114 5 45 25 -32 7 normal chunked
- 1114 sprites_grafika/karacsonysprites.png 8bpp 4 72 54 32 -32 -5 normal chunked
- 1115 sprites_grafika/karacsonysprites.png 8bpp 160 32 45 29 -11 3 normal chunked
- 1116 sprites_grafika/karacsonysprites.png 8bpp 59 69 54 33 -20 -6 normal chunked
- 1117 sprites_grafika/karacsonysprites.png 8bpp 114 31 45 25 -32 7 normal chunked
- 1118 sprites_grafika/karacsonysprites.png 8bpp 4 72 54 32 -32 -5 normal chunked
- 1119 sprites_grafika/karacsonysprites.png 8bpp 160 62 45 23 -11 9 normal chunked
- 1120 sprites_grafika/karacsonysprites.png 8bpp 59 69 54 33 -20 -6 normal chunked
- 1121 sprites_grafika/karacsonysprites.png 8bpp 114 57 45 31 -32 1 normal chunked
+ 1086 sprites_grafika/karacsonysprites.pcx 8bpp 4 5 54 32 -32 -5 normal chunked
+ 1087 sprites_grafika/karacsonysprites.pcx 8bpp 160 5 45 26 -11 6 normal chunked
+ 1088 sprites_grafika/karacsonysprites.pcx 8bpp 59 5 54 31 -20 -4 normal chunked
+ 1089 sprites_grafika/karacsonysprites.pcx 8bpp 114 5 45 25 -32 7 normal chunked
+ 1090 sprites_grafika/karacsonysprites.pcx 8bpp 4 5 54 32 -32 -5 normal chunked
+ 1091 sprites_grafika/karacsonysprites.pcx 8bpp 160 32 45 29 -11 3 normal chunked
+ 1092 sprites_grafika/karacsonysprites.pcx 8bpp 59 5 54 31 -20 -4 normal chunked
+ 1093 sprites_grafika/karacsonysprites.pcx 8bpp 114 31 45 25 -32 7 normal chunked
+ 1094 sprites_grafika/karacsonysprites.pcx 8bpp 4 5 54 32 -32 -5 normal chunked
+ 1095 sprites_grafika/karacsonysprites.pcx 8bpp 160 62 45 23 -11 9 normal chunked
+ 1096 sprites_grafika/karacsonysprites.pcx 8bpp 59 5 54 31 -20 -4 normal chunked
+ 1097 sprites_grafika/karacsonysprites.pcx 8bpp 114 57 45 31 -32 1 normal chunked
+ 1098 sprites_grafika/karacsonysprites.pcx 8bpp 4 38 54 33 -32 -6 normal chunked
+ 1099 sprites_grafika/karacsonysprites.pcx 8bpp 160 5 45 26 -11 6 normal chunked
+ 1100 sprites_grafika/karacsonysprites.pcx 8bpp 59 37 54 31 -20 -4 normal chunked
+ 1101 sprites_grafika/karacsonysprites.pcx 8bpp 114 5 45 25 -32 7 normal chunked
+ 1102 sprites_grafika/karacsonysprites.pcx 8bpp 4 38 54 33 -32 -6 normal chunked
+ 1103 sprites_grafika/karacsonysprites.pcx 8bpp 160 32 45 29 -11 3 normal chunked
+ 1104 sprites_grafika/karacsonysprites.pcx 8bpp 59 37 54 31 -20 -4 normal chunked
+ 1105 sprites_grafika/karacsonysprites.pcx 8bpp 114 31 45 25 -32 7 normal chunked
+ 1106 sprites_grafika/karacsonysprites.pcx 8bpp 4 38 54 33 -32 -6 normal chunked
+ 1107 sprites_grafika/karacsonysprites.pcx 8bpp 160 62 45 23 -11 9 normal chunked
+ 1108 sprites_grafika/karacsonysprites.pcx 8bpp 59 37 54 31 -20 -4 normal chunked
+ 1109 sprites_grafika/karacsonysprites.pcx 8bpp 114 57 45 31 -32 1 normal chunked
+ 1110 sprites_grafika/karacsonysprites.pcx 8bpp 4 72 54 32 -32 -5 normal chunked
+ 1111 sprites_grafika/karacsonysprites.pcx 8bpp 160 5 45 26 -11 6 normal chunked
+ 1112 sprites_grafika/karacsonysprites.pcx 8bpp 59 69 54 33 -20 -6 normal chunked
+ 1113 sprites_grafika/karacsonysprites.pcx 8bpp 114 5 45 25 -32 7 normal chunked
+ 1114 sprites_grafika/karacsonysprites.pcx 8bpp 4 72 54 32 -32 -5 normal chunked
+ 1115 sprites_grafika/karacsonysprites.pcx 8bpp 160 32 45 29 -11 3 normal chunked
+ 1116 sprites_grafika/karacsonysprites.pcx 8bpp 59 69 54 33 -20 -6 normal chunked
+ 1117 sprites_grafika/karacsonysprites.pcx 8bpp 114 31 45 25 -32 7 normal chunked
+ 1118 sprites_grafika/karacsonysprites.pcx 8bpp 4 72 54 32 -32 -5 normal chunked
+ 1119 sprites_grafika/karacsonysprites.pcx 8bpp 160 62 45 23 -11 9 normal chunked
+ 1120 sprites_grafika/karacsonysprites.pcx 8bpp 59 69 54 33 -20 -6 normal chunked
+ 1121 sprites_grafika/karacsonysprites.pcx 8bpp 114 57 45 31 -32 1 normal chunked
 
    // Action2
  1122 * 7	 02 04 00 00 01 00 00
@@ -5161,20 +5161,20 @@
 
    // Action1
  1135 * 4	 01 04 07 02
- 1136 sprites_grafika/karacsonysprites.png 8bpp 206 5 66 37 -32 -5 normal chunked
- 1137 sprites_grafika/karacsonysprites.png 8bpp 206 5 66 37 -32 -5 normal chunked
- 1138 sprites_grafika/karacsonysprites.png 8bpp 206 43 66 37 -32 -5 normal chunked
- 1139 sprites_grafika/karacsonysprites.png 8bpp 206 43 66 37 -32 -5 normal chunked
- 1140 sprites_grafika/karacsonysprites.png 8bpp 206 81 66 33 -32 -1 normal chunked
- 1141 sprites_grafika/karacsonysprites.png 8bpp 206 81 66 33 -32 -1 normal chunked
- 1142 sprites_grafika/karacsonysprites.png 8bpp 273 5 66 46 -32 -14 normal chunked
- 1143 sprites_grafika/karacsonysprites.png 8bpp 273 5 66 46 -32 -14 normal chunked
- 1144 sprites_grafika/karacsonysprites.png 8bpp 273 52 66 42 -33 -10 normal chunked
- 1145 sprites_grafika/karacsonysprites.png 8bpp 273 52 66 42 -33 -10 normal chunked
- 1146 sprites_grafika/karacsonysprites.png 8bpp 340 5 66 46 -32 -14 normal chunked
- 1147 sprites_grafika/karacsonysprites.png 8bpp 340 5 66 46 -32 -14 normal chunked
- 1148 sprites_grafika/karacsonysprites.png 8bpp 340 52 66 37 -32 -5 normal chunked
- 1149 sprites_grafika/karacsonysprites.png 8bpp 340 52 66 37 -32 -5 normal chunked
+ 1136 sprites_grafika/karacsonysprites.pcx 8bpp 206 5 66 37 -32 -5 normal chunked
+ 1137 sprites_grafika/karacsonysprites.pcx 8bpp 206 5 66 37 -32 -5 normal chunked
+ 1138 sprites_grafika/karacsonysprites.pcx 8bpp 206 43 66 37 -32 -5 normal chunked
+ 1139 sprites_grafika/karacsonysprites.pcx 8bpp 206 43 66 37 -32 -5 normal chunked
+ 1140 sprites_grafika/karacsonysprites.pcx 8bpp 206 81 66 33 -32 -1 normal chunked
+ 1141 sprites_grafika/karacsonysprites.pcx 8bpp 206 81 66 33 -32 -1 normal chunked
+ 1142 sprites_grafika/karacsonysprites.pcx 8bpp 273 5 66 46 -32 -14 normal chunked
+ 1143 sprites_grafika/karacsonysprites.pcx 8bpp 273 5 66 46 -32 -14 normal chunked
+ 1144 sprites_grafika/karacsonysprites.pcx 8bpp 273 52 66 42 -33 -10 normal chunked
+ 1145 sprites_grafika/karacsonysprites.pcx 8bpp 273 52 66 42 -33 -10 normal chunked
+ 1146 sprites_grafika/karacsonysprites.pcx 8bpp 340 5 66 46 -32 -14 normal chunked
+ 1147 sprites_grafika/karacsonysprites.pcx 8bpp 340 5 66 46 -32 -14 normal chunked
+ 1148 sprites_grafika/karacsonysprites.pcx 8bpp 340 52 66 37 -32 -5 normal chunked
+ 1149 sprites_grafika/karacsonysprites.pcx 8bpp 340 52 66 37 -32 -5 normal chunked
 
    // Action2
  1150 * 7	 02 04 00 00 01 00 00
