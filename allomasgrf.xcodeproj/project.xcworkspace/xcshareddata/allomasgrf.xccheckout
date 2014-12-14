@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C2FE9D2A-EC9F-4505-A9FB-9945D5E96D16</string>
+	<key>IDESourceControlProjectName</key>
+	<string>allomasgrf</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B66A0739A8003952545114C01CCCBE5BA7FCD5A3</key>
+		<string>https://github.com/flogeza/allomasgrf.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>allomasgrf.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B66A0739A8003952545114C01CCCBE5BA7FCD5A3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/flogeza/allomasgrf.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B66A0739A8003952545114C01CCCBE5BA7FCD5A3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B66A0739A8003952545114C01CCCBE5BA7FCD5A3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>allomasgrf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

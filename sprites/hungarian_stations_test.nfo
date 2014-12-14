@@ -4894,10 +4894,11 @@
 
 
    // Action0
- 1084 * 465	 00 04				// Action0, Feature4
-			03 01 24			// Properties, Stations, First Station ID
+ 1084 * 467	 00 04				// Action0, Feature4
+			04 01 24			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
-			16 05 05			// Animation Information
+			0B 03				// Callback Flags
+			16 01 01			// Animation Information
 
 			09 12				// Sprite Layout
 
@@ -5065,17 +5066,19 @@
 			07 00
 			08 00
 
- 1132 * 17	 02 04 12
+ 1132 * 23	 02 04 12
 			85							// get word
 			0C							// check if callback
 			00
 			FF FF
-			01							// hany range
+			02							// hany range
 //			02 80 13 00 13 00
 			00							// ennyi legyen, ha 14-es callback van
 			80							// elvalaszto
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
-			A0 00						// else graphics Set
+			A0 00
+			41 01	41 01
+			00 00						// else graphics Set
 
  1133 * 7	 03 04 01 24 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 

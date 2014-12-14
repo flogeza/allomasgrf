@@ -1,12 +1,4 @@
 
 *.bak
-
-# feca sajat dolgai
-allomasgrf/*
-allomasgrf.xcodeproj
-.DS_Store
-build.sh
-create.sh
-reloadOTTD.scpt
-
-sprites/teszt.pcx
+*.DS_Store
+lastbuild.txt
