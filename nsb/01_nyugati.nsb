@@ -86,7 +86,7 @@
 // csarnok bejarat
 //
 
-@AddStation: id: 1, class: PSK0, auto2id: 2
+@AddStation: id: 1, class: PSK0
 	Pylon: disabled		// villanyoszlop
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
@@ -170,8 +170,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			02 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			03 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word
@@ -314,7 +314,7 @@
 // uveges teto, kicsi, kijelzovel
 //
 
-@AddStation: id: 3, class: PSK0, auto2id: 6
+@AddStation: id: 3, class: PSK0
 	Platforms: FD
 
 	// deli sarokhoz kozelebbi oldala
@@ -413,8 +413,8 @@
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
 			01							// hany darab variacio van
-			06 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
-			07 00						// ha nincs egyezes, akkor ide ugorjon
+			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
+			01 00						// ha nincs egyezes, akkor ide ugorjon
 
    00 * 00	02 04 12
 			85							// get word

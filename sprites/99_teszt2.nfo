@@ -8,162 +8,97 @@
 //******************************************************************************************************************************************************//
 
 
-   
-
-   00 * 00  00 04 04 01 F1 08 "PKST"
-//			11 00 14 FF 15 FF
-			0C FE
-			0B 03	// custom sprite layout
-//			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
-
-			09 04
-
-		// 00
-			// egyeduli peron
-			F4 03 00 00
-			00 00 00	10 05 03	2D 04 00 00
-			80
-
-			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
-			80
-
-		// 01
-			// allomas tablas
-			F4 03 00 00
-			00 00 00	10 05 03	2D 04 00 00
-			80
-
-			F3 03 00 00
-			00 00 00	05 10 1F	2E 04 00 00
-			80
 
 
-   00 * 00	01 04 02 02
-	// sablonbol
-//   00 sprites_grafika/metro1.png 8bpp 0 0 44 55 -33 -17 normal chunked
-//   00 sprites_grafika/metro1.png 8bpp 45 0 44 55 -11 -17 normal chunked
-	// allomas tablas
-//   00 sprites_grafika/metro1.png 8bpp 90 0 44 37 -32 -16 normal chunked
-//   00 sprites_grafika/metro1.png 8bpp 135 0 44 37 -10 -16 normal chunked
+// Animation frame - maybe stop at open
+// 4516 * 14	 02 04 54 // ID
+// 81 10 // extra callback info - random bits
+// 00 FF
+// 01
+// \wx80FF 00 3F // 25% chance of stop
+// \wx80FE // continue
 
-	// sablonbol
-   00 sprites_grafika/metro.png 8bpp 0 0 44 55 -33 -17 normal chunked
-   00 sprites_grafika/metro.png 8bpp 45 0 44 55 -11 -17 normal chunked
-	// allomas tablas
-   00 sprites_grafika/metro.png 8bpp 90 0 44 37 -32 -16 normal chunked
-   00 sprites_grafika/metro.png 8bpp 135 0 44 37 -10 -16 normal chunked
+// Animation frame
+// 4517 * 14	 02 04 55 // ID
+// 81 4A // animation frame
+// 00 FF
+// 01
+// \wx0054 04 04 // maybe stop at open
+// \wx80FE // continue
 
-//   00 sprites_grafika/metro.pcx 8bpp 0 0 44 55 -33 -17 normal chunked
-//   00 sprites_grafika/metro.pcx 8bpp 45 0 44 55 -11 -17 normal chunked
-	// allomas tablas
-//   00 sprites_grafika/metro.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
-//   00 sprites_grafika/metro.pcx 8bpp 135 0 44 37 -10 -16 normal chunked
+// Animation control - at frame 9 - maybe start animation
+// 4518 * 14	 02 04 56 // ID
+// 81 10 // extra callback info - random bits
+// 00 FF
+// 01
+// \wx8000 00 3F // 25% chance of start (from frame 0)
+// \wx80FD // do nothing
 
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
-   
-	// egyes randomizaciok
-   00 * 00	02 04 AA
-			80 00						// 80 azaz random object, 00, azaz nincs random trigger
-			10							// szerintem ez kotelezoen ennyi
-			02							// hany darab random lehetosegunk van
-			00 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			01 00
+// Animation control - at frame 4 - maybe restart animation
+// 4519 * 14	 02 04 57 // ID
+// 81 10 // extra callback info - random bits
+// 00 FF
+// 01
+// \wx80FE 00 3F // 25% chance of start (from current frame)
+// \wx80FD // do nothing
 
-// callback handler for build menu
-// switch between callback and graphics branches
-   00 * 00	02 04 C0					// Set-ID C0
-			85 0C 00 FF FF				// get word, check if callback
-			01							// one range
-			00 80 14 00 14 00			// use layouts 06/07 during callback 14
-			00 00						// menu grafika....
+// Animation control - start animation
+// 4520 * 18	 02 04 58 // ID
+// 81 4A // animation frame
+// 00 FF
+// 02
+// \wx0056 09 09 // frame 9, the animation has finished maybe start from 0
+// \wx0057 04 04 // frame 4, the animation is stopped at open, maybe restart
+// \wx80FD // do nothing
 
-
-   00 * 00	03 04 01 F1
-   01									// hany darab kulonbozo cargo
-   FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
-   AA 00								// ha nem menu, akkor A0 action2-re
-
-
-   00 * 00  00 04 05 01 F2 08 "PKST"
-//			11 00 14 FF 15 FF
-			0C FE
-			0B 03	// custom sprite layout
-//			13 01	// elvileg ilyenkor lehet kiszamitani a groundot
-			0A AA
-
-			09 02
-			
-		// 00
-			// menu grafika
-			F4 03 00 00
-			00 0B 00	10 05 1F	2D 04 00 00
-//			00 00 00	10 05 03	2D 04 00 00
-			80
-
-			// menu grafika
-			F3 03 00 00
-			0B 00 00	05 10 1F	2E 04 00 00
-//			00 00 00	05 10 1F	2E 04 00 00
-			80
-
-		// 01
-			// egyeduli peron
-//			F4 03 00 00
-//			00 0B 00	10 05 1F	2D 04 00 00
-//			00 00 00	10 05 03	2D 04 00 00
-//			80
-
-			// egyeduli peron
-//			F3 03 00 00
-//			0B 00 00	05 10 1F	2E 04 00 00
-//			00 00 00	05 10 1F	2E 04 00 00
-//			80
+// Animation control start/stop
+// 4521 * 18	 02 04 59 // ID
+// 81 18 // extra callback info - reason for call
+// 00 FF
+// 02
+// \wx8000 00 00 // build station - set frame 0 - will also start animation
+// \wx0058 01 01 // cargo arrives - start
+// \wx80FD // do nothing
 
 
-//   00 * 00	01 04 02 04
-	// kopott 1, lampas
-//   00 sprites_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
-//   00 sprites_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
-//   00 sprites_grafika/teszt.pcx 8bpp 0 78 11 31 -6 -29 normal chunked
-//   00 sprites_grafika/teszt.pcx 8bpp 0 110 11 31 -5 -29 normal chunked
-	// kopott 2, kijelzos
-//   00 sprites_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
-//   00 sprites_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
-//   00 sprites_grafika/teszt.pcx 8bpp 12 78 12 19 -8 -18 normal chunked
-//   00 sprites_grafika/teszt.pcx 8bpp 12 98 12 19 -9 -18 normal chunked
-
-//   00 * 00	02 04 01 00 01 00 00
-//   00 * 00	02 04 03 00 01 01 00
-//   00 * 00	02 04 02 00 01 01 00
-   
-   
 
 
-	// egyes randomizaciok
-   00 * 00	02 04 BB
-			80 00						// 80 azaz random object, 00, azaz nincs random trigger
-			10							// szerintem ez kotelezoen ennyi
-			02							// hany darab random lehetosegunk van
-			00 00						// Action2 azonositoja minden egyes lehetosegnek kulon
-			01 00
-//			02 00
-//			03 00
-
-// callback handler for build menu
-// switch between callback and graphics branches
-   00 * 00	02 04 C0					// Set-ID C0
-			85 0C 00 FF FF				// get word, check if callback
-			01							// one range
-			00 80 14 00 14 00			// use layouts 06/07 during callback 14
-			00 00						// menu grafika....
 
 
-   00 * 00	03 04 01 F2
-   01									// hany darab kulonbozo cargo
-   FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
-   BB 00								// ha nem menu, akkor A0 action2-re
+
+// Action0 properties:
+// General flags
+// 13 04 // give callback 141 random bits in variable 10
+
+// 16 \wx0009 // animation info 10 frames
+// 17 04 // animation speed 2^4 ticks per frame
+// 18 \wx0003 // animation triggers - build (1), cargo arrives (2)
+
+
+
+// Callback handler
+// 4545 * 29	 02 04 02 // ID
+// 85 0C // callback
+// 00 \wxFFFF
+// 03
+// \wx8000 \wx0014 \wx0014 // sprite layout
+// \wx0059 \wx0140 \wx0140 // animation control
+// \wx0055 \wx0141 \wx0141 // animation frame
+// \wx0015 // real sprites
+
+// // For purchase list
+// 4546 * 17	 02 04 03 // ID
+// 85 0C // callback
+// 00 \wxFFFF
+// 01
+// \wx8000 \wx0014 \wx0014 // sprite layout
+// \wx0016 // real sprites
+
+// 4547 * 10	 03 04
+// 01 6F
+// 01
+// FF \wx0003 // purchase
+// \wx0002
 
 
 
@@ -172,5 +107,5 @@
 //				Strings					//
 //**************************************//
 
-   00 * 00	04 04 FF 01 F1 C5 "TESZT2" 00
-   00 * 00	04 04 FF 01 F2 C5 "TESZT3" 00
+//   00 * 00	04 04 FF 01 F1 C5 "TESZT2" 00
+//   00 * 00	04 04 FF 01 F2 C5 "TESZT3" 00
