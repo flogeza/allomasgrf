@@ -438,7 +438,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 03 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 3
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 03 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -559,7 +565,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 04 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 4
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 04 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -680,7 +692,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 05 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 5
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 05 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -801,7 +819,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 06 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 6
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 06 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -922,7 +946,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 07 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 7
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 07 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1043,7 +1073,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 08 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 8
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 08 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1165,7 +1201,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 09 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 9
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 09 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1287,7 +1329,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 0A 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 10
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 0A 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1409,7 +1457,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 0B 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 11
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 0B 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1531,7 +1585,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 0C 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 12
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 0C 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1653,7 +1713,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 0D 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 13
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 0D 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1775,7 +1841,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 0E 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 14
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 0E 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1897,7 +1969,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 0F 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 15
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 0F 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -2020,7 +2098,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 10 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 16
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 10 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -2143,7 +2227,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 11 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 17
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 11 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -2265,7 +2355,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 12 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 18
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 12 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -2388,7 +2484,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 13 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 19
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 13 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -2511,7 +2613,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 14 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 20
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 14 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -2634,7 +2742,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 15 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 21
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 15 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -2757,7 +2871,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 16 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 22
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 16 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -2880,7 +3000,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 17 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 23
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 17 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -3002,7 +3128,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 18 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 24
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 18 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -3124,7 +3256,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 19 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 25
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 19 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -3246,7 +3384,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 1A 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 26
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 1A 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -3368,7 +3512,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 1B 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 27
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 1B 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -3490,7 +3640,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 1C 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 28
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 1C 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -3612,7 +3768,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 1D 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 29
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 1D 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -3679,7 +3841,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 1E 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 30
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 1E 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -3739,7 +3907,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 1F 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 31
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 1F 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -3799,7 +3973,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 20 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 32
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 20 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -3859,7 +4039,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 21 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 33
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 21 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -3904,7 +4090,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			00 00						// else graphics Set
 
-	00 * 00	 03 04 01 22 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 34
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 22 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -3944,7 +4136,13 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			00 00						// else graphics Set
 
-	00 * 00	 03 04 01 23 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+@AssignGrapghicsSets
+	StationIDs: 35
+	Default: 18
+@EndAssignGrapghicsSets
+
+//	00 * 00	 03 04 01 23 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 

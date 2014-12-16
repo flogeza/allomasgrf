@@ -349,7 +349,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 03 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 03 00 12 00
+//	00 * 00	 03 04 01 03 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -438,7 +442,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 04 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 04 00 12 00
+//	00 * 00	 03 04 01 04 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -527,7 +535,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 05 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 05 00 12 00
+//	00 * 00	 03 04 01 05 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -616,7 +628,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 06 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 06 00 12 00
+//	00 * 00	 03 04 01 06 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -705,7 +721,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 07 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 07 00 12 00
+//	00 * 00	 03 04 01 07 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -794,7 +814,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 08 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 08 00 12 00
+//	00 * 00	 03 04 01 08 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -883,7 +907,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 09 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 09 00 12 00
+//	00 * 00	 03 04 01 09 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -972,7 +1000,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 0A 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 0A 00 12 00
+//	00 * 00	 03 04 01 0A 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1061,7 +1093,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 0B 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 0B 00 12 00
+//	00 * 00	 03 04 01 0B 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1150,7 +1186,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 0C 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 0C 00 12 00
+//	00 * 00	 03 04 01 0C 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1239,7 +1279,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 0D 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 0D 00 12 00
+//	00 * 00	 03 04 01 0D 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1328,7 +1372,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 0E 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 0E 00 12 00
+//	00 * 00	 03 04 01 0E 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1417,7 +1465,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 0F 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 0F 00 12 00
+//	00 * 00	 03 04 01 0F 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -1507,7 +1559,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 10 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 10 00 12 00
+//	00 * 00	 03 04 01 10 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -1597,7 +1653,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 11 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 11 00 12 00
+//	00 * 00	 03 04 01 11 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -1686,7 +1746,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 12 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 12 00 12 00
+//	00 * 00	 03 04 01 12 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -1776,7 +1840,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 13 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 13 00 12 00
+//	00 * 00	 03 04 01 13 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -1866,7 +1934,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 14 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 14 00 12 00
+//	00 * 00	 03 04 01 14 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -1956,7 +2028,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 15 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 15 00 12 00
+//	00 * 00	 03 04 01 15 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -2046,7 +2122,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 16 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 16 00 12 00
+//	00 * 00	 03 04 01 16 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -2136,7 +2216,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 17 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 17 00 12 00
+//	00 * 00	 03 04 01 17 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -2225,7 +2309,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 18 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 18 00 12 00
+//	00 * 00	 03 04 01 18 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -2314,7 +2402,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 19 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 19 00 12 00
+//	00 * 00	 03 04 01 19 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -2403,7 +2495,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 1A 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 1A 00 12 00
+//	00 * 00	 03 04 01 1A 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -2492,7 +2588,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 1B 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 1B 00 12 00
+//	00 * 00	 03 04 01 1B 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -2581,7 +2681,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 1C 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 1C 00 12 00
+//	00 * 00	 03 04 01 1C 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -2670,7 +2774,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 1D 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 1D 00 12 00
+//	00 * 00	 03 04 01 1D 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -2746,7 +2854,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 1E 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 1E 00 12 00
+//	00 * 00	 03 04 01 1E 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -2815,7 +2927,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 1F 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 1F 00 12 00
+//	00 * 00	 03 04 01 1F 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -2884,7 +3000,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 20 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 20 00 12 00
+//	00 * 00	 03 04 01 20 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 //
@@ -2953,7 +3073,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			A0 00						// else graphics Set
 
-	00 * 00	 03 04 01 21 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 21 00 12 00
+//	00 * 00	 03 04 01 21 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -3008,7 +3132,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			00 00						// else graphics Set
 
-	00 * 00	 03 04 01 22 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 22 00 12 00
+//	00 * 00	 03 04 01 22 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
@@ -3058,7 +3186,11 @@
 			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
 			00 00						// else graphics Set
 
-	00 * 00	 03 04 01 23 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+
+
+   // Action3
+   00 * 00	03 04 01 23 00 12 00
+//	00 * 00	 03 04 01 23 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
 
 
