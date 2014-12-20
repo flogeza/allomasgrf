@@ -55,7 +55,7 @@
 	@EndAddSprite
 @EndAddStation
 
-   00 * 00	02 04 A0
+   00 * 00	02 04 10
 			81 41						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			08							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
@@ -63,21 +63,21 @@
 			00 00 00 00					// 00 00 actione-re ugorjon, ha 00 es 00 range kozott van
 			01 00						// ha nincs egyezes, akkor ide ugorjon
 
-   00 * 00	02 04 12
-			85							// get word
-			0C							// check if callback
-			00
-			FF FF
-			01							// hany range
+//   00 * 00	02 04 12
+//			85							// get word
+//			0C							// check if callback
+//			00
+//			FF FF
+//			01							// hany range
 //			02 80 13 00 13 00
-			00							// ennyi legyen, ha 14-es callback van
-			80							// elvalaszto
-			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
-			A0 00						// else graphics Set
+//			00							// ennyi legyen, ha 14-es callback van
+//			80							// elvalaszto
+//			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
+//			A0 00						// else graphics Set
 
 @AssignGrapghicsSets
 	StationIDs: 0
-	Default: 18
+	Default: 16
 @EndAssignGrapghicsSets
 
 //	00 * 00	 03 04 01 00 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
@@ -4146,154 +4146,156 @@
 
 
 
-//**************************************//
-//				Strings					//
-//**************************************//
+//*************************************//
+//				Strings			//
+//************************************//
 
-00 * 00	04 04 FF 01 00 C4 "HSS - Western railway station" 00
-00 * 00	04 04 A4 01 00 C4 "ÞHSS - Nyugati pályaudvar" 00
-00 * 00	04 04 82 01 00 C4 "HSS - Westbahnhof" 00
+@StationNames
+	Setname: stationid: 0, language: default, name: HSS - Western railway station
+	Setname: stationid: 0, language: hu, name: HSS - Nyugati pályaudvar
+	Setname: stationid: 0, language: de, name: HSS - Westbahnhof
 
-00 * 00	04 04 FF 01 00 C5 "Entrance" 00
-00 * 00	04 04 A4 01 00 C5 "ÞBejárat" 00
-00 * 00	04 04 82 01 00 C5 "Eingang" 00
+	Station: stationid: 0, language: default, name: Entrance
+	Station: stationid: 0, language: hu, name: Bejárat
+	Station: stationid: 0, language: de, name: Eingang
 
-00 * 00	04 04 FF 01 01 C5 "Passenger hall entrance" 00
-00 * 00	04 04 A4 01 01 C5 "ÞCsarnok bejárat" 00
-00 * 00	04 04 82 01 01 C5 "Passagierhalle Eingang" 00
+	Station: stationid: 1, language: default, name: Passenger hall entrance
+	Station: stationid: 1, language: hu, name: Csarnok bejárat
+	Station: stationid: 1, language: de, name: Passagierhalle Eingang
 
-00 * 00	04 04 FF 01 02 C5 "Glass-roofed passenger hall (small)" 00
-00 * 00	04 04 A4 01 02 C5 "ÞÜvegtetős csarnok (kicsi)" 00
-00 * 00	04 04 82 01 02 C5 "Glasdach Passagierhalle (klein)" 00
+	Station: stationid: 2, language: default, name: Glass-roofed passenger hall (small)
+	Station: stationid: 2, language: hu, name: Üvegtetős csarnok (kicsi)
+	Station: stationid: 2, language: de, name: Glasdach Passagierhalle (klein)
 
-00 * 00	04 04 FF 01 03 C5 "Glass-roofed passenger hall (small)" 00
-00 * 00	04 04 A4 01 03 C5 "ÞÜvegtetős csarnok (kicsi)" 00
-00 * 00	04 04 82 01 03 C5 "Glasdach Passagierhalle (klein)" 00
+	Station: stationid: 3, language: default, name: Glass-roofed passenger hall (small)
+	Station: stationid: 3, language: hu, name: Üvegtetős csarnok (kicsi)
+	Station: stationid: 3, language: de, name: Glasdach Passagierhalle (klein)
 
-00 * 00	04 04 FF 01 04 C5 "Glass-roofed passenger hall (small)" 00
-00 * 00	04 04 A4 01 04 C5 "ÞÜvegtetős csarnok (kicsi)" 00
-00 * 00	04 04 82 01 04 C5 "Glasdach Passagierhalle (klein)" 00
+	Station: stationid: 4, language: default, name: Glass-roofed passenger hall (small)
+	Station: stationid: 4, language: hu, name: Üvegtetős csarnok (kicsi)
+	Station: stationid: 4, language: de, name: Glasdach Passagierhalle (klein)
 
-00 * 00	04 04 FF 01 05 C5 "Glass-roofed passenger hall (small)" 00
-00 * 00	04 04 A4 01 05 C5 "ÞÜvegtetős csarnok (kicsi)" 00
-00 * 00	04 04 82 01 05 C5 "Glasdach Passagierhalle (klein)" 00
+	Station: stationid: 5, language: default, name: Glass-roofed passenger hall (small)
+	Station: stationid: 5, language: hu, name: Üvegtetős csarnok (kicsi)
+	Station: stationid: 5, language: de, name: Glasdach Passagierhalle (klein)
 
-00 * 00	04 04 FF 01 06 C5 "Glass-roofed passenger hall (small)" 00
-00 * 00	04 04 A4 01 06 C5 "ÞÜvegtetős csarnok (kicsi)" 00
-00 * 00	04 04 82 01 06 C5 "Glasdach Passagierhalle (klein)" 00
+	Station: stationid: 6, language: default, name: Glass-roofed passenger hall (small)
+	Station: stationid: 6, language: hu, name: Üvegtetős csarnok (kicsi)
+	Station: stationid: 6, language: de, name: Glasdach Passagierhalle (klein)
 
-00 * 00	04 04 FF 01 07 C5 "Glass-roofed passenger hall (small)" 00
-00 * 00	04 04 A4 01 07 C5 "ÞÜvegtetős csarnok (kicsi)" 00
-00 * 00	04 04 82 01 07 C5 "Glasdach Passagierhalle (klein)" 00
+	Station: stationid: 7, language: default, name: Glass-roofed passenger hall (small)
+	Station: stationid: 7, language: hu, name: Üvegtetős csarnok (kicsi)
+	Station: stationid: 7, language: de, name: Glasdach Passagierhalle (klein)
 
-00 * 00	04 04 FF 01 08 C5 "Glass-roofed passenger hall (small)" 00
-00 * 00	04 04 A4 01 08 C5 "ÞÜvegtetős csarnok (kicsi)" 00
-00 * 00	04 04 82 01 08 C5 "Glasdach Passagierhalle (klein)" 00
+	Station: stationid: 8, language: default, name: Glass-roofed passenger hall (small)
+	Station: stationid: 8, language: hu, name: Üvegtetős csarnok (kicsi)
+	Station: stationid: 8, language: de, name: Glasdach Passagierhalle (klein)
 
-00 * 00	04 04 FF 01 09 C5 "Glass-roofed passenger hall" 00
-00 * 00	04 04 A4 01 09 C5 "ÞÜvegtetős csarnok" 00
-00 * 00	04 04 82 01 09 C5 "Glasdach Passagierhalle" 00
+	Station: stationid: 9, language: default, name: Glass-roofed passenger hall
+	Station: stationid: 9, language: hu, name: Üvegtetős csarnok
+	Station: stationid: 9, language: de, name: Glasdach Passagierhalle
 
-00 * 00	04 04 FF 01 0A C5 "Glass-roofed passenger hall" 00
-00 * 00	04 04 A4 01 0A C5 "ÞÜvegtetős csarnok" 00
-00 * 00	04 04 82 01 0A C5 "Glasdach Passagierhalle" 00
+	Station: stationid: 10, language: default, name: Glass-roofed passenger hall
+	Station: stationid: 10, language: hu, name: Üvegtetős csarnok
+	Station: stationid: 10, language: de, name: Glasdach Passagierhalle
 
-00 * 00	04 04 FF 01 0B C5 "Glass-roofed passenger hall" 00
-00 * 00	04 04 A4 01 0B C5 "ÞÜvegtetős csarnok" 00
-00 * 00	04 04 82 01 0B C5 "Glasdach Passagierhalle" 00
+	Station: stationid: 11, language: default, name: Glass-roofed passenger hall
+	Station: stationid: 11, language: hu, name: Üvegtetős csarnok
+	Station: stationid: 11, language: de, name: Glasdach Passagierhalle
 
-00 * 00	04 04 FF 01 0C C5 "Glass-roofed passenger hall" 00
-00 * 00	04 04 A4 01 0C C5 "ÞÜvegtetős csarnok" 00
-00 * 00	04 04 82 01 0C C5 "Glasdach Passagierhalle" 00
+	Station: stationid: 12, language: default, name: Glass-roofed passenger hall
+	Station: stationid: 12, language: hu, name: Üvegtetős csarnok
+	Station: stationid: 12, language: de, name: Glasdach Passagierhalle
 
-00 * 00	04 04 FF 01 0D C5 "Glass-roofed passenger hall" 00
-00 * 00	04 04 A4 01 0D C5 "ÞÜvegtetős csarnok" 00
-00 * 00	04 04 82 01 0D C5 "Glasdach Passagierhalle" 00
+	Station: stationid: 13, language: default, name: Glass-roofed passenger hall
+	Station: stationid: 13, language: hu, name: Üvegtetős csarnok
+	Station: stationid: 13, language: de, name: Glasdach Passagierhalle
 
-00 * 00	04 04 FF 01 0E C5 "Glass-roofed passenger hall" 00
-00 * 00	04 04 A4 01 0E C5 "ÞÜvegtetős csarnok" 00
-00 * 00	04 04 82 01 0E C5 "Glasdach Passagierhalle" 00
+	Station: stationid: 14, language: default, name: Glass-roofed passenger hall
+	Station: stationid: 14, language: hu, name: Üvegtetős csarnok
+	Station: stationid: 14, language: de, name: Glasdach Passagierhalle
 
-00 * 00	04 04 FF 01 0F C5 "Glass-roofed passenger hall" 00
-00 * 00	04 04 A4 01 0F C5 "ÞÜvegtetős csarnok" 00
-00 * 00	04 04 82 01 0F C5 "Glasdach Passagierhalle" 00
+	Station: stationid: 15, language: default, name: Glass-roofed passenger hall
+	Station: stationid: 15, language: hu, name: Üvegtetős csarnok
+	Station: stationid: 15, language: de, name: Glasdach Passagierhalle
 
-00 * 00	04 04 FF 01 10 C5 "Glass-roofed passenger hall (large)" 00
-00 * 00	04 04 A4 01 10 C5 "ÞÜvegtetős csarnok (nagy)" 00
-00 * 00	04 04 82 01 10 C5 "ÞGlasdach Passagierhalle (groß)" 00
+	Station: stationid: 16, language: default, name: Glass-roofed passenger hall (large)
+	Station: stationid: 16, language: hu, name: Üvegtetős csarnok (nagy)
+	Station: stationid: 16, language: de, name: Glasdach Passagierhalle (groß)
 
-00 * 00	04 04 FF 01 11 C5 "Glass-roofed passenger hall (large)" 00
-00 * 00	04 04 A4 01 11 C5 "ÞÜvegtetős csarnok (nagy)" 00
-00 * 00	04 04 82 01 11 C5 "ÞGlasdach Passagierhalle (groß)" 00
+	Station: stationid: 17, language: default, name: Glass-roofed passenger hall (large)
+	Station: stationid: 17, language: hu, name: Üvegtetős csarnok (nagy)
+	Station: stationid: 17, language: de, name: Glasdach Passagierhalle (groß)
 
-00 * 00	04 04 FF 01 12 C5 "Glass-roofed passenger hall (large)" 00
-00 * 00	04 04 A4 01 12 C5 "ÞÜvegtetős csarnok (nagy)" 00
-00 * 00	04 04 82 01 12 C5 "ÞGlasdach Passagierhalle (groß)" 00
+	Station: stationid: 18, language: default, name: Glass-roofed passenger hall (large)
+	Station: stationid: 18, language: hu, name: Üvegtetős csarnok (nagy)
+	Station: stationid: 18, language: de, name: Glasdach Passagierhalle (groß)
 
-00 * 00	04 04 FF 01 13 C5 "Glass-roofed passenger hall (large)" 00
-00 * 00	04 04 A4 01 13 C5 "ÞÜvegtetős csarnok (nagy)" 00
-00 * 00	04 04 82 01 13 C5 "ÞGlasdach Passagierhalle (groß)" 00
+	Station: stationid: 19, language: default, name: Glass-roofed passenger hall (large)
+	Station: stationid: 19, language: hu, name: Üvegtetős csarnok (nagy)
+	Station: stationid: 19, language: de, name: Glasdach Passagierhalle (groß)
 
-00 * 00	04 04 FF 01 14 C5 "Glass-roofed passenger hall (large)" 00
-00 * 00	04 04 A4 01 14 C5 "ÞÜvegtetős csarnok (nagy)" 00
-00 * 00	04 04 82 01 14 C5 "ÞGlasdach Passagierhalle (groß)" 00
+	Station: stationid: 20, language: default, name: Glass-roofed passenger hall (large)
+	Station: stationid: 20, language: hu, name: Üvegtetős csarnok (nagy)
+	Station: stationid: 20, language: de, name: Glasdach Passagierhalle (groß)
 
-00 * 00	04 04 FF 01 15 C5 "Glass-roofed passenger hall (large)" 00
-00 * 00	04 04 A4 01 15 C5 "ÞÜvegtetős csarnok (nagy)" 00
-00 * 00	04 04 82 01 15 C5 "ÞGlasdach Passagierhalle (groß)" 00
+	Station: stationid: 21, language: default, name: Glass-roofed passenger hall (large)
+	Station: stationid: 21, language: hu, name: Üvegtetős csarnok (nagy)
+	Station: stationid: 21, language: de, name: Glasdach Passagierhalle (groß)
 
-00 * 00	04 04 FF 01 16 C5 "Glass-roofed passenger hall (large)" 00
-00 * 00	04 04 A4 01 16 C5 "ÞÜvegtetős csarnok (nagy)" 00
-00 * 00	04 04 82 01 16 C5 "ÞGlasdach Passagierhalle (groß)" 00
+	Station: stationid: 22, language: default, name: Glass-roofed passenger hall (large)
+	Station: stationid: 22, language: hu, name: Üvegtetős csarnok (nagy)
+	Station: stationid: 22, language: de, name: Glasdach Passagierhalle (groß)
 
-00 * 00	04 04 FF 01 17 C5 "Passenger hall" 00
-00 * 00	04 04 A4 01 17 C5 "Csarnok" 00
-00 * 00	04 04 82 01 17 C5 "Passagierhalle" 00
+	Station: stationid: 23, language: default, name: Passenger hall
+	Station: stationid: 23, language: hu, name: Csarnok
+	Station: stationid: 23, language: de, name: Passagierhalle
 
-00 * 00	04 04 FF 01 18 C5 "Passenger hall" 00
-00 * 00	04 04 A4 01 18 C5 "Csarnok" 00
-00 * 00	04 04 82 01 18 C5 "Passagierhalle" 00
+	Station: stationid: 24, language: default, name: Passenger hall
+	Station: stationid: 24, language: hu, name: Csarnok
+	Station: stationid: 24, language: de, name: Passagierhalle
 
-00 * 00	04 04 FF 01 19 C5 "Passenger hall" 00
-00 * 00	04 04 A4 01 19 C5 "Csarnok" 00
-00 * 00	04 04 82 01 19 C5 "Passagierhalle" 00
+	Station: stationid: 25, language: default, name: Passenger hall
+	Station: stationid: 25, language: hu, name: Csarnok
+	Station: stationid: 25, language: de, name: Passagierhalle
 
-00 * 00	04 04 FF 01 1A C5 "Passenger hall" 00
-00 * 00	04 04 A4 01 1A C5 "Csarnok" 00
-00 * 00	04 04 82 01 1A C5 "Passagierhalle" 00
+	Station: stationid: 26, language: default, name: Passenger hall
+	Station: stationid: 26, language: hu, name: Csarnok
+	Station: stationid: 26, language: de, name: Passagierhalle
 
-00 * 00	04 04 FF 01 1B C5 "Passenger hall" 00
-00 * 00	04 04 A4 01 1B C5 "Csarnok" 00
-00 * 00	04 04 82 01 1B C5 "Passagierhalle" 00
+	Station: stationid: 27, language: default, name: Passenger hall
+	Station: stationid: 27, language: hu, name: Csarnok
+	Station: stationid: 27, language: de, name: Passagierhalle
 
-00 * 00	04 04 FF 01 1C C5 "Passenger hall" 00
-00 * 00	04 04 A4 01 1C C5 "Csarnok" 00
-00 * 00	04 04 82 01 1C C5 "Passagierhalle" 00
+	Station: stationid: 28, language: default, name: Passenger hall
+	Station: stationid: 28, language: hu, name: Csarnok
+	Station: stationid: 28, language: de, name: Passagierhalle
 
-00 * 00	04 04 FF 01 1D C5 "Passenger hall" 00
-00 * 00	04 04 A4 01 1D C5 "Csarnok" 00
-00 * 00	04 04 82 01 1D C5 "Passagierhalle" 00
+	Station: stationid: 29, language: default, name: Passenger hall
+	Station: stationid: 29, language: hu, name: Csarnok
+	Station: stationid: 29, language: de, name: Passagierhalle
 
-00 * 00	04 04 FF 01 1E C5 "Main building (left)" 00
-00 * 00	04 04 A4 01 1E C5 "ÞFőépület (bal)" 00
-00 * 00	04 04 82 01 1E C5 "ÞHauptgebäude (links)" 00
+	Station: stationid: 30, language: default, name: Main building (left)
+	Station: stationid: 30, language: hu, name: Főépület (bal)
+	Station: stationid: 30, language: de, name: Hauptgebäude (links)
 
-00 * 00	04 04 FF 01 1F C5 "Main building (right)" 00
-00 * 00	04 04 A4 01 1F C5 "ÞFőépület (jobb)" 00
-00 * 00	04 04 82 01 1F C5 "ÞHauptgebäude (rechts)" 00
+	Station: stationid: 30, language: default, name: Main building (right)
+	Station: stationid: 31, language: hu, name: Főépület (jobb)
+	Station: stationid: 31, language: de, name: Hauptgebäude (rechts)
 
-00 * 00	04 04 FF 01 20 C5 "Main building (left)" 00
-00 * 00	04 04 A4 01 20 C5 "ÞFőépület (bal)" 00
-00 * 00	04 04 82 01 20 C5 "ÞHauptgebäude (links)" 00
+	Station: stationid: 32, language: default, name: Main building (left)
+	Station: stationid: 32, language: hu, name: Főépület (bal)
+	Station: stationid: 32, language: de, name: Hauptgebäude (links)
 
-00 * 00	04 04 FF 01 21 C5 "Main building (right)" 00
-00 * 00	04 04 A4 01 21 C5 "ÞFőépület (jobb)" 00
-00 * 00	04 04 82 01 21 C5 "ÞHauptgebäude (rechts)" 00
+	Station: stationid: 33, language: default, name: Main building (right)
+	Station: stationid: 33, language: hu, name: Főépület (jobb)
+	Station: stationid: 33, language: de, name: Hauptgebäude (rechts)
 
-00 * 00	04 04 FF 01 22 C5 "Tower (left)" 00
-00 * 00	04 04 A4 01 22 C5 "Torony (bal)" 00
-00 * 00	04 04 82 01 22 C5 "Turm (links)" 00
+	Station: stationid: 34, language: default, name: Tower (left)
+	Station: stationid: 34, language: hu, name: Torony (bal)
+	Station: stationid: 34, language: de, name: Turm (links)
 
-00 * 00	04 04 FF 01 23 C5 "Tower (right)" 00
-00 * 00	04 04 A4 01 23 C5 "Torony (jobb)" 00
-00 * 00	04 04 82 01 23 C5 "Turm (rechts)" 00
+	Station: stationid: 35, language: default, name: Tower (right)
+	Station: stationid: 35, language: hu, name: Torony (jobb)
+	Station: stationid: 35, language: de, name: Turm (rechts)
+@EndStationNames
