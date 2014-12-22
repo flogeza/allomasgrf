@@ -120,7 +120,7 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// beton es hatfal
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 302, posy: 322, sizex: 48, sizey: 62, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli bejarat
@@ -227,7 +227,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -339,7 +339,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -451,7 +451,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -563,7 +563,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -675,7 +675,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -787,7 +787,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -899,7 +899,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1012,7 +1012,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1125,7 +1125,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1238,7 +1238,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1351,7 +1351,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1464,7 +1464,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1577,7 +1577,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1690,7 +1690,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1803,7 +1803,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1916,7 +1916,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2029,7 +2029,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2142,7 +2142,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2255,7 +2255,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2368,7 +2368,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2481,7 +2481,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2594,7 +2594,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2707,7 +2707,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2820,7 +2820,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2933,7 +2933,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -3046,7 +3046,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -3159,7 +3159,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -3272,7 +3272,7 @@
 		@EndAddLayout1
 		// beton es hatfal
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 28
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 28
 			RealSprite: posx: 354, posy: 332, sizex: 44, sizey: 51, relx: -32, rely: -30
 		@EndAddLayout1
 		// uveg nelkuli teto
