@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 86 04 00 00
+    0 * 4	 85 04 00 00
     1 * 66	 14 "CINFOTURL_" 7F "http://www.tt-forums.net/viewtopic.php?f=67&t=70997" 00 00 00				// url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// verzio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
@@ -2740,117 +2740,117 @@
 
 
    // Action4
-  702 * 34	 04 04 FF 01 00 C4 C3 9E "HSS-Westernrailwaystation" 00
-  703 * 31	 04 04 A4 01 00 C4 C3 9E "HSS-Nyugatipályaudvar" 00
-  704 * 24	 04 04 82 01 00 C4 C3 9E "HSS-Westbahnhof" 00
+  702 * 38	 04 04 FF 01 00 C4 C3 9E "HSS - Western railway station" 00
+  703 * 34	 04 04 A4 01 00 C4 C3 9E "HSS - Nyugati pályaudvar" 00
+  704 * 26	 04 04 82 01 00 C4 C3 9E "HSS - Westbahnhof" 00
   705 * 17	 04 04 FF 01 00 C5 C3 9E "Entrance" 00
   706 * 17	 04 04 A4 01 00 C5 C3 9E "Bejárat" 00
   707 * 16	 04 04 82 01 00 C5 C3 9E "Eingang" 00
-  708 * 30	 04 04 FF 01 01 C5 C3 9E "Passengerhallentrance" 00
-  709 * 24	 04 04 A4 01 01 C5 C3 9E "Csarnokbejárat" 00
-  710 * 30	 04 04 82 01 01 C5 C3 9E "PassagierhalleEingang" 00
-  711 * 41	 04 04 FF 01 02 C5 C3 9E "Glass-roofedpassengerhall(small)" 00
-  712 * 34	 04 04 A4 01 02 C5 C3 9E "Üvegtetőscsarnok(kicsi)" 00
-  713 * 38	 04 04 82 01 02 C5 C3 9E "GlasdachPassagierhalle(klein)" 00
-  714 * 41	 04 04 FF 01 03 C5 C3 9E "Glass-roofedpassengerhall(small)" 00
-  715 * 34	 04 04 A4 01 03 C5 C3 9E "Üvegtetőscsarnok(kicsi)" 00
-  716 * 38	 04 04 82 01 03 C5 C3 9E "GlasdachPassagierhalle(klein)" 00
-  717 * 41	 04 04 FF 01 04 C5 C3 9E "Glass-roofedpassengerhall(small)" 00
-  718 * 34	 04 04 A4 01 04 C5 C3 9E "Üvegtetőscsarnok(kicsi)" 00
-  719 * 38	 04 04 82 01 04 C5 C3 9E "GlasdachPassagierhalle(klein)" 00
-  720 * 41	 04 04 FF 01 05 C5 C3 9E "Glass-roofedpassengerhall(small)" 00
-  721 * 34	 04 04 A4 01 05 C5 C3 9E "Üvegtetőscsarnok(kicsi)" 00
-  722 * 38	 04 04 82 01 05 C5 C3 9E "GlasdachPassagierhalle(klein)" 00
-  723 * 41	 04 04 FF 01 06 C5 C3 9E "Glass-roofedpassengerhall(small)" 00
-  724 * 34	 04 04 A4 01 06 C5 C3 9E "Üvegtetőscsarnok(kicsi)" 00
-  725 * 38	 04 04 82 01 06 C5 C3 9E "GlasdachPassagierhalle(klein)" 00
-  726 * 41	 04 04 FF 01 07 C5 C3 9E "Glass-roofedpassengerhall(small)" 00
-  727 * 34	 04 04 A4 01 07 C5 C3 9E "Üvegtetőscsarnok(kicsi)" 00
-  728 * 38	 04 04 82 01 07 C5 C3 9E "GlasdachPassagierhalle(klein)" 00
-  729 * 41	 04 04 FF 01 08 C5 C3 9E "Glass-roofedpassengerhall(small)" 00
-  730 * 34	 04 04 A4 01 08 C5 C3 9E "Üvegtetőscsarnok(kicsi)" 00
-  731 * 38	 04 04 82 01 08 C5 C3 9E "GlasdachPassagierhalle(klein)" 00
-  732 * 34	 04 04 FF 01 09 C5 C3 9E "Glass-roofedpassengerhall" 00
-  733 * 27	 04 04 A4 01 09 C5 C3 9E "Üvegtetőscsarnok" 00
-  734 * 31	 04 04 82 01 09 C5 C3 9E "GlasdachPassagierhalle" 00
-  735 * 34	 04 04 FF 01 0A C5 C3 9E "Glass-roofedpassengerhall" 00
-  736 * 27	 04 04 A4 01 0A C5 C3 9E "Üvegtetőscsarnok" 00
-  737 * 31	 04 04 82 01 0A C5 C3 9E "GlasdachPassagierhalle" 00
-  738 * 34	 04 04 FF 01 0B C5 C3 9E "Glass-roofedpassengerhall" 00
-  739 * 27	 04 04 A4 01 0B C5 C3 9E "Üvegtetőscsarnok" 00
-  740 * 31	 04 04 82 01 0B C5 C3 9E "GlasdachPassagierhalle" 00
-  741 * 34	 04 04 FF 01 0C C5 C3 9E "Glass-roofedpassengerhall" 00
-  742 * 27	 04 04 A4 01 0C C5 C3 9E "Üvegtetőscsarnok" 00
-  743 * 31	 04 04 82 01 0C C5 C3 9E "GlasdachPassagierhalle" 00
-  744 * 34	 04 04 FF 01 0D C5 C3 9E "Glass-roofedpassengerhall" 00
-  745 * 27	 04 04 A4 01 0D C5 C3 9E "Üvegtetőscsarnok" 00
-  746 * 31	 04 04 82 01 0D C5 C3 9E "GlasdachPassagierhalle" 00
-  747 * 34	 04 04 FF 01 0E C5 C3 9E "Glass-roofedpassengerhall" 00
-  748 * 27	 04 04 A4 01 0E C5 C3 9E "Üvegtetőscsarnok" 00
-  749 * 31	 04 04 82 01 0E C5 C3 9E "GlasdachPassagierhalle" 00
-  750 * 34	 04 04 FF 01 0F C5 C3 9E "Glass-roofedpassengerhall" 00
-  751 * 27	 04 04 A4 01 0F C5 C3 9E "Üvegtetőscsarnok" 00
-  752 * 31	 04 04 82 01 0F C5 C3 9E "GlasdachPassagierhalle" 00
-  753 * 41	 04 04 FF 01 10 C5 C3 9E "Glass-roofedpassengerhall(large)" 00
-  754 * 33	 04 04 A4 01 10 C5 C3 9E "Üvegtetőscsarnok(nagy)" 00
-  755 * 38	 04 04 82 01 10 C5 C3 9E "GlasdachPassagierhalle(groß)" 00
-  756 * 41	 04 04 FF 01 11 C5 C3 9E "Glass-roofedpassengerhall(large)" 00
-  757 * 33	 04 04 A4 01 11 C5 C3 9E "Üvegtetőscsarnok(nagy)" 00
-  758 * 38	 04 04 82 01 11 C5 C3 9E "GlasdachPassagierhalle(groß)" 00
-  759 * 41	 04 04 FF 01 12 C5 C3 9E "Glass-roofedpassengerhall(large)" 00
-  760 * 33	 04 04 A4 01 12 C5 C3 9E "Üvegtetőscsarnok(nagy)" 00
-  761 * 38	 04 04 82 01 12 C5 C3 9E "GlasdachPassagierhalle(groß)" 00
-  762 * 41	 04 04 FF 01 13 C5 C3 9E "Glass-roofedpassengerhall(large)" 00
-  763 * 33	 04 04 A4 01 13 C5 C3 9E "Üvegtetőscsarnok(nagy)" 00
-  764 * 38	 04 04 82 01 13 C5 C3 9E "GlasdachPassagierhalle(groß)" 00
-  765 * 41	 04 04 FF 01 14 C5 C3 9E "Glass-roofedpassengerhall(large)" 00
-  766 * 33	 04 04 A4 01 14 C5 C3 9E "Üvegtetőscsarnok(nagy)" 00
-  767 * 38	 04 04 82 01 14 C5 C3 9E "GlasdachPassagierhalle(groß)" 00
-  768 * 41	 04 04 FF 01 15 C5 C3 9E "Glass-roofedpassengerhall(large)" 00
-  769 * 33	 04 04 A4 01 15 C5 C3 9E "Üvegtetőscsarnok(nagy)" 00
-  770 * 38	 04 04 82 01 15 C5 C3 9E "GlasdachPassagierhalle(groß)" 00
-  771 * 41	 04 04 FF 01 16 C5 C3 9E "Glass-roofedpassengerhall(large)" 00
-  772 * 33	 04 04 A4 01 16 C5 C3 9E "Üvegtetőscsarnok(nagy)" 00
-  773 * 38	 04 04 82 01 16 C5 C3 9E "GlasdachPassagierhalle(groß)" 00
-  774 * 22	 04 04 FF 01 17 C5 C3 9E "Passengerhall" 00
+  708 * 32	 04 04 FF 01 01 C5 C3 9E "Passenger hall entrance" 00
+  709 * 25	 04 04 A4 01 01 C5 C3 9E "Csarnok bejárat" 00
+  710 * 31	 04 04 82 01 01 C5 C3 9E "Passagierhalle Eingang" 00
+  711 * 44	 04 04 FF 01 02 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  712 * 36	 04 04 A4 01 02 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  713 * 40	 04 04 82 01 02 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
+  714 * 44	 04 04 FF 01 03 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  715 * 36	 04 04 A4 01 03 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  716 * 40	 04 04 82 01 03 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
+  717 * 44	 04 04 FF 01 04 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  718 * 36	 04 04 A4 01 04 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  719 * 40	 04 04 82 01 04 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
+  720 * 44	 04 04 FF 01 05 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  721 * 36	 04 04 A4 01 05 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  722 * 40	 04 04 82 01 05 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
+  723 * 44	 04 04 FF 01 06 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  724 * 36	 04 04 A4 01 06 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  725 * 40	 04 04 82 01 06 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
+  726 * 44	 04 04 FF 01 07 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  727 * 36	 04 04 A4 01 07 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  728 * 40	 04 04 82 01 07 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
+  729 * 44	 04 04 FF 01 08 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  730 * 36	 04 04 A4 01 08 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  731 * 40	 04 04 82 01 08 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
+  732 * 36	 04 04 FF 01 09 C5 C3 9E "Glass-roofed passenger hall" 00
+  733 * 28	 04 04 A4 01 09 C5 C3 9E "Üvegtetős csarnok" 00
+  734 * 32	 04 04 82 01 09 C5 C3 9E "Glasdach Passagierhalle" 00
+  735 * 36	 04 04 FF 01 0A C5 C3 9E "Glass-roofed passenger hall" 00
+  736 * 28	 04 04 A4 01 0A C5 C3 9E "Üvegtetős csarnok" 00
+  737 * 32	 04 04 82 01 0A C5 C3 9E "Glasdach Passagierhalle" 00
+  738 * 36	 04 04 FF 01 0B C5 C3 9E "Glass-roofed passenger hall" 00
+  739 * 28	 04 04 A4 01 0B C5 C3 9E "Üvegtetős csarnok" 00
+  740 * 32	 04 04 82 01 0B C5 C3 9E "Glasdach Passagierhalle" 00
+  741 * 36	 04 04 FF 01 0C C5 C3 9E "Glass-roofed passenger hall" 00
+  742 * 28	 04 04 A4 01 0C C5 C3 9E "Üvegtetős csarnok" 00
+  743 * 32	 04 04 82 01 0C C5 C3 9E "Glasdach Passagierhalle" 00
+  744 * 36	 04 04 FF 01 0D C5 C3 9E "Glass-roofed passenger hall" 00
+  745 * 28	 04 04 A4 01 0D C5 C3 9E "Üvegtetős csarnok" 00
+  746 * 32	 04 04 82 01 0D C5 C3 9E "Glasdach Passagierhalle" 00
+  747 * 36	 04 04 FF 01 0E C5 C3 9E "Glass-roofed passenger hall" 00
+  748 * 28	 04 04 A4 01 0E C5 C3 9E "Üvegtetős csarnok" 00
+  749 * 32	 04 04 82 01 0E C5 C3 9E "Glasdach Passagierhalle" 00
+  750 * 36	 04 04 FF 01 0F C5 C3 9E "Glass-roofed passenger hall" 00
+  751 * 28	 04 04 A4 01 0F C5 C3 9E "Üvegtetős csarnok" 00
+  752 * 32	 04 04 82 01 0F C5 C3 9E "Glasdach Passagierhalle" 00
+  753 * 44	 04 04 FF 01 10 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  754 * 35	 04 04 A4 01 10 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  755 * 40	 04 04 82 01 10 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
+  756 * 44	 04 04 FF 01 11 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  757 * 35	 04 04 A4 01 11 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  758 * 40	 04 04 82 01 11 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
+  759 * 44	 04 04 FF 01 12 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  760 * 35	 04 04 A4 01 12 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  761 * 40	 04 04 82 01 12 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
+  762 * 44	 04 04 FF 01 13 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  763 * 35	 04 04 A4 01 13 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  764 * 40	 04 04 82 01 13 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
+  765 * 44	 04 04 FF 01 14 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  766 * 35	 04 04 A4 01 14 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  767 * 40	 04 04 82 01 14 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
+  768 * 44	 04 04 FF 01 15 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  769 * 35	 04 04 A4 01 15 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  770 * 40	 04 04 82 01 15 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
+  771 * 44	 04 04 FF 01 16 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  772 * 35	 04 04 A4 01 16 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  773 * 40	 04 04 82 01 16 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
+  774 * 23	 04 04 FF 01 17 C5 C3 9E "Passenger hall" 00
   775 * 16	 04 04 A4 01 17 C5 C3 9E "Csarnok" 00
   776 * 23	 04 04 82 01 17 C5 C3 9E "Passagierhalle" 00
-  777 * 22	 04 04 FF 01 18 C5 C3 9E "Passengerhall" 00
+  777 * 23	 04 04 FF 01 18 C5 C3 9E "Passenger hall" 00
   778 * 16	 04 04 A4 01 18 C5 C3 9E "Csarnok" 00
   779 * 23	 04 04 82 01 18 C5 C3 9E "Passagierhalle" 00
-  780 * 22	 04 04 FF 01 19 C5 C3 9E "Passengerhall" 00
+  780 * 23	 04 04 FF 01 19 C5 C3 9E "Passenger hall" 00
   781 * 16	 04 04 A4 01 19 C5 C3 9E "Csarnok" 00
   782 * 23	 04 04 82 01 19 C5 C3 9E "Passagierhalle" 00
-  783 * 22	 04 04 FF 01 1A C5 C3 9E "Passengerhall" 00
+  783 * 23	 04 04 FF 01 1A C5 C3 9E "Passenger hall" 00
   784 * 16	 04 04 A4 01 1A C5 C3 9E "Csarnok" 00
   785 * 23	 04 04 82 01 1A C5 C3 9E "Passagierhalle" 00
-  786 * 22	 04 04 FF 01 1B C5 C3 9E "Passengerhall" 00
+  786 * 23	 04 04 FF 01 1B C5 C3 9E "Passenger hall" 00
   787 * 16	 04 04 A4 01 1B C5 C3 9E "Csarnok" 00
   788 * 23	 04 04 82 01 1B C5 C3 9E "Passagierhalle" 00
-  789 * 22	 04 04 FF 01 1C C5 C3 9E "Passengerhall" 00
+  789 * 23	 04 04 FF 01 1C C5 C3 9E "Passenger hall" 00
   790 * 16	 04 04 A4 01 1C C5 C3 9E "Csarnok" 00
   791 * 23	 04 04 82 01 1C C5 C3 9E "Passagierhalle" 00
-  792 * 22	 04 04 FF 01 1D C5 C3 9E "Passengerhall" 00
+  792 * 23	 04 04 FF 01 1D C5 C3 9E "Passenger hall" 00
   793 * 16	 04 04 A4 01 1D C5 C3 9E "Csarnok" 00
   794 * 23	 04 04 82 01 1D C5 C3 9E "Passagierhalle" 00
-  795 * 27	 04 04 FF 01 1E C5 C3 9E "Mainbuilding(left)" 00
-  796 * 25	 04 04 A4 01 1E C5 C3 9E "Főépület(bal)" 00
-  797 * 29	 04 04 82 01 1E C5 C3 9E "Hauptgebäude(links)" 00
-  798 * 28	 04 04 FF 01 1E C5 C3 9E "Mainbuilding(right)" 00
-  799 * 26	 04 04 A4 01 1F C5 C3 9E "Főépület(jobb)" 00
-  800 * 30	 04 04 82 01 1F C5 C3 9E "Hauptgebäude(rechts)" 00
-  801 * 27	 04 04 FF 01 20 C5 C3 9E "Mainbuilding(left)" 00
-  802 * 25	 04 04 A4 01 20 C5 C3 9E "Főépület(bal)" 00
-  803 * 29	 04 04 82 01 20 C5 C3 9E "Hauptgebäude(links)" 00
-  804 * 28	 04 04 FF 01 21 C5 C3 9E "Mainbuilding(right)" 00
-  805 * 26	 04 04 A4 01 21 C5 C3 9E "Főépület(jobb)" 00
-  806 * 30	 04 04 82 01 21 C5 C3 9E "Hauptgebäude(rechts)" 00
-  807 * 20	 04 04 FF 01 22 C5 C3 9E "Tower(left)" 00
-  808 * 20	 04 04 A4 01 22 C5 C3 9E "Torony(bal)" 00
-  809 * 20	 04 04 82 01 22 C5 C3 9E "Turm(links)" 00
-  810 * 21	 04 04 FF 01 23 C5 C3 9E "Tower(right)" 00
-  811 * 21	 04 04 A4 01 23 C5 C3 9E "Torony(jobb)" 00
-  812 * 21	 04 04 82 01 23 C5 C3 9E "Turm(rechts)" 00
+  795 * 29	 04 04 FF 01 1E C5 C3 9E "Main building (left)" 00
+  796 * 26	 04 04 A4 01 1E C5 C3 9E "Főépület (bal)" 00
+  797 * 30	 04 04 82 01 1E C5 C3 9E "Hauptgebäude (links)" 00
+  798 * 30	 04 04 FF 01 1E C5 C3 9E "Main building (right)" 00
+  799 * 27	 04 04 A4 01 1F C5 C3 9E "Főépület (jobb)" 00
+  800 * 31	 04 04 82 01 1F C5 C3 9E "Hauptgebäude (rechts)" 00
+  801 * 29	 04 04 FF 01 20 C5 C3 9E "Main building (left)" 00
+  802 * 26	 04 04 A4 01 20 C5 C3 9E "Főépület (bal)" 00
+  803 * 30	 04 04 82 01 20 C5 C3 9E "Hauptgebäude (links)" 00
+  804 * 30	 04 04 FF 01 21 C5 C3 9E "Main building (right)" 00
+  805 * 27	 04 04 A4 01 21 C5 C3 9E "Főépület (jobb)" 00
+  806 * 31	 04 04 82 01 21 C5 C3 9E "Hauptgebäude (rechts)" 00
+  807 * 21	 04 04 FF 01 22 C5 C3 9E "Tower (left)" 00
+  808 * 21	 04 04 A4 01 22 C5 C3 9E "Torony (bal)" 00
+  809 * 21	 04 04 82 01 22 C5 C3 9E "Turm (links)" 00
+  810 * 22	 04 04 FF 01 23 C5 C3 9E "Tower (right)" 00
+  811 * 22	 04 04 A4 01 23 C5 C3 9E "Torony (jobb)" 00
+  812 * 22	 04 04 82 01 23 C5 C3 9E "Turm (rechts)" 00
 
 
 
@@ -4677,31 +4677,24 @@
  1095 * 7	 02 04 08 00 01 08 00
 
 
- 1096 * 39	 02 04 A0
-			80 00						// 80 azaz random object, 00, azaz nincs random trigger
-			10							// szerintem ez kotelezoen ennyi
-			10							// hany darab random lehetosegunk van
-			00 00 00 00 00 00
+	//Action2
+ 1096 * 39	 02 04 0A
+			80 00 10			//random, randomtrigger, randbit
+			10				//range count
+			00 00	00 00	00 00
 			01 00
 			02 00
-			03 00 03 00 03 00
-			04 00 04 00
+			03 00	03 00	03 00
+			04 00	04 00
 			05 00
-			06 00 06 00 06 00
+			06 00	06 00	06 00
 			07 00
 			08 00
 
- 1097 * 17	 02 04 12
-			85							// get word
-			0C							// check if callback
-			00							// shift num, azaz menny legyen az eltolas erteke
-			FF FF						// mask
-			01							// range
-			00 80 14 00 14 00			// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
-			A0 00						// real sprite
 
- 1098 * 7	 03 04 01 24 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
 
+   // Action3
+ 1097 * 7	 03 04 01 24 00 0A 00
 
 
 //
@@ -4710,7 +4703,7 @@
 
 
    // Action0
- 1099 * 228	 00 04				// Action0, Feature4
+ 1098 * 228	 00 04				// Action0, Feature4
 			05 01 25			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 			11 00				// Pylon disabled
@@ -4783,69 +4776,65 @@
 
 
    // Action1
- 1100 * 4	 01 04 07 02
+ 1099 * 4	 01 04 07 02
+ 1100 sprites_grafika/karacsonysprites.pcx 8bpp 206 5 66 37 -32 -5 normal chunked
  1101 sprites_grafika/karacsonysprites.pcx 8bpp 206 5 66 37 -32 -5 normal chunked
- 1102 sprites_grafika/karacsonysprites.pcx 8bpp 206 5 66 37 -32 -5 normal chunked
+ 1102 sprites_grafika/karacsonysprites.pcx 8bpp 206 43 66 37 -32 -5 normal chunked
  1103 sprites_grafika/karacsonysprites.pcx 8bpp 206 43 66 37 -32 -5 normal chunked
- 1104 sprites_grafika/karacsonysprites.pcx 8bpp 206 43 66 37 -32 -5 normal chunked
+ 1104 sprites_grafika/karacsonysprites.pcx 8bpp 206 81 66 33 -32 -1 normal chunked
  1105 sprites_grafika/karacsonysprites.pcx 8bpp 206 81 66 33 -32 -1 normal chunked
- 1106 sprites_grafika/karacsonysprites.pcx 8bpp 206 81 66 33 -32 -1 normal chunked
+ 1106 sprites_grafika/karacsonysprites.pcx 8bpp 273 5 66 46 -32 -14 normal chunked
  1107 sprites_grafika/karacsonysprites.pcx 8bpp 273 5 66 46 -32 -14 normal chunked
- 1108 sprites_grafika/karacsonysprites.pcx 8bpp 273 5 66 46 -32 -14 normal chunked
+ 1108 sprites_grafika/karacsonysprites.pcx 8bpp 273 52 66 42 -33 -10 normal chunked
  1109 sprites_grafika/karacsonysprites.pcx 8bpp 273 52 66 42 -33 -10 normal chunked
- 1110 sprites_grafika/karacsonysprites.pcx 8bpp 273 52 66 42 -33 -10 normal chunked
+ 1110 sprites_grafika/karacsonysprites.pcx 8bpp 340 5 66 46 -32 -14 normal chunked
  1111 sprites_grafika/karacsonysprites.pcx 8bpp 340 5 66 46 -32 -14 normal chunked
- 1112 sprites_grafika/karacsonysprites.pcx 8bpp 340 5 66 46 -32 -14 normal chunked
+ 1112 sprites_grafika/karacsonysprites.pcx 8bpp 340 52 66 37 -32 -5 normal chunked
  1113 sprites_grafika/karacsonysprites.pcx 8bpp 340 52 66 37 -32 -5 normal chunked
- 1114 sprites_grafika/karacsonysprites.pcx 8bpp 340 52 66 37 -32 -5 normal chunked
 
    // Action2
- 1115 * 7	 02 04 00 00 01 00 00
- 1116 * 7	 02 04 01 00 01 01 00
- 1117 * 7	 02 04 02 00 01 02 00
- 1118 * 7	 02 04 03 00 01 03 00
- 1119 * 7	 02 04 04 00 01 04 00
- 1120 * 7	 02 04 05 00 01 05 00
- 1121 * 7	 02 04 06 00 01 06 00
+ 1114 * 7	 02 04 00 00 01 00 00
+ 1115 * 7	 02 04 01 00 01 01 00
+ 1116 * 7	 02 04 02 00 01 02 00
+ 1117 * 7	 02 04 03 00 01 03 00
+ 1118 * 7	 02 04 04 00 01 04 00
+ 1119 * 7	 02 04 05 00 01 05 00
+ 1120 * 7	 02 04 06 00 01 06 00
 
- 1122 * 39	 02 04 A0
-			80 00						// 80 azaz random object, 00, azaz nincs random trigger
-			10							// szerintem ez kotelezoen ennyi
-			10							// hany darab random lehetosegunk van
-			00 00 00 00 00 00 00 00
-			01 00 01 00 01 00 01 00 01 00
+
+
+	//Action2
+ 1121 * 39	 02 04 0A
+			80 00 10			//random, randomtrigger, randbit
+			10				//range count
+			00 00	00 00	00 00	00 00
+			01 00	01 00	01 00	01 00	01 00
 			02 00
 			03 00
-			04 00 04 00
+			04 00	04 00
 			05 00
-			06 00 06 00
-
- 1123 * 17	 02 04 12
-			85							// get word
-			0C							// check if callback
-			00
-			FF FF
-			01							// hany range
-//			02 80 13 00 13 00
-			00							// ennyi legyen, ha 14-es callback van
-			80							// elvalaszto
-			14 00	14 00				// Set to use during callback 14, tehat ha 14-es min es 14-es max callback van.
-			A0 00						// else graphics Set
-
- 1124 * 7	 03 04 01 25 00 12 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a 12 action2-re
+			06 00	06 00
 
 
 
- 1125 * 41	 04 04 FF 01 24 C4 "HSS - Christmas Market (automatic)" 00
- 1126 * 48	 04 04 A4 01 24 C4 "ÞHSS - Karácsonyi vásár (automatikus)" 00
- 1127 * 44	 04 04 82 01 24 C4 "ÞHSS - Weihnachtsmarkt (automatisch)" 00
+   // Action3
+ 1122 * 7	 03 04 01 25 00 0A 00
 
- 1128 * 16	 04 04 FF 01 24 C5 "With rail" 00
- 1129 * 16	 04 04 A4 01 24 C5 "ÞSínnel" 00
- 1130 * 20	 04 04 82 01 24 C5 "ÞMit Schiene" 00
+//*************************************//
+//				Strings			//
+//************************************//
 
- 1131 * 19	 04 04 FF 01 25 C5 "Without rail" 00
- 1132 * 23	 04 04 A4 01 25 C5 "ÞSín nélküli" 00
+
+   // Action4
+ 1123 * 43	 04 04 FF 01 24 C4 C3 9E "HSS - Christmas Market (automatic)" 00
+ 1124 * 48	 04 04 A4 01 24 C4 C3 9E "HSS - Karácsonyi vásár (automatikus)" 00
+ 1125 * 44	 04 04 82 01 24 C4 C3 9E "HSS - Weihnachtsmarkt (automatisch)" 00
+ 1126 * 18	 04 04 FF 01 24 C5 C3 9E "With rail" 00
+ 1127 * 16	 04 04 A4 01 24 C5 C3 9E "Sínnel" 00
+ 1128 * 20	 04 04 82 01 24 C5 C3 9E "Mit Schiene" 00
+ 1129 * 21	 04 04 FF 01 25 C5 C3 9E "Without rail" 00
+ 1130 * 23	 04 04 A4 01 25 C5 C3 9E "Sín nélküli" 00
+ 1131 * 21	 04 04 82 01 25 C5 C3 9E "Ohne Schiene" 00
 
 
 
@@ -4856,21 +4845,21 @@
 //******************************************************************************************************************************************************//
 
 
- 1133 * 11	 02 04 70				// Procedure to compute the slope-dependent spriteoffset
+ 1132 * 11	 02 04 70				// Procedure to compute the slope-dependent spriteoffset
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
 			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			00 00
 
- 1134 * 11	 02 04 71				// Procedure to compute the climate-dependent spriteoffset
+ 1133 * 11	 02 04 71				// Procedure to compute the climate-dependent spriteoffset
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
 			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			00 00
 
- 1135 * 11	 02 04 72				// Procedure to compute the height offset in the middle of the tile
+ 1134 * 11	 02 04 72				// Procedure to compute the height offset in the middle of the tile
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -4880,7 +4869,7 @@
 
 
 
- 1136 * 160	 00 04 04 01 F0 08 "PKST"
+ 1135 * 160	 00 04 04 01 F0 08 "PKST"
 //			11 00 14 FF 15 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -4958,36 +4947,36 @@
 			00 00 00		// extend
 
 
- 1137 * 4	 01 04 01 02
- 1138 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
- 1139 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
+ 1136 * 4	 01 04 01 02
+ 1137 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
+ 1138 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
 
- 1140 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
-
-
-
- 1141 * 4	 01 04 01 02
- 1142 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
- 1143 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
-
- 1144 * 7	 02 04 01 00 01 00 00	// hatulja
+ 1139 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
 
 
 
- 1145 * 4	 01 04 01 04
- 1146 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
- 1147 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
- 1148 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
- 1149 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+ 1140 * 4	 01 04 01 02
+ 1141 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
+ 1142 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
 
- 1150 * 7	 02 04 02 00 01 00 00	// objektumok
+ 1143 * 7	 02 04 01 00 01 00 00	// hatulja
+
+
+
+ 1144 * 4	 01 04 01 04
+ 1145 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
+ 1146 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
+ 1147 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
+ 1148 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+
+ 1149 * 7	 02 04 02 00 01 00 00	// objektumok
 
 
 //   00 * 00	02 04 01 00 01 01 00	// hatulja
 //   00 * 00	02 04 01 00 01 00 00	// hatulja
 
 	// lampas randomizaciok
- 1151 * 11	 02 04 B0
+ 1150 * 11	 02 04 B0
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -4996,7 +4985,7 @@
 
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebken a harmadik lekerdezesre (10) ugrik
- 1152 * 14	 02 04 A1
+ 1151 * 14	 02 04 A1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -5006,7 +4995,7 @@
 
 // callback handler for normal graphics (non-build menu)
 // ez az elso lekerdezes, ezzel kerdezem kezdem el a betoltendo  lekerdezeseket
- 1153 * 17	 02 04 A0
+ 1152 * 17	 02 04 A0
 			85							// get word
 			0C							// check if callback
 			00
@@ -5019,7 +5008,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
- 1154 * 17	 02 04 C0					// Set-ID C0
+ 1153 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 			00 80 14 00 14 00			// use layouts 06/07 during callback 14
@@ -5030,7 +5019,7 @@
 //           \dx 80000000 \wx20  00 00 00 10 10 30 11       // Draw building sprite at z-postion from register 0x11.
 //           \dx 80000001 \wx01  00 00 80          12       // Draw snow-overlay relative to building sprite, but only if register 0x12 is zero.
 
- 1155 * 37	 02 04 D0 81
+ 1154 * 37	 02 04 D0 81
 					7E 70 20 FF                           // Get slope offset from procedure 40
              \2sto  1A    20 10                           // Store in register 0x10
              \2rst  7E 71 20 0F                           // Add climate offset from procedure 41
@@ -5048,7 +5037,7 @@
 
 //-1 * -1    03 0F 01 ?? \b 0 00                            // always procede at 00
 
- 1156 * 10	 03 04 01 F0
+ 1155 * 10	 03 04 01 F0
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
    D0 00								// ha nem menu, akkor A0 action2-re
@@ -5060,8 +5049,8 @@
 //				Strings					//
 //**************************************//
 
- 1157 * 22	 04 04 FF 01 F0 C4 "HUNGARIAN TESZT" 00
- 1158 * 13	 04 04 FF 01 F0 C5 "TESZT1" 00
+ 1156 * 22	 04 04 FF 01 F0 C4 "HUNGARIAN TESZT" 00
+ 1157 * 13	 04 04 FF 01 F0 C5 "TESZT1" 00
 
 
 //******************************************************************************************************************************************************//
