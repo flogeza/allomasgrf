@@ -1,0 +1,902 @@
+
+//
+// vasari megallo
+//
+
+@AddStation: id: 38, class: PSK2
+	Little/Lots Threshold: 50
+
+// 1 - 1
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 407, posy: 103, sizex: 54, sizey: 32, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 59, sizex: 45, sizey: 27, relx: -11, rely: 5
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 407, posy: 39, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 119, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 462, posy: 103, sizex: 54, sizey: 32, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 59, sizex: 45, sizey: 27, relx: -11, rely: 5
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 462, posy: 39, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 119, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 517, posy: 103, sizex: 54, sizey: 32, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 59, sizex: 45, sizey: 27, relx: -11, rely: 5
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 517, posy: 39, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 119, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+
+
+
+// 1 - 2
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 407, posy: 103, sizex: 54, sizey: 32, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 29, sizex: 45, sizey: 29, relx: -11, rely: 3
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 407, posy: 39, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 145, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 462, posy: 103, sizex: 54, sizey: 32, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 29, sizex: 45, sizey: 29, relx: -11, rely: 3
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 462, posy: 39, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 145, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 517, posy: 103, sizex: 54, sizey: 32, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 29, sizex: 45, sizey: 29, relx: -11, rely: 3
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 517, posy: 39, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 145, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+
+// 1 - 3
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 407, posy: 103, sizex: 54, sizey: 32, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 5, sizex: 45, sizey: 23, relx: -11, rely: 9
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 407, posy: 39, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 87, sizex: 45, sizey: 31, relx: -32, rely: 1
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 462, posy: 103, sizex: 54, sizey: 32, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 5, sizex: 45, sizey: 23, relx: -11, rely: 9
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 462, posy: 39, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 87, sizex: 45, sizey: 31, relx: -32, rely: 1
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 517, posy: 103, sizex: 54, sizey: 32, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 5, sizex: 45, sizey: 23, relx: -11, rely: 9
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 517, posy: 39, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 87, sizex: 45, sizey: 31, relx: -32, rely: 1
+		@EndAddLayout2
+	@EndAddSprite
+
+// 2 - 1
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 407, posy: 137, sizex: 54, sizey: 33, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 59, sizex: 45, sizey: 27, relx: -11, rely: 5
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 407, posy: 71, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 119, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 462, posy: 137, sizex: 54, sizey: 33, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 59, sizex: 45, sizey: 27, relx: -11, rely: 5
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 462, posy: 71, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 119, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 517, posy: 137, sizex: 54, sizey: 33, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 59, sizex: 45, sizey: 27, relx: -11, rely: 5
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 517, posy: 71, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 119, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+
+// 2 - 2
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 407, posy: 137, sizex: 54, sizey: 33, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 29, sizex: 45, sizey: 29, relx: -11, rely: 3
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 407, posy: 71, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 145, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 462, posy: 137, sizex: 54, sizey: 33, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 29, sizex: 45, sizey: 29, relx: -11, rely: 3
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 462, posy: 71, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 145, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 517, posy: 137, sizex: 54, sizey: 33, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 29, sizex: 45, sizey: 29, relx: -11, rely: 3
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 517, posy: 71, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 145, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+
+// 2 - 3
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 407, posy: 137, sizex: 54, sizey: 33, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 5, sizex: 45, sizey: 23, relx: -11, rely: 9
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 407, posy: 71, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 87, sizex: 45, sizey: 31, relx: -32, rely: 1
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 462, posy: 137, sizex: 54, sizey: 33, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 5, sizex: 45, sizey: 23, relx: -11, rely: 9
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 462, posy: 71, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 87, sizex: 45, sizey: 31, relx: -32, rely: 1
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 517, posy: 137, sizex: 54, sizey: 33, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 5, sizex: 45, sizey: 23, relx: -11, rely: 9
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 517, posy: 71, sizex: 54, sizey: 31, relx: -20, rely: -4
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 87, sizex: 45, sizey: 31, relx: -32, rely: 1
+		@EndAddLayout2
+	@EndAddSprite
+
+// 3 - 1
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 407, posy: 171, sizex: 54, sizey: 32, relx: -32, rely: -5
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 59, sizex: 45, sizey: 27, relx: -11, rely: 5
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 407, posy: 5, sizex: 54, sizey: 33, relx: -20, rely: -6
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 119, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 462, posy: 171, sizex: 54, sizey: 32, relx: -32, rely: -5
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 59, sizex: 45, sizey: 27, relx: -11, rely: 5
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 462, posy: 5, sizex: 54, sizey: 33, relx: -20, rely: -6
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 119, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 517, posy: 171, sizex: 54, sizey: 32, relx: -32, rely: -5
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 59, sizex: 45, sizey: 27, relx: -11, rely: 5
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 517, posy: 5, sizex: 54, sizey: 33, relx: -20, rely: -6
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 119, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+
+// 3 - 2
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 407, posy: 171, sizex: 54, sizey: 32, relx: -32, rely: -5
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 29, sizex: 45, sizey: 29, relx: -11, rely: 3
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 407, posy: 5, sizex: 54, sizey: 33, relx: -20, rely: -6
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 145, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 462, posy: 171, sizex: 54, sizey: 32, relx: -32, rely: -5
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 29, sizex: 45, sizey: 29, relx: -11, rely: 3
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 462, posy: 5, sizex: 54, sizey: 33, relx: -20, rely: -6
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 145, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 517, posy: 171, sizex: 54, sizey: 32, relx: -32, rely: -5
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 29, sizex: 45, sizey: 29, relx: -11, rely: 3
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 517, posy: 5, sizex: 54, sizey: 33, relx: -20, rely: -6
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 145, sizex: 45, sizey: 25, relx: -32, rely: 7
+		@EndAddLayout2
+	@EndAddSprite
+
+// 3 - 3
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 407, posy: 171, sizex: 54, sizey: 32, relx: -32, rely: -5
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 5, sizex: 45, sizey: 23, relx: -11, rely: 9
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 407, posy: 5, sizex: 54, sizey: 33, relx: -20, rely: -6
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 573, posy: 87, sizex: 45, sizey: 31, relx: -32, rely: 1
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 462, posy: 171, sizex: 54, sizey: 32, relx: -32, rely: -5
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 5, sizex: 45, sizey: 23, relx: -11, rely: 9
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 462, posy: 5, sizex: 54, sizey: 33, relx: -20, rely: -6
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 619, posy: 87, sizex: 45, sizey: 31, relx: -32, rely: 1
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 517, posy: 171, sizex: 54, sizey: 32, relx: -32, rely: -5
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 5, sizex: 45, sizey: 23, relx: -11, rely: 9
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 517, posy: 5, sizex: 54, sizey: 33, relx: -20, rely: -6
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 665, posy: 87, sizex: 45, sizey: 31, relx: -32, rely: 1
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+
+@AssignSpriteIDToAction2ID: action2id: 0
+@AssignSpriteIDToAction2ID: action2id: 3
+@AssignSpriteIDToAction2ID: action2id: 6
+@AssignSpriteIDToAction2ID: action2id: 9
+@AssignSpriteIDToAction2ID: action2id: 12
+@AssignSpriteIDToAction2ID: action2id: 15
+@AssignSpriteIDToAction2ID: action2id: 18
+@AssignSpriteIDToAction2ID: action2id: 21
+@AssignSpriteIDToAction2ID: action2id: 24
+
+
+@AddAction2: id: 32
+	LittleSets: 0
+	LotsSets: 1, 2
+@EndAddAction2
+
+@AddAction2: id: 33
+	LittleSets: 3
+	LotsSets: 4, 5
+@EndAddAction2
+
+@AddAction2: id: 34
+	LittleSets: 6
+	LotsSets: 7, 8
+@EndAddAction2
+
+@AddAction2: id: 35
+	LittleSets: 9
+	LotsSets: 10, 11
+@EndAddAction2
+
+@AddAction2: id: 36
+	LittleSets: 12
+	LotsSets: 13, 14
+@EndAddAction2
+
+@AddAction2: id: 37
+	LittleSets: 15
+	LotsSets: 16, 17
+@EndAddAction2
+
+@AddAction2: id: 38
+	LittleSets: 18
+	LotsSets: 19, 20
+@EndAddAction2
+
+@AddAction2: id: 39
+	LittleSets: 21
+	LotsSets: 22, 23
+@EndAddAction2
+
+@AddAction2: id: 40
+	LittleSets: 24
+	LotsSets: 25, 26
+@EndAddAction2
+
+@AddAction2: id: 31
+	@AddRandomAction2: randomtrigger: 00, randbit: 10
+		AddRandom: action2id: 32, count: 3
+		AddRandom: action2id: 33
+		AddRandom: action2id: 34
+		AddRandom: action2id: 35, count: 3
+		AddRandom: action2id: 36, count: 2
+		AddRandom: action2id: 37
+		AddRandom: action2id: 38, count: 3
+		AddRandom: action2id: 39
+		AddRandom: action2id: 40
+	@EndAddRandomAction2
+@EndAddAction2
+
+
+@AddAction2: id: 30
+	@AddRandomAction2: randomtrigger: 00, randbit: 10
+		AddRandom: action2id: 0, count: 3
+		AddRandom: action2id: 3
+		AddRandom: action2id: 6
+		AddRandom: action2id: 9, count: 3
+		AddRandom: action2id: 12, count: 2
+		AddRandom: action2id: 15
+		AddRandom: action2id: 18, count: 3
+		AddRandom: action2id: 21
+		AddRandom: action2id: 24
+	@EndAddRandomAction2
+@EndAddAction2
+
+@AssignGrapghicsSets
+	StationIDs: 38
+	Default: 30
+	AddCargo: cargoid: 0, action2id: 31
+@EndAssignGrapghicsSets
+
+
+
+//
+// vasari terek
+//
+
+@AddStation: id: 39, class: PSK2
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	Little/Lots Threshold: 50
+
+// 0 - 2
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 711, posy: 54, sizex: 66, sizey: 36, relx: -32, rely: -4
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 711, posy: 54, sizex: 66, sizey: 36, relx: -32, rely: -4
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 778, posy: 54, sizex: 66, sizey: 36, relx: -32, rely: -4
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 778, posy: 54, sizex: 66, sizey: 36, relx: -32, rely: -4
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 845, posy: 54, sizex: 66, sizey: 36, relx: -32, rely: -4
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 845, posy: 54, sizex: 66, sizey: 36, relx: -32, rely: -4
+		@EndAddLayout2
+	@EndAddSprite
+
+
+// 3 - 5
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 711, posy: 91, sizex: 66, sizey: 36, relx: -32, rely: -4
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 711, posy: 91, sizex: 66, sizey: 36, relx: -32, rely: -4
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 778, posy: 91, sizex: 66, sizey: 36, relx: -32, rely: -4
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 778, posy: 91, sizex: 66, sizey: 36, relx: -32, rely: -4
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 845, posy: 91, sizex: 66, sizey: 36, relx: -32, rely: -4
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 845, posy: 91, sizex: 66, sizey: 36, relx: -32, rely: -4
+		@EndAddLayout2
+	@EndAddSprite
+
+
+// 6 - 8
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 711, posy: 128, sizex: 66, sizey: 33, relx: -32, rely: -1
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 711, posy: 128, sizex: 66, sizey: 33, relx: -32, rely: -1
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 778, posy: 128, sizex: 66, sizey: 33, relx: -32, rely: -1
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 778, posy: 128, sizex: 66, sizey: 33, relx: -32, rely: -1
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 845, posy: 128, sizex: 66, sizey: 33, relx: -32, rely: -1
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 845, posy: 128, sizex: 66, sizey: 33, relx: -32, rely: -1
+		@EndAddLayout2
+	@EndAddSprite
+
+
+// 9 - 11
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 711, posy: 162, sizex: 66, sizey: 44, relx: -32, rely: -12
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 711, posy: 162, sizex: 66, sizey: 44, relx: -32, rely: -12
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 778, posy: 162, sizex: 66, sizey: 44, relx: -32, rely: -12
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 778, posy: 162, sizex: 66, sizey: 44, relx: -32, rely: -12
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 845, posy: 162, sizex: 66, sizey: 44, relx: -32, rely: -12
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 845, posy: 162, sizex: 66, sizey: 44, relx: -32, rely: -12
+		@EndAddLayout2
+	@EndAddSprite
+
+
+// 12 - 14
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 711, posy: 5, sizex: 66, sizey: 48, relx: -32, rely: -16
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 711, posy: 5, sizex: 66, sizey: 48, relx: -32, rely: -16
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 778, posy: 5, sizex: 66, sizey: 48, relx: -32, rely: -16
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 778, posy: 5, sizex: 66, sizey: 48, relx: -32, rely: -16
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 845, posy: 5, sizex: 66, sizey: 48, relx: -32, rely: -16
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 845, posy: 5, sizex: 66, sizey: 48, relx: -32, rely: -16
+		@EndAddLayout2
+	@EndAddSprite
+
+
+// 15 - 17
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 711, posy: 207, sizex: 66, sizey: 38, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 711, posy: 207, sizex: 66, sizey: 38, relx: -32, rely: -6
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 778, posy: 207, sizex: 66, sizey: 38, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 778, posy: 207, sizex: 66, sizey: 38, relx: -32, rely: -6
+		@EndAddLayout2
+	@EndAddSprite
+	@AddSprite: groundsprite1: 3981, groundsprite2: 3981
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 845, posy: 207, sizex: 66, sizey: 38, relx: -32, rely: -6
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/karacsonysprites.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 845, posy: 207, sizex: 66, sizey: 38, relx: -32, rely: -6
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignSpriteIDToAction2ID: action2id: 0
+@AssignSpriteIDToAction2ID: action2id: 3
+@AssignSpriteIDToAction2ID: action2id: 6
+@AssignSpriteIDToAction2ID: action2id: 9
+@AssignSpriteIDToAction2ID: action2id: 12
+@AssignSpriteIDToAction2ID: action2id: 15
+
+@AddAction2: id: 32
+	LittleSets: 0
+	LotsSets: 1, 2
+@EndAddAction2
+
+@AddAction2: id: 33
+	LittleSets: 3
+	LotsSets: 4, 5
+@EndAddAction2
+
+@AddAction2: id: 34
+	LittleSets: 6
+	LotsSets: 7, 8
+@EndAddAction2
+
+@AddAction2: id: 35
+	LittleSets: 9
+	LotsSets: 10, 11
+@EndAddAction2
+
+@AddAction2: id: 36
+	LittleSets: 12
+	LotsSets: 13, 14
+@EndAddAction2
+
+@AddAction2: id: 37
+	LittleSets: 15
+	LotsSets: 16, 17
+@EndAddAction2
+
+@AddAction2: id: 31
+	@AddRandomAction2: randomtrigger: 00, randbit: 10
+		AddRandom: action2id: 32, count: 5
+		AddRandom: action2id: 33, count: 5
+		AddRandom: action2id: 34
+		AddRandom: action2id: 35, count: 2
+		AddRandom: action2id: 36
+		AddRandom: action2id: 37, count: 2
+	@EndAddRandomAction2
+@EndAddAction2
+
+@AddAction2: id: 30
+	@AddRandomAction2: randomtrigger: 00, randbit: 10
+		AddRandom: action2id: 0, count: 5
+		AddRandom: action2id: 3, count: 5
+		AddRandom: action2id: 6, count: 1
+		AddRandom: action2id: 9, count: 2
+		AddRandom: action2id: 12, count: 1
+		AddRandom: action2id: 15, count: 2
+	@EndAddRandomAction2
+@EndAddAction2
+
+@AssignGrapghicsSets
+	StationIDs: 39
+	Default: 30
+	AddCargo: cargoid: 0, action2id: 31
+@EndAssignGrapghicsSets
+
+
+//*************************************//
+//				Strings			//
+//************************************//
+
+@StationNames
+	Setname: stationid: 38, language: default, name: HSS - Christmas Market (automatic)
+	Setname: stationid: 38, language: hu, name: HSS - Karácsonyi vásár (automatikus)
+	Setname: stationid: 38, language: de, name: HSS - Weihnachtsmarkt (automatisch)
+
+	Station: stationid: 38, language: default, name: With rail
+	Station: stationid: 38, language: hu, name: Sínnel
+	Station: stationid: 38, language: de, name: Mit Schiene
+
+	Station: stationid: 39, language: default, name: Without rail
+	Station: stationid: 39, language: hu, name: Sín nélküli
+	Station: stationid: 39, language: de, name: Ohne Schiene
+@EndStationNames
