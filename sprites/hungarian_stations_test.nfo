@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 F3 04 00 00
+    0 * 4	 CE 04 00 00
     1 * 66	 14 "CINFOTURL_" 7F "http://www.tt-forums.net/viewtopic.php?f=67&t=70997" 00 00 00				// url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// verzio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
@@ -2742,115 +2742,78 @@
    // Action4
   702 * 38	 04 04 FF 01 00 C4 C3 9E "HSS - Western railway station" 00
   703 * 34	 04 04 A4 01 00 C4 C3 9E "HSS - Nyugati pályaudvar" 00
-  704 * 26	 04 04 82 01 00 C4 C3 9E "HSS - Westbahnhof" 00
-  705 * 17	 04 04 FF 01 00 C5 C3 9E "Entrance" 00
-  706 * 17	 04 04 A4 01 00 C5 C3 9E "Bejárat" 00
-  707 * 16	 04 04 82 01 00 C5 C3 9E "Eingang" 00
-  708 * 32	 04 04 FF 01 01 C5 C3 9E "Passenger hall entrance" 00
-  709 * 25	 04 04 A4 01 01 C5 C3 9E "Csarnok bejárat" 00
-  710 * 31	 04 04 82 01 01 C5 C3 9E "Passagierhalle Eingang" 00
-  711 * 44	 04 04 FF 01 02 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-  712 * 36	 04 04 A4 01 02 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-  713 * 40	 04 04 82 01 02 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
-  714 * 44	 04 04 FF 01 03 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-  715 * 36	 04 04 A4 01 03 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-  716 * 40	 04 04 82 01 03 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
-  717 * 44	 04 04 FF 01 04 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-  718 * 36	 04 04 A4 01 04 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-  719 * 40	 04 04 82 01 04 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
-  720 * 44	 04 04 FF 01 05 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-  721 * 36	 04 04 A4 01 05 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-  722 * 40	 04 04 82 01 05 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
-  723 * 44	 04 04 FF 01 06 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-  724 * 36	 04 04 A4 01 06 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-  725 * 40	 04 04 82 01 06 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
-  726 * 44	 04 04 FF 01 07 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-  727 * 36	 04 04 A4 01 07 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-  728 * 40	 04 04 82 01 07 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
-  729 * 44	 04 04 FF 01 08 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-  730 * 36	 04 04 A4 01 08 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-  731 * 40	 04 04 82 01 08 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
-  732 * 36	 04 04 FF 01 09 C5 C3 9E "Glass-roofed passenger hall" 00
-  733 * 28	 04 04 A4 01 09 C5 C3 9E "Üvegtetős csarnok" 00
-  734 * 32	 04 04 82 01 09 C5 C3 9E "Glasdach Passagierhalle" 00
-  735 * 36	 04 04 FF 01 0A C5 C3 9E "Glass-roofed passenger hall" 00
-  736 * 28	 04 04 A4 01 0A C5 C3 9E "Üvegtetős csarnok" 00
-  737 * 32	 04 04 82 01 0A C5 C3 9E "Glasdach Passagierhalle" 00
-  738 * 36	 04 04 FF 01 0B C5 C3 9E "Glass-roofed passenger hall" 00
-  739 * 28	 04 04 A4 01 0B C5 C3 9E "Üvegtetős csarnok" 00
-  740 * 32	 04 04 82 01 0B C5 C3 9E "Glasdach Passagierhalle" 00
-  741 * 36	 04 04 FF 01 0C C5 C3 9E "Glass-roofed passenger hall" 00
-  742 * 28	 04 04 A4 01 0C C5 C3 9E "Üvegtetős csarnok" 00
-  743 * 32	 04 04 82 01 0C C5 C3 9E "Glasdach Passagierhalle" 00
-  744 * 36	 04 04 FF 01 0D C5 C3 9E "Glass-roofed passenger hall" 00
-  745 * 28	 04 04 A4 01 0D C5 C3 9E "Üvegtetős csarnok" 00
-  746 * 32	 04 04 82 01 0D C5 C3 9E "Glasdach Passagierhalle" 00
-  747 * 36	 04 04 FF 01 0E C5 C3 9E "Glass-roofed passenger hall" 00
-  748 * 28	 04 04 A4 01 0E C5 C3 9E "Üvegtetős csarnok" 00
-  749 * 32	 04 04 82 01 0E C5 C3 9E "Glasdach Passagierhalle" 00
-  750 * 36	 04 04 FF 01 0F C5 C3 9E "Glass-roofed passenger hall" 00
-  751 * 28	 04 04 A4 01 0F C5 C3 9E "Üvegtetős csarnok" 00
-  752 * 32	 04 04 82 01 0F C5 C3 9E "Glasdach Passagierhalle" 00
-  753 * 44	 04 04 FF 01 10 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-  754 * 35	 04 04 A4 01 10 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-  755 * 40	 04 04 82 01 10 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
-  756 * 44	 04 04 FF 01 11 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-  757 * 35	 04 04 A4 01 11 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-  758 * 40	 04 04 82 01 11 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
-  759 * 44	 04 04 FF 01 12 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-  760 * 35	 04 04 A4 01 12 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-  761 * 40	 04 04 82 01 12 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
-  762 * 44	 04 04 FF 01 13 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-  763 * 35	 04 04 A4 01 13 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-  764 * 40	 04 04 82 01 13 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
-  765 * 44	 04 04 FF 01 14 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-  766 * 35	 04 04 A4 01 14 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-  767 * 40	 04 04 82 01 14 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
-  768 * 44	 04 04 FF 01 15 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-  769 * 35	 04 04 A4 01 15 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-  770 * 40	 04 04 82 01 15 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
-  771 * 44	 04 04 FF 01 16 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-  772 * 35	 04 04 A4 01 16 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-  773 * 40	 04 04 82 01 16 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
-  774 * 23	 04 04 FF 01 17 C5 C3 9E "Passenger hall" 00
-  775 * 16	 04 04 A4 01 17 C5 C3 9E "Csarnok" 00
-  776 * 23	 04 04 82 01 17 C5 C3 9E "Passagierhalle" 00
-  777 * 23	 04 04 FF 01 18 C5 C3 9E "Passenger hall" 00
-  778 * 16	 04 04 A4 01 18 C5 C3 9E "Csarnok" 00
-  779 * 23	 04 04 82 01 18 C5 C3 9E "Passagierhalle" 00
-  780 * 23	 04 04 FF 01 19 C5 C3 9E "Passenger hall" 00
-  781 * 16	 04 04 A4 01 19 C5 C3 9E "Csarnok" 00
-  782 * 23	 04 04 82 01 19 C5 C3 9E "Passagierhalle" 00
-  783 * 23	 04 04 FF 01 1A C5 C3 9E "Passenger hall" 00
-  784 * 16	 04 04 A4 01 1A C5 C3 9E "Csarnok" 00
-  785 * 23	 04 04 82 01 1A C5 C3 9E "Passagierhalle" 00
-  786 * 23	 04 04 FF 01 1B C5 C3 9E "Passenger hall" 00
-  787 * 16	 04 04 A4 01 1B C5 C3 9E "Csarnok" 00
-  788 * 23	 04 04 82 01 1B C5 C3 9E "Passagierhalle" 00
-  789 * 23	 04 04 FF 01 1C C5 C3 9E "Passenger hall" 00
-  790 * 16	 04 04 A4 01 1C C5 C3 9E "Csarnok" 00
-  791 * 23	 04 04 82 01 1C C5 C3 9E "Passagierhalle" 00
-  792 * 23	 04 04 FF 01 1D C5 C3 9E "Passenger hall" 00
-  793 * 16	 04 04 A4 01 1D C5 C3 9E "Csarnok" 00
-  794 * 23	 04 04 82 01 1D C5 C3 9E "Passagierhalle" 00
-  795 * 29	 04 04 FF 01 1E C5 C3 9E "Main building (left)" 00
-  796 * 26	 04 04 A4 01 1E C5 C3 9E "Főépület (bal)" 00
-  797 * 30	 04 04 82 01 1E C5 C3 9E "Hauptgebäude (links)" 00
-  798 * 30	 04 04 FF 01 1E C5 C3 9E "Main building (right)" 00
-  799 * 27	 04 04 A4 01 1F C5 C3 9E "Főépület (jobb)" 00
-  800 * 31	 04 04 82 01 1F C5 C3 9E "Hauptgebäude (rechts)" 00
-  801 * 29	 04 04 FF 01 20 C5 C3 9E "Main building (left)" 00
-  802 * 26	 04 04 A4 01 20 C5 C3 9E "Főépület (bal)" 00
-  803 * 30	 04 04 82 01 20 C5 C3 9E "Hauptgebäude (links)" 00
-  804 * 30	 04 04 FF 01 21 C5 C3 9E "Main building (right)" 00
-  805 * 27	 04 04 A4 01 21 C5 C3 9E "Főépület (jobb)" 00
-  806 * 31	 04 04 82 01 21 C5 C3 9E "Hauptgebäude (rechts)" 00
-  807 * 21	 04 04 FF 01 22 C5 C3 9E "Tower (left)" 00
-  808 * 21	 04 04 A4 01 22 C5 C3 9E "Torony (bal)" 00
-  809 * 21	 04 04 82 01 22 C5 C3 9E "Turm (links)" 00
-  810 * 22	 04 04 FF 01 23 C5 C3 9E "Tower (right)" 00
-  811 * 22	 04 04 A4 01 23 C5 C3 9E "Torony (jobb)" 00
-  812 * 22	 04 04 82 01 23 C5 C3 9E "Turm (rechts)" 00
+  704 * 17	 04 04 FF 01 00 C5 C3 9E "Entrance" 00
+  705 * 17	 04 04 A4 01 00 C5 C3 9E "Bejárat" 00
+  706 * 32	 04 04 FF 01 01 C5 C3 9E "Passenger hall entrance" 00
+  707 * 25	 04 04 A4 01 01 C5 C3 9E "Csarnok bejárat" 00
+  708 * 44	 04 04 FF 01 02 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  709 * 36	 04 04 A4 01 02 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  710 * 44	 04 04 FF 01 03 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  711 * 36	 04 04 A4 01 03 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  712 * 44	 04 04 FF 01 04 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  713 * 36	 04 04 A4 01 04 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  714 * 44	 04 04 FF 01 05 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  715 * 36	 04 04 A4 01 05 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  716 * 44	 04 04 FF 01 06 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  717 * 36	 04 04 A4 01 06 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  718 * 44	 04 04 FF 01 07 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  719 * 36	 04 04 A4 01 07 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  720 * 44	 04 04 FF 01 08 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+  721 * 36	 04 04 A4 01 08 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+  722 * 36	 04 04 FF 01 09 C5 C3 9E "Glass-roofed passenger hall" 00
+  723 * 28	 04 04 A4 01 09 C5 C3 9E "Üvegtetős csarnok" 00
+  724 * 36	 04 04 FF 01 0A C5 C3 9E "Glass-roofed passenger hall" 00
+  725 * 28	 04 04 A4 01 0A C5 C3 9E "Üvegtetős csarnok" 00
+  726 * 36	 04 04 FF 01 0B C5 C3 9E "Glass-roofed passenger hall" 00
+  727 * 28	 04 04 A4 01 0B C5 C3 9E "Üvegtetős csarnok" 00
+  728 * 36	 04 04 FF 01 0C C5 C3 9E "Glass-roofed passenger hall" 00
+  729 * 28	 04 04 A4 01 0C C5 C3 9E "Üvegtetős csarnok" 00
+  730 * 36	 04 04 FF 01 0D C5 C3 9E "Glass-roofed passenger hall" 00
+  731 * 28	 04 04 A4 01 0D C5 C3 9E "Üvegtetős csarnok" 00
+  732 * 36	 04 04 FF 01 0E C5 C3 9E "Glass-roofed passenger hall" 00
+  733 * 28	 04 04 A4 01 0E C5 C3 9E "Üvegtetős csarnok" 00
+  734 * 36	 04 04 FF 01 0F C5 C3 9E "Glass-roofed passenger hall" 00
+  735 * 28	 04 04 A4 01 0F C5 C3 9E "Üvegtetős csarnok" 00
+  736 * 44	 04 04 FF 01 10 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  737 * 35	 04 04 A4 01 10 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  738 * 44	 04 04 FF 01 11 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  739 * 35	 04 04 A4 01 11 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  740 * 44	 04 04 FF 01 12 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  741 * 35	 04 04 A4 01 12 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  742 * 44	 04 04 FF 01 13 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  743 * 35	 04 04 A4 01 13 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  744 * 44	 04 04 FF 01 14 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  745 * 35	 04 04 A4 01 14 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  746 * 44	 04 04 FF 01 15 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  747 * 35	 04 04 A4 01 15 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  748 * 44	 04 04 FF 01 16 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+  749 * 35	 04 04 A4 01 16 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+  750 * 23	 04 04 FF 01 17 C5 C3 9E "Passenger hall" 00
+  751 * 16	 04 04 A4 01 17 C5 C3 9E "Csarnok" 00
+  752 * 23	 04 04 FF 01 18 C5 C3 9E "Passenger hall" 00
+  753 * 16	 04 04 A4 01 18 C5 C3 9E "Csarnok" 00
+  754 * 23	 04 04 FF 01 19 C5 C3 9E "Passenger hall" 00
+  755 * 16	 04 04 A4 01 19 C5 C3 9E "Csarnok" 00
+  756 * 23	 04 04 FF 01 1A C5 C3 9E "Passenger hall" 00
+  757 * 16	 04 04 A4 01 1A C5 C3 9E "Csarnok" 00
+  758 * 23	 04 04 FF 01 1B C5 C3 9E "Passenger hall" 00
+  759 * 16	 04 04 A4 01 1B C5 C3 9E "Csarnok" 00
+  760 * 23	 04 04 FF 01 1C C5 C3 9E "Passenger hall" 00
+  761 * 16	 04 04 A4 01 1C C5 C3 9E "Csarnok" 00
+  762 * 23	 04 04 FF 01 1D C5 C3 9E "Passenger hall" 00
+  763 * 16	 04 04 A4 01 1D C5 C3 9E "Csarnok" 00
+  764 * 29	 04 04 FF 01 1E C5 C3 9E "Main building (left)" 00
+  765 * 26	 04 04 A4 01 1E C5 C3 9E "Főépület (bal)" 00
+  766 * 30	 04 04 FF 01 1E C5 C3 9E "Main building (right)" 00
+  767 * 27	 04 04 A4 01 1F C5 C3 9E "Főépület (jobb)" 00
+  768 * 29	 04 04 FF 01 20 C5 C3 9E "Main building (left)" 00
+  769 * 26	 04 04 A4 01 20 C5 C3 9E "Főépület (bal)" 00
+  770 * 30	 04 04 FF 01 21 C5 C3 9E "Main building (right)" 00
+  771 * 27	 04 04 A4 01 21 C5 C3 9E "Főépület (jobb)" 00
+  772 * 21	 04 04 FF 01 22 C5 C3 9E "Tower (left)" 00
+  773 * 21	 04 04 A4 01 22 C5 C3 9E "Torony (bal)" 00
+  774 * 22	 04 04 FF 01 23 C5 C3 9E "Tower (right)" 00
+  775 * 22	 04 04 A4 01 23 C5 C3 9E "Torony (jobb)" 00
 
 
 
@@ -2868,7 +2831,7 @@
 //**************************************//
 
 
-  813 * 496	 00 04 04 01 30 08 "PKS1"
+  776 * 496	 00 04 04 01 30 08 "PKS1"
 //			11 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -3043,91 +3006,91 @@
 			80
 
 
-  814 * 4	 01 04 10 02
+  777 * 4	 01 04 10 02
 
 	// menu grafika
-  815 sprites_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
-  816 sprites_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+  778 sprites_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+  779 sprites_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
 
 	// egyeduli peron
-  817 sprites_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
-  818 sprites_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
+  780 sprites_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
+  781 sprites_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
 
 	// eszakrol az elso (hatulja)
 	// kopott 1
-  819 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -36 -13 normal chunked
-  820 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -6 -13 normal chunked
+  782 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -36 -13 normal chunked
+  783 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -6 -13 normal chunked
 	// kopott 2
-  821 sprites_grafika/peron1.pcx 8bpp 136 1 44 37 -36 -13 normal chunked
-  822 sprites_grafika/peron1.pcx 8bpp 136 39 44 37 -6 -13 normal chunked
+  784 sprites_grafika/peron1.pcx 8bpp 136 1 44 37 -36 -13 normal chunked
+  785 sprites_grafika/peron1.pcx 8bpp 136 39 44 37 -6 -13 normal chunked
 
 	// ures kozepso
 	// nem kopott
-  823 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -32 -16 normal chunked
-  824 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -10 -16 normal chunked
+  786 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -32 -16 normal chunked
+  787 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -10 -16 normal chunked
 	// kopott 1
-  825 sprites_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
-  826 sprites_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
+  788 sprites_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
+  789 sprites_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
 	// kopott 2
-  827 sprites_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
-  828 sprites_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
+  790 sprites_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
+  791 sprites_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
 
 	// eleje (delro)
 	// kopott 1
-  829 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -30 -16 normal chunked
-  830 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
+  792 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -30 -16 normal chunked
+  793 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
 	// kopott 2
-  831 sprites_grafika/peron1.pcx 8bpp 46 1 44 37 -30 -16 normal chunked
-  832 sprites_grafika/peron1.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
+  794 sprites_grafika/peron1.pcx 8bpp 46 1 44 37 -30 -16 normal chunked
+  795 sprites_grafika/peron1.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
-  833 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -32 -16 normal chunked
-  834 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -10 -16 normal chunked
+  796 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -32 -16 normal chunked
+  797 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -10 -16 normal chunked
 	// lampas, kukas
-  835 sprites_grafika/peron1.pcx 8bpp 46 77 44 37 -32 -16 normal chunked
-  836 sprites_grafika/peron1.pcx 8bpp 46 115 44 37 -10 -16 normal chunked
+  798 sprites_grafika/peron1.pcx 8bpp 46 77 44 37 -32 -16 normal chunked
+  799 sprites_grafika/peron1.pcx 8bpp 46 115 44 37 -10 -16 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
-  837 sprites_grafika/peron1a.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
-  838 sprites_grafika/peron1a.pcx 8bpp 90 38 44 37 -10 -16 normal chunked
+  800 sprites_grafika/peron1a.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
+  801 sprites_grafika/peron1a.pcx 8bpp 90 38 44 37 -10 -16 normal chunked
 	// lampas, pados
-  839 sprites_grafika/peron1a.pcx 8bpp 0 0 44 37 -32 -16 normal chunked
-  840 sprites_grafika/peron1a.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
+  802 sprites_grafika/peron1a.pcx 8bpp 0 0 44 37 -32 -16 normal chunked
+  803 sprites_grafika/peron1a.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
 	// lampas, kukas, pados
-  841 sprites_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
-  842 sprites_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+  804 sprites_grafika/peron1a.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+  805 sprites_grafika/peron1a.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
 
    // allomas tablas
-  843 sprites_grafika/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
-  844 sprites_grafika/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
+  806 sprites_grafika/peron1a.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
+  807 sprites_grafika/peron1a.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
    // allomas tablas, lampas
-  845 sprites_grafika/peron1a.pcx 8bpp 180 0 44 37 -32 -16 normal chunked
-  846 sprites_grafika/peron1a.pcx 8bpp 180 38 44 37 -10 -16 normal chunked
+  808 sprites_grafika/peron1a.pcx 8bpp 180 0 44 37 -32 -16 normal chunked
+  809 sprites_grafika/peron1a.pcx 8bpp 180 38 44 37 -10 -16 normal chunked
 
 
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
-  847 * 7	 02 04 00 00 01 00 00	// menu grafika
-  848 * 7	 02 04 01 00 01 01 00	// egyeduli peron
-  849 * 7	 02 04 02 00 01 02 00	// kopott hatulja 1
-  850 * 7	 02 04 03 00 01 03 00	// kopott hatulja 2
-  851 * 7	 02 04 04 00 01 04 00	// nem kopott kozepe
-  852 * 7	 02 04 05 00 01 05 00	// kopott kozepe 1
-  853 * 7	 02 04 06 00 01 06 00	// kopott kozepe 2
-  854 * 7	 02 04 07 00 01 07 00	// kopott eleje 1
-  855 * 7	 02 04 08 00 01 08 00	// kopott eleje 2
+  810 * 7	 02 04 00 00 01 00 00	// menu grafika
+  811 * 7	 02 04 01 00 01 01 00	// egyeduli peron
+  812 * 7	 02 04 02 00 01 02 00	// kopott hatulja 1
+  813 * 7	 02 04 03 00 01 03 00	// kopott hatulja 2
+  814 * 7	 02 04 04 00 01 04 00	// nem kopott kozepe
+  815 * 7	 02 04 05 00 01 05 00	// kopott kozepe 1
+  816 * 7	 02 04 06 00 01 06 00	// kopott kozepe 2
+  817 * 7	 02 04 07 00 01 07 00	// kopott eleje 1
+  818 * 7	 02 04 08 00 01 08 00	// kopott eleje 2
 
    // objektumos kozepek
-  856 * 7	 02 04 09 00 01 09 00	// lampas, viragladas
-  857 * 7	 02 04 0A 00 01 0A 00	// lampas, kukas
-  858 * 7	 02 04 0B 00 01 0B 00	// pados, viragladas
-  859 * 7	 02 04 0C 00 01 0C 00	// lampas, pados
-  860 * 7	 02 04 0D 00 01 0D 00	// lampas, kukas, pados
-  861 * 7	 02 04 0E 00 01 0E 00	// allomas tablas
-  862 * 7	 02 04 0F 00 01 0F 00	// allomas tablas, tablas
+  819 * 7	 02 04 09 00 01 09 00	// lampas, viragladas
+  820 * 7	 02 04 0A 00 01 0A 00	// lampas, kukas
+  821 * 7	 02 04 0B 00 01 0B 00	// pados, viragladas
+  822 * 7	 02 04 0C 00 01 0C 00	// lampas, pados
+  823 * 7	 02 04 0D 00 01 0D 00	// lampas, kukas, pados
+  824 * 7	 02 04 0E 00 01 0E 00	// allomas tablas
+  825 * 7	 02 04 0F 00 01 0F 00	// allomas tablas, tablas
 
 
 
@@ -3149,7 +3112,7 @@
 
 
 // eszaki vegenek randomizacioja
-  863 * 11	 02 04 91
+  826 * 11	 02 04 91
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -3157,7 +3120,7 @@
 			03 00						// ezzel a modszerrel 1:1 eselye, hogy melyik lesz....
 
 // deli vegenek randomizacioja
-  864 * 11	 02 04 92
+  827 * 11	 02 04 92
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -3167,7 +3130,7 @@
 // kozepso lekerdezesek.....
 // minden harmadik mezore legyen igaz az eszaki vegetol szamitva, ez annak a feltetele, hogy harmadik-e...
 	// sima randomizaciok
-  865 * 23	 02 04 B2
+  828 * 23	 02 04 B2
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
 			08							// hany darab random lehetosegunk van
@@ -3181,7 +3144,7 @@
 			0B 00
 
 	// lampas randomizaciok
-  866 * 15	 02 04 B1
+  829 * 15	 02 04 B1
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			04							// hany darab random lehetosegunk van
@@ -3192,7 +3155,7 @@
 
 	// negyedik lekerdezes, ami mar nem a szelso elemeket randomizalja
 	// itt konkretan szetvalasztom, hogy minden harmadik lampas elem, a tobbi meg nem :D
-  867 * 16	 02 04 B0
+  830 * 16	 02 04 B0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -3205,7 +3168,7 @@
 
 
 // ez a harmadik lekerdezes, ha a deli vege van, akkor betolti azt, egyebkent a kozepso lekerdezesekre ugrik...
-  868 * 14	 02 04 A3
+  831 * 14	 02 04 A3
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
@@ -3214,7 +3177,7 @@
 			B0 00						// ha nincs egyezes, akkor ide ugorjon
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebkent a harmadik lekerdezesre ugrik
-  869 * 14	 02 04 A2
+  832 * 14	 02 04 A2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -3228,7 +3191,7 @@
 // ha legalabb 7 hosszusagu
 //
 
-  870 * 16	 02 04 D2
+  833 * 16	 02 04 D2
 			81 49						// 81 lower byte type, 49 variable: azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -3238,7 +3201,7 @@
 			0F 00 00 00					// ha 0 az eredmeny, akkor lampas tablas
 			0E 00						// egyebkent sima tablas lesz
 
-  871 * 18	 02 04 D1
+  834 * 18	 02 04 D1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -3247,7 +3210,7 @@
 			D2 00 01 01					// D2-nel nezem meg, hogy lampas vagy sima tablas kell
 			A2 00						// ha nincs egyezes, akkor ide ugorjon
 
-  872 * 22	 02 04 D0
+  835 * 22	 02 04 D0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			04							// shift eltolas
 			0F							// maszkolas
@@ -3257,7 +3220,7 @@
 			B1 00 02 02					// B1 00 a lampas randomizaciok
 			D1 00						// ha nincs egyezes, akkor ide ugorjon
 
-  873 * 14	 02 04 A1
+  836 * 14	 02 04 A1
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -3271,7 +3234,7 @@
 //
 
 // ez az elso lekerdezes, ezzel kerdezem le
-  874 * 14	 02 04 A0
+  837 * 14	 02 04 A0
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -3282,7 +3245,7 @@
 
 
 // ez meg nem lekerdezes, hanem calback elvalaszto
-  875 * 17	 02 04 AA
+  838 * 17	 02 04 AA
 			85							// get word
 			0C							// check if callback
 			00
@@ -3304,7 +3267,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
-  876 * 17	 02 04 C0					// Set-ID C0
+  839 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 //			FA 00 13 00 13 00			// lekerdezzuk, hogy elerheto-e, tehat a 13 callback az elerhetoseg???
@@ -3312,7 +3275,7 @@
 			00 00						// menu grafika....
 
 //   00 * 00	03 04 01 30 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
-  877 * 10	 03 04 01 30
+  840 * 10	 03 04 01 30
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
 //   FE 00 00							// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
@@ -3326,7 +3289,7 @@
 //**************************************//
 
 
-  878 * 466	 00 04 04 01 31 08 "PKS1"
+  841 * 466	 00 04 04 01 31 08 "PKS1"
 //			11 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -3492,85 +3455,85 @@
 			80
 
 
-  879 * 4	 01 04 0F 02
+  842 * 4	 01 04 0F 02
 
 	// menu grafika
-  880 sprites_grafika/peron1b.pcx 8bpp 0 0 44 37 -32 -16 normal chunked // -10, -5
-  881 sprites_grafika/peron1b.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
+  843 sprites_grafika/peron1b.pcx 8bpp 0 0 44 37 -32 -16 normal chunked // -10, -5
+  844 sprites_grafika/peron1b.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
 
 	// egyeduli peron
-  882 sprites_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
-  883 sprites_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
+  845 sprites_grafika/peron1.pcx 8bpp 181 77 44 37 -32 -15 normal chunked
+  846 sprites_grafika/peron1.pcx 8bpp 181 115 44 37 -10 -15 normal chunked
 
 	// eszakrol az elso (hatulja)
 	// kopott 1
-  884 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -36 -13 normal chunked
-  885 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -6 -13 normal chunked
+  847 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -36 -13 normal chunked
+  848 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -6 -13 normal chunked
 	// kopott 2
-  886 sprites_grafika/peron1.pcx 8bpp 136 1 44 37 -36 -13 normal chunked
-  887 sprites_grafika/peron1.pcx 8bpp 136 39 44 37 -6 -13 normal chunked
+  849 sprites_grafika/peron1.pcx 8bpp 136 1 44 37 -36 -13 normal chunked
+  850 sprites_grafika/peron1.pcx 8bpp 136 39 44 37 -6 -13 normal chunked
 
 	// ures kozepso
 	// nem kopott
-  888 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -32 -16 normal chunked
-  889 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -10 -16 normal chunked
+  851 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -32 -16 normal chunked
+  852 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -10 -16 normal chunked
 	// kopott 1
-  890 sprites_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
-  891 sprites_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
+  853 sprites_grafika/peron1.pcx 8bpp 91 77 44 37 -32 -16 normal chunked
+  854 sprites_grafika/peron1.pcx 8bpp 91 115 44 37 -10 -16 normal chunked
 	// kopott 2
-  892 sprites_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
-  893 sprites_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
+  855 sprites_grafika/peron1.pcx 8bpp 136 77 44 37 -32 -16 normal chunked
+  856 sprites_grafika/peron1.pcx 8bpp 136 115 44 37 -10 -16 normal chunked
 
 	// eleje (delro)
 	// kopott 1
-  894 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -30 -16 normal chunked
-  895 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
+  857 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -30 -16 normal chunked
+  858 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
 	// kopott 2
-  896 sprites_grafika/peron1.pcx 8bpp 46 1 44 37 -30 -16 normal chunked
-  897 sprites_grafika/peron1.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
+  859 sprites_grafika/peron1.pcx 8bpp 46 1 44 37 -30 -16 normal chunked
+  860 sprites_grafika/peron1.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
-  898 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -32 -16 normal chunked
-  899 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -10 -16 normal chunked
+  861 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -32 -16 normal chunked
+  862 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -10 -16 normal chunked
 	// lampas, kukas
-  900 sprites_grafika/peron1.pcx 8bpp 46 77 44 37 -32 -16 normal chunked
-  901 sprites_grafika/peron1.pcx 8bpp 46 115 44 37 -10 -16 normal chunked
+  863 sprites_grafika/peron1.pcx 8bpp 46 77 44 37 -32 -16 normal chunked
+  864 sprites_grafika/peron1.pcx 8bpp 46 115 44 37 -10 -16 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
-  902 sprites_grafika/peron1b.pcx 8bpp 0 0 44 37 -32 -16 normal chunked
-  903 sprites_grafika/peron1b.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
+  865 sprites_grafika/peron1b.pcx 8bpp 0 0 44 37 -32 -16 normal chunked
+  866 sprites_grafika/peron1b.pcx 8bpp 0 38 44 37 -10 -16 normal chunked
 	// lampas, pados
-  904 sprites_grafika/peron1b.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
-  905 sprites_grafika/peron1b.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
+  867 sprites_grafika/peron1b.pcx 8bpp 45 0 44 37 -32 -16 normal chunked
+  868 sprites_grafika/peron1b.pcx 8bpp 45 38 44 37 -10 -16 normal chunked
 
    // allomas tablas
-  906 sprites_grafika/peron1b.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
-  907 sprites_grafika/peron1b.pcx 8bpp 90 38 44 37 -10 -16 normal chunked
+  869 sprites_grafika/peron1b.pcx 8bpp 90 0 44 37 -32 -16 normal chunked
+  870 sprites_grafika/peron1b.pcx 8bpp 90 38 44 37 -10 -16 normal chunked
    // allomas tablas, lampas
-  908 sprites_grafika/peron1b.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
-  909 sprites_grafika/peron1b.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
+  871 sprites_grafika/peron1b.pcx 8bpp 135 0 44 37 -32 -16 normal chunked
+  872 sprites_grafika/peron1b.pcx 8bpp 135 38 44 37 -10 -16 normal chunked
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
-  910 * 7	 02 04 00 00 01 00 00	// menu grafika
-  911 * 7	 02 04 01 00 01 01 00	// egyeduli peron
-  912 * 7	 02 04 02 00 01 02 00	// kopott hatulja 1
-  913 * 7	 02 04 03 00 01 03 00	// kopott hatulja 2
-  914 * 7	 02 04 04 00 01 04 00	// nem kopott kozepe
-  915 * 7	 02 04 05 00 01 05 00	// kopott kozepe 1
-  916 * 7	 02 04 06 00 01 06 00	// kopott kozepe 2
-  917 * 7	 02 04 07 00 01 07 00	// kopott eleje 1
-  918 * 7	 02 04 08 00 01 08 00	// kopott eleje 2
+  873 * 7	 02 04 00 00 01 00 00	// menu grafika
+  874 * 7	 02 04 01 00 01 01 00	// egyeduli peron
+  875 * 7	 02 04 02 00 01 02 00	// kopott hatulja 1
+  876 * 7	 02 04 03 00 01 03 00	// kopott hatulja 2
+  877 * 7	 02 04 04 00 01 04 00	// nem kopott kozepe
+  878 * 7	 02 04 05 00 01 05 00	// kopott kozepe 1
+  879 * 7	 02 04 06 00 01 06 00	// kopott kozepe 2
+  880 * 7	 02 04 07 00 01 07 00	// kopott eleje 1
+  881 * 7	 02 04 08 00 01 08 00	// kopott eleje 2
 
    // objektumos kozepek
-  919 * 7	 02 04 09 00 01 09 00	// lampas, viragladas
-  920 * 7	 02 04 0A 00 01 0A 00	// lampas, kukas
-  921 * 7	 02 04 0B 00 01 0B 00	// pados, viragladas
-  922 * 7	 02 04 0C 00 01 0C 00	// lampas, pados
-  923 * 7	 02 04 0D 00 01 0D 00	// allomas tablas
-  924 * 7	 02 04 0E 00 01 0E 00	// allomas tablas, lampas
+  882 * 7	 02 04 09 00 01 09 00	// lampas, viragladas
+  883 * 7	 02 04 0A 00 01 0A 00	// lampas, kukas
+  884 * 7	 02 04 0B 00 01 0B 00	// pados, viragladas
+  885 * 7	 02 04 0C 00 01 0C 00	// lampas, pados
+  886 * 7	 02 04 0D 00 01 0D 00	// allomas tablas
+  887 * 7	 02 04 0E 00 01 0E 00	// allomas tablas, lampas
 
 
 
@@ -3592,7 +3555,7 @@
 
 
 // eszaki vegenek randomizacioja
-  925 * 11	 02 04 91
+  888 * 11	 02 04 91
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -3600,7 +3563,7 @@
 			03 00						// ezzel a modszerrel 1:1 eselye, hogy melyik lesz....
 
 // deli vegenek randomizacioja
-  926 * 11	 02 04 92
+  889 * 11	 02 04 92
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -3610,7 +3573,7 @@
 // kozepso lekerdezesek.....
 // minden harmadik mezore legyen igaz az eszaki vegetol szamitva, ez annak a feltetele, hogy harmadik-e...
 	// sima randomizaciok
-  927 * 23	 02 04 B2
+  890 * 23	 02 04 B2
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
 			08							// hany darab random lehetosegunk van
@@ -3624,7 +3587,7 @@
 			0B 00
 
 	// lampas randomizaciok
-  928 * 15	 02 04 B1
+  891 * 15	 02 04 B1
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			04							// hany darab random lehetosegunk van
@@ -3635,7 +3598,7 @@
 
 	// negyedik lekerdezes, ami mar nem a szelso elemeket randomizalja
 	// itt konkretan szetvalasztom, hogy minden harmadik lampas elem, a tobbi meg nem :D
-  929 * 16	 02 04 B0
+  892 * 16	 02 04 B0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -3648,7 +3611,7 @@
 
 
 // ez a harmadik lekerdezes, ha a deli vege van, akkor betolti azt, egyebkent a kozepso lekerdezesekre ugrik...
-  930 * 14	 02 04 A3
+  893 * 14	 02 04 A3
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
@@ -3657,7 +3620,7 @@
 			B0 00						// ha nincs egyezes, akkor ide ugorjon
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebkent a harmadik lekerdezesre ugrik
-  931 * 14	 02 04 A2
+  894 * 14	 02 04 A2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -3670,7 +3633,7 @@
 // ha legalabb 7 hosszusagu
 //
 
-  932 * 16	 02 04 D2
+  895 * 16	 02 04 D2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -3680,7 +3643,7 @@
 			0E 00 00 00					// ha 0 az eredmeny, akkor lampas tablas
 			0D 00						// egyebkent sima tablas lesz
 
-  933 * 18	 02 04 D1
+  896 * 18	 02 04 D1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -3689,7 +3652,7 @@
 			D2 00 01 01					// D2-nel nezem meg, hogy lampas vagy sima tablas kell
 			A2 00						// ha nincs egyezes, akkor ide ugorjon
 
-  934 * 22	 02 04 D0
+  897 * 22	 02 04 D0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			04							// shift eltolas
 			0F							// maszkolas
@@ -3699,7 +3662,7 @@
 			B1 00 02 02					// B1 00 a lampas randomizaciok
 			D1 00						// ha nincs egyezes, akkor ide ugorjon
 
-  935 * 14	 02 04 A1
+  898 * 14	 02 04 A1
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -3713,7 +3676,7 @@
 //
 
 // ez az elso lekerdezes, ezzel kerdezem le
-  936 * 14	 02 04 A0
+  899 * 14	 02 04 A0
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10								// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -3724,7 +3687,7 @@
 
 
 // ez meg nem lekerdezes, hanem calback elvalaszto
-  937 * 17	 02 04 AA
+  900 * 17	 02 04 AA
 			85							// get word
 			0C							// check if callback
 			00
@@ -3746,7 +3709,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
-  938 * 17	 02 04 C0					// Set-ID C0
+  901 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 //			FA 00 13 00 13 00			// lekerdezzuk, hogy elerheto-e, tehat a 13 callback az elerhetoseg???
@@ -3754,7 +3717,7 @@
 			00 00						// menu grafika....
 
 //   00 * 00	03 04 01 05 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
-  939 * 10	 03 04 01 31
+  902 * 10	 03 04 01 31
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
@@ -3768,7 +3731,7 @@
 //**************************************//
 
 
-  940 * 376	 00 04 04 01 32 08 "PKS1"
+  903 * 376	 00 04 04 01 32 08 "PKS1"
 //			11 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -3897,73 +3860,73 @@
 			00 00 00	05 10 1F	2E 04 00 00
 			80
 
-  941 * 4	 01 04 0C 02
+  904 * 4	 01 04 0C 02
 
 	// menu grafika
-  942 sprites_grafika/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
-  943 sprites_grafika/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
+  905 sprites_grafika/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
+  906 sprites_grafika/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
 
 	// egyeduli peron
-  944 sprites_grafika/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
-  945 sprites_grafika/peron2.pcx 8bpp 91 117 44 39 -10 -18 normal chunked
+  907 sprites_grafika/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
+  908 sprites_grafika/peron2.pcx 8bpp 91 117 44 39 -10 -18 normal chunked
 
 	// eszakrol az elso (hatulja)
-  946 sprites_grafika/peron2.pcx 8bpp 46 1 44 37 -32 -16 normal chunked
-  947 sprites_grafika/peron2.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
+  909 sprites_grafika/peron2.pcx 8bpp 46 1 44 37 -32 -16 normal chunked
+  910 sprites_grafika/peron2.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
 
 	// ures kozepso
 	// nem kopott
-  948 sprites_grafika/peron2.pcx 8bpp 91 1 44 37 -32 -16 normal chunked
-  949 sprites_grafika/peron2.pcx 8bpp 91 39 44 37 -10 -16 normal chunked
+  911 sprites_grafika/peron2.pcx 8bpp 91 1 44 37 -32 -16 normal chunked
+  912 sprites_grafika/peron2.pcx 8bpp 91 39 44 37 -10 -16 normal chunked
 
 	// eleje (delro)
-  950 sprites_grafika/peron2.pcx 8bpp 1 1 44 37 -32 -16 normal chunked
-  951 sprites_grafika/peron2.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
+  913 sprites_grafika/peron2.pcx 8bpp 1 1 44 37 -32 -16 normal chunked
+  914 sprites_grafika/peron2.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
-  952 sprites_grafika/peron2.pcx 8bpp 1 77 44 39 -32 -18 normal chunked
-  953 sprites_grafika/peron2.pcx 8bpp 1 117 44 39 -10 -18 normal chunked
+  915 sprites_grafika/peron2.pcx 8bpp 1 77 44 39 -32 -18 normal chunked
+  916 sprites_grafika/peron2.pcx 8bpp 1 117 44 39 -10 -18 normal chunked
 	// lampas, kukas
-  954 sprites_grafika/peron2.pcx 8bpp 46 77 44 39 -32 -18 normal chunked
-  955 sprites_grafika/peron2.pcx 8bpp 46 117 44 39 -10 -18 normal chunked
+  917 sprites_grafika/peron2.pcx 8bpp 46 77 44 39 -32 -18 normal chunked
+  918 sprites_grafika/peron2.pcx 8bpp 46 117 44 39 -10 -18 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
-  956 sprites_grafika/peron2a.pcx 8bpp 90 0 44 39 -32 -18 normal chunked
-  957 sprites_grafika/peron2a.pcx 8bpp 90 40 44 39 -10 -18 normal chunked
+  919 sprites_grafika/peron2a.pcx 8bpp 90 0 44 39 -32 -18 normal chunked
+  920 sprites_grafika/peron2a.pcx 8bpp 90 40 44 39 -10 -18 normal chunked
 	// lampas, pados
-  958 sprites_grafika/peron2a.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
-  959 sprites_grafika/peron2a.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
+  921 sprites_grafika/peron2a.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
+  922 sprites_grafika/peron2a.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
 	// lampas, kukas, pados
-  960 sprites_grafika/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
-  961 sprites_grafika/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
+  923 sprites_grafika/peron2a.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
+  924 sprites_grafika/peron2a.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
 
    // allomas tablas
-  962 sprites_grafika/peron2a.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
-  963 sprites_grafika/peron2a.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
+  925 sprites_grafika/peron2a.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
+  926 sprites_grafika/peron2a.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
    // allomas tablas, lampas
-  964 sprites_grafika/peron2a.pcx 8bpp 180 0 44 39 -32 -18 normal chunked
-  965 sprites_grafika/peron2a.pcx 8bpp 180 40 44 39 -10 -18 normal chunked
+  927 sprites_grafika/peron2a.pcx 8bpp 180 0 44 39 -32 -18 normal chunked
+  928 sprites_grafika/peron2a.pcx 8bpp 180 40 44 39 -10 -18 normal chunked
 
 
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
-  966 * 7	 02 04 00 00 01 00 00	// menu grafika
-  967 * 7	 02 04 01 00 01 01 00	// egyeduli peron
-  968 * 7	 02 04 02 00 01 02 00	// hatulja
-  969 * 7	 02 04 03 00 01 03 00	// nem kopott kozepe
-  970 * 7	 02 04 04 00 01 04 00	// eleje
+  929 * 7	 02 04 00 00 01 00 00	// menu grafika
+  930 * 7	 02 04 01 00 01 01 00	// egyeduli peron
+  931 * 7	 02 04 02 00 01 02 00	// hatulja
+  932 * 7	 02 04 03 00 01 03 00	// nem kopott kozepe
+  933 * 7	 02 04 04 00 01 04 00	// eleje
 
    // objektumos kozepek
-  971 * 7	 02 04 05 00 01 05 00	// lampas, viragladas
-  972 * 7	 02 04 06 00 01 06 00	// lampas, kukas
-  973 * 7	 02 04 07 00 01 07 00	// pados, viragladas
-  974 * 7	 02 04 08 00 01 08 00	// lampas, pados
-  975 * 7	 02 04 09 00 01 09 00	// lampas, kukas, pados
-  976 * 7	 02 04 0A 00 01 0A 00	// allomas tablas
-  977 * 7	 02 04 0B 00 01 0B 00	// allomas tablas, lampas
+  934 * 7	 02 04 05 00 01 05 00	// lampas, viragladas
+  935 * 7	 02 04 06 00 01 06 00	// lampas, kukas
+  936 * 7	 02 04 07 00 01 07 00	// pados, viragladas
+  937 * 7	 02 04 08 00 01 08 00	// lampas, pados
+  938 * 7	 02 04 09 00 01 09 00	// lampas, kukas, pados
+  939 * 7	 02 04 0A 00 01 0A 00	// allomas tablas
+  940 * 7	 02 04 0B 00 01 0B 00	// allomas tablas, lampas
 
 
 
@@ -3986,7 +3949,7 @@
 // kozepso lekerdezesek.....
 // minden harmadik mezore legyen igaz az eszaki vegetol szamitva, ez annak a feltetele, hogy harmadik-e...
 	// sima randomizaciok
-  978 * 15	 02 04 B2
+  941 * 15	 02 04 B2
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
 			04							// hany darab random lehetosegunk van
@@ -3996,7 +3959,7 @@
 			07 00			// pados, viragladas
 
 	// lampas randomizaciok
-  979 * 15	 02 04 B1
+  942 * 15	 02 04 B1
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			04							// hany darab random lehetosegunk van
@@ -4007,7 +3970,7 @@
 
 	// negyedik lekerdezes, ami mar nem a szelso elemeket randomizalja
 	// itt konkretan szetvalasztom, hogy minden harmadik lampas elem, a tobbi meg nem :D
-  980 * 16	 02 04 B0
+  943 * 16	 02 04 B0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -4020,7 +3983,7 @@
 
 
 // ez a harmadik lekerdezes, ha a deli vege van, akkor betolti azt, egyebkent a kozepso lekerdezesekre ugrik...
-  981 * 14	 02 04 A3
+  944 * 14	 02 04 A3
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
@@ -4029,7 +3992,7 @@
 			B0 00						// ha nincs egyezes, akkor ide ugorjon
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebkent a harmadik lekerdezesre ugrik
-  982 * 14	 02 04 A2
+  945 * 14	 02 04 A2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -4042,7 +4005,7 @@
 // ha legalabb 7 hosszusagu
 //
 
-  983 * 16	 02 04 D2
+  946 * 16	 02 04 D2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -4052,7 +4015,7 @@
 			0B 00 00 00					// ha 0 az eredmeny, akkor lampas tablas
 			0A 00						// egyebkent sima tablas lesz
 
-  984 * 18	 02 04 D1
+  947 * 18	 02 04 D1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -4061,7 +4024,7 @@
 			D2 00 01 01					// D2-nel nezem meg, hogy lampas vagy sima tablas kell
 			A2 00						// ha nincs egyezes, akkor ide ugorjon
 
-  985 * 22	 02 04 D0
+  948 * 22	 02 04 D0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			04							// shift eltolas
 			0F							// maszkolas
@@ -4071,7 +4034,7 @@
 			B1 00 02 02					// B1 00 a lampas randomizaciok
 			D1 00						// ha nincs egyezes, akkor ide ugorjon
 
-  986 * 14	 02 04 A1
+  949 * 14	 02 04 A1
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -4084,7 +4047,7 @@
 //
 
 // ez az elso lekerdezes, ezzel kerdezem le
-  987 * 14	 02 04 A0
+  950 * 14	 02 04 A0
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -4095,7 +4058,7 @@
 
 
 // ez meg nem lekerdezes, hanem calback elvalaszto
-  988 * 17	 02 04 AA
+  951 * 17	 02 04 AA
 			85							// get word
 			0C							// check if callback
 			00
@@ -4117,7 +4080,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
-  989 * 17	 02 04 C0					// Set-ID C0
+  952 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 //			FA 00 13 00 13 00			// lekerdezzuk, hogy elerheto-e, tehat a 13 callback az elerhetoseg???
@@ -4125,7 +4088,7 @@
 			00 00						// menu grafika....
 
 //   00 * 00	03 04 01 05 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
-  990 * 10	 03 04 01 32
+  953 * 10	 03 04 01 32
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
@@ -4139,7 +4102,7 @@
 //**************************************//
 
 
-  991 * 346	 00 04 04 01 33 08 "PKS1"
+  954 * 346	 00 04 04 01 33 08 "PKS1"
 //			11 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -4261,67 +4224,67 @@
 			80
 
 
-  992 * 4	 01 04 0B 02
+  955 * 4	 01 04 0B 02
 
 	// menu grafika
-  993 sprites_grafika/peron2b.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
-  994 sprites_grafika/peron2b.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
+  956 sprites_grafika/peron2b.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
+  957 sprites_grafika/peron2b.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
 
 	// egyeduli peron
-  995 sprites_grafika/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
-  996 sprites_grafika/peron2.pcx 8bpp 91 117 44 39 -11 -18 normal chunked
+  958 sprites_grafika/peron2.pcx 8bpp 91 77 44 39 -32 -18 normal chunked
+  959 sprites_grafika/peron2.pcx 8bpp 91 117 44 39 -11 -18 normal chunked
 
 	// eszakrol az elso (hatulja)
-  997 sprites_grafika/peron2.pcx 8bpp 46 1 44 37 -32 -16 normal chunked
-  998 sprites_grafika/peron2.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
+  960 sprites_grafika/peron2.pcx 8bpp 46 1 44 37 -32 -16 normal chunked
+  961 sprites_grafika/peron2.pcx 8bpp 46 39 44 37 -10 -16 normal chunked
 
 	// ures kozepso
 	// nem kopott
-  999 sprites_grafika/peron2.pcx 8bpp 91 1 44 37 -32 -16 normal chunked
- 1000 sprites_grafika/peron2.pcx 8bpp 91 39 44 37 -10 -16 normal chunked
+  962 sprites_grafika/peron2.pcx 8bpp 91 1 44 37 -32 -16 normal chunked
+  963 sprites_grafika/peron2.pcx 8bpp 91 39 44 37 -10 -16 normal chunked
 
 	// eleje (delro)
- 1001 sprites_grafika/peron2.pcx 8bpp 1 1 44 37 -32 -16 normal chunked
- 1002 sprites_grafika/peron2.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
+  964 sprites_grafika/peron2.pcx 8bpp 1 1 44 37 -32 -16 normal chunked
+  965 sprites_grafika/peron2.pcx 8bpp 1 39 44 37 -10 -16 normal chunked
 
    // kozepso kozos spiretok
 	// lampas, viragladas
- 1003 sprites_grafika/peron2.pcx 8bpp 1 77 44 39 -32 -18 normal chunked
- 1004 sprites_grafika/peron2.pcx 8bpp 1 117 44 39 -10 -18 normal chunked
+  966 sprites_grafika/peron2.pcx 8bpp 1 77 44 39 -32 -18 normal chunked
+  967 sprites_grafika/peron2.pcx 8bpp 1 117 44 39 -10 -18 normal chunked
 	// lampas, kukas
- 1005 sprites_grafika/peron2.pcx 8bpp 46 77 44 39 -32 -18 normal chunked
- 1006 sprites_grafika/peron2.pcx 8bpp 46 117 44 39 -10 -18 normal chunked
+  968 sprites_grafika/peron2.pcx 8bpp 46 77 44 39 -32 -18 normal chunked
+  969 sprites_grafika/peron2.pcx 8bpp 46 117 44 39 -10 -18 normal chunked
 
    // kozepso sajat spiretok
 	// pados, viragladas
- 1007 sprites_grafika/peron2b.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
- 1008 sprites_grafika/peron2b.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
+  970 sprites_grafika/peron2b.pcx 8bpp 0 0 44 39 -32 -18 normal chunked
+  971 sprites_grafika/peron2b.pcx 8bpp 0 40 44 39 -10 -18 normal chunked
 	// lampas, pados
- 1009 sprites_grafika/peron2b.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
- 1010 sprites_grafika/peron2b.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
+  972 sprites_grafika/peron2b.pcx 8bpp 45 0 44 39 -32 -18 normal chunked
+  973 sprites_grafika/peron2b.pcx 8bpp 45 40 44 39 -10 -18 normal chunked
 
    // allomas tablas
- 1011 sprites_grafika/peron2b.pcx 8bpp 90 0 44 39 -32 -18 normal chunked
- 1012 sprites_grafika/peron2b.pcx 8bpp 90 40 44 39 -10 -18 normal chunked
+  974 sprites_grafika/peron2b.pcx 8bpp 90 0 44 39 -32 -18 normal chunked
+  975 sprites_grafika/peron2b.pcx 8bpp 90 40 44 39 -10 -18 normal chunked
    // allomas tablas, lampas
- 1013 sprites_grafika/peron2b.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
- 1014 sprites_grafika/peron2b.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
+  976 sprites_grafika/peron2b.pcx 8bpp 135 0 44 39 -32 -18 normal chunked
+  977 sprites_grafika/peron2b.pcx 8bpp 135 40 44 39 -10 -18 normal chunked
 
 
 // betoltendo vegso spriteok, innen kell esetleg szurni cargo szerint...
- 1015 * 7	 02 04 00 00 01 00 00	// menu grafika
- 1016 * 7	 02 04 01 00 01 01 00	// egyeduli peron
- 1017 * 7	 02 04 02 00 01 02 00	// hatulja
- 1018 * 7	 02 04 03 00 01 03 00	// nem kopott kozepe
- 1019 * 7	 02 04 04 00 01 04 00	// eleje
+  978 * 7	 02 04 00 00 01 00 00	// menu grafika
+  979 * 7	 02 04 01 00 01 01 00	// egyeduli peron
+  980 * 7	 02 04 02 00 01 02 00	// hatulja
+  981 * 7	 02 04 03 00 01 03 00	// nem kopott kozepe
+  982 * 7	 02 04 04 00 01 04 00	// eleje
 
    // objektumos kozepek
- 1020 * 7	 02 04 05 00 01 05 00	// lampas, viragladas
- 1021 * 7	 02 04 06 00 01 06 00	// lampas, kukas
- 1022 * 7	 02 04 07 00 01 07 00	// pados, viragladas
- 1023 * 7	 02 04 08 00 01 08 00	// lampas, pados
- 1024 * 7	 02 04 09 00 01 09 00	// allomas tablas
- 1025 * 7	 02 04 0A 00 01 0A 00	// allomas tablas, lampas
+  983 * 7	 02 04 05 00 01 05 00	// lampas, viragladas
+  984 * 7	 02 04 06 00 01 06 00	// lampas, kukas
+  985 * 7	 02 04 07 00 01 07 00	// pados, viragladas
+  986 * 7	 02 04 08 00 01 08 00	// lampas, pados
+  987 * 7	 02 04 09 00 01 09 00	// allomas tablas
+  988 * 7	 02 04 0A 00 01 0A 00	// allomas tablas, lampas
 
 
 
@@ -4344,7 +4307,7 @@
 // kozepso lekerdezesek.....
 // minden harmadik mezore legyen igaz az eszaki vegetol szamitva, ez annak a feltetele, hogy harmadik-e...
 	// sima randomizaciok
- 1026 * 15	 02 04 B2
+  989 * 15	 02 04 B2
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi, azt irja, hogy "first random bit to use", 10 volt itt...
 			04							// hany darab random lehetosegunk van
@@ -4354,7 +4317,7 @@
 			07 00			// pados, viragladas
 
 	// lampas randomizaciok
- 1027 * 15	 02 04 B1
+  990 * 15	 02 04 B1
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			04							// hany darab random lehetosegunk van
@@ -4365,7 +4328,7 @@
 
 	// negyedik lekerdezes, ami mar nem a szelso elemeket randomizalja
 	// itt konkretan szetvalasztom, hogy minden harmadik lampas elem, a tobbi meg nem :D
- 1028 * 16	 02 04 B0
+  991 * 16	 02 04 B0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -4378,7 +4341,7 @@
 
 
 // ez a harmadik lekerdezes, ha a deli vege van, akkor betolti azt, egyebkent a kozepso lekerdezesekre ugrik...
- 1029 * 14	 02 04 A3
+  992 * 14	 02 04 A3
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			F0							// maszkolas, ha F, akkor az erdekel minket
@@ -4387,7 +4350,7 @@
 			B0 00						// ha nincs egyezes, akkor ide ugorjon
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebkent a harmadik lekerdezesre ugrik
- 1030 * 14	 02 04 A2
+  993 * 14	 02 04 A2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -4400,7 +4363,7 @@
 // ha legalabb 7 hosszusagu
 //
 
- 1031 * 16	 02 04 D2
+  994 * 16	 02 04 D2
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			80							// azaz shift & modulo
 			F0							// azaz a felso ertekre szurunk, igy alulrol minden harmadikat keressuk...
@@ -4411,7 +4374,7 @@
 			09 00						// egyebkent sima tablas lesz
 
 
- 1032 * 18	 02 04 D1
+  995 * 18	 02 04 D1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -4420,7 +4383,7 @@
 			D2 00 01 01					// D2-nel nezem meg, hogy lampas vagy sima tablas kell
 			A2 00						// ha nincs egyezes, akkor ide ugorjon
 
- 1033 * 22	 02 04 D0
+  996 * 22	 02 04 D0
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			04							// shift eltolas
 			0F							// maszkolas
@@ -4430,7 +4393,7 @@
 			B1 00 02 02					// B1 00 a lampas randomizaciok
 			D1 00						// ha nincs egyezes, akkor ide ugorjon
 
- 1034 * 14	 02 04 A1
+  997 * 14	 02 04 A1
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10							// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -4444,7 +4407,7 @@
 //
 
 // ez az elso lekerdezes, ezzel kerdezem le
- 1035 * 14	 02 04 A0
+  998 * 14	 02 04 A0
 			81 49						// 81 lower byte, 40 type, Platform info and relative position
 			10								// shift eltolas, hany bittel arrebb szerenem lekerdezni, pl 0C az 12 bit, azaz Lc bitek
 			0F							// maszkolas
@@ -4455,7 +4418,7 @@
 
 
 // ez meg nem lekerdezes, hanem calback elvalaszto
- 1036 * 17	 02 04 AA
+  999 * 17	 02 04 AA
 			85							// get word
 			0C							// check if callback
 			00
@@ -4477,7 +4440,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
- 1037 * 17	 02 04 C0					// Set-ID C0
+ 1000 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 //			FA 00 13 00 13 00			// lekerdezzuk, hogy elerheto-e, tehat a 13 callback az elerhetoseg???
@@ -4485,7 +4448,7 @@
 			00 00						// menu grafika....
 
 //   00 * 00	03 04 01 05 00 A0 00		// igy nincs cargo azonositas, hanem azonnal ugrunk a A0 action2-re
- 1038 * 10	 03 04 01 33
+ 1001 * 10	 03 04 01 33
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
@@ -4496,24 +4459,24 @@
 //**************************************//
 
 // menu
- 1039 * 48	 04 04 FF 01 30 C4 "HSS - Platforms (automatic)(single sided)" 00
- 1040 * 48	 04 04 A4 01 30 C4 "ÞHSS - Peronok (automatikus)(egyoldalú)" 00
+ 1002 * 48	 04 04 FF 01 30 C4 "HSS - Platforms (automatic)(single sided)" 00
+ 1003 * 48	 04 04 A4 01 30 C4 "ÞHSS - Peronok (automatikus)(egyoldalú)" 00
 
 // Peron1a
- 1041 * 22	 04 04 FF 01 30 C5 "Old (low)(back)" 00
- 1042 * 36	 04 04 A4 01 30 C5 "ÞRégi (alacsony)(hátulsó)" 00
+ 1004 * 22	 04 04 FF 01 30 C5 "Old (low)(back)" 00
+ 1005 * 36	 04 04 A4 01 30 C5 "ÞRégi (alacsony)(hátulsó)" 00
 
 // Peron1b
- 1043 * 24	 04 04 FF 01 31 C5 "Old (low)(front) "  00
- 1044 * 35	 04 04 A4 01 31 C5 "ÞRégi (alacsony)(elülső)"  00
+ 1006 * 24	 04 04 FF 01 31 C5 "Old (low)(front) "  00
+ 1007 * 35	 04 04 A4 01 31 C5 "ÞRégi (alacsony)(elülső)"  00
 
 // Peron2a
- 1045 * 23	 04 04 FF 01 32 C5 "Old (high)(back)" 00
- 1046 * 33	 04 04 A4 01 32 C5 "ÞRégi (magas)(hátulsó)" 00
+ 1008 * 23	 04 04 FF 01 32 C5 "Old (high)(back)" 00
+ 1009 * 33	 04 04 A4 01 32 C5 "ÞRégi (magas)(hátulsó)" 00
 
 // Peron2b
- 1047 * 24	 04 04 FF 01 33 C5 "Old (high)(front)" 00
- 1048 * 32	 04 04 A4 01 33 C5 "ÞRégi (magas)(elülső)" 00
+ 1010 * 24	 04 04 FF 01 33 C5 "Old (high)(front)" 00
+ 1011 * 32	 04 04 A4 01 33 C5 "ÞRégi (magas)(elülső)" 00
 
 //
 // vasari megallo
@@ -4521,42 +4484,43 @@
 
 
    // Action0
- 1049 * 1362	 00 04				// Action0, Feature4
-			02 01 26			// Properties, Stations, First Station ID
+ 1012 * 1365	 00 04				// Action0, Feature4
+			03 01 26			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
+			10 32 00				// Little/Lots Threshold
 
 			09 36				// Sprite Layout
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			00 00 00	10 05 06		2D 84 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			00 00 00	05 10 06		2F 84 00 00
+			00 00 00	10 10 06		30 84 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			00 00 00	10 05 06		2D 84 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			00 00 00	05 10 06		2F 84 00 00
+			00 00 00	10 10 06		30 84 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			00 00 00	10 05 06		2D 84 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			00 00 00	05 10 06		2F 84 00 00
+			00 00 00	10 10 06		30 84 00 00
 			80					// end layout1 sprite
 
 
@@ -4825,131 +4789,131 @@
 
 
    // Action1
- 1050 * 4	 01 04 1B 04
- 1051 sprites_grafika/karacsonysprites.png 8bpp 407 103 54 32 -32 -6 normal chunked
- 1052 sprites_grafika/karacsonysprites.png 8bpp 573 59 45 27 -11 5 normal chunked
- 1053 sprites_grafika/karacsonysprites.png 8bpp 407 39 54 31 -20 -4 normal chunked
- 1054 sprites_grafika/karacsonysprites.png 8bpp 573 119 45 25 -32 7 normal chunked
- 1055 sprites_grafika/karacsonysprites.png 8bpp 462 103 54 32 -32 -6 normal chunked
- 1056 sprites_grafika/karacsonysprites.png 8bpp 619 59 45 27 -11 5 normal chunked
- 1057 sprites_grafika/karacsonysprites.png 8bpp 462 39 54 31 -20 -4 normal chunked
- 1058 sprites_grafika/karacsonysprites.png 8bpp 619 119 45 25 -32 7 normal chunked
- 1059 sprites_grafika/karacsonysprites.png 8bpp 517 103 54 32 -32 -6 normal chunked
- 1060 sprites_grafika/karacsonysprites.png 8bpp 665 59 45 27 -11 5 normal chunked
- 1061 sprites_grafika/karacsonysprites.png 8bpp 517 39 54 31 -20 -4 normal chunked
- 1062 sprites_grafika/karacsonysprites.png 8bpp 665 119 45 25 -32 7 normal chunked
- 1063 sprites_grafika/karacsonysprites.png 8bpp 407 103 54 32 -32 -6 normal chunked
- 1064 sprites_grafika/karacsonysprites.png 8bpp 573 29 45 29 -11 3 normal chunked
- 1065 sprites_grafika/karacsonysprites.png 8bpp 407 39 54 31 -20 -4 normal chunked
- 1066 sprites_grafika/karacsonysprites.png 8bpp 573 145 45 25 -32 7 normal chunked
- 1067 sprites_grafika/karacsonysprites.png 8bpp 462 103 54 32 -32 -6 normal chunked
- 1068 sprites_grafika/karacsonysprites.png 8bpp 619 29 45 29 -11 3 normal chunked
- 1069 sprites_grafika/karacsonysprites.png 8bpp 462 39 54 31 -20 -4 normal chunked
- 1070 sprites_grafika/karacsonysprites.png 8bpp 619 145 45 25 -32 7 normal chunked
- 1071 sprites_grafika/karacsonysprites.png 8bpp 517 103 54 32 -32 -6 normal chunked
- 1072 sprites_grafika/karacsonysprites.png 8bpp 665 29 45 29 -11 3 normal chunked
- 1073 sprites_grafika/karacsonysprites.png 8bpp 517 39 54 31 -20 -4 normal chunked
- 1074 sprites_grafika/karacsonysprites.png 8bpp 665 145 45 25 -32 7 normal chunked
- 1075 sprites_grafika/karacsonysprites.png 8bpp 407 103 54 32 -32 -6 normal chunked
- 1076 sprites_grafika/karacsonysprites.png 8bpp 573 5 45 23 -11 9 normal chunked
- 1077 sprites_grafika/karacsonysprites.png 8bpp 407 39 54 31 -20 -4 normal chunked
- 1078 sprites_grafika/karacsonysprites.png 8bpp 573 87 45 31 -32 1 normal chunked
- 1079 sprites_grafika/karacsonysprites.png 8bpp 462 103 54 32 -32 -6 normal chunked
- 1080 sprites_grafika/karacsonysprites.png 8bpp 619 5 45 23 -11 9 normal chunked
- 1081 sprites_grafika/karacsonysprites.png 8bpp 462 39 54 31 -20 -4 normal chunked
- 1082 sprites_grafika/karacsonysprites.png 8bpp 619 87 45 31 -32 1 normal chunked
- 1083 sprites_grafika/karacsonysprites.png 8bpp 517 103 54 32 -32 -6 normal chunked
- 1084 sprites_grafika/karacsonysprites.png 8bpp 665 5 45 23 -11 9 normal chunked
- 1085 sprites_grafika/karacsonysprites.png 8bpp 517 39 54 31 -20 -4 normal chunked
- 1086 sprites_grafika/karacsonysprites.png 8bpp 665 87 45 31 -32 1 normal chunked
- 1087 sprites_grafika/karacsonysprites.png 8bpp 407 137 54 33 -32 -6 normal chunked
- 1088 sprites_grafika/karacsonysprites.png 8bpp 573 59 45 27 -11 5 normal chunked
- 1089 sprites_grafika/karacsonysprites.png 8bpp 407 71 54 31 -20 -4 normal chunked
- 1090 sprites_grafika/karacsonysprites.png 8bpp 573 119 45 25 -32 7 normal chunked
- 1091 sprites_grafika/karacsonysprites.png 8bpp 462 137 54 33 -32 -6 normal chunked
- 1092 sprites_grafika/karacsonysprites.png 8bpp 619 59 45 27 -11 5 normal chunked
- 1093 sprites_grafika/karacsonysprites.png 8bpp 462 71 54 31 -20 -4 normal chunked
- 1094 sprites_grafika/karacsonysprites.png 8bpp 619 119 45 25 -32 7 normal chunked
- 1095 sprites_grafika/karacsonysprites.png 8bpp 517 137 54 33 -32 -6 normal chunked
- 1096 sprites_grafika/karacsonysprites.png 8bpp 665 59 45 27 -11 5 normal chunked
- 1097 sprites_grafika/karacsonysprites.png 8bpp 517 71 54 31 -20 -4 normal chunked
- 1098 sprites_grafika/karacsonysprites.png 8bpp 665 119 45 25 -32 7 normal chunked
- 1099 sprites_grafika/karacsonysprites.png 8bpp 407 137 54 33 -32 -6 normal chunked
- 1100 sprites_grafika/karacsonysprites.png 8bpp 573 29 45 29 -11 3 normal chunked
- 1101 sprites_grafika/karacsonysprites.png 8bpp 407 71 54 31 -20 -4 normal chunked
- 1102 sprites_grafika/karacsonysprites.png 8bpp 573 145 45 25 -32 7 normal chunked
- 1103 sprites_grafika/karacsonysprites.png 8bpp 462 137 54 33 -32 -6 normal chunked
- 1104 sprites_grafika/karacsonysprites.png 8bpp 619 29 45 29 -11 3 normal chunked
- 1105 sprites_grafika/karacsonysprites.png 8bpp 462 71 54 31 -20 -4 normal chunked
- 1106 sprites_grafika/karacsonysprites.png 8bpp 619 145 45 25 -32 7 normal chunked
- 1107 sprites_grafika/karacsonysprites.png 8bpp 517 137 54 33 -32 -6 normal chunked
- 1108 sprites_grafika/karacsonysprites.png 8bpp 665 29 45 29 -11 3 normal chunked
- 1109 sprites_grafika/karacsonysprites.png 8bpp 517 71 54 31 -20 -4 normal chunked
- 1110 sprites_grafika/karacsonysprites.png 8bpp 665 145 45 25 -32 7 normal chunked
- 1111 sprites_grafika/karacsonysprites.png 8bpp 407 137 54 33 -32 -6 normal chunked
- 1112 sprites_grafika/karacsonysprites.png 8bpp 573 5 45 23 -11 9 normal chunked
- 1113 sprites_grafika/karacsonysprites.png 8bpp 407 71 54 31 -20 -4 normal chunked
- 1114 sprites_grafika/karacsonysprites.png 8bpp 573 87 45 31 -32 1 normal chunked
- 1115 sprites_grafika/karacsonysprites.png 8bpp 462 137 54 33 -32 -6 normal chunked
- 1116 sprites_grafika/karacsonysprites.png 8bpp 619 5 45 23 -11 9 normal chunked
- 1117 sprites_grafika/karacsonysprites.png 8bpp 462 71 54 31 -20 -4 normal chunked
- 1118 sprites_grafika/karacsonysprites.png 8bpp 619 87 45 31 -32 1 normal chunked
- 1119 sprites_grafika/karacsonysprites.png 8bpp 517 137 54 33 -32 -6 normal chunked
- 1120 sprites_grafika/karacsonysprites.png 8bpp 665 5 45 23 -11 9 normal chunked
- 1121 sprites_grafika/karacsonysprites.png 8bpp 517 71 54 31 -20 -4 normal chunked
- 1122 sprites_grafika/karacsonysprites.png 8bpp 665 87 45 31 -32 1 normal chunked
- 1123 sprites_grafika/karacsonysprites.png 8bpp 407 171 54 32 -32 -5 normal chunked
- 1124 sprites_grafika/karacsonysprites.png 8bpp 573 59 45 27 -11 5 normal chunked
- 1125 sprites_grafika/karacsonysprites.png 8bpp 407 5 54 33 -20 -6 normal chunked
- 1126 sprites_grafika/karacsonysprites.png 8bpp 573 119 45 25 -32 7 normal chunked
- 1127 sprites_grafika/karacsonysprites.png 8bpp 462 171 54 32 -32 -5 normal chunked
- 1128 sprites_grafika/karacsonysprites.png 8bpp 619 59 45 27 -11 5 normal chunked
- 1129 sprites_grafika/karacsonysprites.png 8bpp 462 5 54 33 -20 -6 normal chunked
- 1130 sprites_grafika/karacsonysprites.png 8bpp 619 119 45 25 -32 7 normal chunked
- 1131 sprites_grafika/karacsonysprites.png 8bpp 517 171 54 32 -32 -5 normal chunked
- 1132 sprites_grafika/karacsonysprites.png 8bpp 665 59 45 27 -11 5 normal chunked
- 1133 sprites_grafika/karacsonysprites.png 8bpp 517 5 54 33 -20 -6 normal chunked
- 1134 sprites_grafika/karacsonysprites.png 8bpp 665 119 45 25 -32 7 normal chunked
- 1135 sprites_grafika/karacsonysprites.png 8bpp 407 171 54 32 -32 -5 normal chunked
- 1136 sprites_grafika/karacsonysprites.png 8bpp 573 29 45 29 -11 3 normal chunked
- 1137 sprites_grafika/karacsonysprites.png 8bpp 407 5 54 33 -20 -6 normal chunked
- 1138 sprites_grafika/karacsonysprites.png 8bpp 573 145 45 25 -32 7 normal chunked
- 1139 sprites_grafika/karacsonysprites.png 8bpp 462 171 54 32 -32 -5 normal chunked
- 1140 sprites_grafika/karacsonysprites.png 8bpp 619 29 45 29 -11 3 normal chunked
- 1141 sprites_grafika/karacsonysprites.png 8bpp 462 5 54 33 -20 -6 normal chunked
- 1142 sprites_grafika/karacsonysprites.png 8bpp 619 145 45 25 -32 7 normal chunked
- 1143 sprites_grafika/karacsonysprites.png 8bpp 517 171 54 32 -32 -5 normal chunked
- 1144 sprites_grafika/karacsonysprites.png 8bpp 665 29 45 29 -11 3 normal chunked
- 1145 sprites_grafika/karacsonysprites.png 8bpp 517 5 54 33 -20 -6 normal chunked
- 1146 sprites_grafika/karacsonysprites.png 8bpp 665 145 45 25 -32 7 normal chunked
- 1147 sprites_grafika/karacsonysprites.png 8bpp 407 171 54 32 -32 -5 normal chunked
- 1148 sprites_grafika/karacsonysprites.png 8bpp 573 5 45 23 -11 9 normal chunked
- 1149 sprites_grafika/karacsonysprites.png 8bpp 407 5 54 33 -20 -6 normal chunked
- 1150 sprites_grafika/karacsonysprites.png 8bpp 573 87 45 31 -32 1 normal chunked
- 1151 sprites_grafika/karacsonysprites.png 8bpp 462 171 54 32 -32 -5 normal chunked
- 1152 sprites_grafika/karacsonysprites.png 8bpp 619 5 45 23 -11 9 normal chunked
- 1153 sprites_grafika/karacsonysprites.png 8bpp 462 5 54 33 -20 -6 normal chunked
- 1154 sprites_grafika/karacsonysprites.png 8bpp 619 87 45 31 -32 1 normal chunked
- 1155 sprites_grafika/karacsonysprites.png 8bpp 517 171 54 32 -32 -5 normal chunked
- 1156 sprites_grafika/karacsonysprites.png 8bpp 665 5 45 23 -11 9 normal chunked
- 1157 sprites_grafika/karacsonysprites.png 8bpp 517 5 54 33 -20 -6 normal chunked
- 1158 sprites_grafika/karacsonysprites.png 8bpp 665 87 45 31 -32 1 normal chunked
+ 1013 * 4	 01 04 1B 04
+ 1014 sprites_grafika/karacsonysprites.png 8bpp 407 103 54 32 -32 -6 normal chunked
+ 1015 sprites_grafika/karacsonysprites.png 8bpp 573 59 45 27 -11 5 normal chunked
+ 1016 sprites_grafika/karacsonysprites.png 8bpp 407 39 54 31 -20 -4 normal chunked
+ 1017 sprites_grafika/karacsonysprites.png 8bpp 573 119 45 25 -32 7 normal chunked
+ 1018 sprites_grafika/karacsonysprites.png 8bpp 462 103 54 32 -32 -6 normal chunked
+ 1019 sprites_grafika/karacsonysprites.png 8bpp 619 59 45 27 -11 5 normal chunked
+ 1020 sprites_grafika/karacsonysprites.png 8bpp 462 39 54 31 -20 -4 normal chunked
+ 1021 sprites_grafika/karacsonysprites.png 8bpp 619 119 45 25 -32 7 normal chunked
+ 1022 sprites_grafika/karacsonysprites.png 8bpp 517 103 54 32 -32 -6 normal chunked
+ 1023 sprites_grafika/karacsonysprites.png 8bpp 665 59 45 27 -11 5 normal chunked
+ 1024 sprites_grafika/karacsonysprites.png 8bpp 517 39 54 31 -20 -4 normal chunked
+ 1025 sprites_grafika/karacsonysprites.png 8bpp 665 119 45 25 -32 7 normal chunked
+ 1026 sprites_grafika/karacsonysprites.png 8bpp 407 103 54 32 -32 -6 normal chunked
+ 1027 sprites_grafika/karacsonysprites.png 8bpp 573 29 45 29 -11 3 normal chunked
+ 1028 sprites_grafika/karacsonysprites.png 8bpp 407 39 54 31 -20 -4 normal chunked
+ 1029 sprites_grafika/karacsonysprites.png 8bpp 573 145 45 25 -32 7 normal chunked
+ 1030 sprites_grafika/karacsonysprites.png 8bpp 462 103 54 32 -32 -6 normal chunked
+ 1031 sprites_grafika/karacsonysprites.png 8bpp 619 29 45 29 -11 3 normal chunked
+ 1032 sprites_grafika/karacsonysprites.png 8bpp 462 39 54 31 -20 -4 normal chunked
+ 1033 sprites_grafika/karacsonysprites.png 8bpp 619 145 45 25 -32 7 normal chunked
+ 1034 sprites_grafika/karacsonysprites.png 8bpp 517 103 54 32 -32 -6 normal chunked
+ 1035 sprites_grafika/karacsonysprites.png 8bpp 665 29 45 29 -11 3 normal chunked
+ 1036 sprites_grafika/karacsonysprites.png 8bpp 517 39 54 31 -20 -4 normal chunked
+ 1037 sprites_grafika/karacsonysprites.png 8bpp 665 145 45 25 -32 7 normal chunked
+ 1038 sprites_grafika/karacsonysprites.png 8bpp 407 103 54 32 -32 -6 normal chunked
+ 1039 sprites_grafika/karacsonysprites.png 8bpp 573 5 45 23 -11 9 normal chunked
+ 1040 sprites_grafika/karacsonysprites.png 8bpp 407 39 54 31 -20 -4 normal chunked
+ 1041 sprites_grafika/karacsonysprites.png 8bpp 573 87 45 31 -32 1 normal chunked
+ 1042 sprites_grafika/karacsonysprites.png 8bpp 462 103 54 32 -32 -6 normal chunked
+ 1043 sprites_grafika/karacsonysprites.png 8bpp 619 5 45 23 -11 9 normal chunked
+ 1044 sprites_grafika/karacsonysprites.png 8bpp 462 39 54 31 -20 -4 normal chunked
+ 1045 sprites_grafika/karacsonysprites.png 8bpp 619 87 45 31 -32 1 normal chunked
+ 1046 sprites_grafika/karacsonysprites.png 8bpp 517 103 54 32 -32 -6 normal chunked
+ 1047 sprites_grafika/karacsonysprites.png 8bpp 665 5 45 23 -11 9 normal chunked
+ 1048 sprites_grafika/karacsonysprites.png 8bpp 517 39 54 31 -20 -4 normal chunked
+ 1049 sprites_grafika/karacsonysprites.png 8bpp 665 87 45 31 -32 1 normal chunked
+ 1050 sprites_grafika/karacsonysprites.png 8bpp 407 137 54 33 -32 -6 normal chunked
+ 1051 sprites_grafika/karacsonysprites.png 8bpp 573 59 45 27 -11 5 normal chunked
+ 1052 sprites_grafika/karacsonysprites.png 8bpp 407 71 54 31 -20 -4 normal chunked
+ 1053 sprites_grafika/karacsonysprites.png 8bpp 573 119 45 25 -32 7 normal chunked
+ 1054 sprites_grafika/karacsonysprites.png 8bpp 462 137 54 33 -32 -6 normal chunked
+ 1055 sprites_grafika/karacsonysprites.png 8bpp 619 59 45 27 -11 5 normal chunked
+ 1056 sprites_grafika/karacsonysprites.png 8bpp 462 71 54 31 -20 -4 normal chunked
+ 1057 sprites_grafika/karacsonysprites.png 8bpp 619 119 45 25 -32 7 normal chunked
+ 1058 sprites_grafika/karacsonysprites.png 8bpp 517 137 54 33 -32 -6 normal chunked
+ 1059 sprites_grafika/karacsonysprites.png 8bpp 665 59 45 27 -11 5 normal chunked
+ 1060 sprites_grafika/karacsonysprites.png 8bpp 517 71 54 31 -20 -4 normal chunked
+ 1061 sprites_grafika/karacsonysprites.png 8bpp 665 119 45 25 -32 7 normal chunked
+ 1062 sprites_grafika/karacsonysprites.png 8bpp 407 137 54 33 -32 -6 normal chunked
+ 1063 sprites_grafika/karacsonysprites.png 8bpp 573 29 45 29 -11 3 normal chunked
+ 1064 sprites_grafika/karacsonysprites.png 8bpp 407 71 54 31 -20 -4 normal chunked
+ 1065 sprites_grafika/karacsonysprites.png 8bpp 573 145 45 25 -32 7 normal chunked
+ 1066 sprites_grafika/karacsonysprites.png 8bpp 462 137 54 33 -32 -6 normal chunked
+ 1067 sprites_grafika/karacsonysprites.png 8bpp 619 29 45 29 -11 3 normal chunked
+ 1068 sprites_grafika/karacsonysprites.png 8bpp 462 71 54 31 -20 -4 normal chunked
+ 1069 sprites_grafika/karacsonysprites.png 8bpp 619 145 45 25 -32 7 normal chunked
+ 1070 sprites_grafika/karacsonysprites.png 8bpp 517 137 54 33 -32 -6 normal chunked
+ 1071 sprites_grafika/karacsonysprites.png 8bpp 665 29 45 29 -11 3 normal chunked
+ 1072 sprites_grafika/karacsonysprites.png 8bpp 517 71 54 31 -20 -4 normal chunked
+ 1073 sprites_grafika/karacsonysprites.png 8bpp 665 145 45 25 -32 7 normal chunked
+ 1074 sprites_grafika/karacsonysprites.png 8bpp 407 137 54 33 -32 -6 normal chunked
+ 1075 sprites_grafika/karacsonysprites.png 8bpp 573 5 45 23 -11 9 normal chunked
+ 1076 sprites_grafika/karacsonysprites.png 8bpp 407 71 54 31 -20 -4 normal chunked
+ 1077 sprites_grafika/karacsonysprites.png 8bpp 573 87 45 31 -32 1 normal chunked
+ 1078 sprites_grafika/karacsonysprites.png 8bpp 462 137 54 33 -32 -6 normal chunked
+ 1079 sprites_grafika/karacsonysprites.png 8bpp 619 5 45 23 -11 9 normal chunked
+ 1080 sprites_grafika/karacsonysprites.png 8bpp 462 71 54 31 -20 -4 normal chunked
+ 1081 sprites_grafika/karacsonysprites.png 8bpp 619 87 45 31 -32 1 normal chunked
+ 1082 sprites_grafika/karacsonysprites.png 8bpp 517 137 54 33 -32 -6 normal chunked
+ 1083 sprites_grafika/karacsonysprites.png 8bpp 665 5 45 23 -11 9 normal chunked
+ 1084 sprites_grafika/karacsonysprites.png 8bpp 517 71 54 31 -20 -4 normal chunked
+ 1085 sprites_grafika/karacsonysprites.png 8bpp 665 87 45 31 -32 1 normal chunked
+ 1086 sprites_grafika/karacsonysprites.png 8bpp 407 171 54 32 -32 -5 normal chunked
+ 1087 sprites_grafika/karacsonysprites.png 8bpp 573 59 45 27 -11 5 normal chunked
+ 1088 sprites_grafika/karacsonysprites.png 8bpp 407 5 54 33 -20 -6 normal chunked
+ 1089 sprites_grafika/karacsonysprites.png 8bpp 573 119 45 25 -32 7 normal chunked
+ 1090 sprites_grafika/karacsonysprites.png 8bpp 462 171 54 32 -32 -5 normal chunked
+ 1091 sprites_grafika/karacsonysprites.png 8bpp 619 59 45 27 -11 5 normal chunked
+ 1092 sprites_grafika/karacsonysprites.png 8bpp 462 5 54 33 -20 -6 normal chunked
+ 1093 sprites_grafika/karacsonysprites.png 8bpp 619 119 45 25 -32 7 normal chunked
+ 1094 sprites_grafika/karacsonysprites.png 8bpp 517 171 54 32 -32 -5 normal chunked
+ 1095 sprites_grafika/karacsonysprites.png 8bpp 665 59 45 27 -11 5 normal chunked
+ 1096 sprites_grafika/karacsonysprites.png 8bpp 517 5 54 33 -20 -6 normal chunked
+ 1097 sprites_grafika/karacsonysprites.png 8bpp 665 119 45 25 -32 7 normal chunked
+ 1098 sprites_grafika/karacsonysprites.png 8bpp 407 171 54 32 -32 -5 normal chunked
+ 1099 sprites_grafika/karacsonysprites.png 8bpp 573 29 45 29 -11 3 normal chunked
+ 1100 sprites_grafika/karacsonysprites.png 8bpp 407 5 54 33 -20 -6 normal chunked
+ 1101 sprites_grafika/karacsonysprites.png 8bpp 573 145 45 25 -32 7 normal chunked
+ 1102 sprites_grafika/karacsonysprites.png 8bpp 462 171 54 32 -32 -5 normal chunked
+ 1103 sprites_grafika/karacsonysprites.png 8bpp 619 29 45 29 -11 3 normal chunked
+ 1104 sprites_grafika/karacsonysprites.png 8bpp 462 5 54 33 -20 -6 normal chunked
+ 1105 sprites_grafika/karacsonysprites.png 8bpp 619 145 45 25 -32 7 normal chunked
+ 1106 sprites_grafika/karacsonysprites.png 8bpp 517 171 54 32 -32 -5 normal chunked
+ 1107 sprites_grafika/karacsonysprites.png 8bpp 665 29 45 29 -11 3 normal chunked
+ 1108 sprites_grafika/karacsonysprites.png 8bpp 517 5 54 33 -20 -6 normal chunked
+ 1109 sprites_grafika/karacsonysprites.png 8bpp 665 145 45 25 -32 7 normal chunked
+ 1110 sprites_grafika/karacsonysprites.png 8bpp 407 171 54 32 -32 -5 normal chunked
+ 1111 sprites_grafika/karacsonysprites.png 8bpp 573 5 45 23 -11 9 normal chunked
+ 1112 sprites_grafika/karacsonysprites.png 8bpp 407 5 54 33 -20 -6 normal chunked
+ 1113 sprites_grafika/karacsonysprites.png 8bpp 573 87 45 31 -32 1 normal chunked
+ 1114 sprites_grafika/karacsonysprites.png 8bpp 462 171 54 32 -32 -5 normal chunked
+ 1115 sprites_grafika/karacsonysprites.png 8bpp 619 5 45 23 -11 9 normal chunked
+ 1116 sprites_grafika/karacsonysprites.png 8bpp 462 5 54 33 -20 -6 normal chunked
+ 1117 sprites_grafika/karacsonysprites.png 8bpp 619 87 45 31 -32 1 normal chunked
+ 1118 sprites_grafika/karacsonysprites.png 8bpp 517 171 54 32 -32 -5 normal chunked
+ 1119 sprites_grafika/karacsonysprites.png 8bpp 665 5 45 23 -11 9 normal chunked
+ 1120 sprites_grafika/karacsonysprites.png 8bpp 517 5 54 33 -20 -6 normal chunked
+ 1121 sprites_grafika/karacsonysprites.png 8bpp 665 87 45 31 -32 1 normal chunked
 
 
- 1159 * 7	 02 04 00 00 01 00 00
- 1160 * 7	 02 04 03 00 01 03 00
- 1161 * 7	 02 04 06 00 01 06 00
- 1162 * 7	 02 04 09 00 01 09 00
- 1163 * 7	 02 04 0C 00 01 0C 00
- 1164 * 7	 02 04 0F 00 01 0F 00
- 1165 * 7	 02 04 12 00 01 12 00
- 1166 * 7	 02 04 15 00 01 15 00
- 1167 * 7	 02 04 18 00 01 18 00
+ 1122 * 7	 02 04 00 00 01 00 00
+ 1123 * 7	 02 04 03 00 01 03 00
+ 1124 * 7	 02 04 06 00 01 06 00
+ 1125 * 7	 02 04 09 00 01 09 00
+ 1126 * 7	 02 04 0C 00 01 0C 00
+ 1127 * 7	 02 04 0F 00 01 0F 00
+ 1128 * 7	 02 04 12 00 01 12 00
+ 1129 * 7	 02 04 15 00 01 15 00
+ 1130 * 7	 02 04 18 00 01 18 00
 
 
 
 	//Action2
- 1168 * 11	 02 04 20
+ 1131 * 11	 02 04 20
 			01 02			//littlesets, lotssets
 00 00			//LittleSets
 01 00 02 00			//LotsSets
@@ -4957,7 +4921,7 @@
 
 
 	//Action2
- 1169 * 11	 02 04 21
+ 1132 * 11	 02 04 21
 			01 02			//littlesets, lotssets
 03 00			//LittleSets
 04 00 05 00			//LotsSets
@@ -4965,7 +4929,7 @@
 
 
 	//Action2
- 1170 * 11	 02 04 22
+ 1133 * 11	 02 04 22
 			01 02			//littlesets, lotssets
 06 00			//LittleSets
 07 00 08 00			//LotsSets
@@ -4973,7 +4937,7 @@
 
 
 	//Action2
- 1171 * 11	 02 04 23
+ 1134 * 11	 02 04 23
 			01 02			//littlesets, lotssets
 09 00			//LittleSets
 0A 00 0B 00			//LotsSets
@@ -4981,7 +4945,7 @@
 
 
 	//Action2
- 1172 * 11	 02 04 24
+ 1135 * 11	 02 04 24
 			01 02			//littlesets, lotssets
 0C 00			//LittleSets
 0D 00 0E 00			//LotsSets
@@ -4989,7 +4953,7 @@
 
 
 	//Action2
- 1173 * 11	 02 04 25
+ 1136 * 11	 02 04 25
 			01 02			//littlesets, lotssets
 0F 00			//LittleSets
 10 00 11 00			//LotsSets
@@ -4997,7 +4961,7 @@
 
 
 	//Action2
- 1174 * 11	 02 04 26
+ 1137 * 11	 02 04 26
 			01 02			//littlesets, lotssets
 12 00			//LittleSets
 13 00 14 00			//LotsSets
@@ -5005,7 +4969,7 @@
 
 
 	//Action2
- 1175 * 11	 02 04 27
+ 1138 * 11	 02 04 27
 			01 02			//littlesets, lotssets
 15 00			//LittleSets
 16 00 17 00			//LotsSets
@@ -5013,7 +4977,7 @@
 
 
 	//Action2
- 1176 * 11	 02 04 28
+ 1139 * 11	 02 04 28
 			01 02			//littlesets, lotssets
 18 00			//LittleSets
 19 00 1A 00			//LotsSets
@@ -5021,7 +4985,7 @@
 
 
 	//Action2
- 1177 * 39	 02 04 1F
+ 1140 * 39	 02 04 1F
 			80 00 10			//random, randomtrigger, randbit
 			10				//range count
 			20 00	20 00	20 00
@@ -5038,7 +5002,7 @@
 
 
 	//Action2
- 1178 * 39	 02 04 1E
+ 1141 * 39	 02 04 1E
 			80 00 10			//random, randomtrigger, randbit
 			10				//range count
 			00 00	00 00	00 00
@@ -5054,7 +5018,7 @@
 
 
    // Action3
- 1179 * 10	 03 04 01 26 01 00 1F 00 1E 00
+ 1142 * 10	 03 04 01 26 01 00 1F 00 1E 00
 
 
 //
@@ -5063,10 +5027,10 @@
 
 
    // Action0
- 1180 * 561	 00 04				// Action0, Feature4
+ 1143 * 561	 00 04				// Action0, Feature4
 			06 01 27			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
-			10 01 00				// Little/Lots Threshold
+			10 32 00				// Little/Lots Threshold
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
@@ -5074,29 +5038,29 @@
 			09 24				// Sprite Layout
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 
@@ -5236,54 +5200,54 @@
 
 
    // Action1
- 1181 * 4	 01 04 12 02
- 1182 sprites_grafika/karacsonysprites.png 8bpp 711 54 66 36 -32 -4 normal chunked
- 1183 sprites_grafika/karacsonysprites.png 8bpp 711 54 66 36 -32 -4 normal chunked
- 1184 sprites_grafika/karacsonysprites.png 8bpp 778 54 66 36 -32 -4 normal chunked
- 1185 sprites_grafika/karacsonysprites.png 8bpp 778 54 66 36 -32 -4 normal chunked
- 1186 sprites_grafika/karacsonysprites.png 8bpp 845 54 66 36 -32 -4 normal chunked
- 1187 sprites_grafika/karacsonysprites.png 8bpp 845 54 66 36 -32 -4 normal chunked
- 1188 sprites_grafika/karacsonysprites.png 8bpp 711 91 66 36 -32 -4 normal chunked
- 1189 sprites_grafika/karacsonysprites.png 8bpp 711 91 66 36 -32 -4 normal chunked
- 1190 sprites_grafika/karacsonysprites.png 8bpp 778 91 66 36 -32 -4 normal chunked
- 1191 sprites_grafika/karacsonysprites.png 8bpp 778 91 66 36 -32 -4 normal chunked
- 1192 sprites_grafika/karacsonysprites.png 8bpp 845 91 66 36 -32 -4 normal chunked
- 1193 sprites_grafika/karacsonysprites.png 8bpp 845 91 66 36 -32 -4 normal chunked
- 1194 sprites_grafika/karacsonysprites.png 8bpp 711 128 66 33 -32 -1 normal chunked
- 1195 sprites_grafika/karacsonysprites.png 8bpp 711 128 66 33 -32 -1 normal chunked
- 1196 sprites_grafika/karacsonysprites.png 8bpp 778 128 66 33 -32 -1 normal chunked
- 1197 sprites_grafika/karacsonysprites.png 8bpp 778 128 66 33 -32 -1 normal chunked
- 1198 sprites_grafika/karacsonysprites.png 8bpp 845 128 66 33 -32 -1 normal chunked
- 1199 sprites_grafika/karacsonysprites.png 8bpp 845 128 66 33 -32 -1 normal chunked
- 1200 sprites_grafika/karacsonysprites.png 8bpp 711 162 66 44 -32 -12 normal chunked
- 1201 sprites_grafika/karacsonysprites.png 8bpp 711 162 66 44 -32 -12 normal chunked
- 1202 sprites_grafika/karacsonysprites.png 8bpp 778 162 66 44 -32 -12 normal chunked
- 1203 sprites_grafika/karacsonysprites.png 8bpp 778 162 66 44 -32 -12 normal chunked
- 1204 sprites_grafika/karacsonysprites.png 8bpp 845 162 66 44 -32 -12 normal chunked
- 1205 sprites_grafika/karacsonysprites.png 8bpp 845 162 66 44 -32 -12 normal chunked
- 1206 sprites_grafika/karacsonysprites.png 8bpp 711 5 66 48 -32 -16 normal chunked
- 1207 sprites_grafika/karacsonysprites.png 8bpp 711 5 66 48 -32 -16 normal chunked
- 1208 sprites_grafika/karacsonysprites.png 8bpp 778 5 66 48 -32 -16 normal chunked
- 1209 sprites_grafika/karacsonysprites.png 8bpp 778 5 66 48 -32 -16 normal chunked
- 1210 sprites_grafika/karacsonysprites.png 8bpp 845 5 66 48 -32 -16 normal chunked
- 1211 sprites_grafika/karacsonysprites.png 8bpp 845 5 66 48 -32 -16 normal chunked
- 1212 sprites_grafika/karacsonysprites.png 8bpp 711 207 66 38 -32 -6 normal chunked
- 1213 sprites_grafika/karacsonysprites.png 8bpp 711 207 66 38 -32 -6 normal chunked
- 1214 sprites_grafika/karacsonysprites.png 8bpp 778 207 66 38 -32 -6 normal chunked
- 1215 sprites_grafika/karacsonysprites.png 8bpp 778 207 66 38 -32 -6 normal chunked
- 1216 sprites_grafika/karacsonysprites.png 8bpp 845 207 66 38 -32 -6 normal chunked
- 1217 sprites_grafika/karacsonysprites.png 8bpp 845 207 66 38 -32 -6 normal chunked
+ 1144 * 4	 01 04 12 02
+ 1145 sprites_grafika/karacsonysprites.png 8bpp 711 54 66 36 -32 -4 normal chunked
+ 1146 sprites_grafika/karacsonysprites.png 8bpp 711 54 66 36 -32 -4 normal chunked
+ 1147 sprites_grafika/karacsonysprites.png 8bpp 778 54 66 36 -32 -4 normal chunked
+ 1148 sprites_grafika/karacsonysprites.png 8bpp 778 54 66 36 -32 -4 normal chunked
+ 1149 sprites_grafika/karacsonysprites.png 8bpp 845 54 66 36 -32 -4 normal chunked
+ 1150 sprites_grafika/karacsonysprites.png 8bpp 845 54 66 36 -32 -4 normal chunked
+ 1151 sprites_grafika/karacsonysprites.png 8bpp 711 91 66 36 -32 -4 normal chunked
+ 1152 sprites_grafika/karacsonysprites.png 8bpp 711 91 66 36 -32 -4 normal chunked
+ 1153 sprites_grafika/karacsonysprites.png 8bpp 778 91 66 36 -32 -4 normal chunked
+ 1154 sprites_grafika/karacsonysprites.png 8bpp 778 91 66 36 -32 -4 normal chunked
+ 1155 sprites_grafika/karacsonysprites.png 8bpp 845 91 66 36 -32 -4 normal chunked
+ 1156 sprites_grafika/karacsonysprites.png 8bpp 845 91 66 36 -32 -4 normal chunked
+ 1157 sprites_grafika/karacsonysprites.png 8bpp 711 128 66 33 -32 -1 normal chunked
+ 1158 sprites_grafika/karacsonysprites.png 8bpp 711 128 66 33 -32 -1 normal chunked
+ 1159 sprites_grafika/karacsonysprites.png 8bpp 778 128 66 33 -32 -1 normal chunked
+ 1160 sprites_grafika/karacsonysprites.png 8bpp 778 128 66 33 -32 -1 normal chunked
+ 1161 sprites_grafika/karacsonysprites.png 8bpp 845 128 66 33 -32 -1 normal chunked
+ 1162 sprites_grafika/karacsonysprites.png 8bpp 845 128 66 33 -32 -1 normal chunked
+ 1163 sprites_grafika/karacsonysprites.png 8bpp 711 162 66 44 -32 -12 normal chunked
+ 1164 sprites_grafika/karacsonysprites.png 8bpp 711 162 66 44 -32 -12 normal chunked
+ 1165 sprites_grafika/karacsonysprites.png 8bpp 778 162 66 44 -32 -12 normal chunked
+ 1166 sprites_grafika/karacsonysprites.png 8bpp 778 162 66 44 -32 -12 normal chunked
+ 1167 sprites_grafika/karacsonysprites.png 8bpp 845 162 66 44 -32 -12 normal chunked
+ 1168 sprites_grafika/karacsonysprites.png 8bpp 845 162 66 44 -32 -12 normal chunked
+ 1169 sprites_grafika/karacsonysprites.png 8bpp 711 5 66 48 -32 -16 normal chunked
+ 1170 sprites_grafika/karacsonysprites.png 8bpp 711 5 66 48 -32 -16 normal chunked
+ 1171 sprites_grafika/karacsonysprites.png 8bpp 778 5 66 48 -32 -16 normal chunked
+ 1172 sprites_grafika/karacsonysprites.png 8bpp 778 5 66 48 -32 -16 normal chunked
+ 1173 sprites_grafika/karacsonysprites.png 8bpp 845 5 66 48 -32 -16 normal chunked
+ 1174 sprites_grafika/karacsonysprites.png 8bpp 845 5 66 48 -32 -16 normal chunked
+ 1175 sprites_grafika/karacsonysprites.png 8bpp 711 207 66 38 -32 -6 normal chunked
+ 1176 sprites_grafika/karacsonysprites.png 8bpp 711 207 66 38 -32 -6 normal chunked
+ 1177 sprites_grafika/karacsonysprites.png 8bpp 778 207 66 38 -32 -6 normal chunked
+ 1178 sprites_grafika/karacsonysprites.png 8bpp 778 207 66 38 -32 -6 normal chunked
+ 1179 sprites_grafika/karacsonysprites.png 8bpp 845 207 66 38 -32 -6 normal chunked
+ 1180 sprites_grafika/karacsonysprites.png 8bpp 845 207 66 38 -32 -6 normal chunked
 
- 1218 * 7	 02 04 00 00 01 00 00
- 1219 * 7	 02 04 03 00 01 03 00
- 1220 * 7	 02 04 06 00 01 06 00
- 1221 * 7	 02 04 09 00 01 09 00
- 1222 * 7	 02 04 0C 00 01 0C 00
- 1223 * 7	 02 04 0F 00 01 0F 00
+ 1181 * 7	 02 04 00 00 01 00 00
+ 1182 * 7	 02 04 03 00 01 03 00
+ 1183 * 7	 02 04 06 00 01 06 00
+ 1184 * 7	 02 04 09 00 01 09 00
+ 1185 * 7	 02 04 0C 00 01 0C 00
+ 1186 * 7	 02 04 0F 00 01 0F 00
 
 
 	//Action2
- 1224 * 11	 02 04 20
+ 1187 * 11	 02 04 20
 			01 02			//littlesets, lotssets
 00 00			//LittleSets
 01 00 02 00			//LotsSets
@@ -5291,7 +5255,7 @@
 
 
 	//Action2
- 1225 * 11	 02 04 21
+ 1188 * 11	 02 04 21
 			01 02			//littlesets, lotssets
 03 00			//LittleSets
 04 00 05 00			//LotsSets
@@ -5299,7 +5263,7 @@
 
 
 	//Action2
- 1226 * 11	 02 04 22
+ 1189 * 11	 02 04 22
 			01 02			//littlesets, lotssets
 06 00			//LittleSets
 07 00 08 00			//LotsSets
@@ -5307,7 +5271,7 @@
 
 
 	//Action2
- 1227 * 11	 02 04 23
+ 1190 * 11	 02 04 23
 			01 02			//littlesets, lotssets
 09 00			//LittleSets
 0A 00 0B 00			//LotsSets
@@ -5315,7 +5279,7 @@
 
 
 	//Action2
- 1228 * 11	 02 04 24
+ 1191 * 11	 02 04 24
 			01 02			//littlesets, lotssets
 0C 00			//LittleSets
 0D 00 0E 00			//LotsSets
@@ -5323,7 +5287,7 @@
 
 
 	//Action2
- 1229 * 11	 02 04 25
+ 1192 * 11	 02 04 25
 			01 02			//littlesets, lotssets
 0F 00			//LittleSets
 10 00 11 00			//LotsSets
@@ -5331,7 +5295,7 @@
 
 
 	//Action2
- 1230 * 39	 02 04 1F
+ 1193 * 39	 02 04 1F
 			80 00 10			//random, randomtrigger, randbit
 			10				//range count
 			20 00	20 00	20 00	20 00	20 00
@@ -5344,7 +5308,7 @@
 
 
 	//Action2
- 1231 * 39	 02 04 1E
+ 1194 * 39	 02 04 1E
 			80 00 10			//random, randomtrigger, randbit
 			10				//range count
 			00 00	00 00	00 00	00 00	00 00
@@ -5357,7 +5321,7 @@
 
 
    // Action3
- 1232 * 10	 03 04 01 27 01 00 1F 00 1E 00
+ 1195 * 10	 03 04 01 27 01 00 1F 00 1E 00
 
 //*************************************//
 //				Strings			//
@@ -5365,15 +5329,15 @@
 
 
    // Action4
- 1233 * 43	 04 04 FF 01 26 C4 C3 9E "HSS - Christmas Market (automatic)" 00
- 1234 * 48	 04 04 A4 01 26 C4 C3 9E "HSS - Karácsonyi vásár (automatikus)" 00
- 1235 * 44	 04 04 82 01 26 C4 C3 9E "HSS - Weihnachtsmarkt (automatisch)" 00
- 1236 * 18	 04 04 FF 01 26 C5 C3 9E "With rail" 00
- 1237 * 16	 04 04 A4 01 26 C5 C3 9E "Sínnel" 00
- 1238 * 20	 04 04 82 01 26 C5 C3 9E "Mit Schiene" 00
- 1239 * 21	 04 04 FF 01 27 C5 C3 9E "Without rail" 00
- 1240 * 23	 04 04 A4 01 27 C5 C3 9E "Sín nélküli" 00
- 1241 * 21	 04 04 82 01 27 C5 C3 9E "Ohne Schiene" 00
+ 1196 * 43	 04 04 FF 01 26 C4 C3 9E "HSS - Christmas Market (automatic)" 00
+ 1197 * 48	 04 04 A4 01 26 C4 C3 9E "HSS - Karácsonyi vásár (automatikus)" 00
+ 1198 * 44	 04 04 82 01 26 C4 C3 9E "HSS - Weihnachtsmarkt (automatisch)" 00
+ 1199 * 18	 04 04 FF 01 26 C5 C3 9E "With rail" 00
+ 1200 * 16	 04 04 A4 01 26 C5 C3 9E "Sínnel" 00
+ 1201 * 20	 04 04 82 01 26 C5 C3 9E "Mit Schiene" 00
+ 1202 * 21	 04 04 FF 01 27 C5 C3 9E "Without rail" 00
+ 1203 * 23	 04 04 A4 01 27 C5 C3 9E "Sín nélküli" 00
+ 1204 * 21	 04 04 82 01 27 C5 C3 9E "Ohne Schiene" 00
 
 
 
@@ -5384,21 +5348,21 @@
 //******************************************************************************************************************************************************//
 
 
- 1242 * 11	 02 04 70				// Procedure to compute the slope-dependent spriteoffset
+ 1205 * 11	 02 04 70				// Procedure to compute the slope-dependent spriteoffset
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
 			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			00 00
 
- 1243 * 11	 02 04 71				// Procedure to compute the climate-dependent spriteoffset
+ 1206 * 11	 02 04 71				// Procedure to compute the climate-dependent spriteoffset
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
 			01 00						// Action2 azonositoja minden egyes lehetosegnek kulon
 			00 00
 
- 1244 * 11	 02 04 72				// Procedure to compute the height offset in the middle of the tile
+ 1207 * 11	 02 04 72				// Procedure to compute the height offset in the middle of the tile
             80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -5408,7 +5372,7 @@
 
 
 
- 1245 * 160	 00 04 04 01 F0 08 "PKST"
+ 1208 * 160	 00 04 04 01 F0 08 "PKST"
 //			11 00 14 FF 15 FF
 			0C FE
 			0B 03	// custom sprite layout
@@ -5486,36 +5450,36 @@
 			00 00 00		// extend
 
 
- 1246 * 4	 01 04 01 02
- 1247 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
- 1248 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
+ 1209 * 4	 01 04 01 02
+ 1210 sprites_grafika/peron1.pcx 8bpp 91 1 44 37 -34 -14 normal chunked
+ 1211 sprites_grafika/peron1.pcx 8bpp 91 39 44 37 -8 -14 normal chunked
 
- 1249 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
-
-
-
- 1250 * 4	 01 04 01 02
- 1251 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
- 1252 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
-
- 1253 * 7	 02 04 01 00 01 00 00	// hatulja
+ 1212 * 7	 02 04 00 00 01 00 00	// (eleje) hatulja
 
 
 
- 1254 * 4	 01 04 01 04
- 1255 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
- 1256 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
- 1257 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
- 1258 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+ 1213 * 4	 01 04 01 02
+ 1214 sprites_grafika/peron1.pcx 8bpp 181 1 44 37 -30 -17 normal chunked
+ 1215 sprites_grafika/peron1.pcx 8bpp 181 39 44 37 -12 -17 normal chunked
 
- 1259 * 7	 02 04 02 00 01 00 00	// objektumok
+ 1216 * 7	 02 04 01 00 01 00 00	// hatulja
+
+
+
+ 1217 * 4	 01 04 01 04
+ 1218 sprites_grafika/peron1.pcx 8bpp 1 1 44 37 -28 -17 normal chunked
+ 1219 sprites_grafika/peron1.pcx 8bpp 1 39 44 37 -12 -17 normal chunked
+ 1220 sprites_grafika/peron1.pcx 8bpp 1 77 44 37 -30 -17 normal chunked
+ 1221 sprites_grafika/peron1.pcx 8bpp 1 115 44 37 -12 -17 normal chunked
+
+ 1222 * 7	 02 04 02 00 01 00 00	// objektumok
 
 
 //   00 * 00	02 04 01 00 01 01 00	// hatulja
 //   00 * 00	02 04 01 00 01 00 00	// hatulja
 
 	// lampas randomizaciok
- 1260 * 11	 02 04 B0
+ 1223 * 11	 02 04 B0
 			80 00						// 80 azaz random object, 00, azaz nincs random trigger
 			10							// szerintem ez kotelezoen ennyi
 			02							// hany darab random lehetosegunk van
@@ -5524,7 +5488,7 @@
 
 
 // ez a masodik lekerdezes, ha az eszaki vege van, akkor egybol betolti a 00-s sprite-ot, egyebken a harmadik lekerdezesre (10) ugrik
- 1261 * 14	 02 04 A1
+ 1224 * 14	 02 04 A1
 			81 49						// 81 lower byte, 49 type, azaz mekkora tavolsagra van.
 			00							// shift eltolas
 			0F							// maszkolas
@@ -5534,7 +5498,7 @@
 
 // callback handler for normal graphics (non-build menu)
 // ez az elso lekerdezes, ezzel kerdezem kezdem el a betoltendo  lekerdezeseket
- 1262 * 17	 02 04 A0
+ 1225 * 17	 02 04 A0
 			85							// get word
 			0C							// check if callback
 			00
@@ -5547,7 +5511,7 @@
 
 // callback handler for build menu
 // switch between callback and graphics branches
- 1263 * 17	 02 04 C0					// Set-ID C0
+ 1226 * 17	 02 04 C0					// Set-ID C0
 			85 0C 00 FF FF				// get word, check if callback
 			01							// one range
 			00 80 14 00 14 00			// use layouts 06/07 during callback 14
@@ -5558,7 +5522,7 @@
 //           \dx 80000000 \wx20  00 00 00 10 10 30 11       // Draw building sprite at z-postion from register 0x11.
 //           \dx 80000001 \wx01  00 00 80          12       // Draw snow-overlay relative to building sprite, but only if register 0x12 is zero.
 
- 1264 * 37	 02 04 D0 81
+ 1227 * 37	 02 04 D0 81
 					7E 70 20 FF                           // Get slope offset from procedure 40
              \2sto  1A    20 10                           // Store in register 0x10
              \2rst  7E 71 20 0F                           // Add climate offset from procedure 41
@@ -5576,7 +5540,7 @@
 
 //-1 * -1    03 0F 01 ?? \b 0 00                            // always procede at 00
 
- 1265 * 10	 03 04 01 F0
+ 1228 * 10	 03 04 01 F0
    01									// hany darab kulonbozo cargo
    FF C0 00								// FF elvileg a menu hivasa, ezt olvastam...
    D0 00								// ha nem menu, akkor A0 action2-re
@@ -5588,8 +5552,8 @@
 //				Strings					//
 //**************************************//
 
- 1266 * 22	 04 04 FF 01 F0 C4 "HUNGARIAN TESZT" 00
- 1267 * 13	 04 04 FF 01 F0 C5 "TESZT1" 00
+ 1229 * 22	 04 04 FF 01 F0 C4 "HUNGARIAN TESZT" 00
+ 1230 * 13	 04 04 FF 01 F0 C5 "TESZT1" 00
 
 
 //******************************************************************************************************************************************************//

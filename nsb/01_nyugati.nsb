@@ -3609,149 +3609,149 @@
 @StationNames
 	Setname: stationid: 0, language: default, name: HSS - Western railway station
 	Setname: stationid: 0, language: hu, name: HSS - Nyugati pályaudvar
-	Setname: stationid: 0, language: de, name: HSS - Westbahnhof
+//	Setname: stationid: 0, language: de, name: HSS - Westbahnhof
 
 	Station: stationid: 0, language: default, name: Entrance
 	Station: stationid: 0, language: hu, name: Bejárat
-	Station: stationid: 0, language: de, name: Eingang
+//	Station: stationid: 0, language: de, name: Eingang
 
 	Station: stationid: 1, language: default, name: Passenger hall entrance
 	Station: stationid: 1, language: hu, name: Csarnok bejárat
-	Station: stationid: 1, language: de, name: Passagierhalle Eingang
+//	Station: stationid: 1, language: de, name: Passagierhalle Eingang
 
 	Station: stationid: 2, language: default, name: Glass-roofed passenger hall (small)
 	Station: stationid: 2, language: hu, name: Üvegtetős csarnok (kicsi)
-	Station: stationid: 2, language: de, name: Glasdach Passagierhalle (klein)
+//	Station: stationid: 2, language: de, name: Glasdach Passagierhalle (klein)
 
 	Station: stationid: 3, language: default, name: Glass-roofed passenger hall (small)
 	Station: stationid: 3, language: hu, name: Üvegtetős csarnok (kicsi)
-	Station: stationid: 3, language: de, name: Glasdach Passagierhalle (klein)
+//	Station: stationid: 3, language: de, name: Glasdach Passagierhalle (klein)
 
 	Station: stationid: 4, language: default, name: Glass-roofed passenger hall (small)
 	Station: stationid: 4, language: hu, name: Üvegtetős csarnok (kicsi)
-	Station: stationid: 4, language: de, name: Glasdach Passagierhalle (klein)
+//	Station: stationid: 4, language: de, name: Glasdach Passagierhalle (klein)
 
 	Station: stationid: 5, language: default, name: Glass-roofed passenger hall (small)
 	Station: stationid: 5, language: hu, name: Üvegtetős csarnok (kicsi)
-	Station: stationid: 5, language: de, name: Glasdach Passagierhalle (klein)
+//	Station: stationid: 5, language: de, name: Glasdach Passagierhalle (klein)
 
 	Station: stationid: 6, language: default, name: Glass-roofed passenger hall (small)
 	Station: stationid: 6, language: hu, name: Üvegtetős csarnok (kicsi)
-	Station: stationid: 6, language: de, name: Glasdach Passagierhalle (klein)
+//	Station: stationid: 6, language: de, name: Glasdach Passagierhalle (klein)
 
 	Station: stationid: 7, language: default, name: Glass-roofed passenger hall (small)
 	Station: stationid: 7, language: hu, name: Üvegtetős csarnok (kicsi)
-	Station: stationid: 7, language: de, name: Glasdach Passagierhalle (klein)
+//	Station: stationid: 7, language: de, name: Glasdach Passagierhalle (klein)
 
 	Station: stationid: 8, language: default, name: Glass-roofed passenger hall (small)
 	Station: stationid: 8, language: hu, name: Üvegtetős csarnok (kicsi)
-	Station: stationid: 8, language: de, name: Glasdach Passagierhalle (klein)
+//	Station: stationid: 8, language: de, name: Glasdach Passagierhalle (klein)
 
 	Station: stationid: 9, language: default, name: Glass-roofed passenger hall
 	Station: stationid: 9, language: hu, name: Üvegtetős csarnok
-	Station: stationid: 9, language: de, name: Glasdach Passagierhalle
+//	Station: stationid: 9, language: de, name: Glasdach Passagierhalle
 
 	Station: stationid: 10, language: default, name: Glass-roofed passenger hall
 	Station: stationid: 10, language: hu, name: Üvegtetős csarnok
-	Station: stationid: 10, language: de, name: Glasdach Passagierhalle
+//	Station: stationid: 10, language: de, name: Glasdach Passagierhalle
 
 	Station: stationid: 11, language: default, name: Glass-roofed passenger hall
 	Station: stationid: 11, language: hu, name: Üvegtetős csarnok
-	Station: stationid: 11, language: de, name: Glasdach Passagierhalle
+//	Station: stationid: 11, language: de, name: Glasdach Passagierhalle
 
 	Station: stationid: 12, language: default, name: Glass-roofed passenger hall
 	Station: stationid: 12, language: hu, name: Üvegtetős csarnok
-	Station: stationid: 12, language: de, name: Glasdach Passagierhalle
+//	Station: stationid: 12, language: de, name: Glasdach Passagierhalle
 
 	Station: stationid: 13, language: default, name: Glass-roofed passenger hall
 	Station: stationid: 13, language: hu, name: Üvegtetős csarnok
-	Station: stationid: 13, language: de, name: Glasdach Passagierhalle
+//	Station: stationid: 13, language: de, name: Glasdach Passagierhalle
 
 	Station: stationid: 14, language: default, name: Glass-roofed passenger hall
 	Station: stationid: 14, language: hu, name: Üvegtetős csarnok
-	Station: stationid: 14, language: de, name: Glasdach Passagierhalle
+//	Station: stationid: 14, language: de, name: Glasdach Passagierhalle
 
 	Station: stationid: 15, language: default, name: Glass-roofed passenger hall
 	Station: stationid: 15, language: hu, name: Üvegtetős csarnok
-	Station: stationid: 15, language: de, name: Glasdach Passagierhalle
+//	Station: stationid: 15, language: de, name: Glasdach Passagierhalle
 
 	Station: stationid: 16, language: default, name: Glass-roofed passenger hall (large)
 	Station: stationid: 16, language: hu, name: Üvegtetős csarnok (nagy)
-	Station: stationid: 16, language: de, name: Glasdach Passagierhalle (groß)
+//	Station: stationid: 16, language: de, name: Glasdach Passagierhalle (groß)
 
 	Station: stationid: 17, language: default, name: Glass-roofed passenger hall (large)
 	Station: stationid: 17, language: hu, name: Üvegtetős csarnok (nagy)
-	Station: stationid: 17, language: de, name: Glasdach Passagierhalle (groß)
+//	Station: stationid: 17, language: de, name: Glasdach Passagierhalle (groß)
 
 	Station: stationid: 18, language: default, name: Glass-roofed passenger hall (large)
 	Station: stationid: 18, language: hu, name: Üvegtetős csarnok (nagy)
-	Station: stationid: 18, language: de, name: Glasdach Passagierhalle (groß)
+//	Station: stationid: 18, language: de, name: Glasdach Passagierhalle (groß)
 
 	Station: stationid: 19, language: default, name: Glass-roofed passenger hall (large)
 	Station: stationid: 19, language: hu, name: Üvegtetős csarnok (nagy)
-	Station: stationid: 19, language: de, name: Glasdach Passagierhalle (groß)
+//	Station: stationid: 19, language: de, name: Glasdach Passagierhalle (groß)
 
 	Station: stationid: 20, language: default, name: Glass-roofed passenger hall (large)
 	Station: stationid: 20, language: hu, name: Üvegtetős csarnok (nagy)
-	Station: stationid: 20, language: de, name: Glasdach Passagierhalle (groß)
+//	Station: stationid: 20, language: de, name: Glasdach Passagierhalle (groß)
 
 	Station: stationid: 21, language: default, name: Glass-roofed passenger hall (large)
 	Station: stationid: 21, language: hu, name: Üvegtetős csarnok (nagy)
-	Station: stationid: 21, language: de, name: Glasdach Passagierhalle (groß)
+//	Station: stationid: 21, language: de, name: Glasdach Passagierhalle (groß)
 
 	Station: stationid: 22, language: default, name: Glass-roofed passenger hall (large)
 	Station: stationid: 22, language: hu, name: Üvegtetős csarnok (nagy)
-	Station: stationid: 22, language: de, name: Glasdach Passagierhalle (groß)
+//	Station: stationid: 22, language: de, name: Glasdach Passagierhalle (groß)
 
 	Station: stationid: 23, language: default, name: Passenger hall
 	Station: stationid: 23, language: hu, name: Csarnok
-	Station: stationid: 23, language: de, name: Passagierhalle
+//	Station: stationid: 23, language: de, name: Passagierhalle
 
 	Station: stationid: 24, language: default, name: Passenger hall
 	Station: stationid: 24, language: hu, name: Csarnok
-	Station: stationid: 24, language: de, name: Passagierhalle
+//	Station: stationid: 24, language: de, name: Passagierhalle
 
 	Station: stationid: 25, language: default, name: Passenger hall
 	Station: stationid: 25, language: hu, name: Csarnok
-	Station: stationid: 25, language: de, name: Passagierhalle
+//	Station: stationid: 25, language: de, name: Passagierhalle
 
 	Station: stationid: 26, language: default, name: Passenger hall
 	Station: stationid: 26, language: hu, name: Csarnok
-	Station: stationid: 26, language: de, name: Passagierhalle
+//	Station: stationid: 26, language: de, name: Passagierhalle
 
 	Station: stationid: 27, language: default, name: Passenger hall
 	Station: stationid: 27, language: hu, name: Csarnok
-	Station: stationid: 27, language: de, name: Passagierhalle
+//	Station: stationid: 27, language: de, name: Passagierhalle
 
 	Station: stationid: 28, language: default, name: Passenger hall
 	Station: stationid: 28, language: hu, name: Csarnok
-	Station: stationid: 28, language: de, name: Passagierhalle
+//	Station: stationid: 28, language: de, name: Passagierhalle
 
 	Station: stationid: 29, language: default, name: Passenger hall
 	Station: stationid: 29, language: hu, name: Csarnok
-	Station: stationid: 29, language: de, name: Passagierhalle
+//	Station: stationid: 29, language: de, name: Passagierhalle
 
 	Station: stationid: 30, language: default, name: Main building (left)
 	Station: stationid: 30, language: hu, name: Főépület (bal)
-	Station: stationid: 30, language: de, name: Hauptgebäude (links)
+//	Station: stationid: 30, language: de, name: Hauptgebäude (links)
 
 	Station: stationid: 30, language: default, name: Main building (right)
 	Station: stationid: 31, language: hu, name: Főépület (jobb)
-	Station: stationid: 31, language: de, name: Hauptgebäude (rechts)
+//	Station: stationid: 31, language: de, name: Hauptgebäude (rechts)
 
 	Station: stationid: 32, language: default, name: Main building (left)
 	Station: stationid: 32, language: hu, name: Főépület (bal)
-	Station: stationid: 32, language: de, name: Hauptgebäude (links)
+//	Station: stationid: 32, language: de, name: Hauptgebäude (links)
 
 	Station: stationid: 33, language: default, name: Main building (right)
 	Station: stationid: 33, language: hu, name: Főépület (jobb)
-	Station: stationid: 33, language: de, name: Hauptgebäude (rechts)
+//	Station: stationid: 33, language: de, name: Hauptgebäude (rechts)
 
 	Station: stationid: 34, language: default, name: Tower (left)
 	Station: stationid: 34, language: hu, name: Torony (bal)
-	Station: stationid: 34, language: de, name: Turm (links)
+//	Station: stationid: 34, language: de, name: Turm (links)
 
 	Station: stationid: 35, language: default, name: Tower (right)
 	Station: stationid: 35, language: hu, name: Torony (jobb)
-	Station: stationid: 35, language: de, name: Turm (rechts)
+//	Station: stationid: 35, language: de, name: Turm (rechts)
 @EndStationNames

@@ -6,41 +6,42 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			02 01 26			// Properties, Stations, First Station ID
+			03 01 26			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
+			10 32 00				// Little/Lots Threshold
 
 			09 36				// Sprite Layout
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			00 00 00	10 05 06		2D 84 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			00 00 00	05 10 06		2F 84 00 00
+			00 00 00	10 10 06		30 84 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			00 00 00	10 05 06		2D 84 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			00 00 00	05 10 06		2F 84 00 00
+			00 00 00	10 10 06		30 84 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			00 00 00	10 05 06		2D 84 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			00 00 00	05 10 06		2F 84 00 00
+			00 00 00	10 10 06		30 84 00 00
 			80					// end layout1 sprite
 
 
@@ -550,7 +551,7 @@
    00 * 00	00 04				// Action0, Feature4
 			06 01 27			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
-			10 01 00				// Little/Lots Threshold
+			10 32 00				// Little/Lots Threshold
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
@@ -558,29 +559,29 @@
 			09 24				// Sprite Layout
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 
 			8D 0F 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			00 00 00	10 10 06		2D 84 00 00
 			80					// end layout1 sprite
 
 			8D 0F 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 

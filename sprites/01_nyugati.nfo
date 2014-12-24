@@ -2726,112 +2726,75 @@
    // Action4
 	00 * 00	04 04 FF 01 00 C4 C3 9E "HSS - Western railway station" 00
 	00 * 00	04 04 A4 01 00 C4 C3 9E "HSS - Nyugati pályaudvar" 00
-	00 * 00	04 04 82 01 00 C4 C3 9E "HSS - Westbahnhof" 00
 	00 * 00	04 04 FF 01 00 C5 C3 9E "Entrance" 00
 	00 * 00	04 04 A4 01 00 C5 C3 9E "Bejárat" 00
-	00 * 00	04 04 82 01 00 C5 C3 9E "Eingang" 00
 	00 * 00	04 04 FF 01 01 C5 C3 9E "Passenger hall entrance" 00
 	00 * 00	04 04 A4 01 01 C5 C3 9E "Csarnok bejárat" 00
-	00 * 00	04 04 82 01 01 C5 C3 9E "Passagierhalle Eingang" 00
 	00 * 00	04 04 FF 01 02 C5 C3 9E "Glass-roofed passenger hall (small)" 00
 	00 * 00	04 04 A4 01 02 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 82 01 02 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
 	00 * 00	04 04 FF 01 03 C5 C3 9E "Glass-roofed passenger hall (small)" 00
 	00 * 00	04 04 A4 01 03 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 82 01 03 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
 	00 * 00	04 04 FF 01 04 C5 C3 9E "Glass-roofed passenger hall (small)" 00
 	00 * 00	04 04 A4 01 04 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 82 01 04 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
 	00 * 00	04 04 FF 01 05 C5 C3 9E "Glass-roofed passenger hall (small)" 00
 	00 * 00	04 04 A4 01 05 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 82 01 05 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
 	00 * 00	04 04 FF 01 06 C5 C3 9E "Glass-roofed passenger hall (small)" 00
 	00 * 00	04 04 A4 01 06 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 82 01 06 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
 	00 * 00	04 04 FF 01 07 C5 C3 9E "Glass-roofed passenger hall (small)" 00
 	00 * 00	04 04 A4 01 07 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 82 01 07 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
 	00 * 00	04 04 FF 01 08 C5 C3 9E "Glass-roofed passenger hall (small)" 00
 	00 * 00	04 04 A4 01 08 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 82 01 08 C5 C3 9E "Glasdach Passagierhalle (klein)" 00
 	00 * 00	04 04 FF 01 09 C5 C3 9E "Glass-roofed passenger hall" 00
 	00 * 00	04 04 A4 01 09 C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 82 01 09 C5 C3 9E "Glasdach Passagierhalle" 00
 	00 * 00	04 04 FF 01 0A C5 C3 9E "Glass-roofed passenger hall" 00
 	00 * 00	04 04 A4 01 0A C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 82 01 0A C5 C3 9E "Glasdach Passagierhalle" 00
 	00 * 00	04 04 FF 01 0B C5 C3 9E "Glass-roofed passenger hall" 00
 	00 * 00	04 04 A4 01 0B C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 82 01 0B C5 C3 9E "Glasdach Passagierhalle" 00
 	00 * 00	04 04 FF 01 0C C5 C3 9E "Glass-roofed passenger hall" 00
 	00 * 00	04 04 A4 01 0C C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 82 01 0C C5 C3 9E "Glasdach Passagierhalle" 00
 	00 * 00	04 04 FF 01 0D C5 C3 9E "Glass-roofed passenger hall" 00
 	00 * 00	04 04 A4 01 0D C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 82 01 0D C5 C3 9E "Glasdach Passagierhalle" 00
 	00 * 00	04 04 FF 01 0E C5 C3 9E "Glass-roofed passenger hall" 00
 	00 * 00	04 04 A4 01 0E C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 82 01 0E C5 C3 9E "Glasdach Passagierhalle" 00
 	00 * 00	04 04 FF 01 0F C5 C3 9E "Glass-roofed passenger hall" 00
 	00 * 00	04 04 A4 01 0F C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 82 01 0F C5 C3 9E "Glasdach Passagierhalle" 00
 	00 * 00	04 04 FF 01 10 C5 C3 9E "Glass-roofed passenger hall (large)" 00
 	00 * 00	04 04 A4 01 10 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 82 01 10 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
 	00 * 00	04 04 FF 01 11 C5 C3 9E "Glass-roofed passenger hall (large)" 00
 	00 * 00	04 04 A4 01 11 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 82 01 11 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
 	00 * 00	04 04 FF 01 12 C5 C3 9E "Glass-roofed passenger hall (large)" 00
 	00 * 00	04 04 A4 01 12 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 82 01 12 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
 	00 * 00	04 04 FF 01 13 C5 C3 9E "Glass-roofed passenger hall (large)" 00
 	00 * 00	04 04 A4 01 13 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 82 01 13 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
 	00 * 00	04 04 FF 01 14 C5 C3 9E "Glass-roofed passenger hall (large)" 00
 	00 * 00	04 04 A4 01 14 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 82 01 14 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
 	00 * 00	04 04 FF 01 15 C5 C3 9E "Glass-roofed passenger hall (large)" 00
 	00 * 00	04 04 A4 01 15 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 82 01 15 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
 	00 * 00	04 04 FF 01 16 C5 C3 9E "Glass-roofed passenger hall (large)" 00
 	00 * 00	04 04 A4 01 16 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 82 01 16 C5 C3 9E "Glasdach Passagierhalle (groß)" 00
 	00 * 00	04 04 FF 01 17 C5 C3 9E "Passenger hall" 00
 	00 * 00	04 04 A4 01 17 C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 82 01 17 C5 C3 9E "Passagierhalle" 00
 	00 * 00	04 04 FF 01 18 C5 C3 9E "Passenger hall" 00
 	00 * 00	04 04 A4 01 18 C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 82 01 18 C5 C3 9E "Passagierhalle" 00
 	00 * 00	04 04 FF 01 19 C5 C3 9E "Passenger hall" 00
 	00 * 00	04 04 A4 01 19 C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 82 01 19 C5 C3 9E "Passagierhalle" 00
 	00 * 00	04 04 FF 01 1A C5 C3 9E "Passenger hall" 00
 	00 * 00	04 04 A4 01 1A C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 82 01 1A C5 C3 9E "Passagierhalle" 00
 	00 * 00	04 04 FF 01 1B C5 C3 9E "Passenger hall" 00
 	00 * 00	04 04 A4 01 1B C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 82 01 1B C5 C3 9E "Passagierhalle" 00
 	00 * 00	04 04 FF 01 1C C5 C3 9E "Passenger hall" 00
 	00 * 00	04 04 A4 01 1C C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 82 01 1C C5 C3 9E "Passagierhalle" 00
 	00 * 00	04 04 FF 01 1D C5 C3 9E "Passenger hall" 00
 	00 * 00	04 04 A4 01 1D C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 82 01 1D C5 C3 9E "Passagierhalle" 00
 	00 * 00	04 04 FF 01 1E C5 C3 9E "Main building (left)" 00
 	00 * 00	04 04 A4 01 1E C5 C3 9E "Főépület (bal)" 00
-	00 * 00	04 04 82 01 1E C5 C3 9E "Hauptgebäude (links)" 00
 	00 * 00	04 04 FF 01 1E C5 C3 9E "Main building (right)" 00
 	00 * 00	04 04 A4 01 1F C5 C3 9E "Főépület (jobb)" 00
-	00 * 00	04 04 82 01 1F C5 C3 9E "Hauptgebäude (rechts)" 00
 	00 * 00	04 04 FF 01 20 C5 C3 9E "Main building (left)" 00
 	00 * 00	04 04 A4 01 20 C5 C3 9E "Főépület (bal)" 00
-	00 * 00	04 04 82 01 20 C5 C3 9E "Hauptgebäude (links)" 00
 	00 * 00	04 04 FF 01 21 C5 C3 9E "Main building (right)" 00
 	00 * 00	04 04 A4 01 21 C5 C3 9E "Főépület (jobb)" 00
-	00 * 00	04 04 82 01 21 C5 C3 9E "Hauptgebäude (rechts)" 00
 	00 * 00	04 04 FF 01 22 C5 C3 9E "Tower (left)" 00
 	00 * 00	04 04 A4 01 22 C5 C3 9E "Torony (bal)" 00
-	00 * 00	04 04 82 01 22 C5 C3 9E "Turm (links)" 00
 	00 * 00	04 04 FF 01 23 C5 C3 9E "Tower (right)" 00
 	00 * 00	04 04 A4 01 23 C5 C3 9E "Torony (jobb)" 00
-	00 * 00	04 04 82 01 23 C5 C3 9E "Turm (rechts)" 00
