@@ -20,7 +20,7 @@
    // Action0
    00 * 00	00 04				// Action0, Feature4
 			07 01 00			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 			0D FE				// Length
 			11 00				// Pylon disabled
@@ -67,9 +67,16 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
-
-   // Action3
    00 * 00	03 04 01 00 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 0
+//	Default: 10
+//@EndAssignGrapghicsSets
+
+
+//
+// bejarat 2, ID 1
+//
 
 
 //
@@ -79,8 +86,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 01			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			07 01 02			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 			0D FE				// Length
 			11 00				// Pylon disabled
@@ -143,8 +150,17 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
-   // Action3
-   00 * 00	03 04 01 01 00 0A 00
+   00 * 00	03 04 01 02 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 2
+//	Default: 10
+//@EndAssignGrapghicsSets
+
+
+//
+// csarnok bejarat2, id 3
+//
+
 
 
 //
@@ -154,8 +170,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 02			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 04			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
@@ -222,9 +238,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 04 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 4
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 02 00 0A 00
 
 
 //
@@ -234,15 +253,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 03			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 05			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 10		2E 04 00 00
+			00 00 00	10 05 10		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -302,9 +321,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 05 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 5
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 03 00 0A 00
 
 
 //
@@ -314,15 +336,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 04			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 06			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 18		2E 04 00 00
+			00 00 00	10 05 18		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -382,9 +404,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 06 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 6
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 04 00 0A 00
 
 
 //
@@ -394,15 +419,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 05			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 07			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	05 10 00		2D 04 00 00
-			00 00 00	05 10 18		2E 04 00 00
+			00 00 00	10 05 18		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -462,9 +487,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 07 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 7
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 05 00 0A 00
 
 
 //
@@ -474,15 +502,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 06			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 08			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 06		2E 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -542,9 +570,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 08 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 8
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 06 00 0A 00
 
 
 //
@@ -554,15 +585,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 07			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 09			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	05 10 06		2E 84 00 00
+			00 00 00	10 05 06		2E 84 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -622,9 +653,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 09 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 9
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 07 00 0A 00
 
 
 //
@@ -634,15 +668,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 08			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 0A			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	05 10 06		2E 84 00 00
+			00 00 00	10 05 06		2E 84 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -702,9 +736,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 0A 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 10
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 08 00 0A 00
 
 
 //
@@ -714,8 +751,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 09			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 0B			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
@@ -782,9 +819,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 0B 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 11
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 09 00 0A 00
 
 
 //
@@ -794,15 +834,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 0A			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 0C			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 10		2E 04 00 00
+			00 00 00	10 05 10		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -862,9 +902,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 0C 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 12
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 0A 00 0A 00
 
 
 //
@@ -874,15 +917,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 0B			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 0D			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 18		2E 04 00 00
+			00 00 00	10 05 18		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -942,9 +985,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 0D 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 13
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 0B 00 0A 00
 
 
 //
@@ -954,15 +1000,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 0C			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 0E			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 18		2E 04 00 00
+			00 00 00	10 05 18		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -1022,9 +1068,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 0E 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 14
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 0C 00 0A 00
 
 
 //
@@ -1034,15 +1083,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 0D			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 0F			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 06		2E 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -1102,9 +1151,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 0F 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 15
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 0D 00 0A 00
 
 
 //
@@ -1114,15 +1166,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 0E			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 10			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	05 10 06		2E 84 00 00
+			00 00 00	10 05 06		2E 84 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -1182,9 +1234,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 10 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 16
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 0E 00 0A 00
 
 
 //
@@ -1194,15 +1249,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 0F			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 11			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	05 10 06		2E 84 00 00
+			00 00 00	10 05 06		2E 84 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -1262,9 +1317,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 11 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 17
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 0F 00 0A 00
 
 
 //
@@ -1274,8 +1332,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 10			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 12			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
@@ -1342,9 +1400,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 12 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 18
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 10 00 0A 00
 
 
 //
@@ -1354,15 +1415,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 11			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 13			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 10		2E 04 00 00
+			00 00 00	10 05 10		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -1422,9 +1483,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 13 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 19
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 11 00 0A 00
 
 
 //
@@ -1434,15 +1498,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 12			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 14			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 18		2E 04 00 00
+			00 00 00	10 05 18		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -1502,9 +1566,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 14 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 20
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 12 00 0A 00
 
 
 //
@@ -1514,15 +1581,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 13			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 15			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 18		2E 04 00 00
+			00 00 00	10 05 18		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -1582,9 +1649,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 15 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 21
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 13 00 0A 00
 
 
 //
@@ -1594,15 +1664,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 14			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 16			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 06		2E 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -1662,9 +1732,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 16 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 22
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 14 00 0A 00
 
 
 //
@@ -1674,15 +1747,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 15			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 17			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	05 10 06		2E 84 00 00
+			00 00 00	10 05 06		2E 84 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -1742,9 +1815,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 17 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 23
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 15 00 0A 00
 
 
 //
@@ -1754,8 +1830,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 16			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 18			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
@@ -1822,9 +1898,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 18 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 24
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 16 00 0A 00
 
 
 //
@@ -1834,8 +1913,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 17			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 19			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
@@ -1902,9 +1981,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 19 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 25
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 17 00 0A 00
 
 
 //
@@ -1914,15 +1996,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 18			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 1A			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 10		2E 04 00 00
+			00 00 00	10 05 10		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -1982,9 +2064,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 1A 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 26
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 18 00 0A 00
 
 
 //
@@ -1994,15 +2079,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 19			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 1B			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 18		2E 04 00 00
+			00 00 00	10 05 18		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -2062,9 +2147,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 1B 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 27
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 19 00 0A 00
 
 
 //
@@ -2074,15 +2162,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1A			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 1C			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 18		2E 04 00 00
+			00 00 00	10 05 18		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -2142,9 +2230,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 1C 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 28
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 1A 00 0A 00
 
 
 //
@@ -2154,15 +2245,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1B			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 1D			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	05 10 06		2E 04 00 00
+			00 00 00	10 05 06		2E 04 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -2222,9 +2313,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 1D 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 29
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 1B 00 0A 00
 
 
 //
@@ -2234,15 +2328,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1C			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 1E			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	05 10 06		2E 84 00 00
+			00 00 00	10 05 06		2E 84 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -2302,9 +2396,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 1E 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 30
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 1C 00 0A 00
 
 
 //
@@ -2314,15 +2411,15 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1D			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			03 01 1F			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FD				// Platforms
 
 			09 04				// Sprite Layout
 
 			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	05 10 06		2E 84 00 00
+			00 00 00	10 05 06		2E 84 00 00
 			00 00 00	10 10 31		2F 04 00 00
 			00 00 80	00 00 00		30 44 22 03
 			80					// end layout1 sprite
@@ -2382,9 +2479,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 1F 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 31
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 1D 00 0A 00
 
 
 
@@ -2401,8 +2501,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 1E			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			07 01 20			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FE				// Platforms
 			0D FD				// Length
 			11 00				// Pylon disabled
@@ -2449,9 +2549,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 20 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 32
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 1E 00 0A 00
 
 
 //
@@ -2461,8 +2564,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 1F			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			07 01 21			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FE				// Platforms
 			0D FD				// Length
 			11 00				// Pylon disabled
@@ -2509,9 +2612,18 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 21 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 33
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 1F 00 0A 00
+
+
+
+// kihagyom a 34 es 35 ID-t a ket masik foepuletnek
+
+
 
 
 //
@@ -2521,8 +2633,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 20			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			07 01 24			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FE				// Platforms
 			0D FD				// Length
 			11 00				// Pylon disabled
@@ -2569,9 +2681,12 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 24 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 36
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 20 00 0A 00
 
 
 //
@@ -2581,8 +2696,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 21			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			07 01 25			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FE				// Platforms
 			0D FD				// Length
 			11 00				// Pylon disabled
@@ -2629,10 +2744,14 @@
 			00 00	00	00		//action2id, min range, max range
 			01 00			//default action2id
 
+   00 * 00	03 04 01 25 00 0A 00
+//@AssignGrapghicsSets
+//	StationIDs: 37
+//	Default: 10
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 21 00 0A 00
 
+// a 38 es 39-es ID-t fenntartom szinten a masik ket foepuletnek
 
 
 //**************************************//
@@ -2646,8 +2765,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 22			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			07 01 28			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FE				// Platforms
 			0D FE				// Length
 			11 00				// Pylon disabled
@@ -2673,9 +2792,12 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
+   00 * 00	03 04 01 28 00 00 00
+//@AssignGrapghicsSets
+//	StationIDs: 40
+//	Default: 0
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 22 00 00 00
 
 
 //
@@ -2685,8 +2807,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 23			// Properties, Stations, First Station ID
-			08 "PSK0"			// Station Class
+			07 01 29			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
 			0C FE				// Platforms
 			0D FE				// Length
 			11 00				// Pylon disabled
@@ -2712,9 +2834,94 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
+   00 * 00	03 04 01 29 00 00 00
+//@AssignGrapghicsSets
+//	StationIDs: 41
+//	Default: 0
+//@EndAssignGrapghicsSets
 
-   // Action3
-   00 * 00	03 04 01 23 00 00 00
+//
+// bal oldali torony, fas
+//
+
+
+   // Action0
+   00 * 00	00 04				// Action0, Feature4
+			07 01 2A			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
+			0C FE				// Platforms
+			0D FE				// Length
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+   00 * 00	01 04 01 02
+   00 sprites_grafika/nyugati.pcx 8bpp 79 541 67 78 -33 -46 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 7 541 66 91 -32 -59 normal chunked
+
+   // Action2
+   00 * 00	02 04 00 00 01 00 00
+
+   00 * 00	03 04 01 2A 00 00 00
+//@AssignGrapghicsSets
+//	StationIDs: 42
+//	Default: 0
+//@EndAssignGrapghicsSets
+
+
+
+//
+// jobb oldali torony, fas
+//
+
+
+   // Action0
+   00 * 00	00 04				// Action0, Feature4
+			07 01 2B			// Properties, Stations, First Station ID
+			08 "PSL0"			// Station Class
+			0C FE				// Platforms
+			0D FE				// Length
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			8D 0F 00 00			// Layout1 groundsprite
+			00 00 00	10 10 3E		2D 04 00 00
+			80					// end layout1 sprite
+
+			8D 0F 00 00			// Layout2 groundsprite
+			00 00 00	10 10 3E		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+   00 * 00	01 04 01 02
+   00 sprites_grafika/nyugati.pcx 8bpp 153 541 67 78 -32 -46 normal chunked
+   00 sprites_grafika/nyugati.pcx 8bpp 226 541 66 65 -32 -33 normal chunked
+
+   // Action2
+   00 * 00	02 04 00 00 01 00 00
+
+   00 * 00	03 04 01 2B 00 00 00
+//@AssignGrapghicsSets
+//	StationIDs: 37
+//	Default: 0
+//@EndAssignGrapghicsSets
+
 
 
 
@@ -2728,12 +2935,8 @@
 	00 * 00	04 04 A4 01 00 C4 C3 9E "HSS - Nyugati pályaudvar" 00
 	00 * 00	04 04 FF 01 00 C5 C3 9E "Entrance" 00
 	00 * 00	04 04 A4 01 00 C5 C3 9E "Bejárat" 00
-	00 * 00	04 04 FF 01 01 C5 C3 9E "Passenger hall entrance" 00
-	00 * 00	04 04 A4 01 01 C5 C3 9E "Csarnok bejárat" 00
-	00 * 00	04 04 FF 01 02 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-	00 * 00	04 04 A4 01 02 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 FF 01 03 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-	00 * 00	04 04 A4 01 03 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+	00 * 00	04 04 FF 01 02 C5 C3 9E "Passenger hall entrance" 00
+	00 * 00	04 04 A4 01 02 C5 C3 9E "Csarnok bejárat" 00
 	00 * 00	04 04 FF 01 04 C5 C3 9E "Glass-roofed passenger hall (small)" 00
 	00 * 00	04 04 A4 01 04 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
 	00 * 00	04 04 FF 01 05 C5 C3 9E "Glass-roofed passenger hall (small)" 00
@@ -2744,10 +2947,10 @@
 	00 * 00	04 04 A4 01 07 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
 	00 * 00	04 04 FF 01 08 C5 C3 9E "Glass-roofed passenger hall (small)" 00
 	00 * 00	04 04 A4 01 08 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 FF 01 09 C5 C3 9E "Glass-roofed passenger hall" 00
-	00 * 00	04 04 A4 01 09 C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 FF 01 0A C5 C3 9E "Glass-roofed passenger hall" 00
-	00 * 00	04 04 A4 01 0A C5 C3 9E "Üvegtetős csarnok" 00
+	00 * 00	04 04 FF 01 09 C5 C3 9E "Glass-roofed passenger hall (small)" 00
+	00 * 00	04 04 A4 01 09 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
+	00 * 00	04 04 FF 01 0A C5 C3 9E "Glass-roofed passenger hall (small)" 00
+	00 * 00	04 04 A4 01 0A C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
 	00 * 00	04 04 FF 01 0B C5 C3 9E "Glass-roofed passenger hall" 00
 	00 * 00	04 04 A4 01 0B C5 C3 9E "Üvegtetős csarnok" 00
 	00 * 00	04 04 FF 01 0C C5 C3 9E "Glass-roofed passenger hall" 00
@@ -2758,10 +2961,10 @@
 	00 * 00	04 04 A4 01 0E C5 C3 9E "Üvegtetős csarnok" 00
 	00 * 00	04 04 FF 01 0F C5 C3 9E "Glass-roofed passenger hall" 00
 	00 * 00	04 04 A4 01 0F C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 FF 01 10 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-	00 * 00	04 04 A4 01 10 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 FF 01 11 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-	00 * 00	04 04 A4 01 11 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+	00 * 00	04 04 FF 01 10 C5 C3 9E "Glass-roofed passenger hall" 00
+	00 * 00	04 04 A4 01 10 C5 C3 9E "Üvegtetős csarnok" 00
+	00 * 00	04 04 FF 01 11 C5 C3 9E "Glass-roofed passenger hall" 00
+	00 * 00	04 04 A4 01 11 C5 C3 9E "Üvegtetős csarnok" 00
 	00 * 00	04 04 FF 01 12 C5 C3 9E "Glass-roofed passenger hall (large)" 00
 	00 * 00	04 04 A4 01 12 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
 	00 * 00	04 04 FF 01 13 C5 C3 9E "Glass-roofed passenger hall (large)" 00
@@ -2772,10 +2975,10 @@
 	00 * 00	04 04 A4 01 15 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
 	00 * 00	04 04 FF 01 16 C5 C3 9E "Glass-roofed passenger hall (large)" 00
 	00 * 00	04 04 A4 01 16 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 FF 01 17 C5 C3 9E "Passenger hall" 00
-	00 * 00	04 04 A4 01 17 C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 FF 01 18 C5 C3 9E "Passenger hall" 00
-	00 * 00	04 04 A4 01 18 C5 C3 9E "Csarnok" 00
+	00 * 00	04 04 FF 01 17 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+	00 * 00	04 04 A4 01 17 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
+	00 * 00	04 04 FF 01 18 C5 C3 9E "Glass-roofed passenger hall (large)" 00
+	00 * 00	04 04 A4 01 18 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
 	00 * 00	04 04 FF 01 19 C5 C3 9E "Passenger hall" 00
 	00 * 00	04 04 A4 01 19 C5 C3 9E "Csarnok" 00
 	00 * 00	04 04 FF 01 1A C5 C3 9E "Passenger hall" 00
@@ -2786,15 +2989,31 @@
 	00 * 00	04 04 A4 01 1C C5 C3 9E "Csarnok" 00
 	00 * 00	04 04 FF 01 1D C5 C3 9E "Passenger hall" 00
 	00 * 00	04 04 A4 01 1D C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 FF 01 1E C5 C3 9E "Main building (left)" 00
-	00 * 00	04 04 A4 01 1E C5 C3 9E "Főépület (bal)" 00
-	00 * 00	04 04 FF 01 1E C5 C3 9E "Main building (right)" 00
-	00 * 00	04 04 A4 01 1F C5 C3 9E "Főépület (jobb)" 00
+	00 * 00	04 04 FF 01 1E C5 C3 9E "Passenger hall" 00
+	00 * 00	04 04 A4 01 1E C5 C3 9E "Csarnok" 00
+	00 * 00	04 04 FF 01 1F C5 C3 9E "Passenger hall" 00
+	00 * 00	04 04 A4 01 1F C5 C3 9E "Csarnok" 00
 	00 * 00	04 04 FF 01 20 C5 C3 9E "Main building (left)" 00
 	00 * 00	04 04 A4 01 20 C5 C3 9E "Főépület (bal)" 00
 	00 * 00	04 04 FF 01 21 C5 C3 9E "Main building (right)" 00
 	00 * 00	04 04 A4 01 21 C5 C3 9E "Főépület (jobb)" 00
-	00 * 00	04 04 FF 01 22 C5 C3 9E "Tower (left)" 00
-	00 * 00	04 04 A4 01 22 C5 C3 9E "Torony (bal)" 00
-	00 * 00	04 04 FF 01 23 C5 C3 9E "Tower (right)" 00
-	00 * 00	04 04 A4 01 23 C5 C3 9E "Torony (jobb)" 00
+	00 * 00	04 04 FF 01 22 C5 C3 9E "Main building (left)" 00
+	00 * 00	04 04 A4 01 22 C5 C3 9E "Főépület (bal)" 00
+	00 * 00	04 04 FF 01 23 C5 C3 9E "Main building (right)" 00
+	00 * 00	04 04 A4 01 23 C5 C3 9E "Főépület (jobb)" 00
+	00 * 00	04 04 FF 01 24 C5 C3 9E "Main building (left)" 00
+	00 * 00	04 04 A4 01 24 C5 C3 9E "Főépület (bal)" 00
+	00 * 00	04 04 FF 01 25 C5 C3 9E "Main building (right)" 00
+	00 * 00	04 04 A4 01 25 C5 C3 9E "Főépület (jobb)" 00
+	00 * 00	04 04 FF 01 26 C5 C3 9E "Main building (left)" 00
+	00 * 00	04 04 A4 01 26 C5 C3 9E "Főépület (bal)" 00
+	00 * 00	04 04 FF 01 27 C5 C3 9E "Main building (right)" 00
+	00 * 00	04 04 A4 01 27 C5 C3 9E "Főépület (jobb)" 00
+	00 * 00	04 04 FF 01 28 C5 C3 9E "Tower (left)" 00
+	00 * 00	04 04 A4 01 28 C5 C3 9E "Torony (bal)" 00
+	00 * 00	04 04 FF 01 29 C5 C3 9E "Tower (right)" 00
+	00 * 00	04 04 A4 01 29 C5 C3 9E "Torony (jobb)" 00
+	00 * 00	04 04 FF 01 2A C5 C3 9E "Tower (left)" 00
+	00 * 00	04 04 A4 01 2A C5 C3 9E "Torony (bal)" 00
+	00 * 00	04 04 FF 01 2B C5 C3 9E "Tower (right)" 00
+	00 * 00	04 04 A4 01 2B C5 C3 9E "Torony (jobb)" 00

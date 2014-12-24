@@ -16,7 +16,7 @@
 // bejarat
 //
 
-@AddStation: id: 0, class: PSK0
+@AddStation: id: 0, class: PSL0
 	Pylon: disabled		// villanyoszlop
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
@@ -62,18 +62,23 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 0
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 0
+//@AssignGrapghicsSets
+//	StationIDs: 0
+//	Default: 10
+//@EndAssignGrapghicsSets
 
+
+//
+// bejarat 2, ID 1
+//
 
 
 //
 // csarnok bejarat
 //
 
-@AddStation: id: 1, class: PSK0
+@AddStation: id: 2, class: PSL0
 	Pylon: disabled		// villanyoszlop
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
@@ -158,10 +163,17 @@
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
-@AssignGrapghicsSets
-	StationIDs: 1
-	Default: 10
-@EndAssignGrapghicsSets
+
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 2
+//@AssignGrapghicsSets
+//	StationIDs: 2
+//	Default: 10
+//@EndAssignGrapghicsSets
+
+
+//
+// csarnok bejarat2, id 3
+//
 
 
 
@@ -169,7 +181,7 @@
 // uveges teto, kicsi, szervizbetonnal
 //
 
-@AddStation: id: 2, class: PSK0
+@AddStation: id: 4, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -271,10 +283,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 2
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 4
+//@AssignGrapghicsSets
+//	StationIDs: 4
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -282,7 +295,7 @@
 // uveges teto, kicsi, kijelzovel
 //
 
-@AddStation: id: 3, class: PSK0
+@AddStation: id: 5, class: PSL0
 	Platforms: FD
 
 	// deli sarokhoz kozelebbi oldala
@@ -294,7 +307,7 @@
 		@EndAddLayout1
 		// kijelzos peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 16
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 16
 			RealSprite: posx: 180, posy: 0, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -383,10 +396,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 3
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid:5
+//@AssignGrapghicsSets
+//	StationIDs: 5
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -394,7 +408,7 @@
 // uveges teto, kicsi, lampa
 //
 
-@AddStation: id: 4, class: PSK0
+@AddStation: id: 6, class: PSL0
 	Platforms: FD
 
 	// deli sarokhoz kozelebbi oldala
@@ -406,7 +420,7 @@
 		@EndAddLayout1
 		// lampas peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 24
 			RealSprite: posx: 180, posy: 56, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -495,10 +509,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 4
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 6
+//@AssignGrapghicsSets
+//	StationIDs: 6
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -506,7 +521,7 @@
 // uveges teto, kicsi, lampa paddal
 //
 
-@AddStation: id: 5, class: PSK0
+@AddStation: id: 7, class: PSL0
 	Platforms: FD
 
 	// deli sarokhoz kozelebbi oldala
@@ -518,7 +533,7 @@
 		@EndAddLayout1
 		// lampa paddal peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 24
 			RealSprite: posx: 180, posy: 112, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -607,10 +622,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 5
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 7
+//@AssignGrapghicsSets
+//	StationIDs: 7
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -618,7 +634,7 @@
 // uveges teto, kicsi, pad
 //
 
-@AddStation: id: 6, class: PSK0
+@AddStation: id: 8, class: PSL0
 	Platforms: FD
 
 	// deli sarokhoz kozelebbi oldala
@@ -630,7 +646,7 @@
 		@EndAddLayout1
 		// pad peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
 			RealSprite: posx: 180, posy: 168, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -719,10 +735,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 6
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 8
+//@AssignGrapghicsSets
+//	StationIDs: 8
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -730,7 +747,7 @@
 // uveges teto, kicsi, aluljaro1
 //
 
-@AddStation: id: 7, class: PSK0
+@AddStation: id: 9, class: PSL0
 	Platforms: FD
 
 	// deli sarokhoz kozelebbi oldala
@@ -742,7 +759,7 @@
 		@EndAddLayout1
 		// aluljaro1 peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx, companycolor
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
 			RealSprite: posx: 517, posy: 5, sizex: 44, sizey: 22, relx: -32, rely: -1
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -831,10 +848,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 7
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 9
+//@AssignGrapghicsSets
+//	StationIDs: 9
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -842,7 +860,7 @@
 // uveges teto, kicsi, aluljaro2
 //
 
-@AddStation: id: 8, class: PSK0
+@AddStation: id: 10, class: PSL0
 	Platforms: FD
 
 	// deli sarokhoz kozelebbi oldala
@@ -854,7 +872,7 @@
 		@EndAddLayout1
 		// aluljaro2 peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx, companycolor
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
 			RealSprite: posx: 517, posy: 28, sizex: 44, sizey: 22, relx: -32, rely: -1
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -943,10 +961,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 8
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 10
+//@AssignGrapghicsSets
+//	StationIDs: 10
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -954,7 +973,7 @@
 // uveges teto, normal, szervizbeton
 //
 
-@AddStation: id: 9, class: PSK0
+@AddStation: id: 11, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -1056,10 +1075,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 9
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 11
+//@AssignGrapghicsSets
+//	StationIDs: 11
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -1067,7 +1087,7 @@
 // uveges teto, normal, kijelzos
 //
 
-@AddStation: id: 10, class: PSK0
+@AddStation: id: 12, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -1080,7 +1100,7 @@
 		@EndAddLayout1
 		// kijelzos peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 16
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 16
 			RealSprite: posx: 180, posy: 0, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1169,10 +1189,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 10
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 12
+//@AssignGrapghicsSets
+//	StationIDs: 12
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -1180,7 +1201,7 @@
 // uveges teto, normal, lampa
 //
 
-@AddStation: id: 11, class: PSK0
+@AddStation: id: 13, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -1193,7 +1214,7 @@
 		@EndAddLayout1
 		// lampas peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 24
 			RealSprite: posx: 180, posy: 56, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1282,10 +1303,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 11
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 13
+//@AssignGrapghicsSets
+//	StationIDs: 13
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -1293,7 +1315,7 @@
 // uveges teto, normal, lampas paddal
 //
 
-@AddStation: id: 12, class: PSK0
+@AddStation: id: 14, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -1306,7 +1328,7 @@
 		@EndAddLayout1
 		// lampa paddal peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 24
 			RealSprite: posx: 180, posy: 112, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1395,10 +1417,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 12
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 14
+//@AssignGrapghicsSets
+//	StationIDs: 14
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -1406,7 +1429,7 @@
 // uveges teto, normal, pad
 //
 
-@AddStation: id: 13, class: PSK0
+@AddStation: id: 15, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -1419,7 +1442,7 @@
 		@EndAddLayout1
 		// pad peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
 			RealSprite: posx: 180, posy: 168, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1508,10 +1531,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 13
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 15
+//@AssignGrapghicsSets
+//	StationIDs: 15
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -1519,7 +1543,7 @@
 // uveges teto, normal, aluljaro1
 //
 
-@AddStation: id: 14, class: PSK0
+@AddStation: id: 16, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -1532,7 +1556,7 @@
 		@EndAddLayout1
 		// aluljaro1 peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx, companycolor
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
 			RealSprite: posx: 517, posy: 5, sizex: 44, sizey: 22, relx: -32, rely: -1
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1621,10 +1645,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 14
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 16
+//@AssignGrapghicsSets
+//	StationIDs: 16
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -1632,7 +1657,7 @@
 // uveges teto, normal, aluljaro2
 //
 
-@AddStation: id: 15, class: PSK0
+@AddStation: id: 17, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -1645,7 +1670,7 @@
 		@EndAddLayout1
 		// aluljaro2 peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx, companycolor
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
 			RealSprite: posx: 517, posy: 28, sizex: 44, sizey: 22, relx: -32, rely: -1
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1734,10 +1759,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 15
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 17
+//@AssignGrapghicsSets
+//	StationIDs: 17
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -1745,7 +1771,7 @@
 // uveges teto, nagy, szervizbeton
 //
 
-@AddStation: id: 16, class: PSK0
+@AddStation: id: 18, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -1847,10 +1873,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 16
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 18
+//@AssignGrapghicsSets
+//	StationIDs: 18
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -1858,7 +1885,7 @@
 // uveges teto, nagy, kijelzo
 //
 
-@AddStation: id: 17, class: PSK0
+@AddStation: id: 19, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -1871,7 +1898,7 @@
 		@EndAddLayout1
 		// kijelzos peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 16
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 16
 			RealSprite: posx: 180, posy: 0, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -1960,10 +1987,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 17
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 19
+//@AssignGrapghicsSets
+//	StationIDs: 19
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -1971,7 +1999,7 @@
 // uveges teto, nagy, lampa
 //
 
-@AddStation: id: 18, class: PSK0
+@AddStation: id: 20, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -1984,7 +2012,7 @@
 		@EndAddLayout1
 		// lampas peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 24
 			RealSprite: posx: 180, posy: 56, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2073,10 +2101,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 18
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 20
+//@AssignGrapghicsSets
+//	StationIDs: 20
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -2084,7 +2113,7 @@
 // uveges teto, nagy, lampa paddal
 //
 
-@AddStation: id: 19, class: PSK0
+@AddStation: id: 21, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -2097,7 +2126,7 @@
 		@EndAddLayout1
 		// lampa paddal peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 24
 			RealSprite: posx: 180, posy: 112, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2186,10 +2215,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 19
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 21
+//@AssignGrapghicsSets
+//	StationIDs: 21
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -2197,7 +2227,7 @@
 // uveges teto, nagy, pad
 //
 
-@AddStation: id: 20, class: PSK0
+@AddStation: id: 22, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -2210,7 +2240,7 @@
 		@EndAddLayout1
 		// pad peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
 			RealSprite: posx: 180, posy: 168, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2299,10 +2329,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 20
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 22
+//@AssignGrapghicsSets
+//	StationIDs: 22
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -2310,7 +2341,7 @@
 // uveges teto, nagy, aluljaro1
 //
 
-@AddStation: id: 21, class: PSK0
+@AddStation: id: 23, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -2323,7 +2354,7 @@
 		@EndAddLayout1
 		// aluljaro1 peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx, companycolor
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
 			RealSprite: posx: 517, posy: 5, sizex: 44, sizey: 22, relx: -32, rely: -1
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2412,10 +2443,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 21
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 23
+//@AssignGrapghicsSets
+//	StationIDs: 23
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -2423,7 +2455,7 @@
 // uveges teto, nagy, aluljaro2
 //
 
-@AddStation: id: 22, class: PSK0
+@AddStation: id: 24, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -2525,10 +2557,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 22
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 24
+//@AssignGrapghicsSets
+//	StationIDs: 24
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -2536,7 +2569,7 @@
 // hatulja, szervizperon
 //
 
-@AddStation: id: 23, class: PSK0
+@AddStation: id: 25, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -2638,10 +2671,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 23
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 25
+//@AssignGrapghicsSets
+//	StationIDs: 25
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -2649,7 +2683,7 @@
 // hatulja, kijelzos
 //
 
-@AddStation: id: 24, class: PSK0
+@AddStation: id: 26, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -2662,7 +2696,7 @@
 		@EndAddLayout1
 		// kijelzos peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 16
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 16
 			RealSprite: posx: 180, posy: 0, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2751,10 +2785,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 24
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 26
+//@AssignGrapghicsSets
+//	StationIDs: 26
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -2762,7 +2797,7 @@
 // hatulja, lampa
 //
 
-@AddStation: id: 25, class: PSK0
+@AddStation: id: 27, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -2775,7 +2810,7 @@
 		@EndAddLayout1
 		// lampas peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 24
 			RealSprite: posx: 180, posy: 56, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2864,10 +2899,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 25
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 27
+//@AssignGrapghicsSets
+//	StationIDs: 27
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -2875,7 +2911,7 @@
 // hatulja, lampa paddal
 //
 
-@AddStation: id: 26, class: PSK0
+@AddStation: id: 28, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -2888,7 +2924,7 @@
 		@EndAddLayout1
 		// lampa paddal peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 24
 			RealSprite: posx: 180, posy: 112, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -2977,10 +3013,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 26
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 28
+//@AssignGrapghicsSets
+//	StationIDs: 28
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -2988,7 +3025,7 @@
 // hatulja, pad
 //
 
-@AddStation: id: 27, class: PSK0
+@AddStation: id: 29, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -3001,7 +3038,7 @@
 		@EndAddLayout1
 		// pad peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
 			RealSprite: posx: 180, posy: 168, sizex: 44, sizey: 55, relx: -32, rely: -34
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -3090,10 +3127,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 27
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 29
+//@AssignGrapghicsSets
+//	StationIDs: 29
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -3101,7 +3139,7 @@
 // hatulja, aluljaro1
 //
 
-@AddStation: id: 28, class: PSK0
+@AddStation: id: 30, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -3114,7 +3152,7 @@
 		@EndAddLayout1
 		// aluljaro1 peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx, companycolor
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
 			RealSprite: posx: 517, posy: 5, sizex: 44, sizey: 22, relx: -32, rely: -1
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -3203,10 +3241,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 28
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 30
+//@AssignGrapghicsSets
+//	StationIDs: 30
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -3214,7 +3253,7 @@
 // hatulja, aluljaro2
 //
 
-@AddStation: id: 29, class: PSK0
+@AddStation: id: 31, class: PSL0
 //	CallbackFlags: 3
 	Platforms: FD
 
@@ -3227,7 +3266,7 @@
 		@EndAddLayout1
 		// aluljaro2 peron
 		@AddLayout1: spritenumber: 1, filename: sprites_grafika/nyugati.pcx, companycolor
-			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
 			RealSprite: posx: 517, posy: 28, sizex: 44, sizey: 22, relx: -32, rely: -1
 		@EndAddLayout1
 		// uveg nelkuli teto
@@ -3316,10 +3355,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 29
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 31
+//@AssignGrapghicsSets
+//	StationIDs: 31
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -3334,7 +3374,7 @@
 // bal oldali magyar zaszlos
 //
 
-@AddStation: id: 30, class: PSK0
+@AddStation: id: 32, class: PSL0
 	Pylon: disabled		// villanyoszlop
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
@@ -3374,10 +3414,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 30
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 32
+//@AssignGrapghicsSets
+//	StationIDs: 32
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -3385,7 +3426,7 @@
 // jobb oldali magyar zaszlos
 //
 
-@AddStation: id: 31, class: PSK0
+@AddStation: id: 33, class: PSL0
 	Pylon: disabled		// villanyoszlop
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
@@ -3425,10 +3466,17 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 31
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 33
+//@AssignGrapghicsSets
+//	StationIDs: 33
+//	Default: 10
+//@EndAssignGrapghicsSets
+
+
+
+
+// kihagyom a 34 es 35 ID-t a ket masik foepuletnek
+
 
 
 
@@ -3436,7 +3484,7 @@
 // bal oldali cegszinu zaszlos
 //
 
-@AddStation: id: 32, class: PSK0
+@AddStation: id: 36, class: PSL0
 	Pylon: disabled		// villanyoszlop
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
@@ -3476,10 +3524,11 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 32
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 36
+//@AssignGrapghicsSets
+//	StationIDs: 36
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
 
@@ -3487,7 +3536,7 @@
 // jobb oldali cegszinu zaszlos
 //
 
-@AddStation: id: 33, class: PSK0
+@AddStation: id: 37, class: PSL0
 	Pylon: disabled		// villanyoszlop
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
@@ -3527,12 +3576,14 @@
 	@EndAddVariationalAction2
 @EndAddAction2
 
-@AssignGrapghicsSets
-	StationIDs: 33
-	Default: 10
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 37
+//@AssignGrapghicsSets
+//	StationIDs: 37
+//	Default: 10
+//@EndAssignGrapghicsSets
 
 
+// a 38 es 39-es ID-t fenntartom szinten a masik ket foepuletnek
 
 
 //**************************************//
@@ -3543,7 +3594,7 @@
 // bal oldali torony
 //
 
-@AddStation: id: 34, class: PSK0
+@AddStation: id: 40, class: PSL0
 	Pylon: disabled		// villanyoszlop
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
@@ -3563,10 +3614,11 @@
 	@EndAddSprite
 @EndAddStation
 
-@AssignGrapghicsSets
-	StationIDs: 34
-	Default: 0
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 40
+//@AssignGrapghicsSets
+//	StationIDs: 40
+//	Default: 0
+//@EndAssignGrapghicsSets
 
 
 
@@ -3574,7 +3626,7 @@
 // jobb oldali torony
 //
 
-@AddStation: id: 35, class: PSK0
+@AddStation: id: 41, class: PSL0
 	Pylon: disabled		// villanyoszlop
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
@@ -3594,10 +3646,73 @@
 	@EndAddSprite
 @EndAddStation
 
-@AssignGrapghicsSets
-	StationIDs: 35
-	Default: 0
-@EndAssignGrapghicsSets
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 41
+//@AssignGrapghicsSets
+//	StationIDs: 41
+//	Default: 0
+//@EndAssignGrapghicsSets
+
+//
+// bal oldali torony, fas
+//
+
+@AddStation: id: 42, class: PSL0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+//	CallbackFlags: 3
+	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: FE			// Max 1 hosszu
+
+	@AddSprite: groundsprite: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 79, posy: 541, sizex: 67, sizey: 78, relx: -33, rely: -46
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 7, posy: 541, sizex: 66, sizey: 91, relx: -32, rely: -59
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 42
+//@AssignGrapghicsSets
+//	StationIDs: 42
+//	Default: 0
+//@EndAssignGrapghicsSets
+
+
+
+//
+// jobb oldali torony, fas
+//
+
+@AddStation: id: 43, class: PSL0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+//	CallbackFlags: 3
+	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: FE			// Max 1 hosszu
+
+	@AddSprite: groundsprite: 3981, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 153, posy: 541, sizex: 67, sizey: 78, relx: -32, rely: -46
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/nyugati.pcx
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 62
+			RealSprite: posx: 226, posy: 541, sizex: 66, sizey: 65, relx: -32, rely: -33
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 43
+//@AssignGrapghicsSets
+//	StationIDs: 37
+//	Default: 0
+//@EndAssignGrapghicsSets
 
 
 
@@ -3615,17 +3730,19 @@
 	Station: stationid: 0, language: hu, name: Bejárat
 //	Station: stationid: 0, language: de, name: Eingang
 
-	Station: stationid: 1, language: default, name: Passenger hall entrance
-	Station: stationid: 1, language: hu, name: Csarnok bejárat
-//	Station: stationid: 1, language: de, name: Passagierhalle Eingang
+// kihagyom a masik csarnoknak
+//	Station: stationid: 1, language: default, name: Entrance
+//	Station: stationid: 1, language: hu, name: Bejárat
+//	Station: stationid: 1, language: de, name: Eingang
 
-	Station: stationid: 2, language: default, name: Glass-roofed passenger hall (small)
-	Station: stationid: 2, language: hu, name: Üvegtetős csarnok (kicsi)
-//	Station: stationid: 2, language: de, name: Glasdach Passagierhalle (klein)
+	Station: stationid: 2, language: default, name: Passenger hall entrance
+	Station: stationid: 2, language: hu, name: Csarnok bejárat
+//	Station: stationid: 2, language: de, name: Passagierhalle Eingang
 
-	Station: stationid: 3, language: default, name: Glass-roofed passenger hall (small)
-	Station: stationid: 3, language: hu, name: Üvegtetős csarnok (kicsi)
-//	Station: stationid: 3, language: de, name: Glasdach Passagierhalle (klein)
+// kihagyom a masik bejaratnak
+//	Station: stationid: 3, language: default, name: Passenger hall entrance
+//	Station: stationid: 3, language: hu, name: Csarnok bejárat
+//	Station: stationid: 3, language: de, name: Passagierhalle Eingang
 
 	Station: stationid: 4, language: default, name: Glass-roofed passenger hall (small)
 	Station: stationid: 4, language: hu, name: Üvegtetős csarnok (kicsi)
@@ -3647,13 +3764,13 @@
 	Station: stationid: 8, language: hu, name: Üvegtetős csarnok (kicsi)
 //	Station: stationid: 8, language: de, name: Glasdach Passagierhalle (klein)
 
-	Station: stationid: 9, language: default, name: Glass-roofed passenger hall
-	Station: stationid: 9, language: hu, name: Üvegtetős csarnok
-//	Station: stationid: 9, language: de, name: Glasdach Passagierhalle
+	Station: stationid: 9, language: default, name: Glass-roofed passenger hall (small)
+	Station: stationid: 9, language: hu, name: Üvegtetős csarnok (kicsi)
+//	Station: stationid: 9, language: de, name: Glasdach Passagierhalle (klein)
 
-	Station: stationid: 10, language: default, name: Glass-roofed passenger hall
-	Station: stationid: 10, language: hu, name: Üvegtetős csarnok
-//	Station: stationid: 10, language: de, name: Glasdach Passagierhalle
+	Station: stationid: 10, language: default, name: Glass-roofed passenger hall (small)
+	Station: stationid: 10, language: hu, name: Üvegtetős csarnok (kicsi)
+//	Station: stationid: 10, language: de, name: Glasdach Passagierhalle (klein)
 
 	Station: stationid: 11, language: default, name: Glass-roofed passenger hall
 	Station: stationid: 11, language: hu, name: Üvegtetős csarnok
@@ -3675,13 +3792,13 @@
 	Station: stationid: 15, language: hu, name: Üvegtetős csarnok
 //	Station: stationid: 15, language: de, name: Glasdach Passagierhalle
 
-	Station: stationid: 16, language: default, name: Glass-roofed passenger hall (large)
-	Station: stationid: 16, language: hu, name: Üvegtetős csarnok (nagy)
-//	Station: stationid: 16, language: de, name: Glasdach Passagierhalle (groß)
+	Station: stationid: 16, language: default, name: Glass-roofed passenger hall
+	Station: stationid: 16, language: hu, name: Üvegtetős csarnok
+//	Station: stationid: 16, language: de, name: Glasdach Passagierhalle
 
-	Station: stationid: 17, language: default, name: Glass-roofed passenger hall (large)
-	Station: stationid: 17, language: hu, name: Üvegtetős csarnok (nagy)
-//	Station: stationid: 17, language: de, name: Glasdach Passagierhalle (groß)
+	Station: stationid: 17, language: default, name: Glass-roofed passenger hall
+	Station: stationid: 17, language: hu, name: Üvegtetős csarnok
+//	Station: stationid: 17, language: de, name: Glasdach Passagierhalle
 
 	Station: stationid: 18, language: default, name: Glass-roofed passenger hall (large)
 	Station: stationid: 18, language: hu, name: Üvegtetős csarnok (nagy)
@@ -3703,13 +3820,13 @@
 	Station: stationid: 22, language: hu, name: Üvegtetős csarnok (nagy)
 //	Station: stationid: 22, language: de, name: Glasdach Passagierhalle (groß)
 
-	Station: stationid: 23, language: default, name: Passenger hall
-	Station: stationid: 23, language: hu, name: Csarnok
-//	Station: stationid: 23, language: de, name: Passagierhalle
+	Station: stationid: 23, language: default, name: Glass-roofed passenger hall (large)
+	Station: stationid: 23, language: hu, name: Üvegtetős csarnok (nagy)
+//	Station: stationid: 23, language: de, name: Glasdach Passagierhalle (groß)
 
-	Station: stationid: 24, language: default, name: Passenger hall
-	Station: stationid: 24, language: hu, name: Csarnok
-//	Station: stationid: 24, language: de, name: Passagierhalle
+	Station: stationid: 24, language: default, name: Glass-roofed passenger hall (large)
+	Station: stationid: 24, language: hu, name: Üvegtetős csarnok (nagy)
+//	Station: stationid: 24, language: de, name: Glasdach Passagierhalle (groß)
 
 	Station: stationid: 25, language: default, name: Passenger hall
 	Station: stationid: 25, language: hu, name: Csarnok
@@ -3731,13 +3848,13 @@
 	Station: stationid: 29, language: hu, name: Csarnok
 //	Station: stationid: 29, language: de, name: Passagierhalle
 
-	Station: stationid: 30, language: default, name: Main building (left)
-	Station: stationid: 30, language: hu, name: Főépület (bal)
-//	Station: stationid: 30, language: de, name: Hauptgebäude (links)
+	Station: stationid: 30, language: default, name: Passenger hall
+	Station: stationid: 30, language: hu, name: Csarnok
+//	Station: stationid: 30, language: de, name: Passagierhalle
 
-	Station: stationid: 30, language: default, name: Main building (right)
-	Station: stationid: 31, language: hu, name: Főépület (jobb)
-//	Station: stationid: 31, language: de, name: Hauptgebäude (rechts)
+	Station: stationid: 31, language: default, name: Passenger hall
+	Station: stationid: 31, language: hu, name: Csarnok
+//	Station: stationid: 31, language: de, name: Passagierhalle
 
 	Station: stationid: 32, language: default, name: Main building (left)
 	Station: stationid: 32, language: hu, name: Főépület (bal)
@@ -3747,11 +3864,43 @@
 	Station: stationid: 33, language: hu, name: Főépület (jobb)
 //	Station: stationid: 33, language: de, name: Hauptgebäude (rechts)
 
-	Station: stationid: 34, language: default, name: Tower (left)
-	Station: stationid: 34, language: hu, name: Torony (bal)
-//	Station: stationid: 34, language: de, name: Turm (links)
+	Station: stationid: 34, language: default, name: Main building (left)
+	Station: stationid: 34, language: hu, name: Főépület (bal)
+//	Station: stationid: 34, language: de, name: Hauptgebäude (links)
 
-	Station: stationid: 35, language: default, name: Tower (right)
-	Station: stationid: 35, language: hu, name: Torony (jobb)
-//	Station: stationid: 35, language: de, name: Turm (rechts)
+	Station: stationid: 35, language: default, name: Main building (right)
+	Station: stationid: 35, language: hu, name: Főépület (jobb)
+//	Station: stationid: 35, language: de, name: Hauptgebäude (rechts)
+
+	Station: stationid: 36, language: default, name: Main building (left)
+	Station: stationid: 36, language: hu, name: Főépület (bal)
+//	Station: stationid: 36, language: de, name: Hauptgebäude (links)
+
+	Station: stationid: 37, language: default, name: Main building (right)
+	Station: stationid: 37, language: hu, name: Főépület (jobb)
+//	Station: stationid: 37, language: de, name: Hauptgebäude (rechts)
+
+	Station: stationid: 38, language: default, name: Main building (left)
+	Station: stationid: 38, language: hu, name: Főépület (bal)
+//	Station: stationid: 38, language: de, name: Hauptgebäude (links)
+
+	Station: stationid: 39, language: default, name: Main building (right)
+	Station: stationid: 39, language: hu, name: Főépület (jobb)
+//	Station: stationid: 39, language: de, name: Hauptgebäude (rechts)
+
+	Station: stationid: 40, language: default, name: Tower (left)
+	Station: stationid: 40, language: hu, name: Torony (bal)
+//	Station: stationid: 40, language: de, name: Turm (links)
+
+	Station: stationid: 41, language: default, name: Tower (right)
+	Station: stationid: 41, language: hu, name: Torony (jobb)
+//	Station: stationid: 41, language: de, name: Turm (rechts)
+
+	Station: stationid: 42, language: default, name: Tower (left)
+	Station: stationid: 42, language: hu, name: Torony (bal)
+//	Station: stationid: 42, language: de, name: Turm (links)
+
+	Station: stationid: 43, language: default, name: Tower (right)
+	Station: stationid: 43, language: hu, name: Torony (jobb)
+//	Station: stationid: 43, language: de, name: Turm (rechts)
 @EndStationNames

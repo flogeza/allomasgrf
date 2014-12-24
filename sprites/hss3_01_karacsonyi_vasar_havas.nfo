@@ -6,304 +6,304 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 26			// Properties, Stations, First Station ID
-			08 "PSK2"			// Station Class
+			03 01 02			// Properties, Stations, First Station ID
+			08 "PSM0"			// Station Class
 			10 32 00				// Little/Lots Threshold
 
 			09 36				// Sprite Layout
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 84 00 00
 			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 84 00 00
 			00 00 00	10 10 06		30 84 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 84 00 00
 			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 84 00 00
 			00 00 00	10 10 06		30 84 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 84 00 00
 			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 84 00 00
 			00 00 00	10 10 06		30 84 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 05 06		2D 04 00 00
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	05 10 06		2F 04 00 00
 			00 00 00	10 10 06		30 04 00 00
 			80					// end layout1 sprite
@@ -539,7 +539,7 @@
 
 
    // Action3
-   00 * 00	03 04 01 26 01 00 1F 00 1E 00
+   00 * 00	03 04 01 02 01 00 1F 00 1E 00
 
 
 //
@@ -549,8 +549,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			06 01 27			// Properties, Stations, First Station ID
-			08 "PSK2"			// Station Class
+			06 01 03			// Properties, Stations, First Station ID
+			08 "PSM0"			// Station Class
 			10 32 00				// Little/Lots Threshold
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
@@ -558,164 +558,164 @@
 
 			09 24				// Sprite Layout
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 84 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 84 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 84 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 84 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 06		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 06		2E 04 00 00
 			80					// end layout1 sprite
 
@@ -842,7 +842,7 @@
 
 
    // Action3
-   00 * 00	03 04 01 27 01 00 1F 00 1E 00
+   00 * 00	03 04 01 03 01 00 1F 00 1E 00
 
 //*************************************//
 //				Strings			//
@@ -850,12 +850,12 @@
 
 
    // Action4
-	00 * 00	04 04 FF 01 26 C4 C3 9E "HSS - Christmas Market (automatic)" 00
-	00 * 00	04 04 A4 01 26 C4 C3 9E "HSS - Karácsonyi vásár (automatikus)" 00
-	00 * 00	04 04 82 01 26 C4 C3 9E "HSS - Weihnachtsmarkt (automatisch)" 00
-	00 * 00	04 04 FF 01 26 C5 C3 9E "With rail" 00
-	00 * 00	04 04 A4 01 26 C5 C3 9E "Sínnel" 00
-	00 * 00	04 04 82 01 26 C5 C3 9E "Mit Schiene" 00
-	00 * 00	04 04 FF 01 27 C5 C3 9E "Without rail" 00
-	00 * 00	04 04 A4 01 27 C5 C3 9E "Sín nélküli" 00
-	00 * 00	04 04 82 01 27 C5 C3 9E "Ohne Schiene" 00
+	00 * 00	04 04 FF 01 02 C4 C3 9E "HSS - Christmas Market (automatic)" 00
+	00 * 00	04 04 A4 01 02 C4 C3 9E "HSS - Karácsonyi vásár (automatikus)" 00
+	00 * 00	04 04 82 01 02 C4 C3 9E "HSS - Weihnachtsmarkt (automatisch)" 00
+	00 * 00	04 04 FF 01 02 C5 C3 9E "With rail" 00
+	00 * 00	04 04 A4 01 02 C5 C3 9E "Sínnel" 00
+	00 * 00	04 04 82 01 02 C5 C3 9E "Mit Schiene" 00
+	00 * 00	04 04 FF 01 03 C5 C3 9E "Without rail" 00
+	00 * 00	04 04 A4 01 03 C5 C3 9E "Sín nélküli" 00
+	00 * 00	04 04 82 01 03 C5 C3 9E "Ohne Schiene" 00

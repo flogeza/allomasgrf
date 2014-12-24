@@ -3,7 +3,7 @@
 // vasari megallo
 //
 
-@AddStation: id: 36, class: PSK2
+@AddStation: id: 0, class: PSM0
 //	Callback Flags: 02
 //	General Flags: 04
 
@@ -203,7 +203,7 @@
 @EndAddAction2
 
 @AssignGrapghicsSets
-	StationIDs: 36
+	StationIDs: 0
 	Default: 10
 @EndAssignGrapghicsSets
 
@@ -213,7 +213,7 @@
 // vasari terek
 //
 
-@AddStation: id: 37, class: PSK2
+@AddStation: id: 1, class: PSM0
 	Pylon: disabled		// villanyoszlop
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
@@ -304,7 +304,7 @@
 @EndAddAction2
 
 @AssignGrapghicsSets
-	StationIDs: 37
+	StationIDs: 1
 	Default: 10
 @EndAssignGrapghicsSets
 
@@ -314,15 +314,15 @@
 //************************************//
 
 @StationNames
-	Setname: stationid: 36, language: default, name: HSS - Christmas Market (automatic)
-	Setname: stationid: 36, language: hu, name: HSS - Karácsonyi vásár (automatikus)
-	Setname: stationid: 36, language: de, name: HSS - Weihnachtsmarkt (automatisch)
+	Setname: stationid: 0, language: default, name: HSS - Christmas Market (automatic)
+	Setname: stationid: 0, language: hu, name: HSS - Karácsonyi vásár (automatikus)
+	Setname: stationid: 0, language: de, name: HSS - Weihnachtsmarkt (automatisch)
 
-	Station: stationid: 36, language: default, name: With rail
-	Station: stationid: 36, language: hu, name: Sínnel
-	Station: stationid: 36, language: de, name: Mit Schiene
+	Station: stationid: 0, language: default, name: With rail
+	Station: stationid: 0, language: hu, name: Sínnel
+	Station: stationid: 0, language: de, name: Mit Schiene
 
-	Station: stationid: 37, language: default, name: Without rail
-	Station: stationid: 37, language: hu, name: Sín nélküli
-	Station: stationid: 37, language: de, name: Ohne Schiene
+	Station: stationid: 1, language: default, name: Without rail
+	Station: stationid: 1, language: hu, name: Sín nélküli
+	Station: stationid: 1, language: de, name: Ohne Schiene
 @EndStationNames

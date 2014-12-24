@@ -1,0 +1,235 @@
+
+
+//
+// kijelzo
+//
+
+@AddStation: id: 20, class: PSK1
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 16
+			RealSprite: posx: 180, posy: 0, sizex: 44, sizey: 55, relx: -32, rely: -34
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 16
+			RealSprite: posx: 225, posy: 0, sizex: 44, sizey: 55, relx: -10, rely: -34
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 20
+
+
+@AddStation: id: 21, class: PSK1
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 270, posy: 0, sizex: 44, sizey: 55, relx: -10, rely: -23
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 315, posy: 0, sizex: 44, sizey: 55, relx: -32, rely: -23
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 21
+
+
+
+//
+// lampa
+//
+
+@AddStation: id: 22, class: PSK1
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 24
+			RealSprite: posx: 180, posy: 56, sizex: 44, sizey: 55, relx: -32, rely: -34
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
+			RealSprite: posx: 225, posy: 56, sizex: 44, sizey: 55, relx: -10, rely: -34
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 22
+
+
+@AddStation: id: 23, class: PSK1
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
+			RealSprite: posx: 270, posy: 56, sizex: 44, sizey: 55, relx: -10, rely: -23
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
+			RealSprite: posx: 315, posy: 56, sizex: 44, sizey: 55, relx: -32, rely: -23
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 23
+
+
+
+//
+// lampa paddal
+//
+
+@AddStation: id: 24, class: PSK1
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		// lampa paddal peron
+		@AddLayout1: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 24
+			RealSprite: posx: 180, posy: 112, sizex: 44, sizey: 55, relx: -32, rely: -34
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 24
+			RealSprite: posx: 225, posy: 112, sizex: 44, sizey: 55, relx: -10, rely: -34
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 24
+
+
+@AddStation: id: 25, class: PSK1
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
+			RealSprite: posx: 270, posy: 112, sizex: 44, sizey: 55, relx: -10, rely: -23
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
+			RealSprite: posx: 315, posy: 112, sizex: 44, sizey: 55, relx: -32, rely: -23
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 25
+
+
+
+//
+// pad
+//
+
+@AddStation: id: 26, class: PSK1
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 180, posy: 168, sizex: 44, sizey: 55, relx: -32, rely: -34
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 225, posy: 168, sizex: 44, sizey: 55, relx: -10, rely: -34
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 26
+
+
+@AddStation: id: 27, class: PSK1
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 270, posy: 168, sizex: 44, sizey: 55, relx: -10, rely: -23
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 315, posy: 168, sizex: 44, sizey: 55, relx: -32, rely: -23
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 27
+
+
+
+//
+// aluljaro1
+//
+
+@AddStation: id: 28, class: PSK1
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/regi_peronok.png, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 180, posy: 224, sizex: 44, sizey: 55, relx: -32, rely: -34
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/regi_peronok.png, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 225, posy: 224, sizex: 44, sizey: 55, relx: -10, rely: -34
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 28
+
+
+@AddStation: id: 29, class: PSK1
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/regi_peronok.png, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 270, posy: 224, sizex: 44, sizey: 55, relx: -10, rely: -23
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/regi_peronok.png, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 315, posy: 224, sizex: 44, sizey: 55, relx: -32, rely: -23
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 29
+
+
+
+//
+// aluljaro2
+//
+
+@AddStation: id: 30, class: PSK1
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/regi_peronok.png, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
+			RealSprite: posx: 180, posy: 280, sizex: 44, sizey: 55, relx: -32, rely: -34
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/regi_peronok.png, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 6
+			RealSprite: posx: 225, posy: 280, sizex: 44, sizey: 55, relx: -10, rely: -34
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 30
+
+
+@AddStation: id: 31, class: PSK1
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/regi_peronok.png, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 270, posy: 280, sizex: 44, sizey: 55, relx: -10, rely: -23
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/regi_peronok.png, companycolor
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
+			RealSprite: posx: 315, posy: 280, sizex: 44, sizey: 55, relx: -32, rely: -23
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 31
+
