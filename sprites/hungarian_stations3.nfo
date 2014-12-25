@@ -917,8 +917,8 @@
 
    // Action1
   197 * 4	 01 04 01 02
-  198 sprites_grafika/kiegeszitok.png 8bpp 0 0 66 56 -32 -24 normal chunked
-  199 sprites_grafika/kiegeszitok.png 8bpp 67 0 66 56 -32 -24 normal chunked
+  198 sprites_grafika/kiegeszitok.png 8bpp 67 0 66 56 -32 -24 normal chunked
+  199 sprites_grafika/kiegeszitok.png 8bpp 0 0 66 56 -32 -24 normal chunked
 
    // Action2
   200 * 7	 02 04 00 00 01 00 00
@@ -952,8 +952,8 @@
 
    // Action1
   203 * 4	 01 04 01 02
-  204 sprites_grafika/kiegeszitok.png 8bpp 0 57 66 51 -32 -19 normal chunked
-  205 sprites_grafika/kiegeszitok.png 8bpp 67 57 66 51 -32 -19 normal chunked
+  204 sprites_grafika/kiegeszitok.png 8bpp 67 57 66 51 -32 -19 normal chunked
+  205 sprites_grafika/kiegeszitok.png 8bpp 0 57 66 51 -32 -19 normal chunked
 
    // Action2
   206 * 7	 02 04 00 00 01 00 00
@@ -987,8 +987,8 @@
 
    // Action1
   209 * 4	 01 04 01 02
-  210 sprites_grafika/kiegeszitok.png 8bpp 0 109 66 59 -32 -27 normal chunked
-  211 sprites_grafika/kiegeszitok.png 8bpp 67 109 66 59 -32 -27 normal chunked
+  210 sprites_grafika/kiegeszitok.png 8bpp 67 109 66 59 -32 -27 normal chunked
+  211 sprites_grafika/kiegeszitok.png 8bpp 0 109 66 59 -32 -27 normal chunked
 
    // Action2
   212 * 7	 02 04 00 00 01 00 00

@@ -18,11 +18,11 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 0, posy: 0, sizex: 66, sizey: 56, relx: -32, rely: -24
+			RealSprite: posx: 67, posy: 0, sizex: 66, sizey: 56, relx: -32, rely: -24
 		@EndAddLayout1
 		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 67, posy: 0, sizex: 66, sizey: 56, relx: -32, rely: -24
+			RealSprite: posx: 0, posy: 0, sizex: 66, sizey: 56, relx: -32, rely: -24
 		@EndAddLayout2
 	@EndAddSprite
 @EndAddStation
@@ -41,11 +41,11 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 0, posy: 57, sizex: 66, sizey: 51, relx: -32, rely: -19
+			RealSprite: posx: 67, posy: 57, sizex: 66, sizey: 51, relx: -32, rely: -19
 		@EndAddLayout1
 		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 67, posy: 57, sizex: 66, sizey: 51, relx: -32, rely: -19
+			RealSprite: posx: 0, posy: 57, sizex: 66, sizey: 51, relx: -32, rely: -19
 		@EndAddLayout2
 	@EndAddSprite
 @EndAddStation
@@ -64,11 +64,11 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 0, posy: 109, sizex: 66, sizey: 59, relx: -32, rely: -27
+			RealSprite: posx: 67, posy: 109, sizex: 66, sizey: 59, relx: -32, rely: -27
 		@EndAddLayout1
 		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 67, posy: 109, sizex: 66, sizey: 59, relx: -32, rely: -27
+			RealSprite: posx: 0, posy: 109, sizex: 66, sizey: 59, relx: -32, rely: -27
 		@EndAddLayout2
 	@EndAddSprite
 @EndAddStation
