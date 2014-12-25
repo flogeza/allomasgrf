@@ -314,15 +314,15 @@
 //************************************//
 
 @StationNames
-	Setname: stationid: 0, language: default, name: HSS - Christmas Market (automatic)
-	Setname: stationid: 0, language: hu, name: HSS - Karácsonyi vásár (automatikus)
-	Setname: stationid: 0, language: de, name: HSS - Weihnachtsmarkt (automatisch)
+	Setname: stationid: 0, language: default, name: "HSS - Christmas Market (automatic)"
+	Setname: stationid: 0, language: hu, name: HSS - "Karácsonyi vásár (automatikus)"
+//	Setname: stationid: 0, language: de, name: HSS - "Weihnachtsmarkt (automatisch)"
 
-	Station: stationid: 0, language: default, name: With rail
-	Station: stationid: 0, language: hu, name: Sínnel
-	Station: stationid: 0, language: de, name: Mit Schiene
+	Station: stationid: 0, language: default, name: "With rail"
+	Station: stationid: 0, language: hu, name: "Sínnel"
+//	Station: stationid: 0, language: de, name: "Mit Schiene"
 
-	Station: stationid: 1, language: default, name: Without rail
-	Station: stationid: 1, language: hu, name: Sín nélküli
-	Station: stationid: 1, language: de, name: Ohne Schiene
+	Station: stationid: 1, language: default, name: "Without rail"
+	Station: stationid: 1, language: hu, name: "Sín nélküli"
+//	Station: stationid: 1, language: de, name: "Ohne Schiene"
 @EndStationNames

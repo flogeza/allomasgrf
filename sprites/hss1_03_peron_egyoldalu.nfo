@@ -1,4 +1,66 @@
 
+//
+// sima
+//
+
+
+   // Action0
+   00 * 00	00 04				// Action0, Feature4
+			03 01 28			// Properties, Stations, First Station ID
+			08 "PSK1"			// Station Class
+			0C FE				// Platforms
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 05 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	05 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+   00 * 00	01 04 01 02
+   00 sprites_grafika/regi_peronok.png 8bpp 180 336 44 55 -32 -34 normal chunked
+   00 sprites_grafika/regi_peronok.png 8bpp 225 336 44 55 -10 -34 normal chunked
+
+   // Action2
+   00 * 00	02 04 00 00 01 00 00
+
+   00 * 00	03 04 01 28 00 00 00
+
+
+
+   // Action0
+   00 * 00	00 04				// Action0, Feature4
+			03 01 29			// Properties, Stations, First Station ID
+			08 "PSK1"			// Station Class
+			0C FE				// Platforms
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+   00 * 00	01 04 01 02
+   00 sprites_grafika/regi_peronok.png 8bpp 270 336 44 55 -10 -23 normal chunked
+   00 sprites_grafika/regi_peronok.png 8bpp 315 336 44 55 -32 -23 normal chunked
+
+   // Action2
+   00 * 00	02 04 00 00 01 00 00
+
+   00 * 00	03 04 01 29 00 00 00
+
+
 
 //
 // kijelzo
@@ -7,7 +69,7 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 14			// Properties, Stations, First Station ID
+			03 01 2A			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
 			0C FE				// Platforms
 
@@ -30,13 +92,13 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 14 00 00 00
+   00 * 00	03 04 01 2A 00 00 00
 
 
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 15			// Properties, Stations, First Station ID
+			03 01 2B			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
 			0C FE				// Platforms
 
@@ -59,7 +121,7 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 15 00 00 00
+   00 * 00	03 04 01 2B 00 00 00
 
 
 
@@ -70,7 +132,7 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 16			// Properties, Stations, First Station ID
+			03 01 2C			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
 			0C FE				// Platforms
 
@@ -93,13 +155,13 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 16 00 00 00
+   00 * 00	03 04 01 2C 00 00 00
 
 
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 17			// Properties, Stations, First Station ID
+			03 01 2D			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
 			0C FE				// Platforms
 
@@ -122,7 +184,7 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 17 00 00 00
+   00 * 00	03 04 01 2D 00 00 00
 
 
 
@@ -133,7 +195,7 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 18			// Properties, Stations, First Station ID
+			03 01 2E			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
 			0C FE				// Platforms
 
@@ -156,13 +218,13 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 18 00 00 00
+   00 * 00	03 04 01 2E 00 00 00
 
 
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 19			// Properties, Stations, First Station ID
+			03 01 2F			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
 			0C FE				// Platforms
 
@@ -185,7 +247,7 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 19 00 00 00
+   00 * 00	03 04 01 2F 00 00 00
 
 
 
@@ -196,7 +258,7 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1A			// Properties, Stations, First Station ID
+			03 01 30			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
 			0C FE				// Platforms
 
@@ -219,13 +281,13 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 1A 00 00 00
+   00 * 00	03 04 01 30 00 00 00
 
 
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1B			// Properties, Stations, First Station ID
+			03 01 31			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
 			0C FE				// Platforms
 
@@ -248,7 +310,7 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 1B 00 00 00
+   00 * 00	03 04 01 31 00 00 00
 
 
 
@@ -259,7 +321,7 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1C			// Properties, Stations, First Station ID
+			03 01 32			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
 			0C FE				// Platforms
 
@@ -282,13 +344,13 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 1C 00 00 00
+   00 * 00	03 04 01 32 00 00 00
 
 
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1D			// Properties, Stations, First Station ID
+			03 01 33			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
 			0C FE				// Platforms
 
@@ -311,7 +373,7 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 1D 00 00 00
+   00 * 00	03 04 01 33 00 00 00
 
 
 
@@ -322,7 +384,7 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1E			// Properties, Stations, First Station ID
+			03 01 34			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
 			0C FE				// Platforms
 
@@ -345,13 +407,13 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 1E 00 00 00
+   00 * 00	03 04 01 34 00 00 00
 
 
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1F			// Properties, Stations, First Station ID
+			03 01 35			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
 			0C FE				// Platforms
 
@@ -374,5 +436,5 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 1F 00 00 00
+   00 * 00	03 04 01 35 00 00 00
 

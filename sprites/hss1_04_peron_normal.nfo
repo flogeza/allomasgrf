@@ -1,4 +1,41 @@
 
+//
+// sima
+//
+
+
+   // Action0
+   00 * 00	00 04				// Action0, Feature4
+			03 01 BE			// Properties, Stations, First Station ID
+			08 "PSK2"			// Station Class
+			0C FE				// Platforms
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 05 10		2D 04 00 00
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	05 10 10		2F 04 00 00
+			00 00 00	10 10 10		30 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+   00 * 00	01 04 01 04
+   00 sprites_grafika/regi_peronok.png 8bpp 180 336 44 55 -32 -34 normal chunked
+   00 sprites_grafika/regi_peronok.png 8bpp 270 336 44 55 -10 -23 normal chunked
+   00 sprites_grafika/regi_peronok.png 8bpp 225 336 44 55 -10 -34 normal chunked
+   00 sprites_grafika/regi_peronok.png 8bpp 315 336 44 55 -32 -23 normal chunked
+
+   // Action2
+   00 * 00	02 04 00 00 01 00 00
+
+   00 * 00	03 04 01 BE 00 00 00
+
+
 
 //
 // szervizbeton
@@ -11,9 +48,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 50			// Properties, Stations, First Station ID
+			02 01 BF			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
-			0C FE				// Platforms
 
 			09 02				// Sprite Layout
 
@@ -38,7 +74,7 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 50 00 00 00
+   00 * 00	03 04 01 BF 00 00 00
 
 
 
@@ -49,9 +85,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 51			// Properties, Stations, First Station ID
+			02 01 C0			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
-			0C FE				// Platforms
 
 			09 02				// Sprite Layout
 
@@ -76,7 +111,7 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 51 00 00 00
+   00 * 00	03 04 01 C0 00 00 00
 
 
 
@@ -87,9 +122,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 52			// Properties, Stations, First Station ID
+			02 01 C1			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
-			0C FE				// Platforms
 
 			09 02				// Sprite Layout
 
@@ -114,7 +148,7 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 52 00 00 00
+   00 * 00	03 04 01 C1 00 00 00
 
 
 
@@ -125,9 +159,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 53			// Properties, Stations, First Station ID
+			02 01 C2			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
-			0C FE				// Platforms
 
 			09 02				// Sprite Layout
 
@@ -152,7 +185,7 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 53 00 00 00
+   00 * 00	03 04 01 C2 00 00 00
 
 
 
@@ -163,9 +196,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 54			// Properties, Stations, First Station ID
+			02 01 C3			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
-			0C FE				// Platforms
 
 			09 02				// Sprite Layout
 
@@ -190,7 +222,7 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 54 00 00 00
+   00 * 00	03 04 01 C3 00 00 00
 
 
 
@@ -201,9 +233,8 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 55			// Properties, Stations, First Station ID
+			02 01 C4			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
-			0C FE				// Platforms
 
 			09 02				// Sprite Layout
 
@@ -228,5 +259,5 @@
    // Action2
    00 * 00	02 04 00 00 01 00 00
 
-   00 * 00	03 04 01 55 00 00 00
+   00 * 00	03 04 01 C4 00 00 00
 

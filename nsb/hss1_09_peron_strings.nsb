@@ -6,78 +6,93 @@
 //************************************//
 
 @StationNames
-	Setname: stationid: 0, language: default, name: HSS - Platforms (automatic)(single sided)
-	Setname: stationid: 0, language: hu, name: HSS - Peronok (automatikus)(egyoldalú)
+	Setname: stationid: 0, language: default, name: "HSS - Platforms (automatic)(single sided)"
+	Setname: stationid: 0, language: hu, name: "HSS - Peronok (automatikus)(egyoldalú)"
 
-	Station: stationid: 0, language: default, name: Old (low)(back)
-	Station: stationid: 0, language: hu, name: Régi (alacsony)(hátulsó)
+	Station: stationid: 0, language: default, name: "Old (low)(front)"
+	Station: stationid: 0, language: hu, name: "Régi (alacsony)(elülső)"
 
-	Station: stationid: 1, language: default, name: Old (low)(front)
-	Station: stationid: 1, language: hu, name: Régi (alacsony)(elülső)
+	Station: stationid: 1, language: default, name: "Old (low)(back)"
+	Station: stationid: 1, language: hu, name: "Régi (alacsony)(hátulsó)"
 
-	Station: stationid: 2, language: default, name: Old (high)(back)
-	Station: stationid: 2, language: hu, name: Régi (magas)(hátulsó)
+	Station: stationid: 2, language: default, name: "Old (high)(front)"
+	Station: stationid: 2, language: hu, name: "Régi (magas)(elülső)"
 
-	Station: stationid: 3, language: default, name: Old (high)(front)
-	Station: stationid: 3, language: hu, name: Régi (magas)(elülső)
+	Station: stationid: 3, language: default, name: "Old (high)(back)"
+	Station: stationid: 3, language: hu, name: "Régi (magas)(hátulsó)"
 
-	Setname: stationid: 20, language: default, name: HSS - Platforms (single sided)
-	Setname: stationid: 20, language: hu, name: HSS - Peronok (egyoldalú)
 
-	Station: stationid: 20, language: default, name: Old with display (very low)(front)
-	Station: stationid: 20, language: hu, name: Régi kijelzővel (nagyon alacsony)(elülső)
 
-	Station: stationid: 21, language: default, name: Old with display (very low)(back)
-	Station: stationid: 21, language: hu, name: Régi kijelzővel (nagyon alacsony)(hátulsó)
 
-	Station: stationid: 22, language: default, name: Old with lamp (very low)(front)
-	Station: stationid: 22, language: hu, name: Régi lámpával (nagyon alacsony)(elülső)
+	Setname: stationid: 40, language: default, name: "HSS - Platforms (single sided)"
+	Setname: stationid: 40, language: hu, name: "HSS - Peronok (egyoldalú)"
 
-	Station: stationid: 23, language: default, name: Old with lamp (very low)(back)
-	Station: stationid: 23, language: hu, name: Régi lámpával (nagyon alacsony)(hátulsó)
+	Station: stationid: 40, language: default, name: "Old (very low)(back)"
+	Station: stationid: 40, language: hu, name: "Régi (nagyon alacsony)(hátulsó)"
 
-	Station: stationid: 24, language: default, name: Old with lamp and benches (very low)(front)
-	Station: stationid: 24, language: hu, name: Régi lámpával és padokkal (nagyon alacsony)(elülső)
+	Station: stationid: 41, language: default, name: "Old (very low)(front)"
+	Station: stationid: 41, language: hu, name: "Régi (nagyon alacsony)(elülső)"
 
-	Station: stationid: 25, language: default, name: Old with lamp and benches (very low)(back)
-	Station: stationid: 25, language: hu, name: Régi lámpával és padokkal (nagyon alacsony)(hátulsó)
+	Station: stationid: 42, language: default, name: "Old, display (very low)(back)"
+	Station: stationid: 42, language: hu, name: "Régi, kijelző (nagyon alacsony)(hátulsó)"
 
-	Station: stationid: 26, language: default, name: Old with benches (very low)(front)
-	Station: stationid: 26, language: hu, name: Régi padokkal (nagyon alacsony)(elülső)
+	Station: stationid: 43, language: default, name: "Old, display (very low)(front)"
+	Station: stationid: 43, language: hu, name: "Régi, kijelző (nagyon alacsony)(elülső)"
 
-	Station: stationid: 27, language: default, name: Old with benches (very low)(back)
-	Station: stationid: 27, language: hu, name: Régi padokkal (nagyon alacsony)(hátulsó)
+	Station: stationid: 44, language: default, name: "Old, lamp (very low)(back)"
+	Station: stationid: 44, language: hu, name: "Régi, lámpa (nagyon alacsony)(hátulsó)"
 
-	Station: stationid: 28, language: default, name: Old with underpass 1 (very low)(front)
-	Station: stationid: 28, language: hu, name: Régi aluljáróval 1 (nagyon alacsony)(elülső)
+	Station: stationid: 45, language: default, name: "Old, lamp (very low)(front)"
+	Station: stationid: 45, language: hu, name: "Régi, lámpa (nagyon alacsony)(elülső)"
 
-	Station: stationid: 29, language: default, name: Old with underpass 1 (very low)(back)
-	Station: stationid: 29, language: hu, name: Régi aluljáróval 1 (nagyon alacsony)(hátulsó)
+	Station: stationid: 46, language: default, name: "Old, lamp and benches (very low)(back)"
+	Station: stationid: 46, language: hu, name: "Régi, lámpa, padok (nagyon alacsony)(hátulsó)"
 
-	Station: stationid: 30, language: default, name: Old with underpass 2 (very low)(front)
-	Station: stationid: 30, language: hu, name: Régi aluljáróval 2 (nagyon alacsony)(elülső)
+	Station: stationid: 47, language: default, name: "Old, lamp and benches (very low)(front)"
+	Station: stationid: 47, language: hu, name: "Régi, lámpa, padok (nagyon alacsony)(elülső)"
 
-	Station: stationid: 31, language: default, name: Old with underpass 2 (very low)(back)
-	Station: stationid: 31, language: hu, name: Régi aluljáróval 2 (nagyon alacsony)(hátulsó)
+	Station: stationid: 48, language: default, name: "Old, benches (very low)(back)"
+	Station: stationid: 48, language: hu, name: "Régi, padok (nagyon alacsony)(hátulsó)"
 
-	Setname: stationid: 80, language: default, name: HSS - Platforms (normal)
-	Setname: stationid: 80, language: hu, name: HSS - Peronok (normál)
+	Station: stationid: 49, language: default, name: "Old, benches (very low)(front)"
+	Station: stationid: 49, language: hu, name: "Régi, padok (nagyon alacsony)(elülső)"
 
-	Station: stationid: 80, language: default, name: Old with display (very low)
-	Station: stationid: 80, language: hu, name: Régi kijelzővel (nagyon alacsony)
+	Station: stationid: 50, language: default, name: "Old, underpass 1 (very low)(back)"
+	Station: stationid: 50, language: hu, name: "Régi, aluljáróval 1 (nagyon alacsony)(hátulsó)"
 
-	Station: stationid: 81, language: default, name: Old with lamp (very low)
-	Station: stationid: 81, language: hu, name: Régi lámpával (nagyon alacsony)
+	Station: stationid: 51, language: default, name: "Old, underpass 1 (very low)(front)"
+	Station: stationid: 51, language: hu, name: "Régi, aluljáróval 1 (nagyon alacsony)(elülső)"
 
-	Station: stationid: 82, language: default, name: Old with lamp and benches (very low)
-	Station: stationid: 82, language: hu, name: Régi lámpával és padokkal (nagyon alacsony)
+	Station: stationid: 52, language: default, name: "Old, underpass 2 (very low)(back)"
+	Station: stationid: 52, language: hu, name: "Régi, aluljáróval 2 (nagyon alacsony)(hátulsó)"
 
-	Station: stationid: 83, language: default, name: Old with benches (very low)
-	Station: stationid: 83, language: hu, name: Régi padokkal (nagyon alacsony)
+	Station: stationid: 53, language: default, name: "Old, underpass 2 (very low)(front)"
+	Station: stationid: 53, language: hu, name: "Régi, aluljáróval 2 (nagyon alacsony)(elülső)"
 
-	Station: stationid: 84, language: default, name: Old with underpass 1 (very low)
-	Station: stationid: 84, language: hu, name: Régi aluljáróval 1 (nagyon alacsony)
 
-	Station: stationid: 85, language: default, name: Old with underpass 2 (very low)
-	Station: stationid: 85, language: hu, name: Régi aluljáróval 2 (nagyon alacsony)
+
+
+	Setname: stationid: 190, language: default, name: "HSS - Platforms (normal)"
+	Setname: stationid: 190, language: hu, name: "HSS - Peronok (normál)"
+
+	Station: stationid: 190, language: default, name: "Old (very low)"
+	Station: stationid: 190, language: hu, name: "Régi (nagyon alacsony)"
+
+	Station: stationid: 191, language: default, name: "Old, display (very low)"
+	Station: stationid: 191, language: hu, name: "Régi, kijelző (nagyon alacsony)"
+
+	Station: stationid: 192, language: default, name: "Old, lamp (very low)"
+	Station: stationid: 192, language: hu, name: "Régi, lámpa (nagyon alacsony)"
+
+	Station: stationid: 193, language: default, name: "Old, lamp and benches (very low)"
+	Station: stationid: 193, language: hu, name: "Régi, lámpa, padok (nagyon alacsony)"
+
+	Station: stationid: 194, language: default, name: "Old, benches (very low)"
+	Station: stationid: 194, language: hu, name: "Régi, padok (nagyon alacsony)"
+
+	Station: stationid: 195, language: default, name: "Old, underpass 1 (very low)"
+	Station: stationid: 195, language: hu, name: "Régi, aluljáróval 1 (nagyon alacsony)"
+
+	Station: stationid: 196, language: default, name: "Old, underpass 2 (very low)"
+	Station: stationid: 196, language: hu, name: "Régi, aluljáróval 2 (nagyon alacsony)"
 @EndStationNames

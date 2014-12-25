@@ -852,10 +852,7 @@
    // Action4
 	00 * 00	04 04 FF 01 02 C4 C3 9E "HSS - Christmas Market (automatic)" 00
 	00 * 00	04 04 A4 01 02 C4 C3 9E "HSS - Karácsonyi vásár (automatikus)" 00
-	00 * 00	04 04 82 01 02 C4 C3 9E "HSS - Weihnachtsmarkt (automatisch)" 00
 	00 * 00	04 04 FF 01 02 C5 C3 9E "With rail" 00
 	00 * 00	04 04 A4 01 02 C5 C3 9E "Sínnel" 00
-	00 * 00	04 04 82 01 02 C5 C3 9E "Mit Schiene" 00
 	00 * 00	04 04 FF 01 03 C5 C3 9E "Without rail" 00
 	00 * 00	04 04 A4 01 03 C5 C3 9E "Sín nélküli" 00
-	00 * 00	04 04 82 01 03 C5 C3 9E "Ohne Schiene" 00

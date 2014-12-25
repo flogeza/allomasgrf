@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 C6 00 00 00
+    0 * 4	 C3 00 00 00
     1 * 66	 14 "CINFOTURL_" 7F "http://www.tt-forums.net/viewtopic.php?f=67&t=70997" 00 00 00				// url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// verzio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
@@ -868,10 +868,7 @@
    // Action4
   190 * 43	 04 04 FF 01 02 C4 C3 9E "HSS - Christmas Market (automatic)" 00
   191 * 48	 04 04 A4 01 02 C4 C3 9E "HSS - Karácsonyi vásár (automatikus)" 00
-  192 * 44	 04 04 82 01 02 C4 C3 9E "HSS - Weihnachtsmarkt (automatisch)" 00
-  193 * 18	 04 04 FF 01 02 C5 C3 9E "With rail" 00
-  194 * 16	 04 04 A4 01 02 C5 C3 9E "Sínnel" 00
-  195 * 20	 04 04 82 01 02 C5 C3 9E "Mit Schiene" 00
-  196 * 21	 04 04 FF 01 03 C5 C3 9E "Without rail" 00
-  197 * 23	 04 04 A4 01 03 C5 C3 9E "Sín nélküli" 00
-  198 * 21	 04 04 82 01 03 C5 C3 9E "Ohne Schiene" 00
+  192 * 18	 04 04 FF 01 02 C5 C3 9E "With rail" 00
+  193 * 16	 04 04 A4 01 02 C5 C3 9E "Sínnel" 00
+  194 * 21	 04 04 FF 01 03 C5 C3 9E "Without rail" 00
+  195 * 23	 04 04 A4 01 03 C5 C3 9E "Sín nélküli" 00

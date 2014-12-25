@@ -1,4 +1,33 @@
 
+//
+// sima
+//
+
+@AddStation: id: 190, class: PSK2
+	Platforms: FE
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 16
+			RealSprite: posx: 180, posy: 336, sizex: 44, sizey: 55, relx: -32, rely: -34
+		@EndAddLayout1
+		@AddLayout1: spritenumber: 1, filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 270, posy: 336, sizex: 44, sizey: 55, relx: -10, rely: -23
+		@EndAddLayout1
+		@AddLayout2: spritenumber: 2, filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 16
+			RealSprite: posx: 225, posy: 336, sizex: 44, sizey: 55, relx: -10, rely: -34
+		@EndAddLayout2
+		@AddLayout2: spritenumber: 3, filename: sprites_grafika/regi_peronok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 315, posy: 336, sizex: 44, sizey: 55, relx: -32, rely: -23
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 190
+
+
 
 //
 // szervizbeton
@@ -8,8 +37,7 @@
 // kijelzo
 //
 
-@AddStation: id: 80, class: PSK2
-	Platforms: FE
+@AddStation: id: 191, class: PSK2
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 16
@@ -30,7 +58,7 @@
 	@EndAddSprite
 @EndAddStation
 
-@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 80
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 191
 
 
 
@@ -38,8 +66,7 @@
 // lampa
 //
 
-@AddStation: id: 81, class: PSK2
-	Platforms: FE
+@AddStation: id: 192, class: PSK2
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 24
@@ -60,7 +87,7 @@
 	@EndAddSprite
 @EndAddStation
 
-@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 81
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 192
 
 
 
@@ -68,8 +95,7 @@
 // lampa paddal
 //
 
-@AddStation: id: 82, class: PSK2
-	Platforms: FE
+@AddStation: id: 193, class: PSK2
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// lampa paddal peron
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/regi_peronok.png
@@ -91,7 +117,7 @@
 	@EndAddSprite
 @EndAddStation
 
-@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 82
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 193
 
 
 
@@ -99,8 +125,7 @@
 // pad
 //
 
-@AddStation: id: 83, class: PSK2
-	Platforms: FE
+@AddStation: id: 194, class: PSK2
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
@@ -121,7 +146,7 @@
 	@EndAddSprite
 @EndAddStation
 
-@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 83
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 194
 
 
 
@@ -129,8 +154,7 @@
 // aluljaro1
 //
 
-@AddStation: id: 84, class: PSK2
-	Platforms: FE
+@AddStation: id: 195, class: PSK2
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/regi_peronok.png, companycolor
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
@@ -151,7 +175,7 @@
 	@EndAddSprite
 @EndAddStation
 
-@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 84
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 195
 
 
 
@@ -159,8 +183,7 @@
 // aluljaro2
 //
 
-@AddStation: id: 85, class: PSK2
-	Platforms: FE
+@AddStation: id: 196, class: PSK2
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/regi_peronok.png, companycolor
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
@@ -181,5 +204,5 @@
 	@EndAddSprite
 @EndAddStation
 
-@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 85
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 196
 
