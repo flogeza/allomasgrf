@@ -1,10 +1,17 @@
 
+
+//******************************************************************************************************************************************************//
+//																																						//
+//																	normal peronok																				//
+//																																						//
+//******************************************************************************************************************************************************//
+
+
 //
 // sima
 //
 
 @AddStation: id: 190, class: PSK2
-	Platforms: FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 16
@@ -28,10 +35,6 @@
 @AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 190
 
 
-
-//
-// szervizbeton
-//
 
 //
 // kijelzo

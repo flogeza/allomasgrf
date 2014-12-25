@@ -6,8 +6,8 @@
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
     0 * 4	 AB 01 00 00
     1 * 66	 14 "CINFOTURL_" 7F "http://www.tt-forums.net/viewtopic.php?f=67&t=70997" 00 00 00				// url cim
-    2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// verzio szama
-    3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
+    2 * 19	 14 "CINFOBVRSN" 04 00 02 00 00 00 00 00							// verzio szama
+    3 * 19	 14 "CINFOBMINV" 04 00 02 00 00 00 00 00							// minimum kompatibilis verzio szama
     4 * 16	 14 "CINFOBPALS" 01 00 57 00 00										// milyen szin palettat hasznaltunk
     5 * 126	 08 07 "FK" 00 00													// grf ID
 				"Hungarian stations" 00											// grf neve
@@ -1654,6 +1654,15 @@
 //   FE 00 00								// FE, ez a kozepe mezore vagy a kozepehez kepest eszakra levo mezore a grafikat hivja meg...
    AA 00								// ha nem menu, akkor AA action2-re
 
+
+
+//******************************************************************************************************************************************************//
+//																																						//
+//																	Egyoldalu peronok																				//
+//																																						//
+//******************************************************************************************************************************************************//
+
+
 //
 // sima
 //
@@ -2094,16 +2103,23 @@
   315 * 7	 03 04 01 35 00 00 00
 
 
+
+//******************************************************************************************************************************************************//
+//																																						//
+//																	normal peronok																				//
+//																																						//
+//******************************************************************************************************************************************************//
+
+
 //
 // sima
 //
 
 
    // Action0
-  316 * 64	 00 04				// Action0, Feature4
-			03 01 BE			// Properties, Stations, First Station ID
+  316 * 62	 00 04				// Action0, Feature4
+			02 01 BE			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
-			0C FE				// Platforms
 
 			09 02				// Sprite Layout
 
@@ -2131,10 +2147,6 @@
   323 * 7	 03 04 01 BE 00 00 00
 
 
-
-//
-// szervizbeton
-//
 
 //
 // kijelzo

@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 C3 00 00 00
+    0 * 4	 DD 00 00 00
     1 * 66	 14 "CINFOTURL_" 7F "http://www.tt-forums.net/viewtopic.php?f=67&t=70997" 00 00 00				// url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// verzio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
@@ -14,6 +14,16 @@
 				 "Þ\88Magyar állomások szett/Hungarian stations set.\0D\94Készítette/Created by: \8DFlogeza \94and \91idioty." 00 // grf leirasa, a leirasban ha minden igaz hasznalhato a 0D mint sortores, a 98 talan behuzas
 
 // 1420-as sorszamu alap sprite a beton sprite
+
+
+//******************************************************************************************************************************************************//
+//																																						//
+//																	Havas karacsonyi vasar																				//
+//																																						//
+//******************************************************************************************************************************************************//
+
+
+
 
 //
 // vasari megallo
@@ -872,3 +882,131 @@
   193 * 16	 04 04 A4 01 02 C5 C3 9E "Sínnel" 00
   194 * 21	 04 04 FF 01 03 C5 C3 9E "Without rail" 00
   195 * 23	 04 04 A4 01 03 C5 C3 9E "Sín nélküli" 00
+
+
+//******************************************************************************************************************************************************//
+//																																						//
+//																	Kiegeszitok																				//
+//																																						//
+//******************************************************************************************************************************************************//
+
+
+//
+// tolgyfa
+//
+
+
+   // Action0
+  196 * 48	 00 04				// Action0, Feature4
+			05 01 0A			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  197 * 4	 01 04 01 02
+  198 sprites_grafika/kiegeszitok.png 8bpp 0 0 66 56 -32 -24 normal chunked
+  199 sprites_grafika/kiegeszitok.png 8bpp 67 0 66 56 -32 -24 normal chunked
+
+   // Action2
+  200 * 7	 02 04 00 00 01 00 00
+
+  201 * 7	 03 04 01 0A 00 00 00
+
+
+//
+// fenyofa
+//
+
+
+   // Action0
+  202 * 48	 00 04				// Action0, Feature4
+			05 01 0B			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  203 * 4	 01 04 01 02
+  204 sprites_grafika/kiegeszitok.png 8bpp 0 57 66 51 -32 -19 normal chunked
+  205 sprites_grafika/kiegeszitok.png 8bpp 67 57 66 51 -32 -19 normal chunked
+
+   // Action2
+  206 * 7	 02 04 00 00 01 00 00
+
+  207 * 7	 03 04 01 0B 00 00 00
+
+
+//
+// palmafa
+//
+
+
+   // Action0
+  208 * 48	 00 04				// Action0, Feature4
+			05 01 0C			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  209 * 4	 01 04 01 02
+  210 sprites_grafika/kiegeszitok.png 8bpp 0 109 66 59 -32 -27 normal chunked
+  211 sprites_grafika/kiegeszitok.png 8bpp 67 109 66 59 -32 -27 normal chunked
+
+   // Action2
+  212 * 7	 02 04 00 00 01 00 00
+
+  213 * 7	 03 04 01 0C 00 00 00
+
+
+//*************************************//
+//				Strings			//
+//************************************//
+
+
+   // Action4
+  214 * 26	 04 04 FF 01 0A C4 C3 9E "HSS - Accessories" 00
+  215 * 29	 04 04 A4 01 0A C4 C3 9E "HSS - Kiegészítők" 00
+  216 * 22	 04 04 FF 01 0A C5 C3 9E "Sidewalk, oak" 00
+  217 * 25	 04 04 A4 01 0A C5 C3 9E "Járda, tölgyfa" 00
+  218 * 23	 04 04 FF 01 0B C5 C3 9E "Sidewalk, pine" 00
+  219 * 23	 04 04 A4 01 0B C5 C3 9E "Járda, fenyő" 00
+  220 * 23	 04 04 FF 01 0C C5 C3 9E "Sidewalk, palm" 00
+  221 * 23	 04 04 A4 01 0C C5 C3 9E "Járda, pálma" 00

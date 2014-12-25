@@ -6,8 +6,8 @@
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
     0 * 4	 5A 00 00 00
     1 * 39	 14 "CINFOTURL_" 7F "http://www.tt-forums.net/viewtopic.php?f=67&t=70997" 00 00 00				// url cim
-    2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// verzio szama
-    3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
+    2 * 19	 14 "CINFOBVRSN" 04 00 02 00 00 00 00 00							// verzio szama
+    3 * 19	 14 "CINFOBMINV" 04 00 02 00 00 00 00 00							// minimum kompatibilis verzio szama
     4 * 16	 14 "CINFOBPALS" 01 00 57 00 00										// milyen szin palettat hasznaltunk
     5 * 45	 08 07 "FK" 00 00													// grf ID
 				"Hungarian stations" 00											// grf neve

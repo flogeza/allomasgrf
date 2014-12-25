@@ -45,20 +45,20 @@
 
 			09 04				// Sprite Layout
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 34		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 10		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 34		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 06 10		2E 04 00 00
 			80					// end layout1 sprite
 
@@ -2527,20 +2527,20 @@
 
 			09 04				// Sprite Layout
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 3E		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 06 3E		2E 04 00 00
 			80					// end layout1 sprite
 
@@ -2590,20 +2590,20 @@
 
 			09 04				// Sprite Layout
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 3E		2E 04 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 06 3E		2E 04 00 00
 			80					// end layout1 sprite
 
@@ -2659,20 +2659,20 @@
 
 			09 04				// Sprite Layout
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 84 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 3E		2E 84 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 06 3E		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 3E		2E 04 00 00
 			80					// end layout1 sprite
 
@@ -2722,20 +2722,20 @@
 
 			09 04				// Sprite Layout
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 84 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 3E		2E 84 00 00
 			80					// end layout1 sprite
 
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 06 3E		2E 04 00 00
 			80					// end layout1 sprite
 
@@ -2791,11 +2791,11 @@
 
 			09 02				// Sprite Layout
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 3E		2E 04 00 00
 			80					// end layout1 sprite
 
@@ -2833,11 +2833,11 @@
 
 			09 02				// Sprite Layout
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 3E		2E 04 00 00
 			80					// end layout1 sprite
 
@@ -2873,11 +2873,11 @@
 
 			09 02				// Sprite Layout
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 3E		2E 04 00 00
 			80					// end layout1 sprite
 
@@ -2915,11 +2915,11 @@
 
 			09 02				// Sprite Layout
 
-			8D 0F 00 00			// Layout1 groundsprite
+			F4 03 00 00			// Layout1 groundsprite
 			00 00 00	10 10 3E		2D 04 00 00
 			80					// end layout1 sprite
 
-			8D 0F 00 00			// Layout2 groundsprite
+			F3 03 00 00			// Layout2 groundsprite
 			00 00 00	10 10 3E		2E 04 00 00
 			80					// end layout1 sprite
 

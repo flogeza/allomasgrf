@@ -1,0 +1,99 @@
+
+
+//******************************************************************************************************************************************************//
+//																																						//
+//																	Kiegeszitok																				//
+//																																						//
+//******************************************************************************************************************************************************//
+
+
+//
+// tolgyfa
+//
+
+@AddStation: id: 10, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 0, posy: 0, sizex: 66, sizey: 56, relx: -32, rely: -24
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 67, posy: 0, sizex: 66, sizey: 56, relx: -32, rely: -24
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 10
+
+
+//
+// fenyofa
+//
+
+@AddStation: id: 11, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 0, posy: 57, sizex: 66, sizey: 51, relx: -32, rely: -19
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 67, posy: 57, sizex: 66, sizey: 51, relx: -32, rely: -19
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 11
+
+
+//
+// palmafa
+//
+
+@AddStation: id: 12, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 0, posy: 109, sizex: 66, sizey: 59, relx: -32, rely: -27
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 67, posy: 109, sizex: 66, sizey: 59, relx: -32, rely: -27
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 12
+
+
+//*************************************//
+//				Strings			//
+//************************************//
+
+@StationNames
+	Setname: stationid: 10, language: default, name: "HSS - Accessories"
+	Setname: stationid: 10, language: hu, name: "HSS - Kiegészítők"
+//	Setname: stationid: 10, language: de, name: "HSS - "
+
+	Station: stationid: 10, language: default, name: "Sidewalk, oak"
+	Station: stationid: 10, language: hu, name: "Járda, tölgyfa"
+//	Station: stationid: 10, language: de, name: "Mit Schiene"
+
+	Station: stationid: 11, language: default, name: "Sidewalk, pine"
+	Station: stationid: 11, language: hu, name: "Járda, fenyő"
+//	Station: stationid: 11, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 12, language: default, name: "Sidewalk, palm"
+	Station: stationid: 12, language: hu, name: "Járda, pálma"
+//	Station: stationid: 12, language: de, name: "Ohne Schiene"
+@EndStationNames
