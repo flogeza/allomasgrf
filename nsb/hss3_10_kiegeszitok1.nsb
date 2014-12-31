@@ -18,11 +18,11 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 67, posy: 0, sizex: 66, sizey: 56, relx: -32, rely: -24
+			RealSprite: posx: 202, posy: 169, sizex: 66, sizey: 56, relx: -32, rely: -24
 		@EndAddLayout1
 		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 0, posy: 0, sizex: 66, sizey: 56, relx: -32, rely: -24
+			RealSprite: posx: 135, posy: 225, sizex: 66, sizey: 56, relx: -32, rely: -24
 		@EndAddLayout2
 	@EndAddSprite
 @EndAddStation
@@ -41,11 +41,11 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 67, posy: 57, sizex: 66, sizey: 51, relx: -32, rely: -19
+			RealSprite: posx: 202, posy: 226, sizex: 66, sizey: 51, relx: -32, rely: -19
 		@EndAddLayout1
 		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 0, posy: 57, sizex: 66, sizey: 51, relx: -32, rely: -19
+			RealSprite: posx: 135, posy: 282, sizex: 66, sizey: 51, relx: -32, rely: -19
 		@EndAddLayout2
 	@EndAddSprite
 @EndAddStation
@@ -64,16 +64,292 @@
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 67, posy: 109, sizex: 66, sizey: 59, relx: -32, rely: -27
+			RealSprite: posx: 202, posy: 278, sizex: 66, sizey: 59, relx: -32, rely: -27
 		@EndAddLayout1
 		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
-			RealSprite: posx: 0, posy: 109, sizex: 66, sizey: 59, relx: -32, rely: -27
+			RealSprite: posx: 68, posy: 274, sizex: 66, sizey: 59, relx: -32, rely: -27
 		@EndAddLayout2
 	@EndAddSprite
 @EndAddStation
 
 @AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 12
+
+
+//
+// jarda fuzfa
+//
+
+@AddStation: id: 13, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 135, posy: 93, sizex: 66, sizey: 45, relx: -32, rely: -13
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 68, posy: 93, sizex: 66, sizey: 45, relx: -32, rely: -13
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 13
+
+
+//
+// jarda cseresznyefa
+//
+
+@AddStation: id: 14, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 202, posy: 1, sizex: 66, sizey: 42, relx: -32, rely: -10
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 135, posy: 139, sizex: 66, sizey: 42, relx: -32, rely: -10
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 14
+
+
+//
+// kekkeriteses fuzfa lampaval
+//
+
+@AddStation: id: 15, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 68, posy: 47, sizex: 66, sizey: 45, relx: -32, rely: -13
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 68, posy: 1, sizex: 66, sizey: 45, relx: -32, rely: -13
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 15
+
+
+//
+// zoldkeriteses fuzfa lampaval
+//
+
+@AddStation: id: 16, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 135, posy: 47, sizex: 66, sizey: 45, relx: -32, rely: -13
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 135, posy: 1, sizex: 66, sizey: 45, relx: -32, rely: -13
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 16
+
+
+//
+// Díszfa korzo 1
+//
+
+@AddStation: id: 17, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 1, posy: 200, sizex: 66, sizey: 45, relx: -32, rely: -13
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 68, posy: 139, sizex: 66, sizey: 45, relx: -32, rely: -13
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 17
+
+
+//
+// Díszfa korzo 2
+//
+
+@AddStation: id: 18, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 1, posy: 246, sizex: 66, sizey: 45, relx: -32, rely: -13
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 68, posy: 185, sizex: 66, sizey: 45, relx: -32, rely: -13
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 18
+
+
+//
+// Cseresznye korzo 1
+//
+
+@AddStation: id: 19, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 202, posy: 44, sizex: 66, sizey: 42, relx: -32, rely: -10
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 135, posy: 182, sizex: 66, sizey: 42, relx: -32, rely: -10
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 19
+
+
+//
+// Cseresznye korzo 2
+//
+
+@AddStation: id: 20, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 68, posy: 231, sizex: 66, sizey: 42, relx: -32, rely: -10
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 202, posy: 87, sizex: 66, sizey: 42, relx: -32, rely: -10
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 20
+
+
+//
+// tolgyfa egymagaban
+//
+
+@AddStation: id: 21, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 1, posy: 57, sizex: 66, sizey: 52, relx: -32, rely: -20
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 1, posy: 57, sizex: 66, sizey: 52, relx: -32, rely: -20
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 21
+
+
+//
+// fenyofa egymagaban
+//
+
+@AddStation: id: 22, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 1, posy: 110, sizex: 66, sizey: 47, relx: -32, rely: -15
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 1, posy: 110, sizex: 66, sizey: 47, relx: -32, rely: -15
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 22
+
+
+//
+// palma egymagaban
+//
+
+@AddStation: id: 23, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 1, posy: 1, sizex: 66, sizey: 55, relx: -32, rely: -23
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 1, posy: 1, sizex: 66, sizey: 55, relx: -32, rely: -23
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 23
+
+
+//
+// fuzfa egymagaban
+//
+
+@AddStation: id: 24, class: PSN0
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 1, posy: 158, sizex: 66, sizey: 41, relx: -32, rely: -9
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+			RealSprite: posx: 1, posy: 158, sizex: 66, sizey: 41, relx: -32, rely: -9
+		@EndAddLayout2
+	@EndAddSprite
+@EndAddStation
+
+@AssignOneGraphicsSetForAllCargo: action2id: 0, stationid: 24
 
 
 //*************************************//
@@ -96,4 +372,52 @@
 	Station: stationid: 12, language: default, name: "Sidewalk, palm"
 	Station: stationid: 12, language: hu, name: "Járda, pálma"
 //	Station: stationid: 12, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 13, language: default, name: "Sidewalk, willow"
+	Station: stationid: 13, language: hu, name: "Járda, fűz"
+//	Station: stationid: 13, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 14, language: default, name: "Sidewalk, cherry tree"
+	Station: stationid: 14, language: hu, name: "Járda, cseresznyefa"
+//	Station: stationid: 14, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 15, language: default, name: "Willow prom"
+	Station: stationid: 15, language: hu, name: "Fűz korzó"
+//	Station: stationid: 15, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 16, language: default, name: "Willow prom"
+	Station: stationid: 16, language: hu, name: "Fűz korzó"
+//	Station: stationid: 16, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 17, language: default, name: "Ornamental tree prom"
+	Station: stationid: 17, language: hu, name: "Díszfa korzó"
+//	Station: stationid: 17, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 18, language: default, name: "Ornamental tree prom"
+	Station: stationid: 18, language: hu, name: "Díszfa korzó"
+//	Station: stationid: 18, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 19, language: default, name: "Cherry tree prom"
+	Station: stationid: 19, language: hu, name: "Cseresznyefa korzó"
+//	Station: stationid: 19, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 20, language: default, name: "Cherry tree prom"
+	Station: stationid: 20, language: hu, name: "Cseresznyefa korzó"
+//	Station: stationid: 20, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 21, language: default, name: "Oak"
+	Station: stationid: 21, language: hu, name: "Tölgyfa"
+//	Station: stationid: 21, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 22, language: default, name: "Pine"
+	Station: stationid: 22, language: hu, name: "Fenyő"
+//	Station: stationid: 22, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 23, language: default, name: "Palm"
+	Station: stationid: 23, language: hu, name: "Pálma"
+//	Station: stationid: 23, language: de, name: "Ohne Schiene"
+
+	Station: stationid: 24, language: default, name: "Willow"
+	Station: stationid: 24, language: hu, name: "Fűz"
+//	Station: stationid: 24, language: de, name: "Ohne Schiene"
 @EndStationNames

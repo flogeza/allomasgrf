@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
-    0 * 4	 DD 00 00 00
+    0 * 4	 3D 01 00 00
     1 * 66	 14 "CINFOTURL_" 7F "http://www.tt-forums.net/viewtopic.php?f=67&t=70997" 00 00 00				// url cim
     2 * 19	 14 "CINFOBVRSN" 04 00 01 00 00 00 00 00							// verzio szama
     3 * 19	 14 "CINFOBMINV" 04 00 01 00 00 00 00 00							// minimum kompatibilis verzio szama
@@ -917,8 +917,8 @@
 
    // Action1
   197 * 4	 01 04 01 02
-  198 sprites_grafika/kiegeszitok.png 8bpp 67 0 66 56 -32 -24 normal chunked
-  199 sprites_grafika/kiegeszitok.png 8bpp 0 0 66 56 -32 -24 normal chunked
+  198 sprites_grafika/kiegeszitok.png 8bpp 202 169 66 56 -32 -24 normal chunked
+  199 sprites_grafika/kiegeszitok.png 8bpp 135 225 66 56 -32 -24 normal chunked
 
    // Action2
   200 * 7	 02 04 00 00 01 00 00
@@ -952,8 +952,8 @@
 
    // Action1
   203 * 4	 01 04 01 02
-  204 sprites_grafika/kiegeszitok.png 8bpp 67 57 66 51 -32 -19 normal chunked
-  205 sprites_grafika/kiegeszitok.png 8bpp 0 57 66 51 -32 -19 normal chunked
+  204 sprites_grafika/kiegeszitok.png 8bpp 202 226 66 51 -32 -19 normal chunked
+  205 sprites_grafika/kiegeszitok.png 8bpp 135 282 66 51 -32 -19 normal chunked
 
    // Action2
   206 * 7	 02 04 00 00 01 00 00
@@ -987,13 +987,433 @@
 
    // Action1
   209 * 4	 01 04 01 02
-  210 sprites_grafika/kiegeszitok.png 8bpp 67 109 66 59 -32 -27 normal chunked
-  211 sprites_grafika/kiegeszitok.png 8bpp 0 109 66 59 -32 -27 normal chunked
+  210 sprites_grafika/kiegeszitok.png 8bpp 202 278 66 59 -32 -27 normal chunked
+  211 sprites_grafika/kiegeszitok.png 8bpp 68 274 66 59 -32 -27 normal chunked
 
    // Action2
   212 * 7	 02 04 00 00 01 00 00
 
   213 * 7	 03 04 01 0C 00 00 00
+
+
+//
+// jarda fuzfa
+//
+
+
+   // Action0
+  214 * 48	 00 04				// Action0, Feature4
+			05 01 0D			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  215 * 4	 01 04 01 02
+  216 sprites_grafika/kiegeszitok.png 8bpp 135 93 66 45 -32 -13 normal chunked
+  217 sprites_grafika/kiegeszitok.png 8bpp 68 93 66 45 -32 -13 normal chunked
+
+   // Action2
+  218 * 7	 02 04 00 00 01 00 00
+
+  219 * 7	 03 04 01 0D 00 00 00
+
+
+//
+// jarda cseresznyefa
+//
+
+
+   // Action0
+  220 * 48	 00 04				// Action0, Feature4
+			05 01 0E			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  221 * 4	 01 04 01 02
+  222 sprites_grafika/kiegeszitok.png 8bpp 202 1 66 42 -32 -10 normal chunked
+  223 sprites_grafika/kiegeszitok.png 8bpp 135 139 66 42 -32 -10 normal chunked
+
+   // Action2
+  224 * 7	 02 04 00 00 01 00 00
+
+  225 * 7	 03 04 01 0E 00 00 00
+
+
+//
+// kekkeriteses fuzfa lampaval
+//
+
+
+   // Action0
+  226 * 48	 00 04				// Action0, Feature4
+			05 01 0F			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  227 * 4	 01 04 01 02
+  228 sprites_grafika/kiegeszitok.png 8bpp 68 47 66 45 -32 -13 normal chunked
+  229 sprites_grafika/kiegeszitok.png 8bpp 68 1 66 45 -32 -13 normal chunked
+
+   // Action2
+  230 * 7	 02 04 00 00 01 00 00
+
+  231 * 7	 03 04 01 0F 00 00 00
+
+
+//
+// zoldkeriteses fuzfa lampaval
+//
+
+
+   // Action0
+  232 * 48	 00 04				// Action0, Feature4
+			05 01 10			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  233 * 4	 01 04 01 02
+  234 sprites_grafika/kiegeszitok.png 8bpp 135 47 66 45 -32 -13 normal chunked
+  235 sprites_grafika/kiegeszitok.png 8bpp 135 1 66 45 -32 -13 normal chunked
+
+   // Action2
+  236 * 7	 02 04 00 00 01 00 00
+
+  237 * 7	 03 04 01 10 00 00 00
+
+
+//
+// Díszfa korzo 1
+//
+
+
+   // Action0
+  238 * 48	 00 04				// Action0, Feature4
+			05 01 11			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  239 * 4	 01 04 01 02
+  240 sprites_grafika/kiegeszitok.png 8bpp 1 200 66 45 -32 -13 normal chunked
+  241 sprites_grafika/kiegeszitok.png 8bpp 68 139 66 45 -32 -13 normal chunked
+
+   // Action2
+  242 * 7	 02 04 00 00 01 00 00
+
+  243 * 7	 03 04 01 11 00 00 00
+
+
+//
+// Díszfa korzo 2
+//
+
+
+   // Action0
+  244 * 48	 00 04				// Action0, Feature4
+			05 01 12			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  245 * 4	 01 04 01 02
+  246 sprites_grafika/kiegeszitok.png 8bpp 1 246 66 45 -32 -13 normal chunked
+  247 sprites_grafika/kiegeszitok.png 8bpp 68 185 66 45 -32 -13 normal chunked
+
+   // Action2
+  248 * 7	 02 04 00 00 01 00 00
+
+  249 * 7	 03 04 01 12 00 00 00
+
+
+//
+// Cseresznye korzo 1
+//
+
+
+   // Action0
+  250 * 48	 00 04				// Action0, Feature4
+			05 01 13			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  251 * 4	 01 04 01 02
+  252 sprites_grafika/kiegeszitok.png 8bpp 202 44 66 42 -32 -10 normal chunked
+  253 sprites_grafika/kiegeszitok.png 8bpp 135 182 66 42 -32 -10 normal chunked
+
+   // Action2
+  254 * 7	 02 04 00 00 01 00 00
+
+  255 * 7	 03 04 01 13 00 00 00
+
+
+//
+// Cseresznye korzo 2
+//
+
+
+   // Action0
+  256 * 48	 00 04				// Action0, Feature4
+			05 01 14			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  257 * 4	 01 04 01 02
+  258 sprites_grafika/kiegeszitok.png 8bpp 68 231 66 42 -32 -10 normal chunked
+  259 sprites_grafika/kiegeszitok.png 8bpp 202 87 66 42 -32 -10 normal chunked
+
+   // Action2
+  260 * 7	 02 04 00 00 01 00 00
+
+  261 * 7	 03 04 01 14 00 00 00
+
+
+//
+// tolgyfa egymagaban
+//
+
+
+   // Action0
+  262 * 48	 00 04				// Action0, Feature4
+			05 01 15			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  263 * 4	 01 04 01 02
+  264 sprites_grafika/kiegeszitok.png 8bpp 1 57 66 52 -32 -20 normal chunked
+  265 sprites_grafika/kiegeszitok.png 8bpp 1 57 66 52 -32 -20 normal chunked
+
+   // Action2
+  266 * 7	 02 04 00 00 01 00 00
+
+  267 * 7	 03 04 01 15 00 00 00
+
+
+//
+// fenyofa egymagaban
+//
+
+
+   // Action0
+  268 * 48	 00 04				// Action0, Feature4
+			05 01 16			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  269 * 4	 01 04 01 02
+  270 sprites_grafika/kiegeszitok.png 8bpp 1 110 66 47 -32 -15 normal chunked
+  271 sprites_grafika/kiegeszitok.png 8bpp 1 110 66 47 -32 -15 normal chunked
+
+   // Action2
+  272 * 7	 02 04 00 00 01 00 00
+
+  273 * 7	 03 04 01 16 00 00 00
+
+
+//
+// palma egymagaban
+//
+
+
+   // Action0
+  274 * 48	 00 04				// Action0, Feature4
+			05 01 17			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  275 * 4	 01 04 01 02
+  276 sprites_grafika/kiegeszitok.png 8bpp 1 1 66 55 -32 -23 normal chunked
+  277 sprites_grafika/kiegeszitok.png 8bpp 1 1 66 55 -32 -23 normal chunked
+
+   // Action2
+  278 * 7	 02 04 00 00 01 00 00
+
+  279 * 7	 03 04 01 17 00 00 00
+
+
+//
+// fuzfa egymagaban
+//
+
+
+   // Action0
+  280 * 48	 00 04				// Action0, Feature4
+			05 01 18			// Properties, Stations, First Station ID
+			08 "PSN0"			// Station Class
+			11 00				// Pylon disabled
+			14 FF				// Wire disabled
+			15 FF				// Train disabled
+
+			09 02				// Sprite Layout
+
+			F4 03 00 00			// Layout1 groundsprite
+			00 00 00	10 10 10		2D 04 00 00
+			80					// end layout1 sprite
+
+			F3 03 00 00			// Layout2 groundsprite
+			00 00 00	10 10 10		2E 04 00 00
+			80					// end layout1 sprite
+
+
+   // Action1
+  281 * 4	 01 04 01 02
+  282 sprites_grafika/kiegeszitok.png 8bpp 1 158 66 41 -32 -9 normal chunked
+  283 sprites_grafika/kiegeszitok.png 8bpp 1 158 66 41 -32 -9 normal chunked
+
+   // Action2
+  284 * 7	 02 04 00 00 01 00 00
+
+  285 * 7	 03 04 01 18 00 00 00
 
 
 //*************************************//
@@ -1002,11 +1422,35 @@
 
 
    // Action4
-  214 * 26	 04 04 FF 01 0A C4 C3 9E "HSS - Accessories" 00
-  215 * 29	 04 04 A4 01 0A C4 C3 9E "HSS - Kiegészítők" 00
-  216 * 22	 04 04 FF 01 0A C5 C3 9E "Sidewalk, oak" 00
-  217 * 25	 04 04 A4 01 0A C5 C3 9E "Járda, tölgyfa" 00
-  218 * 23	 04 04 FF 01 0B C5 C3 9E "Sidewalk, pine" 00
-  219 * 23	 04 04 A4 01 0B C5 C3 9E "Járda, fenyő" 00
-  220 * 23	 04 04 FF 01 0C C5 C3 9E "Sidewalk, palm" 00
-  221 * 23	 04 04 A4 01 0C C5 C3 9E "Járda, pálma" 00
+  286 * 26	 04 04 FF 01 0A C4 C3 9E "HSS - Accessories" 00
+  287 * 29	 04 04 A4 01 0A C4 C3 9E "HSS - Kiegészítők" 00
+  288 * 22	 04 04 FF 01 0A C5 C3 9E "Sidewalk, oak" 00
+  289 * 25	 04 04 A4 01 0A C5 C3 9E "Járda, tölgyfa" 00
+  290 * 23	 04 04 FF 01 0B C5 C3 9E "Sidewalk, pine" 00
+  291 * 23	 04 04 A4 01 0B C5 C3 9E "Járda, fenyő" 00
+  292 * 23	 04 04 FF 01 0C C5 C3 9E "Sidewalk, palm" 00
+  293 * 23	 04 04 A4 01 0C C5 C3 9E "Járda, pálma" 00
+  294 * 25	 04 04 FF 01 0D C5 C3 9E "Sidewalk, willow" 00
+  295 * 21	 04 04 A4 01 0D C5 C3 9E "Járda, fűz" 00
+  296 * 30	 04 04 FF 01 0E C5 C3 9E "Sidewalk, cherry tree" 00
+  297 * 29	 04 04 A4 01 0E C5 C3 9E "Járda, cseresznyefa" 00
+  298 * 20	 04 04 FF 01 0F C5 C3 9E "Willow prom" 00
+  299 * 20	 04 04 A4 01 0F C5 C3 9E "Fűz korzó" 00
+  300 * 20	 04 04 FF 01 10 C5 C3 9E "Willow prom" 00
+  301 * 20	 04 04 A4 01 10 C5 C3 9E "Fűz korzó" 00
+  302 * 29	 04 04 FF 01 11 C5 C3 9E "Ornamental tree prom" 00
+  303 * 23	 04 04 A4 01 11 C5 C3 9E "Díszfa korzó" 00
+  304 * 29	 04 04 FF 01 12 C5 C3 9E "Ornamental tree prom" 00
+  305 * 23	 04 04 A4 01 12 C5 C3 9E "Díszfa korzó" 00
+  306 * 25	 04 04 FF 01 13 C5 C3 9E "Cherry tree prom" 00
+  307 * 28	 04 04 A4 01 13 C5 C3 9E "Cseresznyefa korzó" 00
+  308 * 25	 04 04 FF 01 14 C5 C3 9E "Cherry tree prom" 00
+  309 * 28	 04 04 A4 01 14 C5 C3 9E "Cseresznyefa korzó" 00
+  310 * 12	 04 04 FF 01 15 C5 C3 9E "Oak" 00
+  311 * 17	 04 04 A4 01 15 C5 C3 9E "Tölgyfa" 00
+  312 * 13	 04 04 FF 01 16 C5 C3 9E "Pine" 00
+  313 * 15	 04 04 A4 01 16 C5 C3 9E "Fenyő" 00
+  314 * 13	 04 04 FF 01 17 C5 C3 9E "Palm" 00
+  315 * 15	 04 04 A4 01 17 C5 C3 9E "Pálma" 00
+  316 * 15	 04 04 FF 01 18 C5 C3 9E "Willow" 00
+  317 * 13	 04 04 A4 01 18 C5 C3 9E "Fűz" 00
