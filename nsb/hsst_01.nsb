@@ -5,34 +5,57 @@
 //	\wx 91C6  04 04 // snow
 //	\wx 8F8D        // normal
 
+@AddStation: id: 0, class: PKST
+	Pylon: disabled		// villanyoszlop
+	Wire: disabled		// felsovezetek
+	Train: disabled		// nem mehet be a vonat
+//	CallbackFlags: 3
+//	Platforms: FD		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+//	Length: FE			// Max 1 hosszu
 
-   // Action0
-   00 * 00	00 04				// Action0, Feature4
-			05 01 00			// Properties, Stations, First Station ID
-			08 "PKST"			// Station Class
-			11 00				// Pylon disabled
-			14 FF				// Wire disabled
-			15 FF				// Train disabled
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011
+		@AddLayout1: spritenumber: 0, filename: sprites_grafika/teszt1.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 5
+//			RealSprite: posx: 0, posy: 0, sizex: 44, sizey: 55, relx: -32, rely: -34
+		@EndAddLayout1
+//		@AddLayout1: spritenumber: 1, filename: sprites_grafika/teszt1.png
+//			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 49
+//			RealSprite: posx: 90, posy: 56, sizex: 44, sizey: 55, relx: -32, rely: -34
+//		@EndAddLayout1
+//		@AddLayout1: spritenumber: 2, filename: sprites_grafika/teszt1_32bpp.png
+//			Settings: type: 32bpp
+//			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 49
+//			RealSprite: posx: 0, posy: 0, sizex: 22, sizey: 21, relx: -11, rely: 0
+//		@EndAddLayout1
 
-			09 04				// Sprite Layout
+//		@AddLayout2: spritenumber: 3, filename: sprites_grafika/teszt1.png
+		@AddLayout2: spritenumber: 1, filename: sprites_grafika/teszt1.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 5
+//			RealSprite: posx: 45, posy: 0, sizex: 44, sizey: 55, relx: -11, rely: -34
+		@EndAddLayout2
+//		@AddLayout2: spritenumber: 4, filename: sprites_grafika/teszt1.png
+//			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 49
+//			RealSprite: posx: 135, posy: 56, sizex: 44, sizey: 55, relx: -11, rely: -34
+//		@EndAddLayout2
+//		@AddLayout2: spritenumber: 5, filename: sprites_grafika/teszt1_32bpp.png
+//			Settings: type: 32bpp
+//			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 49
+//			RealSprite: posx: 23, posy: 0, sizex: 22, sizey: 21, relx: -11, rely: 0
+//		@EndAddLayout2
+	@EndAddSprite
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 05		2D 04 00 00
-			80					// end layout1 sprite
+	@AddSprite: groundsprite1: 1012, groundsprite2: 1011
+		@AddLayout1: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+//			RealSprite: posx: 1, posy: 158, sizex: 66, sizey: 41, relx: -32, rely: -9
+		@EndAddLayout1
+		@AddLayout2: filename: sprites_grafika/kiegeszitok.png
+			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
+//			RealSprite: posx: 1, posy: 158, sizex: 66, sizey: 41, relx: -32, rely: -9
+		@EndAddLayout2
+	@EndAddSprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 05		2E 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
-			80					// end layout1 sprite
-
+@EndAddStation
 
 0 * 4	 01 04 02 02
 //0 * 4	 01 04 01 06
@@ -51,8 +74,8 @@
 282 sprites_grafika/kiegeszitok.png 8bpp 1 158 66 41 -32 -9 normal chunked
 283 sprites_grafika/kiegeszitok.png 8bpp 1 158 66 41 -32 -9 normal chunked
 
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+@AssignSpriteIDToAction2ID: action2id: 0, spriteid: 0
+@AssignSpriteIDToAction2ID: action2id: 1, spriteid: 1
 
 //00 * 00	02 04 0A
 //	81 49						// (81 lowest byte, 1 bajt), (85 lowest word, 2 bajt), (89 lowest doubleword, 4 bajt) type, 49 variable: azaz mekkora tavolsagra van.
@@ -129,16 +152,17 @@
 //	@EndAddRandomAction2
 //@EndAddAction2
 
-   00 * 00	03 04 01 00 00 0A 00
+@AssignOneGraphicsSetForAllCargo: action2id: 10, stationid: 0
 
 //*************************************//
 //				Strings			//
 //************************************//
 
-
-   // Action4
-	00 * 00	04 04 FF 01 00 C4 C3 9E "HSS - TESZT" 00
-	00 * 00	04 04 FF 01 00 C5 C3 9E "Teszt 1" 00
+@StationNames
+	Setname: stationid: 0, language: default, name: "HSS - TESZT"
+	Station: stationid: 0, language: default, name: "Teszt 1"
+//	Station: stationid: 1, language: default, name: "Teszt 1"
+@EndStationNames
 
 //
 //
@@ -342,3 +366,4 @@
 ////**************************************//
 //
 //   00 * 00	04 04 FF 01 F0 C4 "HUNGARIAN TESZT" 00
+//   00 * 00	04 04 FF 01 F0 C5 "TESZT1" 00

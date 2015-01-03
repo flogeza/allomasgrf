@@ -118,9 +118,10 @@
 //				Strings			//
 //************************************//
 
-
-   // Action4
-	00 * 00	04 04 FF 01 01 C5 C3 9E "Teszt 2" 00
+@StationNames
+Station: stationid: 1, language: default, name: "Teszt 2"
+//	Station: stationid: 1, language: default, name: "Teszt 1"
+@EndStationNames
 
 
 // Animation frame - maybe stop at open
@@ -221,3 +222,4 @@
 //**************************************//
 
 //   00 * 00	04 04 FF 01 F1 C5 "TESZT2" 00
+//   00 * 00	04 04 FF 01 F2 C5 "TESZT3" 00
