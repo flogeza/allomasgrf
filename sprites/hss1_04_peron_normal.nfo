@@ -14,33 +14,33 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			02 01 BE			// Properties, Stations, First Station ID
+			\b2 01 \b190			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 10		2D 04 00 00
-			00 00 00	10 10 10		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 10		\d1069
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 10		2F 04 00 00
-			00 00 00	10 10 10		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 10		\d1071
+			00 00 00	10 10 10		\d1072
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 04
+   00 * 00	01 04 \b1 \b4
    00 sprites_grafika/regi_peronok.png 8bpp 180 336 44 55 -32 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 270 336 44 55 -10 -23 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 225 336 44 55 -10 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 315 336 44 55 -32 -23 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 BE 00 00 00
+   00 * 00	03 04 01 \b190 00 \w0
 
 
 
@@ -51,33 +51,33 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			02 01 BF			// Properties, Stations, First Station ID
+			\b2 01 \b191			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 10		2D 04 00 00
-			00 00 00	10 10 10		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 10		\d1069
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 10		2F 04 00 00
-			00 00 00	10 10 10		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 10		\d1071
+			00 00 00	10 10 10		\d1072
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 04
+   00 * 00	01 04 \b1 \b4
    00 sprites_grafika/regi_peronok.png 8bpp 180 0 44 55 -32 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 270 0 44 55 -10 -23 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 225 0 44 55 -10 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 315 0 44 55 -32 -23 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 BF 00 00 00
+   00 * 00	03 04 01 \b191 00 \w0
 
 
 
@@ -88,33 +88,33 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			02 01 C0			// Properties, Stations, First Station ID
+			\b2 01 \b192			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 18		2D 04 00 00
-			00 00 00	10 10 18		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 18		\d1069
+			00 00 00	10 10 18		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 18		2F 04 00 00
-			00 00 00	10 10 18		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 18		\d1071
+			00 00 00	10 10 18		\d1072
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 04
+   00 * 00	01 04 \b1 \b4
    00 sprites_grafika/regi_peronok.png 8bpp 180 56 44 55 -32 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 270 56 44 55 -10 -23 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 225 56 44 55 -10 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 315 56 44 55 -32 -23 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 C0 00 00 00
+   00 * 00	03 04 01 \b192 00 \w0
 
 
 
@@ -125,33 +125,33 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			02 01 C1			// Properties, Stations, First Station ID
+			\b2 01 \b193			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 18		2D 04 00 00
-			00 00 00	10 10 18		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 18		\d1069
+			00 00 00	10 10 18		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 18		2F 04 00 00
-			00 00 00	10 10 18		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 18		\d1071
+			00 00 00	10 10 18		\d1072
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 04
+   00 * 00	01 04 \b1 \b4
    00 sprites_grafika/regi_peronok.png 8bpp 180 112 44 55 -32 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 270 112 44 55 -10 -23 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 225 112 44 55 -10 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 315 112 44 55 -32 -23 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 C1 00 00 00
+   00 * 00	03 04 01 \b193 00 \w0
 
 
 
@@ -162,33 +162,33 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			02 01 C2			// Properties, Stations, First Station ID
+			\b2 01 \b194			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 04
+   00 * 00	01 04 \b1 \b4
    00 sprites_grafika/regi_peronok.png 8bpp 180 168 44 55 -32 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 270 168 44 55 -10 -23 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 225 168 44 55 -10 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 315 168 44 55 -32 -23 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 C2 00 00 00
+   00 * 00	03 04 01 \b194 00 \w0
 
 
 
@@ -199,33 +199,33 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			02 01 C3			// Properties, Stations, First Station ID
+			\b2 01 \b195			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 84 00 00
-			00 00 00	10 10 06		2E 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d33837
+			00 00 00	10 10 06		\d33838
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 84 00 00
-			00 00 00	10 10 06		30 84 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d33839
+			00 00 00	10 10 06		\d33840
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 04
+   00 * 00	01 04 \b1 \b4
    00 sprites_grafika/regi_peronok.png 8bpp 180 224 44 55 -32 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 270 224 44 55 -10 -23 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 225 224 44 55 -10 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 315 224 44 55 -32 -23 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 C3 00 00 00
+   00 * 00	03 04 01 \b195 00 \w0
 
 
 
@@ -236,31 +236,31 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			02 01 C4			// Properties, Stations, First Station ID
+			\b2 01 \b196			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 84 00 00
-			00 00 00	10 10 06		2E 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d33837
+			00 00 00	10 10 06		\d33838
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 84 00 00
-			00 00 00	10 10 06		30 84 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d33839
+			00 00 00	10 10 06		\d33840
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 04
+   00 * 00	01 04 \b1 \b4
    00 sprites_grafika/regi_peronok.png 8bpp 180 280 44 55 -32 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 270 280 44 55 -10 -23 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 225 280 44 55 -10 -34 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 315 280 44 55 -32 -23 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 C4 00 00 00
+   00 * 00	03 04 01 \b196 00 \w0
 

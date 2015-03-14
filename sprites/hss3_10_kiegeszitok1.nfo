@@ -14,32 +14,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 0A			// Properties, Stations, First Station ID
+			\b5 01 \b10			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 202 169 66 56 -32 -24 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 135 225 66 56 -32 -24 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 0A 00 00 00
+   00 * 00	03 04 01 \b10 00 \w0
 
 
 //
@@ -49,32 +49,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 0B			// Properties, Stations, First Station ID
+			\b5 01 \b11			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 202 226 66 51 -32 -19 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 135 282 66 51 -32 -19 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 0B 00 00 00
+   00 * 00	03 04 01 \b11 00 \w0
 
 
 //
@@ -84,32 +84,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 0C			// Properties, Stations, First Station ID
+			\b5 01 \b12			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 202 278 66 59 -32 -27 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 68 274 66 59 -32 -27 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 0C 00 00 00
+   00 * 00	03 04 01 \b12 00 \w0
 
 
 //
@@ -119,32 +119,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 0D			// Properties, Stations, First Station ID
+			\b5 01 \b13			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 135 93 66 45 -32 -13 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 68 93 66 45 -32 -13 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 0D 00 00 00
+   00 * 00	03 04 01 \b13 00 \w0
 
 
 //
@@ -154,32 +154,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 0E			// Properties, Stations, First Station ID
+			\b5 01 \b14			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 202 1 66 42 -32 -10 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 135 139 66 42 -32 -10 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 0E 00 00 00
+   00 * 00	03 04 01 \b14 00 \w0
 
 
 //
@@ -189,32 +189,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 0F			// Properties, Stations, First Station ID
+			\b5 01 \b15			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 68 47 66 45 -32 -13 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 68 1 66 45 -32 -13 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 0F 00 00 00
+   00 * 00	03 04 01 \b15 00 \w0
 
 
 //
@@ -224,32 +224,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 10			// Properties, Stations, First Station ID
+			\b5 01 \b16			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 135 47 66 45 -32 -13 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 135 1 66 45 -32 -13 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 10 00 00 00
+   00 * 00	03 04 01 \b16 00 \w0
 
 
 //
@@ -259,32 +259,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 11			// Properties, Stations, First Station ID
+			\b5 01 \b17			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 1 200 66 45 -32 -13 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 68 139 66 45 -32 -13 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 11 00 00 00
+   00 * 00	03 04 01 \b17 00 \w0
 
 
 //
@@ -294,32 +294,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 12			// Properties, Stations, First Station ID
+			\b5 01 \b18			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 1 246 66 45 -32 -13 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 68 185 66 45 -32 -13 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 12 00 00 00
+   00 * 00	03 04 01 \b18 00 \w0
 
 
 //
@@ -329,32 +329,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 13			// Properties, Stations, First Station ID
+			\b5 01 \b19			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 202 44 66 42 -32 -10 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 135 182 66 42 -32 -10 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 13 00 00 00
+   00 * 00	03 04 01 \b19 00 \w0
 
 
 //
@@ -364,32 +364,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 14			// Properties, Stations, First Station ID
+			\b5 01 \b20			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 68 231 66 42 -32 -10 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 202 87 66 42 -32 -10 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 14 00 00 00
+   00 * 00	03 04 01 \b20 00 \w0
 
 
 //
@@ -399,32 +399,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 15			// Properties, Stations, First Station ID
+			\b5 01 \b21			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 1 57 66 52 -32 -20 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 1 57 66 52 -32 -20 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 15 00 00 00
+   00 * 00	03 04 01 \b21 00 \w0
 
 
 //
@@ -434,32 +434,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 16			// Properties, Stations, First Station ID
+			\b5 01 \b22			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 1 110 66 47 -32 -15 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 1 110 66 47 -32 -15 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 16 00 00 00
+   00 * 00	03 04 01 \b22 00 \w0
 
 
 //
@@ -469,32 +469,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 17			// Properties, Stations, First Station ID
+			\b5 01 \b23			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 1 1 66 55 -32 -23 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 1 1 66 55 -32 -23 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 17 00 00 00
+   00 * 00	03 04 01 \b23 00 \w0
 
 
 //
@@ -504,32 +504,32 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 18			// Properties, Stations, First Station ID
+			\b5 01 \b24			// Properties, Stations, First Station ID
 			08 "PSN0"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/kiegeszitok.png 8bpp 1 158 66 41 -32 -9 normal chunked
    00 sprites_grafika/kiegeszitok.png 8bpp 1 158 66 41 -32 -9 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 18 00 00 00
+   00 * 00	03 04 01 \b24 00 \w0
 
 
 //*************************************//
@@ -538,35 +538,35 @@
 
 
    // Action4
-	00 * 00	04 04 FF 01 0A C4 C3 9E "HSS - Accessories" 00
-	00 * 00	04 04 A4 01 0A C4 C3 9E "HSS - Kiegészítők" 00
-	00 * 00	04 04 FF 01 0A C5 C3 9E "Sidewalk, oak" 00
-	00 * 00	04 04 A4 01 0A C5 C3 9E "Járda, tölgyfa" 00
-	00 * 00	04 04 FF 01 0B C5 C3 9E "Sidewalk, pine" 00
-	00 * 00	04 04 A4 01 0B C5 C3 9E "Járda, fenyő" 00
-	00 * 00	04 04 FF 01 0C C5 C3 9E "Sidewalk, palm" 00
-	00 * 00	04 04 A4 01 0C C5 C3 9E "Járda, pálma" 00
-	00 * 00	04 04 FF 01 0D C5 C3 9E "Sidewalk, willow" 00
-	00 * 00	04 04 A4 01 0D C5 C3 9E "Járda, fűz" 00
-	00 * 00	04 04 FF 01 0E C5 C3 9E "Sidewalk, cherry tree" 00
-	00 * 00	04 04 A4 01 0E C5 C3 9E "Járda, cseresznyefa" 00
-	00 * 00	04 04 FF 01 0F C5 C3 9E "Willow prom" 00
-	00 * 00	04 04 A4 01 0F C5 C3 9E "Fűz korzó" 00
-	00 * 00	04 04 FF 01 10 C5 C3 9E "Willow prom" 00
-	00 * 00	04 04 A4 01 10 C5 C3 9E "Fűz korzó" 00
-	00 * 00	04 04 FF 01 11 C5 C3 9E "Ornamental tree prom" 00
-	00 * 00	04 04 A4 01 11 C5 C3 9E "Díszfa korzó" 00
-	00 * 00	04 04 FF 01 12 C5 C3 9E "Ornamental tree prom" 00
-	00 * 00	04 04 A4 01 12 C5 C3 9E "Díszfa korzó" 00
-	00 * 00	04 04 FF 01 13 C5 C3 9E "Cherry tree prom" 00
-	00 * 00	04 04 A4 01 13 C5 C3 9E "Cseresznyefa korzó" 00
-	00 * 00	04 04 FF 01 14 C5 C3 9E "Cherry tree prom" 00
-	00 * 00	04 04 A4 01 14 C5 C3 9E "Cseresznyefa korzó" 00
-	00 * 00	04 04 FF 01 15 C5 C3 9E "Oak" 00
-	00 * 00	04 04 A4 01 15 C5 C3 9E "Tölgyfa" 00
-	00 * 00	04 04 FF 01 16 C5 C3 9E "Pine" 00
-	00 * 00	04 04 A4 01 16 C5 C3 9E "Fenyő" 00
-	00 * 00	04 04 FF 01 17 C5 C3 9E "Palm" 00
-	00 * 00	04 04 A4 01 17 C5 C3 9E "Pálma" 00
-	00 * 00	04 04 FF 01 18 C5 C3 9E "Willow" 00
-	00 * 00	04 04 A4 01 18 C5 C3 9E "Fűz" 00
+	00 * 00	04 04 FF 01 \w50186 C3 9E "HSS - Accessories" 00
+	00 * 00	04 04 A4 01 \w50186 C3 9E "HSS - Kiegészítők" 00
+	00 * 00	04 04 FF 01 \w50442 C3 9E "Sidewalk, oak" 00
+	00 * 00	04 04 A4 01 \w50442 C3 9E "Járda, tölgyfa" 00
+	00 * 00	04 04 FF 01 \w50443 C3 9E "Sidewalk, pine" 00
+	00 * 00	04 04 A4 01 \w50443 C3 9E "Járda, fenyő" 00
+	00 * 00	04 04 FF 01 \w50444 C3 9E "Sidewalk, palm" 00
+	00 * 00	04 04 A4 01 \w50444 C3 9E "Járda, pálma" 00
+	00 * 00	04 04 FF 01 \w50445 C3 9E "Sidewalk, willow" 00
+	00 * 00	04 04 A4 01 \w50445 C3 9E "Járda, fűz" 00
+	00 * 00	04 04 FF 01 \w50446 C3 9E "Sidewalk, cherry tree" 00
+	00 * 00	04 04 A4 01 \w50446 C3 9E "Járda, cseresznyefa" 00
+	00 * 00	04 04 FF 01 \w50447 C3 9E "Willow prom" 00
+	00 * 00	04 04 A4 01 \w50447 C3 9E "Fűz korzó" 00
+	00 * 00	04 04 FF 01 \w50448 C3 9E "Willow prom" 00
+	00 * 00	04 04 A4 01 \w50448 C3 9E "Fűz korzó" 00
+	00 * 00	04 04 FF 01 \w50449 C3 9E "Ornamental tree prom" 00
+	00 * 00	04 04 A4 01 \w50449 C3 9E "Díszfa korzó" 00
+	00 * 00	04 04 FF 01 \w50450 C3 9E "Ornamental tree prom" 00
+	00 * 00	04 04 A4 01 \w50450 C3 9E "Díszfa korzó" 00
+	00 * 00	04 04 FF 01 \w50451 C3 9E "Cherry tree prom" 00
+	00 * 00	04 04 A4 01 \w50451 C3 9E "Cseresznyefa korzó" 00
+	00 * 00	04 04 FF 01 \w50452 C3 9E "Cherry tree prom" 00
+	00 * 00	04 04 A4 01 \w50452 C3 9E "Cseresznyefa korzó" 00
+	00 * 00	04 04 FF 01 \w50453 C3 9E "Oak" 00
+	00 * 00	04 04 A4 01 \w50453 C3 9E "Tölgyfa" 00
+	00 * 00	04 04 FF 01 \w50454 C3 9E "Pine" 00
+	00 * 00	04 04 A4 01 \w50454 C3 9E "Fenyő" 00
+	00 * 00	04 04 FF 01 \w50455 C3 9E "Palm" 00
+	00 * 00	04 04 A4 01 \w50455 C3 9E "Pálma" 00
+	00 * 00	04 04 FF 01 \w50456 C3 9E "Willow" 00
+	00 * 00	04 04 A4 01 \w50456 C3 9E "Fűz" 00

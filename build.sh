@@ -17,10 +17,14 @@
 
 # uj nsb programommal elkeszitem az uj fajolkat
 
+starttime=$(perl -MTime::HiRes -e 'printf("%.0f\n",Time::HiRes::time()*1000)')
 
-
+#start_time=`date +%s%N`
 lastbuildfile="$SRCROOT/lastbuild.txt"
 lastbuildfiledate=$(stat -f "%Sm" -t "%Y%m%d%H%M%S" "$lastbuildfile")
+
+# ezt csak azert teszem bele, hogy barmikor ujra forditani az egesz projektet
+buildagain=true
 
 creategrf() {
 	echo "********    $6    ********"
@@ -36,58 +40,63 @@ creategrf() {
 		baseafile=$(basename $afile)
 		filename="${baseafile%.*}"
 		lastbuildsourcedate=$(stat -f "%Sm" -t "%Y%m%d%H%M%S" "$afile")
-		if [[ $lastbuildsourcedate -gt $7 ]]; then
+		if $buildagain || [[ $lastbuildsourcedate -gt $7 ]]; then
 			targetname="$1/$filename.nfo"
 
 			echo "target: $targetname"
 
-			while read -r line; do
-				echo "$line"
-			done < <("$nsbtool" "$afile" "$targetname")
+			eval "$nsbtool" "$afile" "$targetname" 2>&1
+			aret_code=$?
+			if [[ $aret_code -gt $ret_code ]]; then
+				ret_code=$aret_code
+			fi
+			echo "ret_code: $ret_code"
 		fi
 	done < <(find "$4" -name "*$elotag*nsb" -type f -mindepth 1 -maxdepth 1)
 
-	# nfo osszerakasa
-	sajatnfo="$3/$6.nfo"
+	if [[ $ret_code -eq 0 ]]; then
+		# nfo osszerakasa
+		sajatnfo="$3/$6.nfo"
 
-	if [[ -f "$sajatnfo" ]]; then
-		rm "$sajatnfo"
-	fi
-
-	while read -r line
-	do
-		if [[ ! "$line" = "$sajatnfo" ]]; then
-			cat "$line" >> "$sajatnfo"
+		if [[ -f "$sajatnfo" ]]; then
+			rm "$sajatnfo"
 		fi
-	done < <(find "$3" -name "*$elotag*nfo" ! -name "sajatnfo" -type f -mindepth 1 -maxdepth 1)
 
-	echo "sajatnfo: $sajatnfo"
+		while read -r line
+		do
+			if [[ ! "$line" = "$sajatnfo" ]]; then
+				cat "$line" >> "$sajatnfo"
+			fi
+		done < <(find "$3" -name "*$elotag*nfo" ! -name "sajatnfo" -type f -mindepth 1 -maxdepth 1)
 
-	# nforenum es grf osszeallitasa
+		echo "sajatnfo: $sajatnfo"
 
-	cd "$2"
-	sajatgrfname="$6"
-	sajatnfoname="$sajatgrfname.nfo"
+		# nforenum es grf osszeallitasa
 
-	eval "nforenum $sajatnfoname 2>&1"
-	ret_code=$?
-	if [ $ret_code == 0 ]; then
-		echo "*** NFORNENUM *** sikeresen lefutott"
-		grfneve=$sajatgrfname".grf"
-		eval "grfcodec -e $grfneve 2>&1"
+		cd "$2"
+		sajatgrfname="$6"
+		sajatnfoname="$sajatgrfname.nfo"
+
+		eval "nforenum $sajatnfoname 2>&1"
 		ret_code=$?
 		if [ $ret_code == 0 ]; then
-			echo "*** GRFMAKER *** sikeresen lefutott"
-			installfile="$8/grfneve"
-			if [[ -f "$installfile" ]]; then
-				rm "$installfile"
+			echo "*** NFORNENUM *** sikeresen lefutott"
+			grfneve=$sajatgrfname".grf"
+			eval "grfcodec -e $grfneve 2>&1"
+			ret_code=$?
+			if [ $ret_code == 0 ]; then
+				echo "*** GRFMAKER *** sikeresen lefutott"
+				installfile="$8/grfneve"
+				if [[ -f "$installfile" ]]; then
+					rm "$installfile"
+				fi
+				cp "$grfneve" "$8/"
+			else
+				echo "Hiba van a *** GRFMAKERREL ***"
 			fi
-			cp "$grfneve" "$8/"
 		else
-			echo "Hiba van a *** GRFMAKERREL ***"
+			echo "Hiba van az *** NFORENUMMAL ***"
 		fi
-	else
-		echo "Hiba van az *** NFORENUMMAL ***"
 	fi
 
 	return $ret_code
@@ -114,6 +123,12 @@ if [[ $aret_code -gt $ret_code ]]; then
 	ret_code=$aret_code
 fi
 
+if [[ $ret_code -le 1 ]]; then
+	echo "barmi" > "$lastbuildfile"
+fi
+
+endtime=$(perl -MTime::HiRes -e 'printf("%.0f\n",Time::HiRes::time()*1000)')
+echo execution time was `expr $endtime - $starttime` ms.
 
 exit $ret_code
 #IFS=$SAVEIFS

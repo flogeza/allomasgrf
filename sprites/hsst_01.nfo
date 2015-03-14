@@ -8,51 +8,46 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			05 01 00			// Properties, Stations, First Station ID
+			\b5 01 \b0			// Properties, Stations, First Station ID
 			08 "PKST"			// Station Class
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 04				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 05		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 05		\d1069
+			00 00 00	10 05 31		\d1070
+			00 00 00	10 05 31		\d1071
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 05		2E 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 05		\d1072
+			00 00 00	05 10 31		\d1073
+			00 00 00	05 10 31		\d1074
 			80					// end layout1 sprite
 
 
-0 * 4	 01 04 02 02
-//0 * 4	 01 04 01 06
+//0 * 4	 01 04 02 02
+0 * 4	 01 04 01 06
 0 sprites_grafika/teszt1.png 8bpp 0 0 44 55 -32 -34 normal chunked
-//0 sprites_grafika/teszt1.png 8bpp 90 56 44 55 -32 -34 normal chunked
-//0 sprites_grafika/teszt1.png 8bpp 90 22 6 6 -14 -9 normal chunked
-//| sprites_grafika/teszt1_32bpp.png 32bpp 0 0 22 21 -11 0 zi4 nocrop
+0 sprites_grafika/teszt1.png 8bpp 90 56 44 55 -32 -34 normal chunked
+0 sprites_grafika/teszt1.png 8bpp 90 22 6 6 -14 -9 normal chunked
+| sprites_grafika/teszt1_32bpp.png 32bpp 0 0 22 21 -11 0 zi4 nocrop
 
 0 sprites_grafika/teszt1.png 8bpp 45 0 44 55 -11 -34 normal chunked
-//0 sprites_grafika/teszt1.png 8bpp 135 56 44 55 -11 -34 normal chunked
-//0 sprites_grafika/teszt1.png 8bpp 97 22 6 6 9 -9 normal chunked
-//| sprites_grafika/teszt1_32bpp.png 32bpp 23 0 22 21 -11 0 zi4 nocrop
+0 sprites_grafika/teszt1.png 8bpp 135 56 44 55 -11 -34 normal chunked
+0 sprites_grafika/teszt1.png 8bpp 97 22 6 6 9 -9 normal chunked
+| sprites_grafika/teszt1_32bpp.png 32bpp 23 0 22 21 -11 0 zi4 nocrop
 
 
 //281 * 4	 01 04 01 02
-282 sprites_grafika/kiegeszitok.png 8bpp 1 158 66 41 -32 -9 normal chunked
-283 sprites_grafika/kiegeszitok.png 8bpp 1 158 66 41 -32 -9 normal chunked
+//282 sprites_grafika/kiegeszitok.png 8bpp 1 158 66 41 -32 -9 normal chunked
+//283 sprites_grafika/kiegeszitok.png 8bpp 1 158 66 41 -32 -9 normal chunked
 
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+//@AssignSpriteIDToAction2ID: action2id: 1, spriteid: 1
 
 //00 * 00	02 04 0A
 //	81 49						// (81 lowest byte, 1 bajt), (85 lowest word, 2 bajt), (89 lowest doubleword, 4 bajt) type, 49 variable: azaz mekkora tavolsagra van.
@@ -67,13 +62,13 @@
 
 
 // ez a lekerdezese a villanyoszlopnak
-00 * 00	02 04 0A
-	81 42						// (81 lowest byte, 1 bajt), (85 lowest word, 2 bajt), (89 lowest doubleword, 4 bajt) type, 42 variable: azaz Terrain and track type
-	08							// azaz shift, ez mindenkeppen byte
-	FF							// azaz mindket szam kell..., ez olyan tipusu, mint a type
-	01							// 1 variacio van
-	00 00	01	01				// peron
-	01 00						// fa
+//00 * 00	02 04 0A
+//	81 42						// (81 lowest byte, 1 bajt), (85 lowest word, 2 bajt), (89 lowest doubleword, 4 bajt) type, 42 variable: azaz Terrain and track type
+//	08							// azaz shift, ez mindenkeppen byte
+//	FF							// azaz mindket szam kell..., ez olyan tipusu, mint a type
+//	01							// 1 variacio van
+//	00 00	01	01				// peron
+//	01 00						// fa
 
 
 
@@ -97,6 +92,16 @@
 //			\wxB0				// utana ugrania kell valahova, igy innen megy tovabb a kovetkezo action-re
 
 
+// check snow above snowline
+//02 04
+//10 //cargo id 10
+//81 // checking a BYTE
+//42 // Variable- terrain and track tyoe
+//00 // shift-num -- no bit shifting, regular varaction2
+//FF // AND mask -- keep the value as is. therefore we're checking the TT part of var42
+//01 // Number of variations - just one
+//04 80 04 04 // this would be better written as \wx8004 04 04 -- return callback result of 4, when the value is 04
+//00 80 // better as \wx8000 -- otherwise return callback result of 0
 
 
 
@@ -129,7 +134,7 @@
 //	@EndAddRandomAction2
 //@EndAddAction2
 
-   00 * 00	03 04 01 00 00 0A 00
+   00 * 00	03 04 01 \b0 00 \w0
 
 //*************************************//
 //				Strings			//
@@ -137,8 +142,8 @@
 
 
    // Action4
-	00 * 00	04 04 FF 01 00 C4 C3 9E "HSS - TESZT" 00
-	00 * 00	04 04 FF 01 00 C5 C3 9E "Teszt 1" 00
+	00 * 00	04 04 FF 01 \w50176 C3 9E "HSS - TESZT" 00
+	00 * 00	04 04 FF 01 \w50432 C3 9E "Teszt 1" 00
 
 //
 //

@@ -7,59 +7,59 @@
 
 
    // Action4
-	00 * 00	04 04 FF 01 00 C4 C3 9E "HSS - Platforms (automatic)(single sided)" 00
-	00 * 00	04 04 A4 01 00 C4 C3 9E "HSS - Peronok (automatikus)(egyoldalú)" 00
-	00 * 00	04 04 FF 01 28 C4 C3 9E "HSS - Platforms (single sided)" 00
-	00 * 00	04 04 A4 01 28 C4 C3 9E "HSS - Peronok (egyoldalú)" 00
-	00 * 00	04 04 FF 01 BE C4 C3 9E "HSS - Platforms (normal)" 00
-	00 * 00	04 04 A4 01 BE C4 C3 9E "HSS - Peronok (normál)" 00
-	00 * 00	04 04 FF 01 00 C5 C3 9E "Old (low)(front)" 00
-	00 * 00	04 04 A4 01 00 C5 C3 9E "Régi (alacsony)(elülső)" 00
-	00 * 00	04 04 FF 01 01 C5 C3 9E "Old (low)(back)" 00
-	00 * 00	04 04 A4 01 01 C5 C3 9E "Régi (alacsony)(hátulsó)" 00
-	00 * 00	04 04 FF 01 02 C5 C3 9E "Old (high)(front)" 00
-	00 * 00	04 04 A4 01 02 C5 C3 9E "Régi (magas)(elülső)" 00
-	00 * 00	04 04 FF 01 03 C5 C3 9E "Old (high)(back)" 00
-	00 * 00	04 04 A4 01 03 C5 C3 9E "Régi (magas)(hátulsó)" 00
-	00 * 00	04 04 FF 01 28 C5 C3 9E "Old (very low)(back)" 00
-	00 * 00	04 04 A4 01 28 C5 C3 9E "Régi (nagyon alacsony)(hátulsó)" 00
-	00 * 00	04 04 FF 01 29 C5 C3 9E "Old (very low)(front)" 00
-	00 * 00	04 04 A4 01 29 C5 C3 9E "Régi (nagyon alacsony)(elülső)" 00
-	00 * 00	04 04 FF 01 2A C5 C3 9E "Old, display (very low)(back)" 00
-	00 * 00	04 04 A4 01 2A C5 C3 9E "Régi, kijelző (nagyon alacsony)(hátulsó)" 00
-	00 * 00	04 04 FF 01 2B C5 C3 9E "Old, display (very low)(front)" 00
-	00 * 00	04 04 A4 01 2B C5 C3 9E "Régi, kijelző (nagyon alacsony)(elülső)" 00
-	00 * 00	04 04 FF 01 2C C5 C3 9E "Old, lamp (very low)(back)" 00
-	00 * 00	04 04 A4 01 2C C5 C3 9E "Régi, lámpa (nagyon alacsony)(hátulsó)" 00
-	00 * 00	04 04 FF 01 2D C5 C3 9E "Old, lamp (very low)(front)" 00
-	00 * 00	04 04 A4 01 2D C5 C3 9E "Régi, lámpa (nagyon alacsony)(elülső)" 00
-	00 * 00	04 04 FF 01 2E C5 C3 9E "Old, lamp and benches (very low)(back)" 00
-	00 * 00	04 04 A4 01 2E C5 C3 9E "Régi, lámpa, padok (nagyon alacsony)(hátulsó)" 00
-	00 * 00	04 04 FF 01 2F C5 C3 9E "Old, lamp and benches (very low)(front)" 00
-	00 * 00	04 04 A4 01 2F C5 C3 9E "Régi, lámpa, padok (nagyon alacsony)(elülső)" 00
-	00 * 00	04 04 FF 01 30 C5 C3 9E "Old, benches (very low)(back)" 00
-	00 * 00	04 04 A4 01 30 C5 C3 9E "Régi, padok (nagyon alacsony)(hátulsó)" 00
-	00 * 00	04 04 FF 01 31 C5 C3 9E "Old, benches (very low)(front)" 00
-	00 * 00	04 04 A4 01 31 C5 C3 9E "Régi, padok (nagyon alacsony)(elülső)" 00
-	00 * 00	04 04 FF 01 32 C5 C3 9E "Old, underpass 1 (very low)(back)" 00
-	00 * 00	04 04 A4 01 32 C5 C3 9E "Régi, aluljáróval 1 (nagyon alacsony)(hátulsó)" 00
-	00 * 00	04 04 FF 01 33 C5 C3 9E "Old, underpass 1 (very low)(front)" 00
-	00 * 00	04 04 A4 01 33 C5 C3 9E "Régi, aluljáróval 1 (nagyon alacsony)(elülső)" 00
-	00 * 00	04 04 FF 01 34 C5 C3 9E "Old, underpass 2 (very low)(back)" 00
-	00 * 00	04 04 A4 01 34 C5 C3 9E "Régi, aluljáróval 2 (nagyon alacsony)(hátulsó)" 00
-	00 * 00	04 04 FF 01 35 C5 C3 9E "Old, underpass 2 (very low)(front)" 00
-	00 * 00	04 04 A4 01 35 C5 C3 9E "Régi, aluljáróval 2 (nagyon alacsony)(elülső)" 00
-	00 * 00	04 04 FF 01 BE C5 C3 9E "Old (very low)" 00
-	00 * 00	04 04 A4 01 BE C5 C3 9E "Régi (nagyon alacsony)" 00
-	00 * 00	04 04 FF 01 BF C5 C3 9E "Old, display (very low)" 00
-	00 * 00	04 04 A4 01 BF C5 C3 9E "Régi, kijelző (nagyon alacsony)" 00
-	00 * 00	04 04 FF 01 C0 C5 C3 9E "Old, lamp (very low)" 00
-	00 * 00	04 04 A4 01 C0 C5 C3 9E "Régi, lámpa (nagyon alacsony)" 00
-	00 * 00	04 04 FF 01 C1 C5 C3 9E "Old, lamp and benches (very low)" 00
-	00 * 00	04 04 A4 01 C1 C5 C3 9E "Régi, lámpa, padok (nagyon alacsony)" 00
-	00 * 00	04 04 FF 01 C2 C5 C3 9E "Old, benches (very low)" 00
-	00 * 00	04 04 A4 01 C2 C5 C3 9E "Régi, padok (nagyon alacsony)" 00
-	00 * 00	04 04 FF 01 C3 C5 C3 9E "Old, underpass 1 (very low)" 00
-	00 * 00	04 04 A4 01 C3 C5 C3 9E "Régi, aluljáróval 1 (nagyon alacsony)" 00
-	00 * 00	04 04 FF 01 C4 C5 C3 9E "Old, underpass 2 (very low)" 00
-	00 * 00	04 04 A4 01 C4 C5 C3 9E "Régi, aluljáróval 2 (nagyon alacsony)" 00
+	00 * 00	04 04 FF 01 \w50176 C3 9E "HSS - Platforms (automatic)(single sided)" 00
+	00 * 00	04 04 A4 01 \w50176 C3 9E "HSS - Peronok (automatikus)(egyoldalú)" 00
+	00 * 00	04 04 FF 01 \w50216 C3 9E "HSS - Platforms (single sided)" 00
+	00 * 00	04 04 A4 01 \w50216 C3 9E "HSS - Peronok (egyoldalú)" 00
+	00 * 00	04 04 FF 01 \w50366 C3 9E "HSS - Platforms (normal)" 00
+	00 * 00	04 04 A4 01 \w50366 C3 9E "HSS - Peronok (normál)" 00
+	00 * 00	04 04 FF 01 \w50432 C3 9E "Old (low)(front)" 00
+	00 * 00	04 04 A4 01 \w50432 C3 9E "Régi (alacsony)(elülső)" 00
+	00 * 00	04 04 FF 01 \w50433 C3 9E "Old (low)(back)" 00
+	00 * 00	04 04 A4 01 \w50433 C3 9E "Régi (alacsony)(hátulsó)" 00
+	00 * 00	04 04 FF 01 \w50434 C3 9E "Old (high)(front)" 00
+	00 * 00	04 04 A4 01 \w50434 C3 9E "Régi (magas)(elülső)" 00
+	00 * 00	04 04 FF 01 \w50435 C3 9E "Old (high)(back)" 00
+	00 * 00	04 04 A4 01 \w50435 C3 9E "Régi (magas)(hátulsó)" 00
+	00 * 00	04 04 FF 01 \w50472 C3 9E "Old (very low)(back)" 00
+	00 * 00	04 04 A4 01 \w50472 C3 9E "Régi (nagyon alacsony)(hátulsó)" 00
+	00 * 00	04 04 FF 01 \w50473 C3 9E "Old (very low)(front)" 00
+	00 * 00	04 04 A4 01 \w50473 C3 9E "Régi (nagyon alacsony)(elülső)" 00
+	00 * 00	04 04 FF 01 \w50474 C3 9E "Old, display (very low)(back)" 00
+	00 * 00	04 04 A4 01 \w50474 C3 9E "Régi, kijelző (nagyon alacsony)(hátulsó)" 00
+	00 * 00	04 04 FF 01 \w50475 C3 9E "Old, display (very low)(front)" 00
+	00 * 00	04 04 A4 01 \w50475 C3 9E "Régi, kijelző (nagyon alacsony)(elülső)" 00
+	00 * 00	04 04 FF 01 \w50476 C3 9E "Old, lamp (very low)(back)" 00
+	00 * 00	04 04 A4 01 \w50476 C3 9E "Régi, lámpa (nagyon alacsony)(hátulsó)" 00
+	00 * 00	04 04 FF 01 \w50477 C3 9E "Old, lamp (very low)(front)" 00
+	00 * 00	04 04 A4 01 \w50477 C3 9E "Régi, lámpa (nagyon alacsony)(elülső)" 00
+	00 * 00	04 04 FF 01 \w50478 C3 9E "Old, lamp and benches (very low)(back)" 00
+	00 * 00	04 04 A4 01 \w50478 C3 9E "Régi, lámpa, padok (nagyon alacsony)(hátulsó)" 00
+	00 * 00	04 04 FF 01 \w50479 C3 9E "Old, lamp and benches (very low)(front)" 00
+	00 * 00	04 04 A4 01 \w50479 C3 9E "Régi, lámpa, padok (nagyon alacsony)(elülső)" 00
+	00 * 00	04 04 FF 01 \w50480 C3 9E "Old, benches (very low)(back)" 00
+	00 * 00	04 04 A4 01 \w50480 C3 9E "Régi, padok (nagyon alacsony)(hátulsó)" 00
+	00 * 00	04 04 FF 01 \w50481 C3 9E "Old, benches (very low)(front)" 00
+	00 * 00	04 04 A4 01 \w50481 C3 9E "Régi, padok (nagyon alacsony)(elülső)" 00
+	00 * 00	04 04 FF 01 \w50482 C3 9E "Old, underpass 1 (very low)(back)" 00
+	00 * 00	04 04 A4 01 \w50482 C3 9E "Régi, aluljáróval 1 (nagyon alacsony)(hátulsó)" 00
+	00 * 00	04 04 FF 01 \w50483 C3 9E "Old, underpass 1 (very low)(front)" 00
+	00 * 00	04 04 A4 01 \w50483 C3 9E "Régi, aluljáróval 1 (nagyon alacsony)(elülső)" 00
+	00 * 00	04 04 FF 01 \w50484 C3 9E "Old, underpass 2 (very low)(back)" 00
+	00 * 00	04 04 A4 01 \w50484 C3 9E "Régi, aluljáróval 2 (nagyon alacsony)(hátulsó)" 00
+	00 * 00	04 04 FF 01 \w50485 C3 9E "Old, underpass 2 (very low)(front)" 00
+	00 * 00	04 04 A4 01 \w50485 C3 9E "Régi, aluljáróval 2 (nagyon alacsony)(elülső)" 00
+	00 * 00	04 04 FF 01 \w50622 C3 9E "Old (very low)" 00
+	00 * 00	04 04 A4 01 \w50622 C3 9E "Régi (nagyon alacsony)" 00
+	00 * 00	04 04 FF 01 \w50623 C3 9E "Old, display (very low)" 00
+	00 * 00	04 04 A4 01 \w50623 C3 9E "Régi, kijelző (nagyon alacsony)" 00
+	00 * 00	04 04 FF 01 \w50624 C3 9E "Old, lamp (very low)" 00
+	00 * 00	04 04 A4 01 \w50624 C3 9E "Régi, lámpa (nagyon alacsony)" 00
+	00 * 00	04 04 FF 01 \w50625 C3 9E "Old, lamp and benches (very low)" 00
+	00 * 00	04 04 A4 01 \w50625 C3 9E "Régi, lámpa, padok (nagyon alacsony)" 00
+	00 * 00	04 04 FF 01 \w50626 C3 9E "Old, benches (very low)" 00
+	00 * 00	04 04 A4 01 \w50626 C3 9E "Régi, padok (nagyon alacsony)" 00
+	00 * 00	04 04 FF 01 \w50627 C3 9E "Old, underpass 1 (very low)" 00
+	00 * 00	04 04 A4 01 \w50627 C3 9E "Régi, aluljáróval 1 (nagyon alacsony)" 00
+	00 * 00	04 04 FF 01 \w50628 C3 9E "Old, underpass 2 (very low)" 00
+	00 * 00	04 04 A4 01 \w50628 C3 9E "Régi, aluljáróval 2 (nagyon alacsony)" 00

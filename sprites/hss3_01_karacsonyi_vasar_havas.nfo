@@ -16,311 +16,311 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 02			// Properties, Stations, First Station ID
+			\b3 01 \b2			// Properties, Stations, First Station ID
 			08 "PSM0"			// Station Class
-			10 32 00				// Little/Lots Threshold
+			10 \w50				// Little/Lots Threshold
 
-			09 36				// Sprite Layout
+			09 \b54				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 84 00 00
-			00 00 00	10 10 06		2E 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d33837
+			00 00 00	10 10 06		\d33838
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 84 00 00
-			00 00 00	10 10 06		30 84 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 84 00 00
-			00 00 00	10 10 06		2E 84 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 84 00 00
-			00 00 00	10 10 06		30 84 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d33839
+			00 00 00	10 10 06		\d33840
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 84 00 00
-			00 00 00	10 10 06		2E 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d33837
+			00 00 00	10 10 06		\d33838
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 84 00 00
-			00 00 00	10 10 06		30 84 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d33839
+			00 00 00	10 10 06		\d33840
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d33837
+			00 00 00	10 10 06		\d33838
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d33839
+			00 00 00	10 10 06		\d33840
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 1B 04
+   00 * 00	01 04 \b27 \b4
    00 sprites_grafika/karacsonysprites.png 8bpp 407 103 54 32 -32 -6 normal chunked
    00 sprites_grafika/karacsonysprites.png 8bpp 573 59 45 27 -11 5 normal chunked
    00 sprites_grafika/karacsonysprites.png 8bpp 407 39 54 31 -20 -4 normal chunked
@@ -431,125 +431,125 @@
    00 sprites_grafika/karacsonysprites.png 8bpp 665 87 45 31 -32 1 normal chunked
 
 
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 03 00 01 03 00
-   00 * 00	02 04 06 00 01 06 00
-   00 * 00	02 04 09 00 01 09 00
-   00 * 00	02 04 0C 00 01 0C 00
-   00 * 00	02 04 0F 00 01 0F 00
-   00 * 00	02 04 12 00 01 12 00
-   00 * 00	02 04 15 00 01 15 00
-   00 * 00	02 04 18 00 01 18 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b3 00 01 \w3
+   00 * 00	02 04 \b6 00 01 \w6
+   00 * 00	02 04 \b9 00 01 \w9
+   00 * 00	02 04 \b12 00 01 \w12
+   00 * 00	02 04 \b15 00 01 \w15
+   00 * 00	02 04 \b18 00 01 \w18
+   00 * 00	02 04 \b21 00 01 \w21
+   00 * 00	02 04 \b24 00 01 \w24
 
 
 
 	//Action2
-   00 * 00	02 04 20
-			01 02			//littlesets, lotssets
-00 00			//LittleSets
-01 00 02 00			//LotsSets
+   00 * 00	02 04 \b32
+			\b1 \b2			//littlesets count, lotssets count
+			\w0			//LittleSets
+			\w1 \w2			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 21
-			01 02			//littlesets, lotssets
-03 00			//LittleSets
-04 00 05 00			//LotsSets
+   00 * 00	02 04 \b33
+			\b1 \b2			//littlesets count, lotssets count
+			\w3			//LittleSets
+			\w4 \w5			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 22
-			01 02			//littlesets, lotssets
-06 00			//LittleSets
-07 00 08 00			//LotsSets
+   00 * 00	02 04 \b34
+			\b1 \b2			//littlesets count, lotssets count
+			\w6			//LittleSets
+			\w7 \w8			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 23
-			01 02			//littlesets, lotssets
-09 00			//LittleSets
-0A 00 0B 00			//LotsSets
+   00 * 00	02 04 \b35
+			\b1 \b2			//littlesets count, lotssets count
+			\w9			//LittleSets
+			\w10 \w11			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 24
-			01 02			//littlesets, lotssets
-0C 00			//LittleSets
-0D 00 0E 00			//LotsSets
+   00 * 00	02 04 \b36
+			\b1 \b2			//littlesets count, lotssets count
+			\w12			//LittleSets
+			\w13 \w14			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 25
-			01 02			//littlesets, lotssets
-0F 00			//LittleSets
-10 00 11 00			//LotsSets
+   00 * 00	02 04 \b37
+			\b1 \b2			//littlesets count, lotssets count
+			\w15			//LittleSets
+			\w16 \w17			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 26
-			01 02			//littlesets, lotssets
-12 00			//LittleSets
-13 00 14 00			//LotsSets
+   00 * 00	02 04 \b38
+			\b1 \b2			//littlesets count, lotssets count
+			\w18			//LittleSets
+			\w19 \w20			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 27
-			01 02			//littlesets, lotssets
-15 00			//LittleSets
-16 00 17 00			//LotsSets
+   00 * 00	02 04 \b39
+			\b1 \b2			//littlesets count, lotssets count
+			\w21			//LittleSets
+			\w22 \w23			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 28
-			01 02			//littlesets, lotssets
-18 00			//LittleSets
-19 00 1A 00			//LotsSets
+   00 * 00	02 04 \b40
+			\b1 \b2			//littlesets count, lotssets count
+			\w24			//LittleSets
+			\w25 \w26			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 1F
+   00 * 00	02 04 \b31
 			80 00 10			//random, randomtrigger, randbit
-			10				//range count
-			20 00	20 00	20 00
-			21 00
-			22 00
-			23 00	23 00	23 00
-			24 00	24 00
-			25 00
-			26 00	26 00	26 00
-			27 00
-			28 00
+			\b16				//range count
+			\w32	\w32	\w32
+			\w33
+			\w34
+			\w35	\w35	\w35
+			\w36	\w36
+			\w37
+			\w38	\w38	\w38
+			\w39
+			\w40
 
 
 
 
 	//Action2
-   00 * 00	02 04 1E
+   00 * 00	02 04 \b30
 			80 00 10			//random, randomtrigger, randbit
-			10				//range count
-			00 00	00 00	00 00
-			03 00
-			06 00
-			09 00	09 00	09 00
-			0C 00	0C 00
-			0F 00
-			12 00	12 00	12 00
-			15 00
-			18 00
+			\b16				//range count
+			\w0	\w0	\w0
+			\w3
+			\w6
+			\w9	\w9	\w9
+			\w12	\w12
+			\w15
+			\w18	\w18	\w18
+			\w21
+			\w24
 
 
 
    // Action3
-   00 * 00	03 04 01 02 01 00 1F 00 1E 00
+   00 * 00	03 04 \b1 \b2 \b1 \b0 \w31 \w30
 
 
 //
@@ -559,179 +559,179 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			06 01 03			// Properties, Stations, First Station ID
+			\b6 01 \b3			// Properties, Stations, First Station ID
 			08 "PSM0"			// Station Class
-			10 32 00				// Little/Lots Threshold
+			10 \w50				// Little/Lots Threshold
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 24				// Sprite Layout
+			09 \b36				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 84 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 84 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33838
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 84 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33838
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33838
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
-			80					// end layout1 sprite
-
-
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			80					// end layout1 sprite
-
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
+			80					// end layout1 sprite
+
+
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			80					// end layout1 sprite
+
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 12 02
+   00 * 00	01 04 \b18 \b2
    00 sprites_grafika/karacsonysprites.png 8bpp 711 54 66 36 -32 -4 normal chunked
    00 sprites_grafika/karacsonysprites.png 8bpp 711 54 66 36 -32 -4 normal chunked
    00 sprites_grafika/karacsonysprites.png 8bpp 778 54 66 36 -32 -4 normal chunked
@@ -769,90 +769,90 @@
    00 sprites_grafika/karacsonysprites.png 8bpp 845 207 66 38 -32 -6 normal chunked
    00 sprites_grafika/karacsonysprites.png 8bpp 845 207 66 38 -32 -6 normal chunked
 
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 03 00 01 03 00
-   00 * 00	02 04 06 00 01 06 00
-   00 * 00	02 04 09 00 01 09 00
-   00 * 00	02 04 0C 00 01 0C 00
-   00 * 00	02 04 0F 00 01 0F 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b3 00 01 \w3
+   00 * 00	02 04 \b6 00 01 \w6
+   00 * 00	02 04 \b9 00 01 \w9
+   00 * 00	02 04 \b12 00 01 \w12
+   00 * 00	02 04 \b15 00 01 \w15
 
 
 	//Action2
-   00 * 00	02 04 20
-			01 02			//littlesets, lotssets
-00 00			//LittleSets
-01 00 02 00			//LotsSets
-
-
-
-	//Action2
-   00 * 00	02 04 21
-			01 02			//littlesets, lotssets
-03 00			//LittleSets
-04 00 05 00			//LotsSets
+   00 * 00	02 04 \b32
+			\b1 \b2			//littlesets count, lotssets count
+			\w0			//LittleSets
+			\w1 \w2			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 22
-			01 02			//littlesets, lotssets
-06 00			//LittleSets
-07 00 08 00			//LotsSets
+   00 * 00	02 04 \b33
+			\b1 \b2			//littlesets count, lotssets count
+			\w3			//LittleSets
+			\w4 \w5			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 23
-			01 02			//littlesets, lotssets
-09 00			//LittleSets
-0A 00 0B 00			//LotsSets
+   00 * 00	02 04 \b34
+			\b1 \b2			//littlesets count, lotssets count
+			\w6			//LittleSets
+			\w7 \w8			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 24
-			01 02			//littlesets, lotssets
-0C 00			//LittleSets
-0D 00 0E 00			//LotsSets
+   00 * 00	02 04 \b35
+			\b1 \b2			//littlesets count, lotssets count
+			\w9			//LittleSets
+			\w10 \w11			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 25
-			01 02			//littlesets, lotssets
-0F 00			//LittleSets
-10 00 11 00			//LotsSets
+   00 * 00	02 04 \b36
+			\b1 \b2			//littlesets count, lotssets count
+			\w12			//LittleSets
+			\w13 \w14			//LotsSets
 
 
 
 	//Action2
-   00 * 00	02 04 1F
+   00 * 00	02 04 \b37
+			\b1 \b2			//littlesets count, lotssets count
+			\w15			//LittleSets
+			\w16 \w17			//LotsSets
+
+
+
+	//Action2
+   00 * 00	02 04 \b31
 			80 00 10			//random, randomtrigger, randbit
-			10				//range count
-			20 00	20 00	20 00	20 00	20 00
-			21 00	21 00	21 00	21 00	21 00
-			22 00
-			23 00	23 00
-			24 00
-			25 00	25 00
+			\b16				//range count
+			\w32	\w32	\w32	\w32	\w32
+			\w33	\w33	\w33	\w33	\w33
+			\w34
+			\w35	\w35
+			\w36
+			\w37	\w37
 
 
 
 	//Action2
-   00 * 00	02 04 1E
+   00 * 00	02 04 \b30
 			80 00 10			//random, randomtrigger, randbit
-			10				//range count
-			00 00	00 00	00 00	00 00	00 00
-			03 00	03 00	03 00	03 00	03 00
-			06 00
-			09 00	09 00
-			0C 00
-			0F 00	0F 00
+			\b16				//range count
+			\w0	\w0	\w0	\w0	\w0
+			\w3	\w3	\w3	\w3	\w3
+			\w6
+			\w9	\w9
+			\w12
+			\w15	\w15
 
 
 
    // Action3
-   00 * 00	03 04 01 03 01 00 1F 00 1E 00
+   00 * 00	03 04 \b1 \b3 \b1 \b0 \w31 \w30
 
 //*************************************//
 //				Strings			//
@@ -860,9 +860,9 @@
 
 
    // Action4
-	00 * 00	04 04 FF 01 02 C4 C3 9E "HSS - Christmas Market (automatic)" 00
-	00 * 00	04 04 A4 01 02 C4 C3 9E "HSS - Karácsonyi vásár (automatikus)" 00
-	00 * 00	04 04 FF 01 02 C5 C3 9E "With rail" 00
-	00 * 00	04 04 A4 01 02 C5 C3 9E "Sínnel" 00
-	00 * 00	04 04 FF 01 03 C5 C3 9E "Without rail" 00
-	00 * 00	04 04 A4 01 03 C5 C3 9E "Sín nélküli" 00
+	00 * 00	04 04 FF 01 \w50178 C3 9E "HSS - Christmas Market (automatic)" 00
+	00 * 00	04 04 A4 01 \w50178 C3 9E "HSS - Karácsonyi vásár (automatikus)" 00
+	00 * 00	04 04 FF 01 \w50434 C3 9E "With rail" 00
+	00 * 00	04 04 A4 01 \w50434 C3 9E "Sínnel" 00
+	00 * 00	04 04 FF 01 \w50435 C3 9E "Without rail" 00
+	00 * 00	04 04 A4 01 \w50435 C3 9E "Sín nélküli" 00

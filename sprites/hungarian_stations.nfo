@@ -1670,59 +1670,59 @@
 
    // Action0
   232 * 44	 00 04				// Action0, Feature4
-			03 01 28			// Properties, Stations, First Station ID
+			\b3 01 \b40			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-  233 * 4	 01 04 01 02
+  233 * 4	 01 04 \b1 \b2
   234 sprites_grafika/regi_peronok.png 8bpp 180 336 44 55 -32 -34 normal chunked
   235 sprites_grafika/regi_peronok.png 8bpp 225 336 44 55 -10 -34 normal chunked
 
    // Action2
-  236 * 7	 02 04 00 00 01 00 00
+  236 * 7	 02 04 \b0 00 01 \w0
 
-  237 * 7	 03 04 01 28 00 00 00
+  237 * 7	 03 04 01 \b40 00 \w0
 
 
 
    // Action0
   238 * 44	 00 04				// Action0, Feature4
-			03 01 29			// Properties, Stations, First Station ID
+			\b3 01 \b41			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-  239 * 4	 01 04 01 02
+  239 * 4	 01 04 \b1 \b2
   240 sprites_grafika/regi_peronok.png 8bpp 270 336 44 55 -10 -23 normal chunked
   241 sprites_grafika/regi_peronok.png 8bpp 315 336 44 55 -32 -23 normal chunked
 
    // Action2
-  242 * 7	 02 04 00 00 01 00 00
+  242 * 7	 02 04 \b0 00 01 \w0
 
-  243 * 7	 03 04 01 29 00 00 00
+  243 * 7	 03 04 01 \b41 00 \w0
 
 
 
@@ -1733,59 +1733,59 @@
 
    // Action0
   244 * 44	 00 04				// Action0, Feature4
-			03 01 2A			// Properties, Stations, First Station ID
+			\b3 01 \b42			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-  245 * 4	 01 04 01 02
+  245 * 4	 01 04 \b1 \b2
   246 sprites_grafika/regi_peronok.png 8bpp 180 0 44 55 -32 -34 normal chunked
   247 sprites_grafika/regi_peronok.png 8bpp 225 0 44 55 -10 -34 normal chunked
 
    // Action2
-  248 * 7	 02 04 00 00 01 00 00
+  248 * 7	 02 04 \b0 00 01 \w0
 
-  249 * 7	 03 04 01 2A 00 00 00
+  249 * 7	 03 04 01 \b42 00 \w0
 
 
 
    // Action0
   250 * 44	 00 04				// Action0, Feature4
-			03 01 2B			// Properties, Stations, First Station ID
+			\b3 01 \b43			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-  251 * 4	 01 04 01 02
+  251 * 4	 01 04 \b1 \b2
   252 sprites_grafika/regi_peronok.png 8bpp 270 0 44 55 -10 -23 normal chunked
   253 sprites_grafika/regi_peronok.png 8bpp 315 0 44 55 -32 -23 normal chunked
 
    // Action2
-  254 * 7	 02 04 00 00 01 00 00
+  254 * 7	 02 04 \b0 00 01 \w0
 
-  255 * 7	 03 04 01 2B 00 00 00
+  255 * 7	 03 04 01 \b43 00 \w0
 
 
 
@@ -1796,59 +1796,59 @@
 
    // Action0
   256 * 44	 00 04				// Action0, Feature4
-			03 01 2C			// Properties, Stations, First Station ID
+			\b3 01 \b44			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 18		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 18		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 18		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 18		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-  257 * 4	 01 04 01 02
+  257 * 4	 01 04 \b1 \b2
   258 sprites_grafika/regi_peronok.png 8bpp 180 56 44 55 -32 -34 normal chunked
   259 sprites_grafika/regi_peronok.png 8bpp 225 56 44 55 -10 -34 normal chunked
 
    // Action2
-  260 * 7	 02 04 00 00 01 00 00
+  260 * 7	 02 04 \b0 00 01 \w0
 
-  261 * 7	 03 04 01 2C 00 00 00
+  261 * 7	 03 04 01 \b44 00 \w0
 
 
 
    // Action0
   262 * 44	 00 04				// Action0, Feature4
-			03 01 2D			// Properties, Stations, First Station ID
+			\b3 01 \b45			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 18		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 18		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 18		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 18		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-  263 * 4	 01 04 01 02
+  263 * 4	 01 04 \b1 \b2
   264 sprites_grafika/regi_peronok.png 8bpp 270 56 44 55 -10 -23 normal chunked
   265 sprites_grafika/regi_peronok.png 8bpp 315 56 44 55 -32 -23 normal chunked
 
    // Action2
-  266 * 7	 02 04 00 00 01 00 00
+  266 * 7	 02 04 \b0 00 01 \w0
 
-  267 * 7	 03 04 01 2D 00 00 00
+  267 * 7	 03 04 01 \b45 00 \w0
 
 
 
@@ -1859,59 +1859,59 @@
 
    // Action0
   268 * 44	 00 04				// Action0, Feature4
-			03 01 2E			// Properties, Stations, First Station ID
+			\b3 01 \b46			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 18		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 18		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 18		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 18		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-  269 * 4	 01 04 01 02
+  269 * 4	 01 04 \b1 \b2
   270 sprites_grafika/regi_peronok.png 8bpp 180 112 44 55 -32 -34 normal chunked
   271 sprites_grafika/regi_peronok.png 8bpp 225 112 44 55 -10 -34 normal chunked
 
    // Action2
-  272 * 7	 02 04 00 00 01 00 00
+  272 * 7	 02 04 \b0 00 01 \w0
 
-  273 * 7	 03 04 01 2E 00 00 00
+  273 * 7	 03 04 01 \b46 00 \w0
 
 
 
    // Action0
   274 * 44	 00 04				// Action0, Feature4
-			03 01 2F			// Properties, Stations, First Station ID
+			\b3 01 \b47			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 18		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 18		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 18		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 18		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-  275 * 4	 01 04 01 02
+  275 * 4	 01 04 \b1 \b2
   276 sprites_grafika/regi_peronok.png 8bpp 270 112 44 55 -10 -23 normal chunked
   277 sprites_grafika/regi_peronok.png 8bpp 315 112 44 55 -32 -23 normal chunked
 
    // Action2
-  278 * 7	 02 04 00 00 01 00 00
+  278 * 7	 02 04 \b0 00 01 \w0
 
-  279 * 7	 03 04 01 2F 00 00 00
+  279 * 7	 03 04 01 \b47 00 \w0
 
 
 
@@ -1922,59 +1922,59 @@
 
    // Action0
   280 * 44	 00 04				// Action0, Feature4
-			03 01 30			// Properties, Stations, First Station ID
+			\b3 01 \b48			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-  281 * 4	 01 04 01 02
+  281 * 4	 01 04 \b1 \b2
   282 sprites_grafika/regi_peronok.png 8bpp 180 168 44 55 -32 -34 normal chunked
   283 sprites_grafika/regi_peronok.png 8bpp 225 168 44 55 -10 -34 normal chunked
 
    // Action2
-  284 * 7	 02 04 00 00 01 00 00
+  284 * 7	 02 04 \b0 00 01 \w0
 
-  285 * 7	 03 04 01 30 00 00 00
+  285 * 7	 03 04 01 \b48 00 \w0
 
 
 
    // Action0
   286 * 44	 00 04				// Action0, Feature4
-			03 01 31			// Properties, Stations, First Station ID
+			\b3 01 \b49			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-  287 * 4	 01 04 01 02
+  287 * 4	 01 04 \b1 \b2
   288 sprites_grafika/regi_peronok.png 8bpp 270 168 44 55 -10 -23 normal chunked
   289 sprites_grafika/regi_peronok.png 8bpp 315 168 44 55 -32 -23 normal chunked
 
    // Action2
-  290 * 7	 02 04 00 00 01 00 00
+  290 * 7	 02 04 \b0 00 01 \w0
 
-  291 * 7	 03 04 01 31 00 00 00
+  291 * 7	 03 04 01 \b49 00 \w0
 
 
 
@@ -1985,59 +1985,59 @@
 
    // Action0
   292 * 44	 00 04				// Action0, Feature4
-			03 01 32			// Properties, Stations, First Station ID
+			\b3 01 \b50			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d33837
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2E 84 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d33838
 			80					// end layout1 sprite
 
 
    // Action1
-  293 * 4	 01 04 01 02
+  293 * 4	 01 04 \b1 \b2
   294 sprites_grafika/regi_peronok.png 8bpp 180 224 44 55 -32 -34 normal chunked
   295 sprites_grafika/regi_peronok.png 8bpp 225 224 44 55 -10 -34 normal chunked
 
    // Action2
-  296 * 7	 02 04 00 00 01 00 00
+  296 * 7	 02 04 \b0 00 01 \w0
 
-  297 * 7	 03 04 01 32 00 00 00
+  297 * 7	 03 04 01 \b50 00 \w0
 
 
 
    // Action0
   298 * 44	 00 04				// Action0, Feature4
-			03 01 33			// Properties, Stations, First Station ID
+			\b3 01 \b51			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 84 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33838
 			80					// end layout1 sprite
 
 
    // Action1
-  299 * 4	 01 04 01 02
+  299 * 4	 01 04 \b1 \b2
   300 sprites_grafika/regi_peronok.png 8bpp 270 224 44 55 -10 -23 normal chunked
   301 sprites_grafika/regi_peronok.png 8bpp 315 224 44 55 -32 -23 normal chunked
 
    // Action2
-  302 * 7	 02 04 00 00 01 00 00
+  302 * 7	 02 04 \b0 00 01 \w0
 
-  303 * 7	 03 04 01 33 00 00 00
+  303 * 7	 03 04 01 \b51 00 \w0
 
 
 
@@ -2048,59 +2048,59 @@
 
    // Action0
   304 * 44	 00 04				// Action0, Feature4
-			03 01 34			// Properties, Stations, First Station ID
+			\b3 01 \b52			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d33837
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2E 84 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d33838
 			80					// end layout1 sprite
 
 
    // Action1
-  305 * 4	 01 04 01 02
+  305 * 4	 01 04 \b1 \b2
   306 sprites_grafika/regi_peronok.png 8bpp 180 280 44 55 -32 -34 normal chunked
   307 sprites_grafika/regi_peronok.png 8bpp 225 280 44 55 -10 -34 normal chunked
 
    // Action2
-  308 * 7	 02 04 00 00 01 00 00
+  308 * 7	 02 04 \b0 00 01 \w0
 
-  309 * 7	 03 04 01 34 00 00 00
+  309 * 7	 03 04 01 \b52 00 \w0
 
 
 
    // Action0
   310 * 44	 00 04				// Action0, Feature4
-			03 01 35			// Properties, Stations, First Station ID
+			\b3 01 \b53			// Properties, Stations, First Station ID
 			08 "PSK1"			// Station Class
-			0C FE				// Platforms
+			0C \bxFE				// Platforms
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		2E 84 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33838
 			80					// end layout1 sprite
 
 
    // Action1
-  311 * 4	 01 04 01 02
+  311 * 4	 01 04 \b1 \b2
   312 sprites_grafika/regi_peronok.png 8bpp 270 280 44 55 -10 -23 normal chunked
   313 sprites_grafika/regi_peronok.png 8bpp 315 280 44 55 -32 -23 normal chunked
 
    // Action2
-  314 * 7	 02 04 00 00 01 00 00
+  314 * 7	 02 04 \b0 00 01 \w0
 
-  315 * 7	 03 04 01 35 00 00 00
+  315 * 7	 03 04 01 \b53 00 \w0
 
 
 
@@ -2118,33 +2118,33 @@
 
    // Action0
   316 * 62	 00 04				// Action0, Feature4
-			02 01 BE			// Properties, Stations, First Station ID
+			\b2 01 \b190			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 10		2D 04 00 00
-			00 00 00	10 10 10		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 10		\d1069
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 10		2F 04 00 00
-			00 00 00	10 10 10		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 10		\d1071
+			00 00 00	10 10 10		\d1072
 			80					// end layout1 sprite
 
 
    // Action1
-  317 * 4	 01 04 01 04
+  317 * 4	 01 04 \b1 \b4
   318 sprites_grafika/regi_peronok.png 8bpp 180 336 44 55 -32 -34 normal chunked
   319 sprites_grafika/regi_peronok.png 8bpp 270 336 44 55 -10 -23 normal chunked
   320 sprites_grafika/regi_peronok.png 8bpp 225 336 44 55 -10 -34 normal chunked
   321 sprites_grafika/regi_peronok.png 8bpp 315 336 44 55 -32 -23 normal chunked
 
    // Action2
-  322 * 7	 02 04 00 00 01 00 00
+  322 * 7	 02 04 \b0 00 01 \w0
 
-  323 * 7	 03 04 01 BE 00 00 00
+  323 * 7	 03 04 01 \b190 00 \w0
 
 
 
@@ -2155,33 +2155,33 @@
 
    // Action0
   324 * 62	 00 04				// Action0, Feature4
-			02 01 BF			// Properties, Stations, First Station ID
+			\b2 01 \b191			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 10		2D 04 00 00
-			00 00 00	10 10 10		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 10		\d1069
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 10		2F 04 00 00
-			00 00 00	10 10 10		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 10		\d1071
+			00 00 00	10 10 10		\d1072
 			80					// end layout1 sprite
 
 
    // Action1
-  325 * 4	 01 04 01 04
+  325 * 4	 01 04 \b1 \b4
   326 sprites_grafika/regi_peronok.png 8bpp 180 0 44 55 -32 -34 normal chunked
   327 sprites_grafika/regi_peronok.png 8bpp 270 0 44 55 -10 -23 normal chunked
   328 sprites_grafika/regi_peronok.png 8bpp 225 0 44 55 -10 -34 normal chunked
   329 sprites_grafika/regi_peronok.png 8bpp 315 0 44 55 -32 -23 normal chunked
 
    // Action2
-  330 * 7	 02 04 00 00 01 00 00
+  330 * 7	 02 04 \b0 00 01 \w0
 
-  331 * 7	 03 04 01 BF 00 00 00
+  331 * 7	 03 04 01 \b191 00 \w0
 
 
 
@@ -2192,33 +2192,33 @@
 
    // Action0
   332 * 62	 00 04				// Action0, Feature4
-			02 01 C0			// Properties, Stations, First Station ID
+			\b2 01 \b192			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 18		2D 04 00 00
-			00 00 00	10 10 18		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 18		\d1069
+			00 00 00	10 10 18		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 18		2F 04 00 00
-			00 00 00	10 10 18		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 18		\d1071
+			00 00 00	10 10 18		\d1072
 			80					// end layout1 sprite
 
 
    // Action1
-  333 * 4	 01 04 01 04
+  333 * 4	 01 04 \b1 \b4
   334 sprites_grafika/regi_peronok.png 8bpp 180 56 44 55 -32 -34 normal chunked
   335 sprites_grafika/regi_peronok.png 8bpp 270 56 44 55 -10 -23 normal chunked
   336 sprites_grafika/regi_peronok.png 8bpp 225 56 44 55 -10 -34 normal chunked
   337 sprites_grafika/regi_peronok.png 8bpp 315 56 44 55 -32 -23 normal chunked
 
    // Action2
-  338 * 7	 02 04 00 00 01 00 00
+  338 * 7	 02 04 \b0 00 01 \w0
 
-  339 * 7	 03 04 01 C0 00 00 00
+  339 * 7	 03 04 01 \b192 00 \w0
 
 
 
@@ -2229,33 +2229,33 @@
 
    // Action0
   340 * 62	 00 04				// Action0, Feature4
-			02 01 C1			// Properties, Stations, First Station ID
+			\b2 01 \b193			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 18		2D 04 00 00
-			00 00 00	10 10 18		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 18		\d1069
+			00 00 00	10 10 18		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 18		2F 04 00 00
-			00 00 00	10 10 18		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 18		\d1071
+			00 00 00	10 10 18		\d1072
 			80					// end layout1 sprite
 
 
    // Action1
-  341 * 4	 01 04 01 04
+  341 * 4	 01 04 \b1 \b4
   342 sprites_grafika/regi_peronok.png 8bpp 180 112 44 55 -32 -34 normal chunked
   343 sprites_grafika/regi_peronok.png 8bpp 270 112 44 55 -10 -23 normal chunked
   344 sprites_grafika/regi_peronok.png 8bpp 225 112 44 55 -10 -34 normal chunked
   345 sprites_grafika/regi_peronok.png 8bpp 315 112 44 55 -32 -23 normal chunked
 
    // Action2
-  346 * 7	 02 04 00 00 01 00 00
+  346 * 7	 02 04 \b0 00 01 \w0
 
-  347 * 7	 03 04 01 C1 00 00 00
+  347 * 7	 03 04 01 \b193 00 \w0
 
 
 
@@ -2266,33 +2266,33 @@
 
    // Action0
   348 * 62	 00 04				// Action0, Feature4
-			02 01 C2			// Properties, Stations, First Station ID
+			\b2 01 \b194			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 04 00 00
-			00 00 00	10 10 06		2E 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d1069
+			00 00 00	10 10 06		\d1070
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 04 00 00
-			00 00 00	10 10 06		30 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d1071
+			00 00 00	10 10 06		\d1072
 			80					// end layout1 sprite
 
 
    // Action1
-  349 * 4	 01 04 01 04
+  349 * 4	 01 04 \b1 \b4
   350 sprites_grafika/regi_peronok.png 8bpp 180 168 44 55 -32 -34 normal chunked
   351 sprites_grafika/regi_peronok.png 8bpp 270 168 44 55 -10 -23 normal chunked
   352 sprites_grafika/regi_peronok.png 8bpp 225 168 44 55 -10 -34 normal chunked
   353 sprites_grafika/regi_peronok.png 8bpp 315 168 44 55 -32 -23 normal chunked
 
    // Action2
-  354 * 7	 02 04 00 00 01 00 00
+  354 * 7	 02 04 \b0 00 01 \w0
 
-  355 * 7	 03 04 01 C2 00 00 00
+  355 * 7	 03 04 01 \b194 00 \w0
 
 
 
@@ -2303,33 +2303,33 @@
 
    // Action0
   356 * 62	 00 04				// Action0, Feature4
-			02 01 C3			// Properties, Stations, First Station ID
+			\b2 01 \b195			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 84 00 00
-			00 00 00	10 10 06		2E 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d33837
+			00 00 00	10 10 06		\d33838
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 84 00 00
-			00 00 00	10 10 06		30 84 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d33839
+			00 00 00	10 10 06		\d33840
 			80					// end layout1 sprite
 
 
    // Action1
-  357 * 4	 01 04 01 04
+  357 * 4	 01 04 \b1 \b4
   358 sprites_grafika/regi_peronok.png 8bpp 180 224 44 55 -32 -34 normal chunked
   359 sprites_grafika/regi_peronok.png 8bpp 270 224 44 55 -10 -23 normal chunked
   360 sprites_grafika/regi_peronok.png 8bpp 225 224 44 55 -10 -34 normal chunked
   361 sprites_grafika/regi_peronok.png 8bpp 315 224 44 55 -32 -23 normal chunked
 
    // Action2
-  362 * 7	 02 04 00 00 01 00 00
+  362 * 7	 02 04 \b0 00 01 \w0
 
-  363 * 7	 03 04 01 C3 00 00 00
+  363 * 7	 03 04 01 \b195 00 \w0
 
 
 
@@ -2340,33 +2340,33 @@
 
    // Action0
   364 * 62	 00 04				// Action0, Feature4
-			02 01 C4			// Properties, Stations, First Station ID
+			\b2 01 \b196			// Properties, Stations, First Station ID
 			08 "PSK2"			// Station Class
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 06		2D 84 00 00
-			00 00 00	10 10 06		2E 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 06		\d33837
+			00 00 00	10 10 06		\d33838
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 06		2F 84 00 00
-			00 00 00	10 10 06		30 84 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 06		\d33839
+			00 00 00	10 10 06		\d33840
 			80					// end layout1 sprite
 
 
    // Action1
-  365 * 4	 01 04 01 04
+  365 * 4	 01 04 \b1 \b4
   366 sprites_grafika/regi_peronok.png 8bpp 180 280 44 55 -32 -34 normal chunked
   367 sprites_grafika/regi_peronok.png 8bpp 270 280 44 55 -10 -23 normal chunked
   368 sprites_grafika/regi_peronok.png 8bpp 225 280 44 55 -10 -34 normal chunked
   369 sprites_grafika/regi_peronok.png 8bpp 315 280 44 55 -32 -23 normal chunked
 
    // Action2
-  370 * 7	 02 04 00 00 01 00 00
+  370 * 7	 02 04 \b0 00 01 \w0
 
-  371 * 7	 03 04 01 C4 00 00 00
+  371 * 7	 03 04 01 \b196 00 \w0
 
 
 
@@ -2377,59 +2377,59 @@
 
 
    // Action4
-  372 * 50	 04 04 FF 01 00 C4 C3 9E "HSS - Platforms (automatic)(single sided)" 00
-  373 * 48	 04 04 A4 01 00 C4 C3 9E "HSS - Peronok (automatikus)(egyoldalú)" 00
-  374 * 39	 04 04 FF 01 28 C4 C3 9E "HSS - Platforms (single sided)" 00
-  375 * 35	 04 04 A4 01 28 C4 C3 9E "HSS - Peronok (egyoldalú)" 00
-  376 * 33	 04 04 FF 01 BE C4 C3 9E "HSS - Platforms (normal)" 00
-  377 * 32	 04 04 A4 01 BE C4 C3 9E "HSS - Peronok (normál)" 00
-  378 * 25	 04 04 FF 01 00 C5 C3 9E "Old (low)(front)" 00
-  379 * 35	 04 04 A4 01 00 C5 C3 9E "Régi (alacsony)(elülső)" 00
-  380 * 24	 04 04 FF 01 01 C5 C3 9E "Old (low)(back)" 00
-  381 * 36	 04 04 A4 01 01 C5 C3 9E "Régi (alacsony)(hátulsó)" 00
-  382 * 26	 04 04 FF 01 02 C5 C3 9E "Old (high)(front)" 00
-  383 * 32	 04 04 A4 01 02 C5 C3 9E "Régi (magas)(elülső)" 00
-  384 * 25	 04 04 FF 01 03 C5 C3 9E "Old (high)(back)" 00
-  385 * 33	 04 04 A4 01 03 C5 C3 9E "Régi (magas)(hátulsó)" 00
-  386 * 29	 04 04 FF 01 28 C5 C3 9E "Old (very low)(back)" 00
-  387 * 43	 04 04 A4 01 28 C5 C3 9E "Régi (nagyon alacsony)(hátulsó)" 00
-  388 * 30	 04 04 FF 01 29 C5 C3 9E "Old (very low)(front)" 00
-  389 * 42	 04 04 A4 01 29 C5 C3 9E "Régi (nagyon alacsony)(elülső)" 00
-  390 * 38	 04 04 FF 01 2A C5 C3 9E "Old, display (very low)(back)" 00
-  391 * 53	 04 04 A4 01 2A C5 C3 9E "Régi, kijelző (nagyon alacsony)(hátulsó)" 00
-  392 * 39	 04 04 FF 01 2B C5 C3 9E "Old, display (very low)(front)" 00
-  393 * 52	 04 04 A4 01 2B C5 C3 9E "Régi, kijelző (nagyon alacsony)(elülső)" 00
-  394 * 35	 04 04 FF 01 2C C5 C3 9E "Old, lamp (very low)(back)" 00
-  395 * 51	 04 04 A4 01 2C C5 C3 9E "Régi, lámpa (nagyon alacsony)(hátulsó)" 00
-  396 * 36	 04 04 FF 01 2D C5 C3 9E "Old, lamp (very low)(front)" 00
-  397 * 50	 04 04 A4 01 2D C5 C3 9E "Régi, lámpa (nagyon alacsony)(elülső)" 00
-  398 * 47	 04 04 FF 01 2E C5 C3 9E "Old, lamp and benches (very low)(back)" 00
-  399 * 58	 04 04 A4 01 2E C5 C3 9E "Régi, lámpa, padok (nagyon alacsony)(hátulsó)" 00
-  400 * 48	 04 04 FF 01 2F C5 C3 9E "Old, lamp and benches (very low)(front)" 00
-  401 * 57	 04 04 A4 01 2F C5 C3 9E "Régi, lámpa, padok (nagyon alacsony)(elülső)" 00
-  402 * 38	 04 04 FF 01 30 C5 C3 9E "Old, benches (very low)(back)" 00
-  403 * 50	 04 04 A4 01 30 C5 C3 9E "Régi, padok (nagyon alacsony)(hátulsó)" 00
-  404 * 39	 04 04 FF 01 31 C5 C3 9E "Old, benches (very low)(front)" 00
-  405 * 49	 04 04 A4 01 31 C5 C3 9E "Régi, padok (nagyon alacsony)(elülső)" 00
-  406 * 42	 04 04 FF 01 32 C5 C3 9E "Old, underpass 1 (very low)(back)" 00
-  407 * 60	 04 04 A4 01 32 C5 C3 9E "Régi, aluljáróval 1 (nagyon alacsony)(hátulsó)" 00
-  408 * 43	 04 04 FF 01 33 C5 C3 9E "Old, underpass 1 (very low)(front)" 00
-  409 * 59	 04 04 A4 01 33 C5 C3 9E "Régi, aluljáróval 1 (nagyon alacsony)(elülső)" 00
-  410 * 42	 04 04 FF 01 34 C5 C3 9E "Old, underpass 2 (very low)(back)" 00
-  411 * 60	 04 04 A4 01 34 C5 C3 9E "Régi, aluljáróval 2 (nagyon alacsony)(hátulsó)" 00
-  412 * 43	 04 04 FF 01 35 C5 C3 9E "Old, underpass 2 (very low)(front)" 00
-  413 * 59	 04 04 A4 01 35 C5 C3 9E "Régi, aluljáróval 2 (nagyon alacsony)(elülső)" 00
-  414 * 23	 04 04 FF 01 BE C5 C3 9E "Old (very low)" 00
-  415 * 32	 04 04 A4 01 BE C5 C3 9E "Régi (nagyon alacsony)" 00
-  416 * 32	 04 04 FF 01 BF C5 C3 9E "Old, display (very low)" 00
-  417 * 42	 04 04 A4 01 BF C5 C3 9E "Régi, kijelző (nagyon alacsony)" 00
-  418 * 29	 04 04 FF 01 C0 C5 C3 9E "Old, lamp (very low)" 00
-  419 * 40	 04 04 A4 01 C0 C5 C3 9E "Régi, lámpa (nagyon alacsony)" 00
-  420 * 41	 04 04 FF 01 C1 C5 C3 9E "Old, lamp and benches (very low)" 00
-  421 * 47	 04 04 A4 01 C1 C5 C3 9E "Régi, lámpa, padok (nagyon alacsony)" 00
-  422 * 32	 04 04 FF 01 C2 C5 C3 9E "Old, benches (very low)" 00
-  423 * 39	 04 04 A4 01 C2 C5 C3 9E "Régi, padok (nagyon alacsony)" 00
-  424 * 36	 04 04 FF 01 C3 C5 C3 9E "Old, underpass 1 (very low)" 00
-  425 * 49	 04 04 A4 01 C3 C5 C3 9E "Régi, aluljáróval 1 (nagyon alacsony)" 00
-  426 * 36	 04 04 FF 01 C4 C5 C3 9E "Old, underpass 2 (very low)" 00
-  427 * 49	 04 04 A4 01 C4 C5 C3 9E "Régi, aluljáróval 2 (nagyon alacsony)" 00
+  372 * 50	 04 04 FF 01 \w50176 C3 9E "HSS - Platforms (automatic)(single sided)" 00
+  373 * 48	 04 04 A4 01 \w50176 C3 9E "HSS - Peronok (automatikus)(egyoldalú)" 00
+  374 * 39	 04 04 FF 01 \w50216 C3 9E "HSS - Platforms (single sided)" 00
+  375 * 35	 04 04 A4 01 \w50216 C3 9E "HSS - Peronok (egyoldalú)" 00
+  376 * 33	 04 04 FF 01 \w50366 C3 9E "HSS - Platforms (normal)" 00
+  377 * 32	 04 04 A4 01 \w50366 C3 9E "HSS - Peronok (normál)" 00
+  378 * 25	 04 04 FF 01 \w50432 C3 9E "Old (low)(front)" 00
+  379 * 35	 04 04 A4 01 \w50432 C3 9E "Régi (alacsony)(elülső)" 00
+  380 * 24	 04 04 FF 01 \w50433 C3 9E "Old (low)(back)" 00
+  381 * 36	 04 04 A4 01 \w50433 C3 9E "Régi (alacsony)(hátulsó)" 00
+  382 * 26	 04 04 FF 01 \w50434 C3 9E "Old (high)(front)" 00
+  383 * 32	 04 04 A4 01 \w50434 C3 9E "Régi (magas)(elülső)" 00
+  384 * 25	 04 04 FF 01 \w50435 C3 9E "Old (high)(back)" 00
+  385 * 33	 04 04 A4 01 \w50435 C3 9E "Régi (magas)(hátulsó)" 00
+  386 * 29	 04 04 FF 01 \w50472 C3 9E "Old (very low)(back)" 00
+  387 * 43	 04 04 A4 01 \w50472 C3 9E "Régi (nagyon alacsony)(hátulsó)" 00
+  388 * 30	 04 04 FF 01 \w50473 C3 9E "Old (very low)(front)" 00
+  389 * 42	 04 04 A4 01 \w50473 C3 9E "Régi (nagyon alacsony)(elülső)" 00
+  390 * 38	 04 04 FF 01 \w50474 C3 9E "Old, display (very low)(back)" 00
+  391 * 53	 04 04 A4 01 \w50474 C3 9E "Régi, kijelző (nagyon alacsony)(hátulsó)" 00
+  392 * 39	 04 04 FF 01 \w50475 C3 9E "Old, display (very low)(front)" 00
+  393 * 52	 04 04 A4 01 \w50475 C3 9E "Régi, kijelző (nagyon alacsony)(elülső)" 00
+  394 * 35	 04 04 FF 01 \w50476 C3 9E "Old, lamp (very low)(back)" 00
+  395 * 51	 04 04 A4 01 \w50476 C3 9E "Régi, lámpa (nagyon alacsony)(hátulsó)" 00
+  396 * 36	 04 04 FF 01 \w50477 C3 9E "Old, lamp (very low)(front)" 00
+  397 * 50	 04 04 A4 01 \w50477 C3 9E "Régi, lámpa (nagyon alacsony)(elülső)" 00
+  398 * 47	 04 04 FF 01 \w50478 C3 9E "Old, lamp and benches (very low)(back)" 00
+  399 * 58	 04 04 A4 01 \w50478 C3 9E "Régi, lámpa, padok (nagyon alacsony)(hátulsó)" 00
+  400 * 48	 04 04 FF 01 \w50479 C3 9E "Old, lamp and benches (very low)(front)" 00
+  401 * 57	 04 04 A4 01 \w50479 C3 9E "Régi, lámpa, padok (nagyon alacsony)(elülső)" 00
+  402 * 38	 04 04 FF 01 \w50480 C3 9E "Old, benches (very low)(back)" 00
+  403 * 50	 04 04 A4 01 \w50480 C3 9E "Régi, padok (nagyon alacsony)(hátulsó)" 00
+  404 * 39	 04 04 FF 01 \w50481 C3 9E "Old, benches (very low)(front)" 00
+  405 * 49	 04 04 A4 01 \w50481 C3 9E "Régi, padok (nagyon alacsony)(elülső)" 00
+  406 * 42	 04 04 FF 01 \w50482 C3 9E "Old, underpass 1 (very low)(back)" 00
+  407 * 60	 04 04 A4 01 \w50482 C3 9E "Régi, aluljáróval 1 (nagyon alacsony)(hátulsó)" 00
+  408 * 43	 04 04 FF 01 \w50483 C3 9E "Old, underpass 1 (very low)(front)" 00
+  409 * 59	 04 04 A4 01 \w50483 C3 9E "Régi, aluljáróval 1 (nagyon alacsony)(elülső)" 00
+  410 * 42	 04 04 FF 01 \w50484 C3 9E "Old, underpass 2 (very low)(back)" 00
+  411 * 60	 04 04 A4 01 \w50484 C3 9E "Régi, aluljáróval 2 (nagyon alacsony)(hátulsó)" 00
+  412 * 43	 04 04 FF 01 \w50485 C3 9E "Old, underpass 2 (very low)(front)" 00
+  413 * 59	 04 04 A4 01 \w50485 C3 9E "Régi, aluljáróval 2 (nagyon alacsony)(elülső)" 00
+  414 * 23	 04 04 FF 01 \w50622 C3 9E "Old (very low)" 00
+  415 * 32	 04 04 A4 01 \w50622 C3 9E "Régi (nagyon alacsony)" 00
+  416 * 32	 04 04 FF 01 \w50623 C3 9E "Old, display (very low)" 00
+  417 * 42	 04 04 A4 01 \w50623 C3 9E "Régi, kijelző (nagyon alacsony)" 00
+  418 * 29	 04 04 FF 01 \w50624 C3 9E "Old, lamp (very low)" 00
+  419 * 40	 04 04 A4 01 \w50624 C3 9E "Régi, lámpa (nagyon alacsony)" 00
+  420 * 41	 04 04 FF 01 \w50625 C3 9E "Old, lamp and benches (very low)" 00
+  421 * 47	 04 04 A4 01 \w50625 C3 9E "Régi, lámpa, padok (nagyon alacsony)" 00
+  422 * 32	 04 04 FF 01 \w50626 C3 9E "Old, benches (very low)" 00
+  423 * 39	 04 04 A4 01 \w50626 C3 9E "Régi, padok (nagyon alacsony)" 00
+  424 * 36	 04 04 FF 01 \w50627 C3 9E "Old, underpass 1 (very low)" 00
+  425 * 49	 04 04 A4 01 \w50627 C3 9E "Régi, aluljáróval 1 (nagyon alacsony)" 00
+  426 * 36	 04 04 FF 01 \w50628 C3 9E "Old, underpass 2 (very low)" 00
+  427 * 49	 04 04 A4 01 \w50628 C3 9E "Régi, aluljáróval 2 (nagyon alacsony)" 00

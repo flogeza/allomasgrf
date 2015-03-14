@@ -19,55 +19,55 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 00			// Properties, Stations, First Station ID
+			\b7 01 \b0			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
-			0D FE				// Length
+			0C \bxFD				// Platforms
+			0D \bxFE				// Length
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 34		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 34		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1070
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 34		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 34		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 06 10		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 06 10		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 02
+   00 * 00	01 04 \b2 \b2
    00 sprites_grafika/nyugati.pcx 8bpp 542 164 66 49 -32 -17 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 7 5 66 49 -32 -17 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 475 164 66 49 -32 -17 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 83 5 66 49 -32 -17 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 00 00 0A 00
+   00 * 00	03 04 01 \b0 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 0
 //	Default: 10
@@ -86,44 +86,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 02			// Properties, Stations, First Station ID
+			\b7 01 \b2			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
-			0D FE				// Length
+			0C \bxFD				// Platforms
+			0D \bxFE				// Length
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 31		2D 04 00 00
-			00 00 00	10 10 34		2E 84 00 00
-			00 00 80	00 00 00		2F 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 31		\d1069
+			00 00 00	10 10 34		\d33838
+			00 00 80	00 00 00		\d52577327
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 31		30 04 00 00
-			00 00 00	10 10 34		31 84 00 00
-			00 00 80	00 00 00		32 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 31		\d1072
+			00 00 00	10 10 34		\d33841
+			00 00 80	00 00 00		\d52577330
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 05 1C		2D 04 00 00
-			00 00 00	10 10 34		2E 84 00 00
-			00 00 80	00 00 00		2F 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 05 1C		\d1069
+			00 00 00	10 10 34		\d33838
+			00 00 80	00 00 00		\d52577327
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	05 10 1C		30 04 00 00
-			00 00 00	10 10 34		31 84 00 00
-			00 00 80	00 00 00		32 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	05 10 1C		\d1072
+			00 00 00	10 10 34		\d33841
+			00 00 80	00 00 00		\d52577330
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 06
+   00 * 00	01 04 \b2 \b6
    00 sprites_grafika/nyugati.pcx 8bpp 226 386 46 23 -33 7 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 158 413 66 81 -32 -49 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 523 413 64 51 1 21 normal chunked
@@ -138,23 +138,24 @@
    00 sprites_grafika/nyugati.pcx 8bpp 120 174 32 39 33 18 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 02 00 0A 00
+   00 * 00	03 04 01 \b2 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 2
 //	Default: 10
 //@EndAssignGrapghicsSets
+
 
 
 //
@@ -170,44 +171,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 04			// Properties, Stations, First Station ID
+			\b3 01 \b4			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 10 00		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 10 00		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 00		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 00		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 60 116 44 22 -32 -1 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 232 413 66 82 -32 -50 normal chunked
@@ -226,19 +227,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 04 00 0A 00
+   00 * 00	03 04 01 \b4 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 4
 //	Default: 10
@@ -253,44 +254,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 05			// Properties, Stations, First Station ID
+			\b3 01 \b5			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 10		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 10		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 10		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 10		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 0 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 232 413 66 82 -32 -50 normal chunked
@@ -309,19 +310,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 05 00 0A 00
+   00 * 00	03 04 01 \b5 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 5
 //	Default: 10
@@ -336,44 +337,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 06			// Properties, Stations, First Station ID
+			\b3 01 \b6			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 18		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 18		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 18		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 18		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 18		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 18		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 18		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 18		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 56 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 232 413 66 82 -32 -50 normal chunked
@@ -392,19 +393,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 06 00 0A 00
+   00 * 00	03 04 01 \b6 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 6
 //	Default: 10
@@ -419,44 +420,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 07			// Properties, Stations, First Station ID
+			\b3 01 \b7			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	05 10 00		2D 04 00 00
-			00 00 00	10 05 18		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	05 10 00		\d1069
+			00 00 00	10 05 18		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 18		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 18		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 18		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 18		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 18		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 18		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 112 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 232 413 66 82 -32 -50 normal chunked
@@ -475,19 +476,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 07 00 0A 00
+   00 * 00	03 04 01 \b7 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 7
 //	Default: 10
@@ -502,44 +503,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 08			// Properties, Stations, First Station ID
+			\b3 01 \b8			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 06		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 06		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 06		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 06		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 168 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 232 413 66 82 -32 -50 normal chunked
@@ -558,19 +559,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 08 00 0A 00
+   00 * 00	03 04 01 \b8 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 8
 //	Default: 10
@@ -585,44 +586,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 09			// Properties, Stations, First Station ID
+			\b3 01 \b9			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	10 05 06		2E 84 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d33837
+			00 00 00	10 05 06		\d33838
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 84 00 00
-			00 00 00	05 10 06		32 84 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d33841
+			00 00 00	05 10 06		\d33842
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 84 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33841
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 517 5 44 22 -32 -1 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 232 413 66 82 -32 -50 normal chunked
@@ -641,19 +642,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 09 00 0A 00
+   00 * 00	03 04 01 \b9 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 9
 //	Default: 10
@@ -668,44 +669,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 0A			// Properties, Stations, First Station ID
+			\b3 01 \b10			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	10 05 06		2E 84 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d33837
+			00 00 00	10 05 06		\d33838
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 84 00 00
-			00 00 00	05 10 06		32 84 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d33841
+			00 00 00	05 10 06		\d33842
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 84 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33841
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 517 28 44 22 -32 -1 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 232 413 66 82 -32 -50 normal chunked
@@ -724,19 +725,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 232 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 0A 00 0A 00
+   00 * 00	03 04 01 \b10 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 10
 //	Default: 10
@@ -751,44 +752,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 0B			// Properties, Stations, First Station ID
+			\b3 01 \b11			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 10 00		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 10 00		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 00		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 00		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 60 116 44 22 -32 -1 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 303 413 66 82 -32 -50 normal chunked
@@ -807,19 +808,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 0B 00 0A 00
+   00 * 00	03 04 01 \b11 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 11
 //	Default: 10
@@ -834,44 +835,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 0C			// Properties, Stations, First Station ID
+			\b3 01 \b12			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 10		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 10		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 10		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 10		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 0 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 303 413 66 82 -32 -50 normal chunked
@@ -890,19 +891,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 0C 00 0A 00
+   00 * 00	03 04 01 \b12 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 12
 //	Default: 10
@@ -917,44 +918,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 0D			// Properties, Stations, First Station ID
+			\b3 01 \b13			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 18		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 18		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 18		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 18		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 18		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 18		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 18		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 18		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 56 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 303 413 66 82 -32 -50 normal chunked
@@ -973,19 +974,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 0D 00 0A 00
+   00 * 00	03 04 01 \b13 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 13
 //	Default: 10
@@ -1000,44 +1001,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 0E			// Properties, Stations, First Station ID
+			\b3 01 \b14			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 18		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 18		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 18		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 18		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 18		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 18		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 18		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 18		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 112 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 303 413 66 82 -32 -50 normal chunked
@@ -1056,19 +1057,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 0E 00 0A 00
+   00 * 00	03 04 01 \b14 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 14
 //	Default: 10
@@ -1083,44 +1084,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 0F			// Properties, Stations, First Station ID
+			\b3 01 \b15			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 06		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 06		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 06		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 06		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 168 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 303 413 66 82 -32 -50 normal chunked
@@ -1139,19 +1140,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 0F 00 0A 00
+   00 * 00	03 04 01 \b15 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 15
 //	Default: 10
@@ -1166,44 +1167,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 10			// Properties, Stations, First Station ID
+			\b3 01 \b16			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	10 05 06		2E 84 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d33837
+			00 00 00	10 05 06		\d33838
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 84 00 00
-			00 00 00	05 10 06		32 84 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d33841
+			00 00 00	05 10 06		\d33842
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 84 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33841
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 517 5 44 22 -32 -1 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 303 413 66 82 -32 -50 normal chunked
@@ -1222,19 +1223,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 10 00 0A 00
+   00 * 00	03 04 01 \b16 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 16
 //	Default: 10
@@ -1249,44 +1250,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 11			// Properties, Stations, First Station ID
+			\b3 01 \b17			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	10 05 06		2E 84 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d33837
+			00 00 00	10 05 06		\d33838
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 84 00 00
-			00 00 00	05 10 06		32 84 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d33841
+			00 00 00	05 10 06		\d33842
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 84 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33841
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 517 28 44 22 -32 -1 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 303 413 66 82 -32 -50 normal chunked
@@ -1305,19 +1306,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 303 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 11 00 0A 00
+   00 * 00	03 04 01 \b17 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 17
 //	Default: 10
@@ -1332,44 +1333,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 12			// Properties, Stations, First Station ID
+			\b3 01 \b18			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 10 00		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 10 00		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 00		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 00		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 60 116 44 22 -32 -1 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 375 413 66 82 -32 -50 normal chunked
@@ -1388,19 +1389,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 12 00 0A 00
+   00 * 00	03 04 01 \b18 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 18
 //	Default: 10
@@ -1415,44 +1416,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 13			// Properties, Stations, First Station ID
+			\b3 01 \b19			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 10		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 10		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 10		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 10		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 0 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 375 413 66 82 -32 -50 normal chunked
@@ -1471,19 +1472,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 13 00 0A 00
+   00 * 00	03 04 01 \b19 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 19
 //	Default: 10
@@ -1498,44 +1499,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 14			// Properties, Stations, First Station ID
+			\b3 01 \b20			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 18		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 18		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 18		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 18		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 18		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 18		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 18		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 18		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 56 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 375 413 66 82 -32 -50 normal chunked
@@ -1554,19 +1555,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 14 00 0A 00
+   00 * 00	03 04 01 \b20 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 20
 //	Default: 10
@@ -1581,44 +1582,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 15			// Properties, Stations, First Station ID
+			\b3 01 \b21			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 18		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 18		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 18		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 18		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 18		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 18		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 18		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 18		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 112 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 375 413 66 82 -32 -50 normal chunked
@@ -1637,19 +1638,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 15 00 0A 00
+   00 * 00	03 04 01 \b21 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 21
 //	Default: 10
@@ -1664,44 +1665,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 16			// Properties, Stations, First Station ID
+			\b3 01 \b22			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 06		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 06		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 06		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 06		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 168 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 375 413 66 82 -32 -50 normal chunked
@@ -1720,19 +1721,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 16 00 0A 00
+   00 * 00	03 04 01 \b22 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 22
 //	Default: 10
@@ -1747,44 +1748,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 17			// Properties, Stations, First Station ID
+			\b3 01 \b23			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	10 05 06		2E 84 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d33837
+			00 00 00	10 05 06		\d33838
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 84 00 00
-			00 00 00	05 10 06		32 84 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d33841
+			00 00 00	05 10 06		\d33842
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 84 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33841
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 517 5 44 22 -32 -1 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 375 413 66 82 -32 -50 normal chunked
@@ -1803,19 +1804,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 17 00 0A 00
+   00 * 00	03 04 01 \b23 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 23
 //	Default: 10
@@ -1830,44 +1831,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 18			// Properties, Stations, First Station ID
+			\b3 01 \b24			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	10 10 06		2E 84 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d33837
+			00 00 00	10 10 06		\d33838
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 84 00 00
-			00 00 00	05 10 06		32 84 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d33841
+			00 00 00	05 10 06		\d33842
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 84 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33841
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 517 28 44 22 -32 -1 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 375 413 66 82 -32 -50 normal chunked
@@ -1886,19 +1887,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 375 188 58 25 6 2 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 18 00 0A 00
+   00 * 00	03 04 01 \b24 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 24
 //	Default: 10
@@ -1913,44 +1914,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 19			// Properties, Stations, First Station ID
+			\b3 01 \b25			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 10 00		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 10 00		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 00		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 00		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 60 116 44 22 -32 -1 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 446 413 66 81 -32 -49 normal chunked
@@ -1969,19 +1970,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 19 00 0A 00
+   00 * 00	03 04 01 \b25 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 25
 //	Default: 10
@@ -1996,44 +1997,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1A			// Properties, Stations, First Station ID
+			\b3 01 \b26			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 10		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 10		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 10		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 10		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 10		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 10		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 10		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 10		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 0 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 446 413 66 81 -32 -49 normal chunked
@@ -2052,19 +2053,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 1A 00 0A 00
+   00 * 00	03 04 01 \b26 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 26
 //	Default: 10
@@ -2079,44 +2080,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1B			// Properties, Stations, First Station ID
+			\b3 01 \b27			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 18		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 18		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 18		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 18		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 18		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 18		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 18		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 18		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 56 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 446 413 66 81 -32 -49 normal chunked
@@ -2135,19 +2136,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 1B 00 0A 00
+   00 * 00	03 04 01 \b27 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 27
 //	Default: 10
@@ -2162,44 +2163,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1C			// Properties, Stations, First Station ID
+			\b3 01 \b28			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 18		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 18		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 18		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 18		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 18		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 18		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 18		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 18		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 112 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 446 413 66 81 -32 -49 normal chunked
@@ -2218,19 +2219,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 1C 00 0A 00
+   00 * 00	03 04 01 \b28 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 28
 //	Default: 10
@@ -2245,44 +2246,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1D			// Properties, Stations, First Station ID
+			\b3 01 \b29			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 04 00 00
-			00 00 00	10 05 06		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d1069
+			00 00 00	10 05 06		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 04 00 00
-			00 00 00	05 10 06		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d1073
+			00 00 00	05 10 06		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 04 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d1069
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 04 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d1073
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/regi_peronok.png 8bpp 180 168 44 55 -32 -34 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 446 413 66 81 -32 -49 normal chunked
@@ -2301,19 +2302,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 1D 00 0A 00
+   00 * 00	03 04 01 \b29 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 29
 //	Default: 10
@@ -2328,44 +2329,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1E			// Properties, Stations, First Station ID
+			\b3 01 \b30			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	10 05 06		2E 84 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d33837
+			00 00 00	10 05 06		\d33838
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 84 00 00
-			00 00 00	05 10 06		32 84 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d33841
+			00 00 00	05 10 06		\d33842
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 84 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33841
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 517 5 44 22 -32 -1 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 446 413 66 81 -32 -49 normal chunked
@@ -2384,19 +2385,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 1E 00 0A 00
+   00 * 00	03 04 01 \b30 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 30
 //	Default: 10
@@ -2411,44 +2412,44 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			03 01 1F			// Properties, Stations, First Station ID
+			\b3 01 \b31			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FD				// Platforms
+			0C \bxFD				// Platforms
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 00		2D 84 00 00
-			00 00 00	10 05 06		2E 84 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 00		\d33837
+			00 00 00	10 05 06		\d33838
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 00		31 84 00 00
-			00 00 00	05 10 06		32 84 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 00		\d33841
+			00 00 00	05 10 06		\d33842
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 06		2D 84 00 00
-			00 00 00	10 05 1C		2E 04 00 00
-			00 00 00	10 10 31		2F 04 00 00
-			00 00 80	00 00 00		30 44 22 03
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 06		\d33837
+			00 00 00	10 05 1C		\d1070
+			00 00 00	10 10 31		\d1071
+			00 00 80	00 00 00		\d52577328
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 06		31 84 00 00
-			00 00 00	05 10 1C		32 04 00 00
-			00 00 00	10 10 31		33 04 00 00
-			00 00 80	00 00 00		34 44 22 03
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 06		\d33841
+			00 00 00	05 10 1C		\d1074
+			00 00 00	10 10 31		\d1075
+			00 00 80	00 00 00		\d52577332
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 08
+   00 * 00	01 04 \b2 \b8
    00 sprites_grafika/altalanos.pcx 8bpp 4 5 66 33 0 0 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 517 28 44 22 -32 -1 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 446 413 66 81 -32 -49 normal chunked
@@ -2467,19 +2468,19 @@
    00 sprites_grafika/nyugati.pcx 8bpp 446 155 16 10 48 16 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 08		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx08		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 1F 00 0A 00
+   00 * 00	03 04 01 \b31 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 31
 //	Default: 10
@@ -2501,55 +2502,55 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 20			// Properties, Stations, First Station ID
+			\b7 01 \b32			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FE				// Platforms
-			0D FD				// Length
+			0C \bxFE				// Platforms
+			0D \bxFD				// Length
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 3E		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 3E		\d1070
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 3E		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 06 3E		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 06 3E		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 02
+   00 * 00	01 04 \b2 \b2
    00 sprites_grafika/nyugati.pcx 8bpp 526 221 66 93 -32 -61 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 226 221 66 93 -32 -61 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 517 98 66 64 -32 -32 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 7 149 66 64 -32 -32 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 00		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx00		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 20 00 0A 00
+   00 * 00	03 04 01 \b32 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 32
 //	Default: 10
@@ -2564,55 +2565,55 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 21			// Properties, Stations, First Station ID
+			\b7 01 \b33			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FE				// Platforms
-			0D FD				// Length
+			0C \bxFE				// Platforms
+			0D \bxFD				// Length
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 3E		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 3E		\d1070
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 3E		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 06 3E		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 06 3E		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 02
+   00 * 00	01 04 \b2 \b2
    00 sprites_grafika/nyugati.pcx 8bpp 452 221 66 93 -32 -61 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 153 221 66 93 -32 -61 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 517 98 66 64 -32 -32 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 7 149 66 64 -32 -32 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 00		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx00		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 21 00 0A 00
+   00 * 00	03 04 01 \b33 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 33
 //	Default: 10
@@ -2633,55 +2634,55 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 24			// Properties, Stations, First Station ID
+			\b7 01 \b36			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FE				// Platforms
-			0D FD				// Length
+			0C \bxFE				// Platforms
+			0D \bxFD				// Length
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 3E		\d33837
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 84 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 3E		\d33838
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 06 3E		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 06 3E		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 3E		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 02
+   00 * 00	01 04 \b2 \b2
    00 sprites_grafika/nyugati.pcx 8bpp 375 221 66 93 -32 -61 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 80 221 66 93 -32 -61 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 517 98 66 64 -32 -32 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 7 149 66 64 -32 -32 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 00		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx00		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 24 00 0A 00
+   00 * 00	03 04 01 \b36 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 36
 //	Default: 10
@@ -2696,55 +2697,55 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 25			// Properties, Stations, First Station ID
+			\b7 01 \b37			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FE				// Platforms
-			0D FD				// Length
+			0C \bxFE				// Platforms
+			0D \bxFD				// Length
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 04				// Sprite Layout
+			09 \b4				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 84 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 3E		\d33837
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 84 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 3E		\d33838
 			80					// end layout1 sprite
 
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 3E		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 06 3E		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 06 3E		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 02 02
+   00 * 00	01 04 \b2 \b2
    00 sprites_grafika/nyugati.pcx 8bpp 301 221 66 93 -32 -61 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 7 221 66 93 -32 -61 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 517 98 66 64 -32 -32 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 7 149 66 64 -32 -32 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
-   00 * 00	02 04 01 00 01 01 00
+   00 * 00	02 04 \b0 00 01 \w0
+   00 * 00	02 04 \b1 00 01 \w1
 
 
 	//Action2
-   00 * 00	02 04 0A
-			81 41 00		//type, variable, varadjust
-			F0				//masking
-			01				//range count
-			00 00	00	00		//action2id, min range, max range
-			01 00			//default action2id
+   00 * 00	02 04 \b10
+			\bx81 \bx41 \bx00		//type, variable, varadjust
+			\bxF0				//masking
+			\b1				//range count
+			\w0	\b0	\b0		//action2id, min range, max range
+			\w1			//default action2id
 
-   00 * 00	03 04 01 25 00 0A 00
+   00 * 00	03 04 01 \b37 00 \w10
 //@AssignGrapghicsSets
 //	StationIDs: 37
 //	Default: 10
@@ -2765,34 +2766,34 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 28			// Properties, Stations, First Station ID
+			\b7 01 \b40			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FE				// Platforms
-			0D FE				// Length
+			0C \bxFE				// Platforms
+			0D \bxFE				// Length
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 3E		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 3E		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/nyugati.pcx 8bpp 79 318 67 78 -33 -46 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 7 318 66 91 -32 -59 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 28 00 00 00
+   00 * 00	03 04 01 \b40 00 \w0
 //@AssignGrapghicsSets
 //	StationIDs: 40
 //	Default: 0
@@ -2807,34 +2808,34 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 29			// Properties, Stations, First Station ID
+			\b7 01 \b41			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FE				// Platforms
-			0D FE				// Length
+			0C \bxFE				// Platforms
+			0D \bxFE				// Length
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 3E		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 3E		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/nyugati.pcx 8bpp 153 318 67 78 -32 -46 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 226 318 66 65 -32 -33 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 29 00 00 00
+   00 * 00	03 04 01 \b41 00 \w0
 //@AssignGrapghicsSets
 //	StationIDs: 41
 //	Default: 0
@@ -2847,34 +2848,34 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 2A			// Properties, Stations, First Station ID
+			\b7 01 \b42			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FE				// Platforms
-			0D FE				// Length
+			0C \bxFE				// Platforms
+			0D \bxFE				// Length
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 3E		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 3E		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/nyugati.pcx 8bpp 79 541 67 78 -33 -46 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 7 541 66 91 -32 -59 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 2A 00 00 00
+   00 * 00	03 04 01 \b42 00 \w0
 //@AssignGrapghicsSets
 //	StationIDs: 42
 //	Default: 0
@@ -2889,34 +2890,34 @@
 
    // Action0
    00 * 00	00 04				// Action0, Feature4
-			07 01 2B			// Properties, Stations, First Station ID
+			\b7 01 \b43			// Properties, Stations, First Station ID
 			08 "PSL0"			// Station Class
-			0C FE				// Platforms
-			0D FE				// Length
+			0C \bxFE				// Platforms
+			0D \bxFE				// Length
 			11 00				// Pylon disabled
 			14 FF				// Wire disabled
 			15 FF				// Train disabled
 
-			09 02				// Sprite Layout
+			09 \b2				// Sprite Layout
 
-			F4 03 00 00			// Layout1 groundsprite
-			00 00 00	10 10 3E		2D 04 00 00
+			\d1012			// Layout1 groundsprite
+			00 00 00	10 10 3E		\d1069
 			80					// end layout1 sprite
 
-			F3 03 00 00			// Layout2 groundsprite
-			00 00 00	10 10 3E		2E 04 00 00
+			\d1011			// Layout2 groundsprite
+			00 00 00	10 10 3E		\d1070
 			80					// end layout1 sprite
 
 
    // Action1
-   00 * 00	01 04 01 02
+   00 * 00	01 04 \b1 \b2
    00 sprites_grafika/nyugati.pcx 8bpp 153 541 67 78 -32 -46 normal chunked
    00 sprites_grafika/nyugati.pcx 8bpp 226 541 66 65 -32 -33 normal chunked
 
    // Action2
-   00 * 00	02 04 00 00 01 00 00
+   00 * 00	02 04 \b0 00 01 \w0
 
-   00 * 00	03 04 01 2B 00 00 00
+   00 * 00	03 04 01 \b43 00 \w0
 //@AssignGrapghicsSets
 //	StationIDs: 37
 //	Default: 0
@@ -2931,89 +2932,89 @@
 
 
    // Action4
-	00 * 00	04 04 FF 01 00 C4 C3 9E "HSS - Western railway station" 00
-	00 * 00	04 04 A4 01 00 C4 C3 9E "HSS - Nyugati pályaudvar" 00
-	00 * 00	04 04 FF 01 00 C5 C3 9E "Entrance" 00
-	00 * 00	04 04 A4 01 00 C5 C3 9E "Bejárat" 00
-	00 * 00	04 04 FF 01 02 C5 C3 9E "Passenger hall entrance" 00
-	00 * 00	04 04 A4 01 02 C5 C3 9E "Csarnok bejárat" 00
-	00 * 00	04 04 FF 01 04 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-	00 * 00	04 04 A4 01 04 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 FF 01 05 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-	00 * 00	04 04 A4 01 05 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 FF 01 06 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-	00 * 00	04 04 A4 01 06 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 FF 01 07 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-	00 * 00	04 04 A4 01 07 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 FF 01 08 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-	00 * 00	04 04 A4 01 08 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 FF 01 09 C5 C3 9E "Glass-roofed passenger hall (small)" 00
-	00 * 00	04 04 A4 01 09 C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 FF 01 0A C5 C3 9E "Glass-roofed passenger hall (small)" 00
-	00 * 00	04 04 A4 01 0A C5 C3 9E "Üvegtetős csarnok (kicsi)" 00
-	00 * 00	04 04 FF 01 0B C5 C3 9E "Glass-roofed passenger hall" 00
-	00 * 00	04 04 A4 01 0B C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 FF 01 0C C5 C3 9E "Glass-roofed passenger hall" 00
-	00 * 00	04 04 A4 01 0C C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 FF 01 0D C5 C3 9E "Glass-roofed passenger hall" 00
-	00 * 00	04 04 A4 01 0D C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 FF 01 0E C5 C3 9E "Glass-roofed passenger hall" 00
-	00 * 00	04 04 A4 01 0E C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 FF 01 0F C5 C3 9E "Glass-roofed passenger hall" 00
-	00 * 00	04 04 A4 01 0F C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 FF 01 10 C5 C3 9E "Glass-roofed passenger hall" 00
-	00 * 00	04 04 A4 01 10 C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 FF 01 11 C5 C3 9E "Glass-roofed passenger hall" 00
-	00 * 00	04 04 A4 01 11 C5 C3 9E "Üvegtetős csarnok" 00
-	00 * 00	04 04 FF 01 12 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-	00 * 00	04 04 A4 01 12 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 FF 01 13 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-	00 * 00	04 04 A4 01 13 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 FF 01 14 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-	00 * 00	04 04 A4 01 14 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 FF 01 15 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-	00 * 00	04 04 A4 01 15 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 FF 01 16 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-	00 * 00	04 04 A4 01 16 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 FF 01 17 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-	00 * 00	04 04 A4 01 17 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 FF 01 18 C5 C3 9E "Glass-roofed passenger hall (large)" 00
-	00 * 00	04 04 A4 01 18 C5 C3 9E "Üvegtetős csarnok (nagy)" 00
-	00 * 00	04 04 FF 01 19 C5 C3 9E "Passenger hall" 00
-	00 * 00	04 04 A4 01 19 C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 FF 01 1A C5 C3 9E "Passenger hall" 00
-	00 * 00	04 04 A4 01 1A C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 FF 01 1B C5 C3 9E "Passenger hall" 00
-	00 * 00	04 04 A4 01 1B C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 FF 01 1C C5 C3 9E "Passenger hall" 00
-	00 * 00	04 04 A4 01 1C C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 FF 01 1D C5 C3 9E "Passenger hall" 00
-	00 * 00	04 04 A4 01 1D C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 FF 01 1E C5 C3 9E "Passenger hall" 00
-	00 * 00	04 04 A4 01 1E C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 FF 01 1F C5 C3 9E "Passenger hall" 00
-	00 * 00	04 04 A4 01 1F C5 C3 9E "Csarnok" 00
-	00 * 00	04 04 FF 01 20 C5 C3 9E "Main building (left)" 00
-	00 * 00	04 04 A4 01 20 C5 C3 9E "Főépület (bal)" 00
-	00 * 00	04 04 FF 01 21 C5 C3 9E "Main building (right)" 00
-	00 * 00	04 04 A4 01 21 C5 C3 9E "Főépület (jobb)" 00
-	00 * 00	04 04 FF 01 22 C5 C3 9E "Main building (left)" 00
-	00 * 00	04 04 A4 01 22 C5 C3 9E "Főépület (bal)" 00
-	00 * 00	04 04 FF 01 23 C5 C3 9E "Main building (right)" 00
-	00 * 00	04 04 A4 01 23 C5 C3 9E "Főépület (jobb)" 00
-	00 * 00	04 04 FF 01 24 C5 C3 9E "Main building (left)" 00
-	00 * 00	04 04 A4 01 24 C5 C3 9E "Főépület (bal)" 00
-	00 * 00	04 04 FF 01 25 C5 C3 9E "Main building (right)" 00
-	00 * 00	04 04 A4 01 25 C5 C3 9E "Főépület (jobb)" 00
-	00 * 00	04 04 FF 01 26 C5 C3 9E "Main building (left)" 00
-	00 * 00	04 04 A4 01 26 C5 C3 9E "Főépület (bal)" 00
-	00 * 00	04 04 FF 01 27 C5 C3 9E "Main building (right)" 00
-	00 * 00	04 04 A4 01 27 C5 C3 9E "Főépület (jobb)" 00
-	00 * 00	04 04 FF 01 28 C5 C3 9E "Tower (left)" 00
-	00 * 00	04 04 A4 01 28 C5 C3 9E "Torony (bal)" 00
-	00 * 00	04 04 FF 01 29 C5 C3 9E "Tower (right)" 00
-	00 * 00	04 04 A4 01 29 C5 C3 9E "Torony (jobb)" 00
-	00 * 00	04 04 FF 01 2A C5 C3 9E "Tower (left)" 00
-	00 * 00	04 04 A4 01 2A C5 C3 9E "Torony (bal)" 00
-	00 * 00	04 04 FF 01 2B C5 C3 9E "Tower (right)" 00
-	00 * 00	04 04 A4 01 2B C5 C3 9E "Torony (jobb)" 00
+	00 * 00	04 04 FF 01 \w50176 C3 9E "HSS - Western railway station" 00
+	00 * 00	04 04 A4 01 \w50176 C3 9E "HSS - Nyugati pályaudvar" 00
+	00 * 00	04 04 FF 01 \w50432 C3 9E "Entrance" 00
+	00 * 00	04 04 A4 01 \w50432 C3 9E "Bejárat" 00
+	00 * 00	04 04 FF 01 \w50434 C3 9E "Passenger hall entrance" 00
+	00 * 00	04 04 A4 01 \w50434 C3 9E "Csarnok bejárat" 00
+	00 * 00	04 04 FF 01 \w50436 C3 9E "Glass-roofed passenger hall (small)" 00
+	00 * 00	04 04 A4 01 \w50436 C3 9E "Üvegtetős csarnok (kicsi)" 00
+	00 * 00	04 04 FF 01 \w50437 C3 9E "Glass-roofed passenger hall (small)" 00
+	00 * 00	04 04 A4 01 \w50437 C3 9E "Üvegtetős csarnok (kicsi)" 00
+	00 * 00	04 04 FF 01 \w50438 C3 9E "Glass-roofed passenger hall (small)" 00
+	00 * 00	04 04 A4 01 \w50438 C3 9E "Üvegtetős csarnok (kicsi)" 00
+	00 * 00	04 04 FF 01 \w50439 C3 9E "Glass-roofed passenger hall (small)" 00
+	00 * 00	04 04 A4 01 \w50439 C3 9E "Üvegtetős csarnok (kicsi)" 00
+	00 * 00	04 04 FF 01 \w50440 C3 9E "Glass-roofed passenger hall (small)" 00
+	00 * 00	04 04 A4 01 \w50440 C3 9E "Üvegtetős csarnok (kicsi)" 00
+	00 * 00	04 04 FF 01 \w50441 C3 9E "Glass-roofed passenger hall (small)" 00
+	00 * 00	04 04 A4 01 \w50441 C3 9E "Üvegtetős csarnok (kicsi)" 00
+	00 * 00	04 04 FF 01 \w50442 C3 9E "Glass-roofed passenger hall (small)" 00
+	00 * 00	04 04 A4 01 \w50442 C3 9E "Üvegtetős csarnok (kicsi)" 00
+	00 * 00	04 04 FF 01 \w50443 C3 9E "Glass-roofed passenger hall" 00
+	00 * 00	04 04 A4 01 \w50443 C3 9E "Üvegtetős csarnok" 00
+	00 * 00	04 04 FF 01 \w50444 C3 9E "Glass-roofed passenger hall" 00
+	00 * 00	04 04 A4 01 \w50444 C3 9E "Üvegtetős csarnok" 00
+	00 * 00	04 04 FF 01 \w50445 C3 9E "Glass-roofed passenger hall" 00
+	00 * 00	04 04 A4 01 \w50445 C3 9E "Üvegtetős csarnok" 00
+	00 * 00	04 04 FF 01 \w50446 C3 9E "Glass-roofed passenger hall" 00
+	00 * 00	04 04 A4 01 \w50446 C3 9E "Üvegtetős csarnok" 00
+	00 * 00	04 04 FF 01 \w50447 C3 9E "Glass-roofed passenger hall" 00
+	00 * 00	04 04 A4 01 \w50447 C3 9E "Üvegtetős csarnok" 00
+	00 * 00	04 04 FF 01 \w50448 C3 9E "Glass-roofed passenger hall" 00
+	00 * 00	04 04 A4 01 \w50448 C3 9E "Üvegtetős csarnok" 00
+	00 * 00	04 04 FF 01 \w50449 C3 9E "Glass-roofed passenger hall" 00
+	00 * 00	04 04 A4 01 \w50449 C3 9E "Üvegtetős csarnok" 00
+	00 * 00	04 04 FF 01 \w50450 C3 9E "Glass-roofed passenger hall (large)" 00
+	00 * 00	04 04 A4 01 \w50450 C3 9E "Üvegtetős csarnok (nagy)" 00
+	00 * 00	04 04 FF 01 \w50451 C3 9E "Glass-roofed passenger hall (large)" 00
+	00 * 00	04 04 A4 01 \w50451 C3 9E "Üvegtetős csarnok (nagy)" 00
+	00 * 00	04 04 FF 01 \w50452 C3 9E "Glass-roofed passenger hall (large)" 00
+	00 * 00	04 04 A4 01 \w50452 C3 9E "Üvegtetős csarnok (nagy)" 00
+	00 * 00	04 04 FF 01 \w50453 C3 9E "Glass-roofed passenger hall (large)" 00
+	00 * 00	04 04 A4 01 \w50453 C3 9E "Üvegtetős csarnok (nagy)" 00
+	00 * 00	04 04 FF 01 \w50454 C3 9E "Glass-roofed passenger hall (large)" 00
+	00 * 00	04 04 A4 01 \w50454 C3 9E "Üvegtetős csarnok (nagy)" 00
+	00 * 00	04 04 FF 01 \w50455 C3 9E "Glass-roofed passenger hall (large)" 00
+	00 * 00	04 04 A4 01 \w50455 C3 9E "Üvegtetős csarnok (nagy)" 00
+	00 * 00	04 04 FF 01 \w50456 C3 9E "Glass-roofed passenger hall (large)" 00
+	00 * 00	04 04 A4 01 \w50456 C3 9E "Üvegtetős csarnok (nagy)" 00
+	00 * 00	04 04 FF 01 \w50457 C3 9E "Passenger hall" 00
+	00 * 00	04 04 A4 01 \w50457 C3 9E "Csarnok" 00
+	00 * 00	04 04 FF 01 \w50458 C3 9E "Passenger hall" 00
+	00 * 00	04 04 A4 01 \w50458 C3 9E "Csarnok" 00
+	00 * 00	04 04 FF 01 \w50459 C3 9E "Passenger hall" 00
+	00 * 00	04 04 A4 01 \w50459 C3 9E "Csarnok" 00
+	00 * 00	04 04 FF 01 \w50460 C3 9E "Passenger hall" 00
+	00 * 00	04 04 A4 01 \w50460 C3 9E "Csarnok" 00
+	00 * 00	04 04 FF 01 \w50461 C3 9E "Passenger hall" 00
+	00 * 00	04 04 A4 01 \w50461 C3 9E "Csarnok" 00
+	00 * 00	04 04 FF 01 \w50462 C3 9E "Passenger hall" 00
+	00 * 00	04 04 A4 01 \w50462 C3 9E "Csarnok" 00
+	00 * 00	04 04 FF 01 \w50463 C3 9E "Passenger hall" 00
+	00 * 00	04 04 A4 01 \w50463 C3 9E "Csarnok" 00
+	00 * 00	04 04 FF 01 \w50464 C3 9E "Main building (left)" 00
+	00 * 00	04 04 A4 01 \w50464 C3 9E "Főépület (bal)" 00
+	00 * 00	04 04 FF 01 \w50465 C3 9E "Main building (right)" 00
+	00 * 00	04 04 A4 01 \w50465 C3 9E "Főépület (jobb)" 00
+	00 * 00	04 04 FF 01 \w50466 C3 9E "Main building (left)" 00
+	00 * 00	04 04 A4 01 \w50466 C3 9E "Főépület (bal)" 00
+	00 * 00	04 04 FF 01 \w50467 C3 9E "Main building (right)" 00
+	00 * 00	04 04 A4 01 \w50467 C3 9E "Főépület (jobb)" 00
+	00 * 00	04 04 FF 01 \w50468 C3 9E "Main building (left)" 00
+	00 * 00	04 04 A4 01 \w50468 C3 9E "Főépület (bal)" 00
+	00 * 00	04 04 FF 01 \w50469 C3 9E "Main building (right)" 00
+	00 * 00	04 04 A4 01 \w50469 C3 9E "Főépület (jobb)" 00
+	00 * 00	04 04 FF 01 \w50470 C3 9E "Main building (left)" 00
+	00 * 00	04 04 A4 01 \w50470 C3 9E "Főépület (bal)" 00
+	00 * 00	04 04 FF 01 \w50471 C3 9E "Main building (right)" 00
+	00 * 00	04 04 A4 01 \w50471 C3 9E "Főépület (jobb)" 00
+	00 * 00	04 04 FF 01 \w50472 C3 9E "Tower (left)" 00
+	00 * 00	04 04 A4 01 \w50472 C3 9E "Torony (bal)" 00
+	00 * 00	04 04 FF 01 \w50473 C3 9E "Tower (right)" 00
+	00 * 00	04 04 A4 01 \w50473 C3 9E "Torony (jobb)" 00
+	00 * 00	04 04 FF 01 \w50474 C3 9E "Tower (left)" 00
+	00 * 00	04 04 A4 01 \w50474 C3 9E "Torony (bal)" 00
+	00 * 00	04 04 FF 01 \w50475 C3 9E "Tower (right)" 00
+	00 * 00	04 04 A4 01 \w50475 C3 9E "Torony (jobb)" 00

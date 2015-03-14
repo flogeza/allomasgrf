@@ -85,7 +85,7 @@
 		FF FF						// azaz mindket szam kell..., ez olyan tipusu, mint a type
 		01							// 1 variacio van
 		00 00	01 00	01 00		// peron
-		01 00						// fa
+		00 00						// fa
 
 -1 * -1    02 04 04 85
 		7E 04	20 FF FF                          // Get slope offset from procedure 40

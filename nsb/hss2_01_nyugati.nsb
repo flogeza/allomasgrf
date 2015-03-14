@@ -21,8 +21,8 @@
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
 //	CallbackFlags: 3
-	Platforms: FD		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
-	Length: FE			// Max 1 hosszu
+	Platforms: (hex)FD		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: (hex)FE			// Max 1 hosszu
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -57,7 +57,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -83,8 +83,8 @@
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
 //	CallbackFlags: 3
-	Platforms: FD		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
-	Length: FE			// Max 1 hosszu
+	Platforms: (hex)FD		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: (hex)FE			// Max 1 hosszu
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -159,7 +159,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -169,6 +169,7 @@
 //	StationIDs: 2
 //	Default: 10
 //@EndAssignGrapghicsSets
+
 
 
 //
@@ -183,7 +184,7 @@
 
 @AddStation: id: 4, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -278,7 +279,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -296,7 +297,7 @@
 //
 
 @AddStation: id: 5, class: PSL0
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -391,7 +392,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -409,7 +410,7 @@
 //
 
 @AddStation: id: 6, class: PSL0
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -504,7 +505,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -522,7 +523,7 @@
 //
 
 @AddStation: id: 7, class: PSL0
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -617,7 +618,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -635,7 +636,7 @@
 //
 
 @AddStation: id: 8, class: PSL0
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -730,7 +731,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -748,7 +749,7 @@
 //
 
 @AddStation: id: 9, class: PSL0
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -843,7 +844,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -861,7 +862,7 @@
 //
 
 @AddStation: id: 10, class: PSL0
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -956,7 +957,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -975,7 +976,7 @@
 
 @AddStation: id: 11, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -1070,7 +1071,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -1089,7 +1090,7 @@
 
 @AddStation: id: 12, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -1184,7 +1185,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -1203,7 +1204,7 @@
 
 @AddStation: id: 13, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -1298,7 +1299,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -1317,7 +1318,7 @@
 
 @AddStation: id: 14, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -1412,7 +1413,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -1431,7 +1432,7 @@
 
 @AddStation: id: 15, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -1526,7 +1527,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -1545,7 +1546,7 @@
 
 @AddStation: id: 16, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -1640,7 +1641,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -1659,7 +1660,7 @@
 
 @AddStation: id: 17, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -1754,7 +1755,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -1773,7 +1774,7 @@
 
 @AddStation: id: 18, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -1868,7 +1869,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -1887,7 +1888,7 @@
 
 @AddStation: id: 19, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -1982,7 +1983,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -2001,7 +2002,7 @@
 
 @AddStation: id: 20, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -2096,7 +2097,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -2115,7 +2116,7 @@
 
 @AddStation: id: 21, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -2210,7 +2211,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -2229,7 +2230,7 @@
 
 @AddStation: id: 22, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -2324,7 +2325,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -2343,7 +2344,7 @@
 
 @AddStation: id: 23, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -2438,7 +2439,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -2457,7 +2458,7 @@
 
 @AddStation: id: 24, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -2552,7 +2553,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -2571,7 +2572,7 @@
 
 @AddStation: id: 25, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -2666,7 +2667,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -2685,7 +2686,7 @@
 
 @AddStation: id: 26, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -2780,7 +2781,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -2799,7 +2800,7 @@
 
 @AddStation: id: 27, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -2894,7 +2895,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -2913,7 +2914,7 @@
 
 @AddStation: id: 28, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -3008,7 +3009,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -3027,7 +3028,7 @@
 
 @AddStation: id: 29, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -3122,7 +3123,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -3141,7 +3142,7 @@
 
 @AddStation: id: 30, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -3236,7 +3237,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -3255,7 +3256,7 @@
 
 @AddStation: id: 31, class: PSL0
 //	CallbackFlags: 3
-	Platforms: FD
+	Platforms: (hex)FD
 
 	// deli sarokhoz kozelebbi oldala
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -3350,7 +3351,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 08, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)08, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -3379,8 +3380,8 @@
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
 //	CallbackFlags: 3
-	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
-	Length: FD			// Max 1 hosszu
+	Platforms: (hex)FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: (hex)FD			// Max 1 hosszu
 
 	// foepulet eleje
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -3409,7 +3410,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 00, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)00, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -3431,8 +3432,8 @@
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
 //	CallbackFlags: 3
-	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
-	Length: FD			// Max 1 hosszu
+	Platforms: (hex)FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: (hex)FD			// Max 1 hosszu
 
 	// foepulet eleje
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -3461,7 +3462,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 00, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)00, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -3489,8 +3490,8 @@
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
 //	CallbackFlags: 3
-	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
-	Length: FD			// Max 1 hosszu
+	Platforms: (hex)FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: (hex)FD			// Max 1 hosszu
 
 	// foepulet eleje
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -3519,7 +3520,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 00, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)00, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -3541,8 +3542,8 @@
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
 //	CallbackFlags: 3
-	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
-	Length: FD			// Max 1 hosszu
+	Platforms: (hex)FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: (hex)FD			// Max 1 hosszu
 
 	// foepulet eleje
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
@@ -3571,7 +3572,7 @@
 
 @AddAction2: id: 10
 	Default: 1
-	@AddVariationalAction2: type: 81, variable: 41, varadjust: 00, masking: F0
+	@AddVariationalAction2: type: (hex)81, variable: (hex)41, varadjust: (hex)00, masking: (hex)F0
 		AddRange: min: 0, max: 0, action2id: 0
 	@EndAddVariationalAction2
 @EndAddAction2
@@ -3599,8 +3600,8 @@
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
 //	CallbackFlags: 3
-	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
-	Length: FE			// Max 1 hosszu
+	Platforms: (hex)FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: (hex)FE			// Max 1 hosszu
 
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
@@ -3631,8 +3632,8 @@
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
 //	CallbackFlags: 3
-	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
-	Length: FE			// Max 1 hosszu
+	Platforms: (hex)FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: (hex)FE			// Max 1 hosszu
 
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
@@ -3661,8 +3662,8 @@
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
 //	CallbackFlags: 3
-	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
-	Length: FE			// Max 1 hosszu
+	Platforms: (hex)FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: (hex)FE			// Max 1 hosszu
 
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx
@@ -3693,8 +3694,8 @@
 	Wire: disabled		// felsovezetek
 	Train: disabled		// nem mehet be a vonat
 //	CallbackFlags: 3
-	Platforms: FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
-	Length: FE			// Max 1 hosszu
+	Platforms: (hex)FE		// Max 1 peron, egyelore FE, mert nem tudom mi mast lehet...
+	Length: (hex)FE			// Max 1 hosszu
 
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: spritenumber: 0, filename: sprites_grafika/nyugati.pcx

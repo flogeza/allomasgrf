@@ -13,12 +13,12 @@
 //
 
 @AddStation: id: 40, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 16
 			RealSprite: posx: 180, posy: 336, sizex: 44, sizey: 55, relx: -32, rely: -34
-		@EndAddLayout1
+		@EndAddLayout1 
 		@AddLayout2: filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 5, sizey: 16, sizez: 16
 			RealSprite: posx: 225, posy: 336, sizex: 44, sizey: 55, relx: -10, rely: -34
@@ -30,7 +30,7 @@
 
 
 @AddStation: id: 41, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
@@ -52,7 +52,7 @@
 //
 
 @AddStation: id: 42, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 16
@@ -69,7 +69,7 @@
 
 
 @AddStation: id: 43, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 16
@@ -91,7 +91,7 @@
 //
 
 @AddStation: id: 44, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 24
@@ -108,7 +108,7 @@
 
 
 @AddStation: id: 45, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
@@ -130,7 +130,7 @@
 //
 
 @AddStation: id: 46, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		// lampa paddal peron
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png
@@ -148,7 +148,7 @@
 
 
 @AddStation: id: 47, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 24
@@ -170,7 +170,7 @@
 //
 
 @AddStation: id: 48, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
@@ -187,7 +187,7 @@
 
 
 @AddStation: id: 49, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
@@ -209,7 +209,7 @@
 //
 
 @AddStation: id: 50, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png, companycolor
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
@@ -226,7 +226,7 @@
 
 
 @AddStation: id: 51, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png, companycolor
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
@@ -248,7 +248,7 @@
 //
 
 @AddStation: id: 52, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png, companycolor
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 5, sizez: 6
@@ -265,7 +265,7 @@
 
 
 @AddStation: id: 53, class: PSK1
-	Platforms: FE
+	Platforms: (hex)FE
 	@AddSprite: groundsprite1: 1012, groundsprite2: 1011, spriteid: auto
 		@AddLayout1: filename: sprites_grafika/regi_peronok.png, companycolor
 			Boundingbox: offsetx: 0, offsety: 0, offsetz: 0, sizex: 16, sizey: 16, sizez: 6
