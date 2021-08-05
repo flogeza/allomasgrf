@@ -4,7 +4,7 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
-    0 * 4	 ED 02 00 00
+    0 * 4	 9B 02 00 00
 //!!Warning (219): There was no Action 14 specifying the palette.
     1 * 38	 08 07 "HU" 00 00 "Hunstations 4 v0.1" 00
 	 "By Flogeza &" 00
@@ -182,245 +182,225 @@
   154 * 31	 04 48 FF 01 D3 C5 "Modern platform overpass" 00
   155 * 29	 04 48 FF 01 D3 C4 "HSS - Single platforms" 00
 
-  156 * 6	 01 04 01 FF 04 00
-  157 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  158 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 86 5 09 58 66 -32 -26
-  159 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  160 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 5 09 58 66 -32 -26
-  161 * 62	 00 04 02 01 D4 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  162 * 7	 02 04 00 00 01 00 00
-  163 * 7	 02 04 01 00 01 00 00
-  164 * 10	 03 04 01 D4 01 FE 01 00 00 00
-  165 * 22	 04 48 FF 01 D4 C5 "Modern platform" 00
-  166 * 29	 04 48 FF 01 D4 C4 "HSS - Single platforms" 00
+  156 * 6	 01 04 01 FF 02 00
+  157 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 86 5 09 58 66 -32 -26
+  158 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 5 09 58 66 -32 -26
 
-  167 * 6	 01 04 01 FF 04 00
-  168 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 5 5 09 58 66 -32 -26
-  169 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  170 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 167 5 09 58 66 -32 -26
-  171 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  172 * 62	 00 04 02 01 D5 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  173 * 7	 02 04 00 00 01 00 00
-  174 * 7	 02 04 01 00 01 00 00
-  175 * 10	 03 04 01 D5 01 FE 01 00 00 00
-  176 * 22	 04 48 FF 01 D5 C5 "Modern platform" 00
-  177 * 29	 04 48 FF 01 D5 C4 "HSS - Single platforms" 00
+  159 * 44	 00 04 03 01 D4 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  160 * 7	 02 04 00 00 01 00 00
+  161 * 7	 02 04 01 00 01 00 00
+  162 * 10	 03 04 01 D4 01 FE 01 00 00 00
+  163 * 22	 04 48 FF 01 D4 C5 "Modern platform" 00
+  164 * 29	 04 48 FF 01 D4 C4 "HSS - Single platforms" 00
 
-  178 * 6	 01 04 01 FF 04 00
-  179 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  180 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 5 68 09 58 66 -32 -26
-  181 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  182 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 167 68 09 58 66 -32 -26
-  183 * 62	 00 04 02 01 D6 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  184 * 7	 02 04 00 00 01 00 00
-  185 * 7	 02 04 01 00 01 00 00
-  186 * 10	 03 04 01 D6 01 FE 01 00 00 00
-  187 * 36	 04 48 FF 01 D6 C5 "Modern platform end with ramp" 00
-  188 * 29	 04 48 FF 01 D6 C4 "HSS - Single platforms" 00
+  165 * 6	 01 04 01 FF 02 00
+  166 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 5 5 09 58 66 -32 -26
+  167 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 167 5 09 58 66 -32 -26
 
-  189 * 6	 01 04 01 FF 04 00
-  190 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 653 5 09 58 66 -32 -26
-  191 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  192 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 86 68 09 58 66 -32 -26
-  193 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  194 * 62	 00 04 02 01 D7 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  195 * 7	 02 04 00 00 01 00 00
-  196 * 7	 02 04 01 00 01 00 00
-  197 * 10	 03 04 01 D7 01 FE 01 00 00 00
-  198 * 36	 04 48 FF 01 D7 C5 "Modern platform end with ramp" 00
-  199 * 29	 04 48 FF 01 D7 C4 "HSS - Single platforms" 00
+  168 * 44	 00 04 03 01 D5 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  169 * 7	 02 04 00 00 01 00 00
+  170 * 7	 02 04 01 00 01 00 00
+  171 * 10	 03 04 01 D5 01 FE 01 00 00 00
+  172 * 22	 04 48 FF 01 D5 C5 "Modern platform" 00
+  173 * 29	 04 48 FF 01 D5 C4 "HSS - Single platforms" 00
 
-  200 * 6	 01 04 01 FF 04 00
-  201 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  202 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 329 68 09 58 66 -32 -26
-  203 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  204 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 491 68 09 58 66 -32 -26
-  205 * 62	 00 04 02 01 D8 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  206 * 7	 02 04 00 00 01 00 00
-  207 * 7	 02 04 01 00 01 00 00
-  208 * 10	 03 04 01 D8 01 FE 01 00 00 00
-  209 * 36	 04 48 FF 01 D8 C5 "Modern platform end with ramp" 00
-  210 * 29	 04 48 FF 01 D8 C4 "HSS - Single platforms" 00
+  174 * 6	 01 04 01 FF 02 00
+  175 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 5 68 09 58 66 -32 -26
+  176 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 167 68 09 58 66 -32 -26
 
-  211 * 6	 01 04 01 FF 04 00
-  212 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 68 09 58 66 -32 -26
-  213 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  214 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 410 68 09 58 66 -32 -26
-  215 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  216 * 62	 00 04 02 01 D9 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  217 * 7	 02 04 00 00 01 00 00
-  218 * 7	 02 04 01 00 01 00 00
-  219 * 10	 03 04 01 D9 01 FE 01 00 00 00
-  220 * 36	 04 48 FF 01 D9 C5 "Modern platform end with ramp" 00
-  221 * 29	 04 48 FF 01 D9 C4 "HSS - Single platforms" 00
+  177 * 44	 00 04 03 01 D6 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  178 * 7	 02 04 00 00 01 00 00
+  179 * 7	 02 04 01 00 01 00 00
+  180 * 10	 03 04 01 D6 01 FE 01 00 00 00
+  181 * 36	 04 48 FF 01 D6 C5 "Modern platform end with ramp" 00
+  182 * 29	 04 48 FF 01 D6 C4 "HSS - Single platforms" 00
 
-  222 * 6	 01 04 01 FF 04 00
-  223 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  224 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 653 68 09 58 66 -32 -26
-  225 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  226 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 86 131 09 58 66 -32 -26
-  227 * 62	 00 04 02 01 DA 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  228 * 7	 02 04 00 00 01 00 00
-  229 * 7	 02 04 01 00 01 00 00
-  230 * 10	 03 04 01 DA 01 FE 01 00 00 00
-  231 * 26	 04 48 FF 01 DA C5 "Modern platform end" 00
-  232 * 29	 04 48 FF 01 DA C4 "HSS - Single platforms" 00
+  183 * 6	 01 04 01 FF 02 00
+  184 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 653 5 09 58 66 -32 -26
+  185 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 86 68 09 58 66 -32 -26
 
-  233 * 6	 01 04 01 FF 04 00
-  234 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 572 68 09 58 66 -32 -26
-  235 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  236 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 5 131 09 58 66 -32 -26
-  237 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  238 * 62	 00 04 02 01 DB 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  239 * 7	 02 04 00 00 01 00 00
-  240 * 7	 02 04 01 00 01 00 00
-  241 * 10	 03 04 01 DB 01 FE 01 00 00 00
-  242 * 26	 04 48 FF 01 DB C5 "Modern platform end" 00
-  243 * 29	 04 48 FF 01 DB C4 "HSS - Single platforms" 00
+  186 * 44	 00 04 03 01 D7 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  187 * 7	 02 04 00 00 01 00 00
+  188 * 7	 02 04 01 00 01 00 00
+  189 * 10	 03 04 01 D7 01 FE 01 00 00 00
+  190 * 36	 04 48 FF 01 D7 C5 "Modern platform end with ramp" 00
+  191 * 29	 04 48 FF 01 D7 C4 "HSS - Single platforms" 00
 
-  244 * 6	 01 04 01 FF 04 00
-  245 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  246 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 131 09 58 66 -32 -26
-  247 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  248 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 410 131 09 58 66 -32 -26
-  249 * 62	 00 04 02 01 DC 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  192 * 6	 01 04 01 FF 02 00
+  193 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 329 68 09 58 66 -32 -26
+  194 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 491 68 09 58 66 -32 -26
+
+  195 * 44	 00 04 03 01 D8 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  196 * 7	 02 04 00 00 01 00 00
+  197 * 7	 02 04 01 00 01 00 00
+  198 * 10	 03 04 01 D8 01 FE 01 00 00 00
+  199 * 36	 04 48 FF 01 D8 C5 "Modern platform end with ramp" 00
+  200 * 29	 04 48 FF 01 D8 C4 "HSS - Single platforms" 00
+
+  201 * 6	 01 04 01 FF 02 00
+  202 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 68 09 58 66 -32 -26
+  203 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 410 68 09 58 66 -32 -26
+
+  204 * 44	 00 04 03 01 D9 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  205 * 7	 02 04 00 00 01 00 00
+  206 * 7	 02 04 01 00 01 00 00
+  207 * 10	 03 04 01 D9 01 FE 01 00 00 00
+  208 * 36	 04 48 FF 01 D9 C5 "Modern platform end with ramp" 00
+  209 * 29	 04 48 FF 01 D9 C4 "HSS - Single platforms" 00
+
+  210 * 6	 01 04 01 FF 02 00
+  211 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 653 68 09 58 66 -32 -26
+  212 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 86 131 09 58 66 -32 -26
+
+  213 * 44	 00 04 03 01 DA 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  214 * 7	 02 04 00 00 01 00 00
+  215 * 7	 02 04 01 00 01 00 00
+  216 * 10	 03 04 01 DA 01 FE 01 00 00 00
+  217 * 26	 04 48 FF 01 DA C5 "Modern platform end" 00
+  218 * 29	 04 48 FF 01 DA C4 "HSS - Single platforms" 00
+
+  219 * 6	 01 04 01 FF 02 00
+  220 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 572 68 09 58 66 -32 -26
+  221 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 5 131 09 58 66 -32 -26
+
+  222 * 44	 00 04 03 01 DB 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  223 * 7	 02 04 00 00 01 00 00
+  224 * 7	 02 04 01 00 01 00 00
+  225 * 10	 03 04 01 DB 01 FE 01 00 00 00
+  226 * 26	 04 48 FF 01 DB C5 "Modern platform end" 00
+  227 * 29	 04 48 FF 01 DB C4 "HSS - Single platforms" 00
+
+  228 * 6	 01 04 01 FF 02 00
+  229 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 131 09 58 66 -32 -26
+  230 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 410 131 09 58 66 -32 -26
+
+  231 * 44	 00 04 03 01 DC 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  232 * 7	 02 04 00 00 01 00 00
+  233 * 7	 02 04 01 00 01 00 00
+  234 * 10	 03 04 01 DC 01 FE 01 00 00 00
+  235 * 26	 04 48 FF 01 DC C5 "Modern platform end" 00
+  236 * 29	 04 48 FF 01 DC C4 "HSS - Single platforms" 00
+
+  237 * 6	 01 04 01 FF 02 00
+  238 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 167 131 09 58 66 -32 -26
+  239 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 329 131 09 58 66 -32 -26
+
+  240 * 44	 00 04 03 01 DD 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  241 * 7	 02 04 00 00 01 00 00
+  242 * 7	 02 04 01 00 01 00 00
+  243 * 10	 03 04 01 DD 01 FE 01 00 00 00
+  244 * 26	 04 48 FF 01 DD C5 "Modern platform end" 00
+  245 * 29	 04 48 FF 01 DD C4 "HSS - Single platforms" 00
+
+  246 * 6	 01 04 01 FF 02 00
+  247 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 572 131 09 58 66 -32 -26
+  248 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 5 194 09 58 66 -32 -26
+
+  249 * 44	 00 04 03 01 DE 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
   250 * 7	 02 04 00 00 01 00 00
   251 * 7	 02 04 01 00 01 00 00
-  252 * 10	 03 04 01 DC 01 FE 01 00 00 00
-  253 * 26	 04 48 FF 01 DC C5 "Modern platform end" 00
-  254 * 29	 04 48 FF 01 DC C4 "HSS - Single platforms" 00
+  252 * 10	 03 04 01 DE 01 FE 01 00 00 00
+  253 * 32	 04 48 FF 01 DE C5 "Modern platform with roof" 00
+  254 * 29	 04 48 FF 01 DE C4 "HSS - Single platforms" 00
 
-  255 * 6	 01 04 01 FF 04 00
-  256 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 167 131 09 58 66 -32 -26
-  257 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  258 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 329 131 09 58 66 -32 -26
-  259 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  260 * 62	 00 04 02 01 DD 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  261 * 7	 02 04 00 00 01 00 00
-  262 * 7	 02 04 01 00 01 00 00
-  263 * 10	 03 04 01 DD 01 FE 01 00 00 00
-  264 * 26	 04 48 FF 01 DD C5 "Modern platform end" 00
-  265 * 29	 04 48 FF 01 DD C4 "HSS - Single platforms" 00
+  255 * 6	 01 04 01 FF 02 00
+  256 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 491 131 09 58 66 -32 -26
+  257 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 653 131 09 58 66 -32 -26
 
-  266 * 6	 01 04 01 FF 04 00
-  267 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  268 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 572 131 09 58 66 -32 -26
-  269 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  270 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 5 194 09 58 66 -32 -26
-  271 * 62	 00 04 02 01 DE 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  272 * 7	 02 04 00 00 01 00 00
-  273 * 7	 02 04 01 00 01 00 00
-  274 * 10	 03 04 01 DE 01 FE 01 00 00 00
-  275 * 32	 04 48 FF 01 DE C5 "Modern platform with roof" 00
-  276 * 29	 04 48 FF 01 DE C4 "HSS - Single platforms" 00
+  258 * 44	 00 04 03 01 DF 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  259 * 7	 02 04 00 00 01 00 00
+  260 * 7	 02 04 01 00 01 00 00
+  261 * 10	 03 04 01 DF 01 FE 01 00 00 00
+  262 * 32	 04 48 FF 01 DF C5 "Modern platform with roof" 00
+  263 * 29	 04 48 FF 01 DF C4 "HSS - Single platforms" 00
 
-  277 * 6	 01 04 01 FF 04 00
-  278 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 491 131 09 58 66 -32 -26
-  279 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  280 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 653 131 09 58 66 -32 -26
-  281 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  282 * 62	 00 04 02 01 DF 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  283 * 7	 02 04 00 00 01 00 00
-  284 * 7	 02 04 01 00 01 00 00
-  285 * 10	 03 04 01 DF 01 FE 01 00 00 00
-  286 * 32	 04 48 FF 01 DF C5 "Modern platform with roof" 00
-  287 * 29	 04 48 FF 01 DF C4 "HSS - Single platforms" 00
+  264 * 6	 01 04 01 FF 02 00
+  265 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 491 194 09 58 66 -32 -26
+  266 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 653 194 09 58 66 -32 -26
 
-  288 * 6	 01 04 01 FF 04 00
-  289 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  290 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 491 194 09 58 66 -32 -26
-  291 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  292 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 653 194 09 58 66 -32 -26
-  293 * 62	 00 04 02 01 E0 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  294 * 7	 02 04 00 00 01 00 00
-  295 * 7	 02 04 01 00 01 00 00
-  296 * 10	 03 04 01 E0 01 FE 01 00 00 00
-  297 * 32	 04 48 FF 01 E0 C5 "Modern platform underpass" 00
-  298 * 29	 04 48 FF 01 E0 C4 "HSS - Single platforms" 00
+  267 * 44	 00 04 03 01 E0 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  268 * 7	 02 04 00 00 01 00 00
+  269 * 7	 02 04 01 00 01 00 00
+  270 * 10	 03 04 01 E0 01 FE 01 00 00 00
+  271 * 32	 04 48 FF 01 E0 C5 "Modern platform underpass" 00
+  272 * 29	 04 48 FF 01 E0 C4 "HSS - Single platforms" 00
 
-  299 * 6	 01 04 01 FF 04 00
-  300 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 410 194 09 58 66 -32 -26
-  301 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  302 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 572 194 09 58 66 -32 -26
-  303 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  304 * 62	 00 04 02 01 E1 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  305 * 7	 02 04 00 00 01 00 00
-  306 * 7	 02 04 01 00 01 00 00
-  307 * 10	 03 04 01 E1 01 FE 01 00 00 00
-  308 * 32	 04 48 FF 01 E1 C5 "Modern platform underpass" 00
-  309 * 29	 04 48 FF 01 E1 C4 "HSS - Single platforms" 00
+  273 * 6	 01 04 01 FF 02 00
+  274 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 410 194 09 58 66 -32 -26
+  275 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 572 194 09 58 66 -32 -26
 
-  310 * 6	 01 04 01 FF 04 00
-  311 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  312 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 86 257 09 58 66 -32 -26
-  313 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  314 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 257 09 58 66 -32 -26
-  315 * 62	 00 04 02 01 E2 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  316 * 7	 02 04 00 00 01 00 00
-  317 * 7	 02 04 01 00 01 00 00
-  318 * 10	 03 04 01 E2 01 FE 01 00 00 00
-  319 * 35	 04 48 FF 01 E2 C5 "Modern platform with display" 00
-  320 * 29	 04 48 FF 01 E2 C4 "HSS - Single platforms" 00
+  276 * 44	 00 04 03 01 E1 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  277 * 7	 02 04 00 00 01 00 00
+  278 * 7	 02 04 01 00 01 00 00
+  279 * 10	 03 04 01 E1 01 FE 01 00 00 00
+  280 * 32	 04 48 FF 01 E1 C5 "Modern platform underpass" 00
+  281 * 29	 04 48 FF 01 E1 C4 "HSS - Single platforms" 00
 
-  321 * 6	 01 04 01 FF 04 00
-  322 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 5 257 09 58 66 -32 -26
-  323 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  324 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 167 257 09 58 66 -32 -26
-  325 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  326 * 62	 00 04 02 01 E3 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  327 * 7	 02 04 00 00 01 00 00
-  328 * 7	 02 04 01 00 01 00 00
-  329 * 10	 03 04 01 E3 01 FE 01 00 00 00
-  330 * 35	 04 48 FF 01 E3 C5 "Modern platform with display" 00
-  331 * 29	 04 48 FF 01 E3 C4 "HSS - Single platforms" 00
+  282 * 6	 01 04 01 FF 02 00
+  283 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 86 257 09 58 66 -32 -26
+  284 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 257 09 58 66 -32 -26
 
-  332 * 6	 01 04 01 FF 04 00
-  333 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  334 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 410 257 09 58 66 -32 -26
-  335 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  336 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 572 257 09 58 66 -32 -26
-  337 * 62	 00 04 02 01 E4 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  338 * 7	 02 04 00 00 01 00 00
-  339 * 7	 02 04 01 00 01 00 00
-  340 * 10	 03 04 01 E4 01 FE 01 00 00 00
-  341 * 33	 04 48 FF 01 E4 C5 "Modern platform with light" 00
-  342 * 29	 04 48 FF 01 E4 C4 "HSS - Single platforms" 00
+  285 * 44	 00 04 03 01 E2 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  286 * 7	 02 04 00 00 01 00 00
+  287 * 7	 02 04 01 00 01 00 00
+  288 * 10	 03 04 01 E2 01 FE 01 00 00 00
+  289 * 35	 04 48 FF 01 E2 C5 "Modern platform with display" 00
+  290 * 29	 04 48 FF 01 E2 C4 "HSS - Single platforms" 00
 
-  343 * 6	 01 04 01 FF 04 00
-  344 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 329 257 09 58 66 -32 -26
-  345 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  346 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 491 257 09 58 66 -32 -26
-  347 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  348 * 62	 00 04 02 01 E5 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  349 * 7	 02 04 00 00 01 00 00
-  350 * 7	 02 04 01 00 01 00 00
-  351 * 10	 03 04 01 E5 01 FE 01 00 00 00
-  352 * 33	 04 48 FF 01 E5 C5 "Modern platform with light" 00
-  353 * 29	 04 48 FF 01 E5 C4 "HSS - Single platforms" 00
+  291 * 6	 01 04 01 FF 02 00
+  292 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 5 257 09 58 66 -32 -26
+  293 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 167 257 09 58 66 -32 -26
 
-  354 * 6	 01 04 01 FF 04 00
-  355 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  356 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 5 383 09 58 66 -32 -26
-  357 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  358 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 167 383 09 58 66 -32 -26
-  359 * 62	 00 04 02 01 E6 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  360 * 7	 02 04 00 00 01 00 00
-  361 * 7	 02 04 01 00 01 00 00
-  362 * 10	 03 04 01 E6 01 FE 01 00 00 00
-  363 * 33	 04 48 FF 01 E6 C5 "Modern platform with bench" 00
-  364 * 29	 04 48 FF 01 E6 C4 "HSS - Single platforms" 00
+  294 * 44	 00 04 03 01 E3 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  295 * 7	 02 04 00 00 01 00 00
+  296 * 7	 02 04 01 00 01 00 00
+  297 * 10	 03 04 01 E3 01 FE 01 00 00 00
+  298 * 35	 04 48 FF 01 E3 C5 "Modern platform with display" 00
+  299 * 29	 04 48 FF 01 E3 C4 "HSS - Single platforms" 00
 
-  365 * 6	 01 04 01 FF 04 00
-  366 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 653 320 09 58 66 -32 -26
-  367 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  368 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 86 383 09 58 66 -32 -26
-  369 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 248 320 09 58 66 -32 -26
-  370 * 62	 00 04 02 01 E7 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  371 * 7	 02 04 00 00 01 00 00
-  372 * 7	 02 04 01 00 01 00 00
-  373 * 10	 03 04 01 E7 01 FE 01 00 00 00
-  374 * 33	 04 48 FF 01 E7 C5 "Modern platform with bench" 00
-  375 * 29	 04 48 FF 01 E7 C4 "HSS - Single platforms" 00
+  300 * 6	 01 04 01 FF 02 00
+  301 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 410 257 09 58 66 -32 -26
+  302 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 572 257 09 58 66 -32 -26
+
+  303 * 44	 00 04 03 01 E4 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  304 * 7	 02 04 00 00 01 00 00
+  305 * 7	 02 04 01 00 01 00 00
+  306 * 10	 03 04 01 E4 01 FE 01 00 00 00
+  307 * 33	 04 48 FF 01 E4 C5 "Modern platform with light" 00
+  308 * 29	 04 48 FF 01 E4 C4 "HSS - Single platforms" 00
+
+  309 * 6	 01 04 01 FF 02 00
+  310 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 329 257 09 58 66 -32 -26
+  311 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 491 257 09 58 66 -32 -26
+
+  312 * 44	 00 04 03 01 E5 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  313 * 7	 02 04 00 00 01 00 00
+  314 * 7	 02 04 01 00 01 00 00
+  315 * 10	 03 04 01 E5 01 FE 01 00 00 00
+  316 * 33	 04 48 FF 01 E5 C5 "Modern platform with light" 00
+  317 * 29	 04 48 FF 01 E5 C4 "HSS - Single platforms" 00
+
+  318 * 6	 01 04 01 FF 02 00
+  319 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 5 383 09 58 66 -32 -26
+  320 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 167 383 09 58 66 -32 -26
+
+  321 * 44	 00 04 03 01 E6 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  322 * 7	 02 04 00 00 01 00 00
+  323 * 7	 02 04 01 00 01 00 00
+  324 * 10	 03 04 01 E6 01 FE 01 00 00 00
+  325 * 33	 04 48 FF 01 E6 C5 "Modern platform with bench" 00
+  326 * 29	 04 48 FF 01 E6 C4 "HSS - Single platforms" 00
+
+  327 * 6	 01 04 01 FF 02 00
+  328 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 653 320 09 58 66 -32 -26
+  329 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_terko.pcx 86 383 09 58 66 -32 -26
+
+  330 * 44	 00 04 03 01 E7 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  331 * 7	 02 04 00 00 01 00 00
+  332 * 7	 02 04 01 00 01 00 00
+  333 * 10	 03 04 01 E7 01 FE 01 00 00 00
+  334 * 33	 04 48 FF 01 E7 C5 "Modern platform with bench" 00
+  335 * 29	 04 48 FF 01 E7 C4 "HSS - Single platforms" 00
 
 
 
@@ -429,149 +409,149 @@
 
 
 
-  376 * 6	 01 04 01 FF 04 00
-  377 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 5 09 58 66 -32 -26
-  378 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 5 09 58 66 -32 -26
-  379 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 5 09 58 66 -32 -26
-  380 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 5 09 58 66 -32 -26
-  381 * 62	 00 04 02 01 40 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  382 * 7	 02 04 00 00 01 00 00
-  383 * 7	 02 04 01 00 01 00 00
-  384 * 10	 03 04 01 40 01 FE 01 00 00 00
-  385 * 19	 04 48 FF 01 40 C5 "Old platform" 00
-  386 * 29	 04 48 FF 01 40 C4 "HSS - Normal platforms" 00
+  336 * 6	 01 04 01 FF 04 00
+  337 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 5 09 58 66 -32 -26
+  338 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 5 09 58 66 -32 -26
+  339 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 5 09 58 66 -32 -26
+  340 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 5 09 58 66 -32 -26
+  341 * 62	 00 04 02 01 40 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  342 * 7	 02 04 00 00 01 00 00
+  343 * 7	 02 04 01 00 01 00 00
+  344 * 10	 03 04 01 40 01 FE 01 00 00 00
+  345 * 19	 04 48 FF 01 40 C5 "Old platform" 00
+  346 * 29	 04 48 FF 01 40 C4 "HSS - Normal platforms" 00
 
-  387 * 6	 01 04 01 FF 04 00
-  388 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 5 09 58 66 -32 -26
-  389 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 5 09 58 66 -32 -26
-  390 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 5 09 58 66 -32 -26
-  391 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 5 09 58 66 -32 -26
-  392 * 62	 00 04 02 01 41 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  393 * 7	 02 04 00 00 01 00 00
-  394 * 7	 02 04 01 00 01 00 00
-  395 * 10	 03 04 01 41 01 FE 01 00 00 00
-  396 * 39	 04 48 FF 01 41 C5 "Old platform end with passageway" 00
-  397 * 29	 04 48 FF 01 41 C4 "HSS - Normal platforms" 00
+  347 * 6	 01 04 01 FF 04 00
+  348 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 5 09 58 66 -32 -26
+  349 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 5 09 58 66 -32 -26
+  350 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 5 09 58 66 -32 -26
+  351 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 5 09 58 66 -32 -26
+  352 * 62	 00 04 02 01 41 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  353 * 7	 02 04 00 00 01 00 00
+  354 * 7	 02 04 01 00 01 00 00
+  355 * 10	 03 04 01 41 01 FE 01 00 00 00
+  356 * 39	 04 48 FF 01 41 C5 "Old platform end with passageway" 00
+  357 * 29	 04 48 FF 01 41 C4 "HSS - Normal platforms" 00
 
-  398 * 6	 01 04 01 FF 04 00
-  399 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 5 09 58 66 -32 -26
-  400 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 68 09 58 66 -32 -26
-  401 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 68 09 58 66 -32 -26
-  402 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 68 09 58 66 -32 -26
-  403 * 62	 00 04 02 01 42 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  404 * 7	 02 04 00 00 01 00 00
-  405 * 7	 02 04 01 00 01 00 00
-  406 * 10	 03 04 01 42 01 FE 01 00 00 00
-  407 * 33	 04 48 FF 01 42 C5 "Old platform end with ramp" 00
-  408 * 29	 04 48 FF 01 42 C4 "HSS - Normal platforms" 00
+  358 * 6	 01 04 01 FF 04 00
+  359 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 5 09 58 66 -32 -26
+  360 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 68 09 58 66 -32 -26
+  361 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 68 09 58 66 -32 -26
+  362 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 68 09 58 66 -32 -26
+  363 * 62	 00 04 02 01 42 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  364 * 7	 02 04 00 00 01 00 00
+  365 * 7	 02 04 01 00 01 00 00
+  366 * 10	 03 04 01 42 01 FE 01 00 00 00
+  367 * 33	 04 48 FF 01 42 C5 "Old platform end with ramp" 00
+  368 * 29	 04 48 FF 01 42 C4 "HSS - Normal platforms" 00
 
-  409 * 6	 01 04 01 FF 04 00
-  410 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 68 09 58 66 -32 -26
-  411 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 68 09 58 66 -32 -26
-  412 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 68 09 58 66 -32 -26
-  413 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 68 09 58 66 -32 -26
-  414 * 62	 00 04 02 01 43 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  415 * 7	 02 04 00 00 01 00 00
-  416 * 7	 02 04 01 00 01 00 00
-  417 * 10	 03 04 01 43 01 FE 01 00 00 00
-  418 * 33	 04 48 FF 01 43 C5 "Old platform end with ramp" 00
-  419 * 29	 04 48 FF 01 43 C4 "HSS - Normal platforms" 00
+  369 * 6	 01 04 01 FF 04 00
+  370 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 68 09 58 66 -32 -26
+  371 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 68 09 58 66 -32 -26
+  372 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 68 09 58 66 -32 -26
+  373 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 68 09 58 66 -32 -26
+  374 * 62	 00 04 02 01 43 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  375 * 7	 02 04 00 00 01 00 00
+  376 * 7	 02 04 01 00 01 00 00
+  377 * 10	 03 04 01 43 01 FE 01 00 00 00
+  378 * 33	 04 48 FF 01 43 C5 "Old platform end with ramp" 00
+  379 * 29	 04 48 FF 01 43 C4 "HSS - Normal platforms" 00
 
-  420 * 6	 01 04 01 FF 04 00
-  421 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 68 09 58 66 -32 -26
-  422 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 68 09 58 66 -32 -26
-  423 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 131 09 58 66 -32 -26
-  424 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 131 09 58 66 -32 -26
-  425 * 62	 00 04 02 01 44 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  426 * 7	 02 04 00 00 01 00 00
-  427 * 7	 02 04 01 00 01 00 00
-  428 * 10	 03 04 01 44 01 FE 01 00 00 00
-  429 * 23	 04 48 FF 01 44 C5 "Old platform end" 00
-  430 * 29	 04 48 FF 01 44 C4 "HSS - Normal platforms" 00
+  380 * 6	 01 04 01 FF 04 00
+  381 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 68 09 58 66 -32 -26
+  382 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 68 09 58 66 -32 -26
+  383 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 131 09 58 66 -32 -26
+  384 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 131 09 58 66 -32 -26
+  385 * 62	 00 04 02 01 44 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  386 * 7	 02 04 00 00 01 00 00
+  387 * 7	 02 04 01 00 01 00 00
+  388 * 10	 03 04 01 44 01 FE 01 00 00 00
+  389 * 23	 04 48 FF 01 44 C5 "Old platform end" 00
+  390 * 29	 04 48 FF 01 44 C4 "HSS - Normal platforms" 00
 
-  431 * 6	 01 04 01 FF 04 00
-  432 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 131 09 58 66 -32 -26
-  433 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 131 09 58 66 -32 -26
-  434 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 131 09 58 66 -32 -26
-  435 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 131 09 58 66 -32 -26
-  436 * 62	 00 04 02 01 45 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  437 * 7	 02 04 00 00 01 00 00
-  438 * 7	 02 04 01 00 01 00 00
-  439 * 10	 03 04 01 45 01 FE 01 00 00 00
-  440 * 23	 04 48 FF 01 45 C5 "Old platform end" 00
-  441 * 29	 04 48 FF 01 45 C4 "HSS - Normal platforms" 00
+  391 * 6	 01 04 01 FF 04 00
+  392 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 131 09 58 66 -32 -26
+  393 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 131 09 58 66 -32 -26
+  394 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 131 09 58 66 -32 -26
+  395 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 131 09 58 66 -32 -26
+  396 * 62	 00 04 02 01 45 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  397 * 7	 02 04 00 00 01 00 00
+  398 * 7	 02 04 01 00 01 00 00
+  399 * 10	 03 04 01 45 01 FE 01 00 00 00
+  400 * 23	 04 48 FF 01 45 C5 "Old platform end" 00
+  401 * 29	 04 48 FF 01 45 C4 "HSS - Normal platforms" 00
 
-  442 * 6	 01 04 01 FF 04 00
-  443 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 131 09 58 66 -32 -26
-  444 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 131 09 58 66 -32 -26
-  445 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 131 09 58 66 -32 -26
-  446 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 194 09 58 66 -32 -26
-  447 * 62	 00 04 02 01 46 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  448 * 7	 02 04 00 00 01 00 00
-  449 * 7	 02 04 01 00 01 00 00
-  450 * 10	 03 04 01 46 01 FE 01 00 00 00
-  451 * 29	 04 48 FF 01 46 C5 "Old platform with roof" 00
-  452 * 29	 04 48 FF 01 46 C4 "HSS - Normal platforms" 00
+  402 * 6	 01 04 01 FF 04 00
+  403 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 131 09 58 66 -32 -26
+  404 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 131 09 58 66 -32 -26
+  405 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 131 09 58 66 -32 -26
+  406 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 194 09 58 66 -32 -26
+  407 * 62	 00 04 02 01 46 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  408 * 7	 02 04 00 00 01 00 00
+  409 * 7	 02 04 01 00 01 00 00
+  410 * 10	 03 04 01 46 01 FE 01 00 00 00
+  411 * 29	 04 48 FF 01 46 C5 "Old platform with roof" 00
+  412 * 29	 04 48 FF 01 46 C4 "HSS - Normal platforms" 00
 
-  453 * 6	 01 04 01 FF 04 00
-  454 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 194 09 58 66 -32 -26
-  455 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 194 09 58 66 -32 -26
-  456 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 194 09 58 66 -32 -26
-  457 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 194 09 58 66 -32 -26
-  458 * 62	 00 04 02 01 47 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  459 * 7	 02 04 00 00 01 00 00
-  460 * 7	 02 04 01 00 01 00 00
-  461 * 10	 03 04 01 47 01 FE 01 00 00 00
-  462 * 28	 04 48 FF 01 47 C5 "Old platform overpass" 00
-  463 * 29	 04 48 FF 01 47 C4 "HSS - Normal platforms" 00
+  413 * 6	 01 04 01 FF 04 00
+  414 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 194 09 58 66 -32 -26
+  415 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 194 09 58 66 -32 -26
+  416 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 194 09 58 66 -32 -26
+  417 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 194 09 58 66 -32 -26
+  418 * 62	 00 04 02 01 47 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  419 * 7	 02 04 00 00 01 00 00
+  420 * 7	 02 04 01 00 01 00 00
+  421 * 10	 03 04 01 47 01 FE 01 00 00 00
+  422 * 28	 04 48 FF 01 47 C5 "Old platform overpass" 00
+  423 * 29	 04 48 FF 01 47 C4 "HSS - Normal platforms" 00
 
-  464 * 6	 01 04 01 FF 04 00
-  465 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 194 09 58 66 -32 -26
-  466 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 194 09 58 66 -32 -26
-  467 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 194 09 58 66 -32 -26
-  468 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 194 09 58 66 -32 -26
-  469 * 62	 00 04 02 01 48 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  470 * 7	 02 04 00 00 01 00 00
-  471 * 7	 02 04 01 00 01 00 00
-  472 * 10	 03 04 01 48 01 FE 01 00 00 00
-  473 * 29	 04 48 FF 01 48 C5 "Old platform underpass" 00
-  474 * 29	 04 48 FF 01 48 C4 "HSS - Normal platforms" 00
+  424 * 6	 01 04 01 FF 04 00
+  425 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 194 09 58 66 -32 -26
+  426 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 194 09 58 66 -32 -26
+  427 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 194 09 58 66 -32 -26
+  428 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 194 09 58 66 -32 -26
+  429 * 62	 00 04 02 01 48 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  430 * 7	 02 04 00 00 01 00 00
+  431 * 7	 02 04 01 00 01 00 00
+  432 * 10	 03 04 01 48 01 FE 01 00 00 00
+  433 * 29	 04 48 FF 01 48 C5 "Old platform underpass" 00
+  434 * 29	 04 48 FF 01 48 C4 "HSS - Normal platforms" 00
 
-  475 * 6	 01 04 01 FF 04 00
-  476 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 257 09 58 66 -32 -26
-  477 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 257 09 58 66 -32 -26
-  478 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 257 09 58 66 -32 -26
-  479 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 257 09 58 66 -32 -26
-  480 * 62	 00 04 02 01 49 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  481 * 7	 02 04 00 00 01 00 00
-  482 * 7	 02 04 01 00 01 00 00
-  483 * 10	 03 04 01 49 01 FE 01 00 00 00
-  484 * 32	 04 48 FF 01 49 C5 "Old platform with display" 00
-  485 * 29	 04 48 FF 01 49 C4 "HSS - Normal platforms" 00
+  435 * 6	 01 04 01 FF 04 00
+  436 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 257 09 58 66 -32 -26
+  437 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 257 09 58 66 -32 -26
+  438 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 257 09 58 66 -32 -26
+  439 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 257 09 58 66 -32 -26
+  440 * 62	 00 04 02 01 49 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  441 * 7	 02 04 00 00 01 00 00
+  442 * 7	 02 04 01 00 01 00 00
+  443 * 10	 03 04 01 49 01 FE 01 00 00 00
+  444 * 32	 04 48 FF 01 49 C5 "Old platform with display" 00
+  445 * 29	 04 48 FF 01 49 C4 "HSS - Normal platforms" 00
 
-  486 * 6	 01 04 01 FF 04 00
-  487 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 257 09 58 66 -32 -26
-  488 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 257 09 58 66 -32 -26
-  489 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 257 09 58 66 -32 -26
-  490 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 257 09 58 66 -32 -26
-  491 * 62	 00 04 02 01 4A 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  492 * 7	 02 04 00 00 01 00 00
-  493 * 7	 02 04 01 00 01 00 00
-  494 * 10	 03 04 01 4A 01 FE 01 00 00 00
-  495 * 30	 04 48 FF 01 4A C5 "Old platform with light" 00
-  496 * 29	 04 48 FF 01 4A C4 "HSS - Normal platforms" 00
+  446 * 6	 01 04 01 FF 04 00
+  447 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 257 09 58 66 -32 -26
+  448 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 257 09 58 66 -32 -26
+  449 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 257 09 58 66 -32 -26
+  450 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 257 09 58 66 -32 -26
+  451 * 62	 00 04 02 01 4A 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  452 * 7	 02 04 00 00 01 00 00
+  453 * 7	 02 04 01 00 01 00 00
+  454 * 10	 03 04 01 4A 01 FE 01 00 00 00
+  455 * 30	 04 48 FF 01 4A C5 "Old platform with light" 00
+  456 * 29	 04 48 FF 01 4A C4 "HSS - Normal platforms" 00
 
-  497 * 6	 01 04 01 FF 04 00
-  498 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 320 09 58 66 -32 -26
-  499 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 383 09 58 66 -32 -26
-  500 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 383 09 58 66 -32 -26
-  501 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 383 09 58 66 -32 -26
-  502 * 62	 00 04 02 01 5F 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  503 * 7	 02 04 00 00 01 00 00
-  504 * 7	 02 04 01 00 01 00 00
-  505 * 10	 03 04 01 5F 01 FE 01 00 00 00
-  506 * 30	 04 48 FF 01 5F C5 "Old platform with bench" 00
-  507 * 29	 04 48 FF 01 5F C4 "HSS - Normal platforms" 00
+  457 * 6	 01 04 01 FF 04 00
+  458 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 320 09 58 66 -32 -26
+  459 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 383 09 58 66 -32 -26
+  460 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 383 09 58 66 -32 -26
+  461 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 383 09 58 66 -32 -26
+  462 * 62	 00 04 02 01 5F 08 "PSK2" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  463 * 7	 02 04 00 00 01 00 00
+  464 * 7	 02 04 01 00 01 00 00
+  465 * 10	 03 04 01 5F 01 FE 01 00 00 00
+  466 * 30	 04 48 FF 01 5F C5 "Old platform with bench" 00
+  467 * 29	 04 48 FF 01 5F C4 "HSS - Normal platforms" 00
 
 
 
@@ -581,269 +561,282 @@
 
 
 
-  508 * 6	 01 04 01 FF 04 00
-  509 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 257 09 58 66 -32 -26
-  510 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 320 09 58 66 -32 -26
-  511 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 320 09 58 66 -32 -26
-  512 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 320 09 58 66 -32 -26
-  513 * 62	 00 04 02 01 4B 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  514 * 7	 02 04 00 00 01 00 00
-  515 * 7	 02 04 01 00 01 00 00
-  516 * 10	 03 04 01 4B 01 FE 01 00 00 00
-  517 * 28	 04 48 FF 01 4B C5 "Old platform overpass" 00
-  518 * 29	 04 48 FF 01 4B C4 "HSS - Single platforms" 00
+  468 * 6	 01 04 01 FF 04 00
+  469 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 257 09 58 66 -32 -26
+  470 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 320 09 58 66 -32 -26
+  471 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 320 09 58 66 -32 -26
+  472 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 320 09 58 66 -32 -26
+  473 * 62	 00 04 02 01 4B 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  474 * 7	 02 04 00 00 01 00 00
+  475 * 7	 02 04 01 00 01 00 00
+  476 * 10	 03 04 01 4B 01 FE 01 00 00 00
+  477 * 28	 04 48 FF 01 4B C5 "Old platform overpass" 00
+  478 * 29	 04 48 FF 01 4B C4 "HSS - Single platforms" 00
 
-  519 * 6	 01 04 01 FF 04 00
-  520 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 320 09 58 66 -32 -26
-  521 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 320 09 58 66 -32 -26
-  522 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 320 09 58 66 -32 -26
-  523 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 320 09 58 66 -32 -26
-  524 * 62	 00 04 02 01 4C 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  525 * 7	 02 04 00 00 01 00 00
-  526 * 7	 02 04 01 00 01 00 00
-  527 * 10	 03 04 01 4C 01 FE 01 00 00 00
-  528 * 28	 04 48 FF 01 4C C5 "Old platform overpass" 00
-  529 * 29	 04 48 FF 01 4C C4 "HSS - Single platforms" 00
+  479 * 6	 01 04 01 FF 04 00
+  480 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 320 09 58 66 -32 -26
+  481 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 320 09 58 66 -32 -26
+  482 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 320 09 58 66 -32 -26
+  483 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 320 09 58 66 -32 -26
+  484 * 62	 00 04 02 01 4C 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  485 * 7	 02 04 00 00 01 00 00
+  486 * 7	 02 04 01 00 01 00 00
+  487 * 10	 03 04 01 4C 01 FE 01 00 00 00
+  488 * 28	 04 48 FF 01 4C C5 "Old platform overpass" 00
+  489 * 29	 04 48 FF 01 4C C4 "HSS - Single platforms" 00
 
-  530 * 6	 01 04 01 FF 04 00
-  531 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  532 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 5 09 58 66 -32 -26
-  533 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  534 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 5 09 58 66 -32 -26
-  535 * 62	 00 04 02 01 4D 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  536 * 7	 02 04 00 00 01 00 00
-  537 * 7	 02 04 01 00 01 00 00
-  538 * 10	 03 04 01 4D 01 FE 01 00 00 00
-  539 * 19	 04 48 FF 01 4D C5 "Old platform" 00
-  540 * 29	 04 48 FF 01 4D C4 "HSS - Single platforms" 00
+  490 * 6	 01 04 01 FF 02 00
+  491 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 5 09 58 66 -32 -26
+  492 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 5 09 58 66 -32 -26
 
-  541 * 6	 01 04 01 FF 04 00
-  542 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 5 09 58 66 -32 -26
-  543 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  544 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 5 09 58 66 -32 -26
-  545 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  546 * 62	 00 04 02 01 4E 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  547 * 7	 02 04 00 00 01 00 00
-  548 * 7	 02 04 01 00 01 00 00
-  549 * 10	 03 04 01 4E 01 FE 01 00 00 00
-  550 * 19	 04 48 FF 01 4E C5 "Old platform" 00
-  551 * 29	 04 48 FF 01 4E C4 "HSS - Single platforms" 00
+  493 * 44	 00 04 03 01 4D 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  494 * 7	 02 04 00 00 01 00 00
+  495 * 7	 02 04 01 00 01 00 00
+  496 * 10	 03 04 01 4D 01 FE 01 00 00 00
+  497 * 19	 04 48 FF 01 4D C5 "Old platform" 00
+  498 * 29	 04 48 FF 01 4D C4 "HSS - Single platforms" 00
 
-  552 * 6	 01 04 01 FF 04 00
-  553 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  554 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 68 09 58 66 -32 -26
-  555 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  556 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 68 09 58 66 -32 -26
-  557 * 62	 00 04 02 01 4F 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  558 * 7	 02 04 00 00 01 00 00
-  559 * 7	 02 04 01 00 01 00 00
-  560 * 10	 03 04 01 4F 01 FE 01 00 00 00
-  561 * 33	 04 48 FF 01 4F C5 "Old platform end with ramp" 00
-  562 * 29	 04 48 FF 01 4F C4 "HSS - Single platforms" 00
+  499 * 6	 01 04 01 FF 02 00
+  500 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 5 09 58 66 -32 -26
+  501 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 5 09 58 66 -32 -26 
 
-  563 * 6	 01 04 01 FF 04 00
-  564 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 5 09 58 66 -32 -26
-  565 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  566 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 68 09 58 66 -32 -26
-  567 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  568 * 62	 00 04 02 01 50 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  569 * 7	 02 04 00 00 01 00 00
-  570 * 7	 02 04 01 00 01 00 00
-  571 * 10	 03 04 01 50 01 FE 01 00 00 00
-  572 * 33	 04 48 FF 01 50 C5 "Old platform end with ramp" 00
-  573 * 29	 04 48 FF 01 50 C4 "HSS - Single platforms" 00
+  502 * 44	 00 04 03 01 4E 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  503 * 7	 02 04 00 00 01 00 00
+  504 * 7	 02 04 01 00 01 00 00
+  505 * 10	 03 04 01 4E 01 FE 01 00 00 00
+  506 * 19	 04 48 FF 01 4E C5 "Old platform" 00
+  507 * 29	 04 48 FF 01 4E C4 "HSS - Single platforms" 00
 
-  574 * 6	 01 04 01 FF 04 00
-  575 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  576 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 68 09 58 66 -32 -26
-  577 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  578 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 68 09 58 66 -32 -26
-  579 * 62	 00 04 02 01 51 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  580 * 7	 02 04 00 00 01 00 00
-  581 * 7	 02 04 01 00 01 00 00
-  582 * 10	 03 04 01 51 01 FE 01 00 00 00
-  583 * 33	 04 48 FF 01 51 C5 "Old platform end with ramp" 00
-  584 * 29	 04 48 FF 01 51 C4 "HSS - Single platforms" 00
+  508 * 6	 01 04 01 FF 02 00
+  509 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 68 09 58 66 -32 -26
+  510 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 68 09 58 66 -32 -26
 
-  585 * 6	 01 04 01 FF 04 00
-  586 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 68 09 58 66 -32 -26
-  587 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  588 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 68 09 58 66 -32 -26
-  589 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  590 * 62	 00 04 02 01 52 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  591 * 7	 02 04 00 00 01 00 00
-  592 * 7	 02 04 01 00 01 00 00
-  593 * 10	 03 04 01 52 01 FE 01 00 00 00
-  594 * 33	 04 48 FF 01 52 C5 "Old platform end with ramp" 00
-  595 * 29	 04 48 FF 01 52 C4 "HSS - Single platforms" 00
+  511 * 44	 00 04 03 01 4F 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  512 * 7	 02 04 00 00 01 00 00
+  513 * 7	 02 04 01 00 01 00 00
+  514 * 10	 03 04 01 4F 01 FE 01 00 00 00
+  515 * 33	 04 48 FF 01 4F C5 "Old platform end with ramp" 00
+  516 * 29	 04 48 FF 01 4F C4 "HSS - Single platforms" 00
 
-  596 * 6	 01 04 01 FF 04 00
-  597 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  598 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 68 09 58 66 -32 -26
-  599 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  600 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 131 09 58 66 -32 -26
-  601 * 62	 00 04 02 01 53 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
+  517 * 6	 01 04 01 FF 02 00
+  518 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 5 09 58 66 -32 -26
+  519 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 68 09 58 66 -32 -26
+
+  520 * 44	 00 04 03 01 50 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  521 * 7	 02 04 00 00 01 00 00
+  522 * 7	 02 04 01 00 01 00 00
+  523 * 10	 03 04 01 50 01 FE 01 00 00 00
+  524 * 33	 04 48 FF 01 50 C5 "Old platform end with ramp" 00
+  525 * 29	 04 48 FF 01 50 C4 "HSS - Single platforms" 00
+
+  526 * 6	 01 04 01 FF 02 00
+  527 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 68 09 58 66 -32 -26
+  528 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 68 09 58 66 -32 -26
+
+  529 * 44	 00 04 03 01 51 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  530 * 7	 02 04 00 00 01 00 00
+  531 * 7	 02 04 01 00 01 00 00
+  532 * 10	 03 04 01 51 01 FE 01 00 00 00
+  533 * 33	 04 48 FF 01 51 C5 "Old platform end with ramp" 00
+  534 * 29	 04 48 FF 01 51 C4 "HSS - Single platforms" 00
+
+  535 * 6	 01 04 01 FF 02 00
+  536 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 68 09 58 66 -32 -26
+  537 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 68 09 58 66 -32 -26
+
+  538 * 44	 00 04 03 01 52 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  539 * 7	 02 04 00 00 01 00 00
+  540 * 7	 02 04 01 00 01 00 00
+  541 * 10	 03 04 01 52 01 FE 01 00 00 00
+  542 * 33	 04 48 FF 01 52 C5 "Old platform end with ramp" 00
+  543 * 29	 04 48 FF 01 52 C4 "HSS - Single platforms" 00
+
+  544 * 6	 01 04 01 FF 02 00
+  545 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 68 09 58 66 -32 -26
+  546 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 131 09 58 66 -32 -26
+
+  547 * 44	 00 04 03 01 53 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  548 * 7	 02 04 00 00 01 00 00
+  549 * 7	 02 04 01 00 01 00 00
+  550 * 10	 03 04 01 53 01 FE 01 00 00 00
+  551 * 23	 04 48 FF 01 53 C5 "Old platform end" 00
+  552 * 29	 04 48 FF 01 53 C4 "HSS - Single platforms" 00
+
+  553 * 6	 01 04 01 FF 02 00
+  554 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 68 09 58 66 -32 -26
+  555 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 131 09 58 66 -32 -26
+
+  556 * 44	 00 04 03 01 54 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  557 * 7	 02 04 00 00 01 00 00
+  558 * 7	 02 04 01 00 01 00 00
+  559 * 10	 03 04 01 54 01 FE 01 00 00 00
+  560 * 23	 04 48 FF 01 54 C5 "Old platform end" 00
+  561 * 29	 04 48 FF 01 54 C4 "HSS - Single platforms" 00
+
+  562 * 6	 01 04 01 FF 02 00
+  563 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 131 09 58 66 -32 -26
+  564 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 131 09 58 66 -32 -26
+
+  565 * 44	 00 04 03 01 55 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  566 * 7	 02 04 00 00 01 00 00
+  567 * 7	 02 04 01 00 01 00 00
+  568 * 10	 03 04 01 55 01 FE 01 00 00 00
+  569 * 23	 04 48 FF 01 55 C5 "Old platform end" 00
+  570 * 29	 04 48 FF 01 55 C4 "HSS - Single platforms" 00
+
+  571 * 6	 01 04 01 FF 02 00
+  572 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 131 09 58 66 -32 -26
+  573 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 131 09 58 66 -32 -26
+
+  574 * 44	 00 04 03 01 56 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  575 * 7	 02 04 00 00 01 00 00
+  576 * 7	 02 04 01 00 01 00 00
+  577 * 10	 03 04 01 56 01 FE 01 00 00 00
+  578 * 23	 04 48 FF 01 56 C5 "Old platform end" 00
+  579 * 29	 04 48 FF 01 56 C4 "HSS - Single platforms" 00
+
+  580 * 6	 01 04 01 FF 02 00 
+  581 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 131 09 58 66 -32 -26
+  582 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 194 09 58 66 -32 -26
+
+  583 * 44	 00 04 03 01 57 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  584 * 7	 02 04 00 00 01 00 00
+  585 * 7	 02 04 01 00 01 00 00
+  586 * 10	 03 04 01 57 01 FE 01 00 00 00
+  587 * 29	 04 48 FF 01 57 C5 "Old platform with roof" 00
+  588 * 29	 04 48 FF 01 57 C4 "HSS - Single platforms" 00
+
+  589 * 6	 01 04 01 FF 02 00
+  590 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 131 09 58 66 -32 -26
+  591 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 131 09 58 66 -32 -26
+
+  592 * 44	 00 04 03 01 58 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  593 * 7	 02 04 00 00 01 00 00
+  594 * 7	 02 04 01 00 01 00 00
+  595 * 10	 03 04 01 58 01 FE 01 00 00 00
+  596 * 29	 04 48 FF 01 58 C5 "Old platform with roof" 00
+  597 * 29	 04 48 FF 01 58 C4 "HSS - Single platforms" 00
+
+  598 * 6	 01 04 01 FF 02 00
+  599 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 194 09 58 66 -32 -26
+  600 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 194 09 58 66 -32 -26
+
+  601 * 44	 00 04 03 01 59 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
   602 * 7	 02 04 00 00 01 00 00
   603 * 7	 02 04 01 00 01 00 00
-  604 * 10	 03 04 01 53 01 FE 01 00 00 00
-  605 * 23	 04 48 FF 01 53 C5 "Old platform end" 00
-  606 * 29	 04 48 FF 01 53 C4 "HSS - Single platforms" 00
+  604 * 10	 03 04 01 59 01 FE 01 00 00 00
+  605 * 29	 04 48 FF 01 59 C5 "Old platform underpass" 00
+  606 * 29	 04 48 FF 01 59 C4 "HSS - Single platforms" 00
 
-  607 * 6	 01 04 01 FF 04 00
-  608 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 68 09 58 66 -32 -26
-  609 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  610 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 131 09 58 66 -32 -26
-  611 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  612 * 62	 00 04 02 01 54 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  613 * 7	 02 04 00 00 01 00 00
-  614 * 7	 02 04 01 00 01 00 00
-  615 * 10	 03 04 01 54 01 FE 01 00 00 00
-  616 * 23	 04 48 FF 01 54 C5 "Old platform end" 00
-  617 * 29	 04 48 FF 01 54 C4 "HSS - Single platforms" 00
+  607 * 6	 01 04 01 FF 02 00
+  608 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 194 09 58 66 -32 -26
+  609 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 194 09 58 66 -32 -26 
 
-  618 * 6	 01 04 01 FF 04 00
-  619 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  620 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 131 09 58 66 -32 -26
-  621 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  622 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 131 09 58 66 -32 -26
-  623 * 62	 00 04 02 01 55 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  624 * 7	 02 04 00 00 01 00 00
-  625 * 7	 02 04 01 00 01 00 00
-  626 * 10	 03 04 01 55 01 FE 01 00 00 00
-  627 * 23	 04 48 FF 01 55 C5 "Old platform end" 00
-  628 * 29	 04 48 FF 01 55 C4 "HSS - Single platforms" 00
+  610 * 44	 00 04 03 01 5A 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  611 * 7	 02 04 00 00 01 00 00
+  612 * 7	 02 04 01 00 01 00 00
+  613 * 10	 03 04 01 5A 01 FE 01 00 00 00
+  614 * 29	 04 48 FF 01 5A C5 "Old platform underpass" 00
+  615 * 29	 04 48 FF 01 5A C4 "HSS - Single platforms" 00
 
-  629 * 6	 01 04 01 FF 04 00
-  630 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 131 09 58 66 -32 -26
-  631 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  632 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 131 09 58 66 -32 -26
-  633 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  634 * 62	 00 04 02 01 56 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  635 * 7	 02 04 00 00 01 00 00
-  636 * 7	 02 04 01 00 01 00 00
-  637 * 10	 03 04 01 56 01 FE 01 00 00 00
-  638 * 23	 04 48 FF 01 56 C5 "Old platform end" 00
-  639 * 29	 04 48 FF 01 56 C4 "HSS - Single platforms" 00
+  616 * 6	 01 04 01 FF 02 00
+  617 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 257 09 58 66 -32 -26
+  618 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 257 09 58 66 -32 -26
 
-  640 * 6	 01 04 01 FF 04 00
-  641 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  642 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 131 09 58 66 -32 -26
-  643 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  644 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 194 09 58 66 -32 -26
-  645 * 62	 00 04 02 01 57 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  646 * 7	 02 04 00 00 01 00 00
-  647 * 7	 02 04 01 00 01 00 00
-  648 * 10	 03 04 01 57 01 FE 01 00 00 00
-  649 * 29	 04 48 FF 01 57 C5 "Old platform with roof" 00
-  650 * 29	 04 48 FF 01 57 C4 "HSS - Single platforms" 00
+  619 * 44	 00 04 03 01 5B 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  620 * 7	 02 04 00 00 01 00 00
+  621 * 7	 02 04 01 00 01 00 00
+  622 * 10	 03 04 01 5B 01 FE 01 00 00 00
+  623 * 32	 04 48 FF 01 5B C5 "Old platform with display" 00
+  624 * 29	 04 48 FF 01 5B C4 "HSS - Single platforms" 00
 
-  651 * 6	 01 04 01 FF 04 00
-  652 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 131 09 58 66 -32 -26
-  653 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  654 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 131 09 58 66 -32 -26
-  655 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  656 * 62	 00 04 02 01 58 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  657 * 7	 02 04 00 00 01 00 00
-  658 * 7	 02 04 01 00 01 00 00
-  659 * 10	 03 04 01 58 01 FE 01 00 00 00
-  660 * 29	 04 48 FF 01 58 C5 "Old platform with roof" 00
-  661 * 29	 04 48 FF 01 58 C4 "HSS - Single platforms" 00
+  625 * 6	 01 04 01 FF 02 00
+  626 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 257 09 58 66 -32 -26
+  627 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 257 09 58 66 -32 -26 
 
-  662 * 6	 01 04 01 FF 04 00
-  663 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  664 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 194 09 58 66 -32 -26
-  665 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  666 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 194 09 58 66 -32 -26
-  667 * 62	 00 04 02 01 59 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  668 * 7	 02 04 00 00 01 00 00
-  669 * 7	 02 04 01 00 01 00 00
-  670 * 10	 03 04 01 59 01 FE 01 00 00 00
-  671 * 29	 04 48 FF 01 59 C5 "Old platform underpass" 00
-  672 * 29	 04 48 FF 01 59 C4 "HSS - Single platforms" 00
+  628 * 44	 00 04 03 01 5C 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  629 * 7	 02 04 00 00 01 00 00
+  630 * 7	 02 04 01 00 01 00 00
+  631 * 10	 03 04 01 5C 01 FE 01 00 00 00
+  632 * 32	 04 48 FF 01 5C C5 "Old platform with display" 00
+  633 * 29	 04 48 FF 01 5C C4 "HSS - Single platforms" 00
 
-  673 * 6	 01 04 01 FF 04 00
-  674 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 194 09 58 66 -32 -26
-  675 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  676 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 194 09 58 66 -32 -26
-  677 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  678 * 62	 00 04 02 01 5A 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  679 * 7	 02 04 00 00 01 00 00
-  680 * 7	 02 04 01 00 01 00 00
-  681 * 10	 03 04 01 5A 01 FE 01 00 00 00
-  682 * 29	 04 48 FF 01 5A C5 "Old platform underpass" 00
-  683 * 29	 04 48 FF 01 5A C4 "HSS - Single platforms" 00
+  634 * 6	 01 04 01 FF 02 00
+  635 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 257 09 58 66 -32 -26
+  636 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 257 09 58 66 -32 -26
 
-  684 * 6	 01 04 01 FF 04 00
-  685 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  686 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 257 09 58 66 -32 -26
-  687 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  688 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 257 09 58 66 -32 -26
-  689 * 62	 00 04 02 01 5B 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  690 * 7	 02 04 00 00 01 00 00
-  691 * 7	 02 04 01 00 01 00 00
-  692 * 10	 03 04 01 5B 01 FE 01 00 00 00
-  693 * 32	 04 48 FF 01 5B C5 "Old platform with display" 00
-  694 * 29	 04 48 FF 01 5B C4 "HSS - Single platforms" 00
+  637 * 44	 00 04 03 01 5D 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  638 * 7	 02 04 00 00 01 00 00
+  639 * 7	 02 04 01 00 01 00 00
+  640 * 10	 03 04 01 5D 01 FE 01 00 00 00
+  641 * 30	 04 48 FF 01 5D C5 "Old platform with light" 00
+  642 * 29	 04 48 FF 01 5D C4 "HSS - Single platforms" 00
 
-  695 * 6	 01 04 01 FF 04 00
-  696 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 257 09 58 66 -32 -26
-  697 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  698 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 257 09 58 66 -32 -26
-  699 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  700 * 62	 00 04 02 01 5C 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  701 * 7	 02 04 00 00 01 00 00
-  702 * 7	 02 04 01 00 01 00 00
-  703 * 10	 03 04 01 5C 01 FE 01 00 00 00
-  704 * 32	 04 48 FF 01 5C C5 "Old platform with display" 00
-  705 * 29	 04 48 FF 01 5C C4 "HSS - Single platforms" 00
+  643 * 6	 01 04 01 FF 02 00
+  644 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 257 09 58 66 -32 -26
+  645 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 257 09 58 66 -32 -26 
 
-  706 * 6	 01 04 01 FF 04 00
-  707 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  708 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 410 257 09 58 66 -32 -26
-  709 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  710 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 572 257 09 58 66 -32 -26
-  711 * 62	 00 04 02 01 5D 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  712 * 7	 02 04 00 00 01 00 00
-  713 * 7	 02 04 01 00 01 00 00
-  714 * 10	 03 04 01 5D 01 FE 01 00 00 00
-  715 * 30	 04 48 FF 01 5D C5 "Old platform with light" 00
-  716 * 29	 04 48 FF 01 5D C4 "HSS - Single platforms" 00
+  646 * 44	 00 04 03 01 5E 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  647 * 7	 02 04 00 00 01 00 00
+  648 * 7	 02 04 01 00 01 00 00
+  649 * 10	 03 04 01 5E 01 FE 01 00 00 00
+  650 * 30	 04 48 FF 01 5E C5 "Old platform with light" 00
+  651 * 29	 04 48 FF 01 5E C4 "HSS - Single platforms" 00
 
-  717 * 6	 01 04 01 FF 04 00
-  718 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 329 257 09 58 66 -32 -26
-  719 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  720 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 491 257 09 58 66 -32 -26
-  721 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  722 * 62	 00 04 02 01 5E 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  723 * 7	 02 04 00 00 01 00 00
-  724 * 7	 02 04 01 00 01 00 00
-  725 * 10	 03 04 01 5E 01 FE 01 00 00 00
-  726 * 30	 04 48 FF 01 5E C5 "Old platform with light" 00
-  727 * 29	 04 48 FF 01 5E C4 "HSS - Single platforms" 00
+  652 * 6	 01 04 01 FF 02 00
+  653 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 383 09 58 66 -32 -26
+  654 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 383 09 58 66 -32 -26
+  655 * 44	 00 04 03 01 60 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  656 * 7	 02 04 00 00 01 00 00
+  657 * 7	 03 04 01 60 00 00 00
+  658 * 30	 04 48 FF 01 60 C5 "Old platform with bench" 00
+  659 * 29	 04 48 FF 01 60 C4 "HSS - Single platforms" 00
 
-  728 * 6	 01 04 01 FF 04 00
-  729 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  730 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 383 09 58 66 -32 -26
-  731 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  732 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 383 09 58 66 -32 -26
-  733 * 62	 00 04 02 01 60 08 "PSK1" 09 02 F4 03 00 00 00 00 00 00 00 00 2D 84 00 00 00 00 00 10 10 2D 2E 84 00 00 80 F3 03 00 00 00 00 00 00 00 00 2F 84 00 00 00 00 00 10 10 2D 30 84 00 00 80
-  734 * 7	 02 04 00 00 01 00 00
-  735 * 7	 02 04 01 00 01 00 00
-  736 * 10	 03 04 01 60 01 FE 01 00 00 00
-  737 * 30	 04 48 FF 01 60 C5 "Old platform with bench" 00
-  738 * 29	 04 48 FF 01 60 C4 "HSS - Single platforms" 00
+  660 * 6	 01 04 01 FF 02 00
+  661 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 320 09 58 66 -32 -26
+  662 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 383 09 58 66 -32 -26
+  663 * 44	 00 04 03 01 61 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  664 * 7	 02 04 00 00 01 00 00
+  665 * 7	 03 04 01 61 00 00 00
+  666 * 30	 04 48 FF 01 61 C5 "Old platform with bench" 00
+  667 * 29	 04 48 FF 01 61 C4 "HSS - Single platforms" 00
 
-  739 * 6	 01 04 01 FF 04 00
-  740 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 320 09 58 66 -32 -26
-  741 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  742 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 383 09 58 66 -32 -26
-  743 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 248 320 09 58 66 -32 -26
-  744 * 62	 00 04 02 01 61 08 "PSK1" 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 00 00 00 00 00 00 2E 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2F 84 00 00 00 00 00 00 00 00 30 84 00 00 80
-  745 * 7	 02 04 00 00 01 00 00
-  746 * 7	 02 04 01 00 01 00 00
-  747 * 10	 03 04 01 61 01 FE 01 00 00 00
-  748 * 30	 04 48 FF 01 61 C5 "Old platform with bench" 00
-  749 * 29	 04 48 FF 01 61 C4 "HSS - Single platforms" 00
+
+
+
+
+
+//PROBA
+
+
+
+
+
+
+  //758 * 6	 01 04 01 FF 02 00
+  //751 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 5 383 09 58 66 -32 -26
+  //752 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 167 383 09 58 66 -32 -26
+  //761 * 44	 00 04 03 01 60 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 10 2D 2D 84 00 00 80 F3 03 00 00 00 00 00 10 10 2D 2E 84 00 00 80
+  //762 * 7	 02 04 00 00 01 00 00
+  //763 * 7	 03 04 01 60 00 00 00
+  //764 * 36	 04 48 FF 01 60 C5 "Old platform with bench TESZT" 00
+  //765 * 29	 04 48 FF 01 60 C4 "HSS - Single platforms" 00
+
+  //750 * 6	 01 04 01 FF 02 00
+  //759 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 653 320 09 58 66 -32 -26
+  //760 D:\#Egyebek\#OpenTTD_grafikak\NFO_grfcodec\GRFcodec\hunstations\hunstations_1_v2_aszfalt.pcx 86 383 09 58 66 -32 -26
+  //753 * 44	 00 04 03 01 61 08 "PSK1" 0C FE 09 02 F4 03 00 00 00 00 00 10 05 03 2D 84 00 00 80 F3 03 00 00 00 00 00 05 10 03 2E 84 00 00 80
+  //754 * 7	 02 04 00 00 01 00 00
+  //755 * 7	 03 04 01 61 00 00 00
+  //756 * 36	 04 48 FF 01 61 C5 "Old platform with bench TESZT" 00
+  //757 * 29	 04 48 FF 01 61 C4 "HSS - Single platforms" 00
+
+
+
+
+
+
+
 
 
 
